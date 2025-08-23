@@ -1,0 +1,540 @@
+/* ==========================================================================
+   HEADER STYLES - Foot Ark Navigation
+   ========================================================================== */
+
+header {
+    display: flex;
+    /* max-width: 1400px; */
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(135deg, var(--color-white) 0%, rgba(107, 144, 128, 0.03) 50%, rgba(217, 83, 79, 0.05) 100%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(107, 144, 128, 0.1);
+}
+
+/* ==========================================================================
+   LEFT CONTAINER - Logo/Brand Section
+   ========================================================================== */
+
+.left-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-brand .brand-link {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.nav-brand .brand-link:hover {
+    transform: scale(1.05);
+}
+
+.nav-brand .brand-logo {
+    width: 220px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* ==========================================================================
+   RIGHT CONTAINER - Two Row Layout
+   ========================================================================== */
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------------------------------------------------------------------------
+   FIRST ROW - Contact Info & Quick Actions
+   -------------------------------------------------------------------------- */
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: linear-gradient(135deg, rgba(248, 249, 250, 0.6) 0%, rgba(240, 242, 245, 0.4) 50%, rgba(248, 249, 250, 0.6) 100%);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--spacing-sm);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.contact-info {
+    display: flex;
+    gap: var(--spacing-lg);
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--color-tertiary);
+    font-size: var(--font-size-small);
+    transition: all 0.3s ease;
+}
+
+.icon-container:hover {
+    color: var(--color-primary);
+    transform: translateY(-1px);
+}
+
+.contact-icon {
+    width: 18px;
+    height: 18px;
+    filter: opacity(0.7);
+    transition: all 0.3s ease;
+}
+
+.icon-container:hover .contact-icon {
+    filter: opacity(1);
+    transform: scale(1.1);
+}
+
+.contact-text {
+    font-weight: var(--font-weight-medium);
+    color: var(--color-dark-gray);
+    transition: color 0.3s ease;
+}
+
+.icon-container:hover .contact-text {
+    color: var(--color-primary);
+}
+
+/* Header Actions */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.appointment-btn {
+    background: linear-gradient(45deg, var(--color-secondary), var(--color-secondary-light));
+    color: var(--color-white) !important;
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: calc(var(--border-radius) * 2);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    text-decoration: none !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(107, 144, 128, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.appointment-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: left 0.6s ease;
+}
+
+.appointment-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(107, 144, 128, 0.3);
+}
+
+.appointment-btn:hover::before {
+    left: 100%;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    gap: var(--spacing-sm);
+    align-items: center;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(74, 124, 157, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none !important;
+}
+
+.social-link img {
+    width: 16px;
+    height: 16px;
+    filter: opacity(0.7);
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background: var(--color-tertiary);
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 4px 12px rgba(74, 124, 157, 0.3);
+}
+
+.social-link:hover img {
+    filter: brightness(0) invert(1);
+    transform: scale(1.1);
+}
+
+/* --------------------------------------------------------------------------
+   SECOND ROW - Main Navigation Menu
+   -------------------------------------------------------------------------- */
+
+.second-row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu {
+    position: relative;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: var(--spacing-xs);
+    align-items: center;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-link {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    color: var(--color-dark-gray);
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-body);
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.menu-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--color-primary);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.menu-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.menu-link:not(:hover)::after {
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.menu-link:hover {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------
+   DROPDOWN STYLING - CSS Only Implementation
+   -------------------------------------------------------------------------- */
+
+.dropdown-toggle .dropdown-icon {
+    margin-left: var(--spacing-xs);
+    transition: transform 0.3s ease;
+    font-size: 0.7rem;
+    color: var(--color-gray);
+}
+
+.dropdown:hover .dropdown-toggle .dropdown-icon {
+    transform: rotate(180deg);
+    color: var(--color-primary);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--color-white);
+    border-radius: var(--border-radius);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    min-width: 250px;
+    padding: var(--spacing-sm) 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Mega Dropdown for Conditions */
+.mega-dropdown {
+    min-width: 700px;
+    left: -200px;
+}
+
+.dropdown-content {
+    display: flex;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-lg);
+}
+
+.dropdown-column {
+    flex: 1;
+}
+
+.dropdown-title {
+    color: var(--color-tertiary);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: var(--spacing-sm);
+    padding: 0 var(--spacing-md);
+    border-bottom: 2px solid var(--color-secondary-light);
+    padding-bottom: var(--spacing-xs);
+}
+
+.dropdown-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-list li {
+    margin: 0;
+}
+
+.dropdown-list a {
+    display: block;
+    padding: var(--spacing-sm) var(--spacing-md);
+    color: var(--color-gray);
+    text-decoration: none;
+    border-radius: calc(var(--border-radius) / 2);
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+    position: relative;
+}
+
+.dropdown-list a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: var(--spacing-md);
+    width: calc(100% - 2 * var(--spacing-md));
+    height: 2px;
+    background: var(--color-primary);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-list a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.dropdown-list a:not(:hover)::after {
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.dropdown-list a:hover {
+    color: var(--color-primary);
+    background-color: rgba(217, 83, 79, 0.08);
+    transform: translateX(5px);
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------
+   CONTACT CTA BUTTON - Using Design System Animation
+   -------------------------------------------------------------------------- */
+
+.cta-link {
+    background: var(--color-white) !important;
+    color: var(--color-primary-dark) !important;
+    padding: 5px 20px !important;
+    border-radius: var(--border-radius) !important;
+    font-weight: var(--font-weight-bold) !important;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-left: var(--spacing-md);
+    border-radius: 75px !important;
+    box-shadow: 0 4px 15px rgba(217, 83, 79, 0.3);
+    transform: translateY(0);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cta-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--color-white);
+    transform: scale(1);
+    transform-origin: center;
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: -1;
+    border-radius: 75px !important;
+}
+
+.cta-link:hover {
+    transform: translateY(3px);
+    box-shadow: 0 8px 25px rgba(217, 83, 79, 0.4);
+    background: var(--color-primary-dark) !important;
+    color: var(--color-white) !important;
+}
+
+.cta-link:hover::before {
+    transform: scale(0);
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+    header {
+        padding: 1rem;
+    }
+    
+    .contact-info {
+        gap: var(--spacing-md);
+    }
+    
+    .contact-text {
+        display: none;
+    }
+    
+    .contact-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .mega-dropdown {
+        min-width: 600px;
+        left: -150px;
+    }
+    
+    .dropdown-content {
+        gap: var(--spacing-md);
+        padding: var(--spacing-md);
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: var(--spacing-md);
+        padding: var(--spacing-md);
+    }
+    
+    .right-container {
+        width: 100%;
+    }
+    
+    .first-row {
+        flex-direction: column;
+        gap: var(--spacing-md);
+        justify-content: center;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    
+    .contact-info {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: var(--spacing-md);
+    }
+    
+    .header-actions {
+        justify-content: center;
+        gap: var(--spacing-md);
+    }
+    
+    .social-links {
+        gap: var(--spacing-xs);
+    }
+    
+    .second-row {
+        justify-content: center;
+    }
+    
+    .menu-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--spacing-sm);
+    }
+    
+    .mega-dropdown {
+        min-width: 90vw;
+        left: -45vw;
+        margin-left: 50%;
+    }
+    
+    .dropdown-content {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+    
+    .dropdown-menu {
+        min-width: 200px;
+        left: 50%;
+        transform: translateX(-50%) translateY(-10px);
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-info {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        text-align: center;
+    }
+    
+    .header-actions {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+    
+    .appointment-btn {
+        width: 100%;
+        text-align: center;
+    }
+}

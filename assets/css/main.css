@@ -1,0 +1,327 @@
+/* ==========================================================================
+   DESIGN SYSTEM STARTER KIT - Generated for Foot Ark
+   ==========================================================================
+   This CSS file provides a foundational design system based on your logo.
+   It includes a color palette, typography scale, and utility classes
+   to help you build a beautiful and consistent website.
+   ========================================================================== */
+
+/* ==========================================================================
+   1. CSS VARIABLES (CUSTOM PROPERTIES)
+   ==========================================================================
+   All core design tokens (colors, fonts, sizes) are defined here.
+   This makes it easy to maintain and update your site's look and feel.
+   ========================================================================== */
+
+:root {
+  /* --------------------------------------------------------------------------
+   * A. COLOR PALETTE
+   * Extracted from the logo and expanded with neutrals and shades.
+   * ----------------------------------------------------------------------- */
+
+  /* -- Primary Colors (from logo) -- */
+  --color-primary: #d9534f;        /* Coral Red */
+  --color-secondary: #6b9080;      /* Sage Green */
+  --color-tertiary: #4a7c9d;       /* Steel Blue (from icons) */
+
+  /* -- Neutral Colors -- */
+  --color-white: #ffffff;
+  --color-black: #1a1a1a;
+  --color-light-gray: #f8f9fa;
+  --color-gray: #6c757d;
+  --color-dark-gray: #343a40;
+
+  /* -- Accent & Shade Variations -- */
+  /* Use these for hover states, borders, backgrounds, etc. */
+  --color-primary-light: #e47d7a;
+  --color-primary-dark: #c9302c;
+
+  --color-secondary-light: #8fb0a4;
+  --color-secondary-dark: #5a7a6b;
+
+  --color-tertiary-light: #6f9cb9;
+  --color-tertiary-dark: #3b637e;
+
+  /* -- Utility Colors -- */
+  --color-success: #28a745;
+  --color-warning: #ffc107;
+  --color-danger: #dc3545;
+  --color-info: #17a2b8;
+
+
+  /* --------------------------------------------------------------------------
+   * B. TYPOGRAPHY
+   * A responsive and scalable font system.
+   * ----------------------------------------------------------------------- */
+
+  /* -- Font Family -- */
+  /* Using 'Inter', a clean and modern sans-serif font. */
+  --font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-serif: 'Lora', serif; /* Optional serif for headings or body */
+
+  /* -- Font Sizes (Responsive Scale) -- */
+  /* Using clamp() for fluid typography that scales with the viewport. */
+  /* clamp(MIN, PREFERRED, MAX) */
+  --font-size-h1: clamp(2.5rem, 5vw + 1rem, 4.5rem);
+  --font-size-h2: clamp(2rem, 4vw + 1rem, 3.5rem);
+  --font-size-h3: clamp(1.75rem, 3vw + 1rem, 2.75rem);
+  --font-size-h4: clamp(1.5rem, 2vw + 1rem, 2.25rem);
+  --font-size-body: clamp(1rem, 0.5vw + 0.9rem, 1.125rem);
+  --font-size-small: 0.875rem;
+  --font-size-caption: 0.75rem;
+
+  /* -- Font Weights -- */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* -- Line Heights -- */
+  --line-height-heading: 1.2;
+  --line-height-body: 1.6;
+
+  /* --------------------------------------------------------------------------
+   * C. LAYOUT & SPACING
+   * ----------------------------------------------------------------------- */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-xxl: 3rem;
+
+  --border-radius: 8px;
+  --container-width: 1200px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ==========================================================================
+   2. GLOBAL STYLES & RESETS
+   ========================================================================== */
+
+/* -- Import Google Fonts -- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Lora:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+  font-size: 16px; /* Base font size */
+}
+
+body {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-dark-gray);
+  background-color: var(--color-light-gray);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   3. ELEMENT STYLING
+   ========================================================================== */
+
+h1, h2, h3, h4 {
+  font-family: var(--font-family-sans);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading);
+  color: var(--color-black);
+  margin-bottom: var(--spacing-md);
+  /* -- Animation Setup -- */
+  position: relative;
+  display: inline-block;
+  padding-bottom: var(--spacing-xs);
+}
+
+/* -- Heading Hover Underline Animation -- */
+h1::after, h2::after, h3::after, h4::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-secondary);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1:hover::after, h2:hover::after, h3:hover::after, h4:hover::after {
+    transform: scaleX(1);
+}
+
+
+h1 { font-size: var(--font-size-h1); }
+h2 { font-size: var(--font-size-h2); }
+h3 { font-size: var(--font-size-h3); }
+h4 { font-size: var(--font-size-h4); }
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+/* -- Button Styling with Hover Animation (Reversed) -- */
+button, .btn {
+  display: inline-block;
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border: 2px solid transparent;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  text-align: center;
+  color: var(--color-white);
+  background-color: var(--color-primary-dark); /* This is now the background, revealed on hover */
+  /* -- Animation Setup -- */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* The pseudo-element for the "shrink away" effect */
+button::before, .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-primary); /* This is the initial, visible color */
+    transform: scale(1); /* Starts fully scaled UP */
+    transform-origin: center;
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: -1;
+}
+
+button:hover, .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+/* On hover, scale the pseudo-element DOWN to reveal the background */
+button:hover::before, .btn:hover::before {
+    transform: scale(0);
+}
+
+/* ==========================================================================
+   4. ADVANCED ANIMATIONS & COMPONENT VARIATIONS
+   ========================================================================== */
+
+/*
+ * -- Paper Flip Button --
+ * This effect uses a pseudo-element for the front face that flips away
+ * on hover, revealing the button's background color.
+ *
+ * IMPORTANT: For this effect to work, wrap the button text in a <span>.
+ * Example: <button class="btn btn-flip"><span>Click Me</span></button>
+*/
+.btn-flip {
+  background: var(--color-secondary); /* This is the "back" color, revealed on hover */
+  perspective: 1000px; /* Adds 3D depth to the animation */
+}
+
+.btn-flip span {
+  position: relative; /* Keeps the text on top of the pseudo-element */
+  z-index: 2;
+}
+
+/* Reset the default button's ::before pseudo-element for the flip button */
+.btn-flip::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-primary); /* This is the "front" color */
+  border-radius: calc(var(--border-radius) - 2px); /* Match parent border-radius */
+  transform-origin: left;
+  transition: transform 0.5s cubic-bezier(0.7, 0, 0.2, 1);
+  z-index: 1;
+  transform: scale(1); /* Ensure it starts visible */
+}
+
+.btn-flip:hover::before {
+  transform: rotateY(180deg);
+}
+
+
+/* ==========================================================================
+   5. UTILITY CLASSES
+   ==========================================================================
+   Helper classes to apply styles directly in your HTML.
+   ========================================================================== */
+
+/* -- Text Colors -- */
+.text-primary    { color: var(--color-primary); }
+.text-secondary  { color: var(--color-secondary); }
+.text-tertiary   { color: var(--color-tertiary); }
+.text-white      { color: var(--color-white); }
+.text-black      { color: var(--color-black); }
+.text-gray       { color: var(--color-gray); }
+
+/* -- Background Colors -- */
+.bg-primary      { background-color: var(--color-primary); }
+.bg-secondary    { background-color: var(--color-secondary); }
+.bg-tertiary     { background-color: var(--color-tertiary); }
+.bg-white        { background-color: var(--color-white); }
+.bg-light-gray   { background-color: var(--color-light-gray); }
+.bg-dark-gray    { background-color: var(--color-dark-gray); }
+
+/* -- Font Sizes -- */
+.font-h1         { font-size: var(--font-size-h1); }
+.font-h2         { font-size: var(--font-size-h2); }
+.font-h3         { font-size: var(--font-size-h3); }
+.font-h4         { font-size: var(--font-size-h4); }
+.font-body       { font-size: var(--font-size-body); }
+.font-small      { font-size: var(--font-size-small); }
+
+/* -- Font Weights -- */
+.font-light      { font-weight: var(--font-weight-light); }
+.font-normal     { font-weight: var(--font-weight-normal); }
+.font-medium     { font-weight: var(--font-weight-medium); }
+.font-bold       { font-weight: var(--font-weight-bold); }
+
+/* -- Layout -- */
+.container {
+  width: 90%;
+  max-width: var(--container-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: var(--color-white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: var(--spacing-lg);
+}
+
+img{
+
+    max-width: 1000px;
+    height: auto;
+    object-fit: cover;
+}
