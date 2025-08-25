@@ -137,3 +137,548 @@ html {
         background-attachment: scroll !important;
     }
 }
+
+/* ==========================================================================
+   DOCTOR PROFILE SECTION - Same as Image
+   ========================================================================== */
+
+.doctor-profile-section {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--color-bg-primary);
+}
+
+.doctor-info {
+    padding-right: var(--spacing-lg);
+}
+
+.doctor-name {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-heading-primary);
+    margin-bottom: var(--spacing-xs);
+    line-height: var(--line-height-heading);
+}
+
+.doctor-name::after {
+    display: none;
+}
+
+.doctor-title {
+    font-size: var(--font-size-body);
+    color: var(--color-text-secondary);
+    font-style: italic;
+    margin-bottom: var(--spacing-md);
+}
+
+.doctor-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.description-column p {
+    font-size: var(--font-size-body-small);
+    line-height: 1.5;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-sm);
+    text-align: justify;
+}
+
+.doctor-signature {
+    margin-top: var(--spacing-md);
+}
+
+.signature-img {
+    width: 100px;
+    height: auto;
+    margin-bottom: var(--spacing-xs);
+}
+
+.signature-title {
+    font-size: var(--font-size-small);
+    color: var(--color-text-muted);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 0;
+}
+
+/* Doctor Statistics */
+.doctor-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.stat-card {
+    text-align: center;
+    padding: var(--spacing-md);
+    background-color: transparent;
+    border-radius: 0;
+    transition: none;
+    border: none;
+}
+
+.stat-card:hover {
+    transform: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.stat-number {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    line-height: 1;
+    margin-bottom: var(--spacing-xs);
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover .stat-number {
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgba(232, 90, 79, 0.5);
+}
+
+.stat-title {
+    font-size: var(--font-size-body-small);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-heading-primary);
+    margin-bottom: var(--spacing-xs);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stat-description {
+    font-size: var(--font-size-small);
+    color: var(--color-text-muted);
+    line-height: var(--line-height-body);
+    margin-bottom: 0;
+}
+
+.doctor-image {
+    position: relative;
+}
+
+.doctor-image img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--box-shadow-large);
+}
+
+/* Utility Classes for Grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 calc(-1 * var(--spacing-md));
+}
+
+.row.align-items-center {
+    align-items: center;
+}
+
+.col-lg-7,
+.col-lg-6,
+.col-lg-5,
+.col-md-6 {
+    padding: 0 var(--spacing-md);
+}
+
+.col-lg-7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+}
+
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+/* Custom widths for biography section */
+.biography-section .col-lg-6.order-1 {
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.biography-section .col-lg-6.order-2 {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.col-lg-5 {
+    flex: 0 0 41.67%;
+    max-width: 41.67%;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Design for Doctor Profile */
+@media (max-width: 992px) {
+    .col-lg-7,
+    .col-lg-5 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .doctor-info {
+        padding-right: 0;
+        margin-bottom: var(--spacing-xl);
+    }
+    
+    .doctor-description {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .doctor-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-md);
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .doctor-name {
+        font-size: var(--font-size-h2);
+    }
+    
+    .doctor-stats {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .stat-card {
+        padding: var(--spacing-md);
+    }
+    
+    .stat-number {
+        font-size: var(--font-size-h2);
+    }
+}
+
+@media (max-width: 480px) {
+    .doctor-profile-section {
+        padding: var(--spacing-xxl) 0;
+    }
+    
+    .doctor-name {
+        font-size: var(--font-size-h3);
+    }
+    
+    .doctor-title {
+        font-size: var(--font-size-body);
+    }
+    
+    .description-column p {
+        font-size: var(--font-size-body-small);
+    }
+}
+
+/* ==========================================================================
+   ANIMATIONS
+   ========================================================================== */
+
+/* Shimmer effect for stat numbers */
+@keyframes shimmer {
+    0% {
+        left: -100%;
+    }
+    50% {
+        left: 100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+/* Count up animation */
+@keyframes countUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+
+
+/* Apply animations to stat numbers */
+.stat-number {
+    animation: countUp 0.8s ease-out, pulse 2s ease-in-out infinite;
+    animation-delay: 0.2s, 1s;
+}
+
+/* Stagger animation delays for different stat cards */
+.stat-card:nth-child(1) .stat-number {
+    animation-delay: 0.1s, 1s;
+}
+
+.stat-card:nth-child(2) .stat-number {
+    animation-delay: 0.3s, 1.2s;
+}
+
+.stat-card:nth-child(3) .stat-number {
+    animation-delay: 0.5s, 1.4s;
+}
+
+.stat-card:nth-child(4) .stat-number {
+    animation-delay: 0.7s, 1.6s;
+}
+
+/* ==========================================================================
+   BIOGRAPHY DETAILS SECTION
+   ========================================================================== */
+
+.biography-section {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--color-bg-secondary);
+}
+
+.biography-content {
+    padding-left: var(--spacing-lg);
+}
+
+.biography-title {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-heading-primary);
+    margin-bottom: var(--spacing-lg);
+    line-height: var(--line-height-heading);
+}
+
+.biography-title::after {
+    display: none;
+}
+
+.biography-accordion {
+    max-width: 100%;
+}
+
+.accordion-item {
+    border-bottom: 1px solid var(--color-border-light);
+    margin-bottom: 0;
+    transition: all 0.3s ease;
+}
+
+.accordion-item.active {
+    background-color: rgba(232, 90, 79, 0.02);
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-md) 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    background: none;
+    width: 100%;
+}
+
+.accordion-header:hover {
+    color: var(--color-primary);
+}
+
+.accordion-header h3 {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-heading-primary);
+    margin: 0;
+    transition: color 0.3s ease;
+    line-height: var(--line-height-heading);
+}
+
+.accordion-header:hover h3 {
+    color: var(--color-primary);
+}
+
+.accordion-icon {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    transition: transform 0.3s ease;
+    min-width: 30px;
+    text-align: center;
+    line-height: 1;
+}
+
+.accordion-item.active .accordion-icon {
+    transform: rotate(45deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0;
+}
+
+.accordion-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: var(--spacing-md);
+}
+
+.accordion-content li {
+    padding: var(--spacing-xs) 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    position: relative;
+    padding-left: var(--spacing-md);
+    transition: color 0.3s ease;
+}
+
+.accordion-content li:hover {
+    color: var(--color-primary);
+}
+
+.accordion-content li::before {
+    content: '•';
+    color: var(--color-primary);
+    font-weight: var(--font-weight-bold);
+    position: absolute;
+    left: 0;
+    font-size: var(--font-size-body);
+}
+
+.biography-image {
+    position: relative;
+    margin-bottom: var(--spacing-lg);
+    padding-right: var(--spacing-lg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.biography-image img {
+    width: 80%;
+    height: auto;
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--box-shadow-large);
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.biography-image:hover img {
+    transform: scale(1.02);
+}
+
+/* Scale image when any accordion is active */
+.biography-image.scaled img {
+    transform: scale(1.15);
+    box-shadow: var(--box-shadow-large), 0 0 20px rgba(232, 90, 79, 0.3);
+}
+
+/* Responsive Design for Biography Section */
+@media (max-width: 768px) {
+    .biography-content {
+        padding-left: 0;
+        margin-top: var(--spacing-lg);
+    }
+    
+    .biography-section {
+        padding: var(--spacing-xl) 0;
+    }
+    
+    .biography-section .col-lg-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .biography-section .col-lg-6.order-1,
+    .biography-section .col-lg-6.order-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .biography-image {
+        margin-bottom: var(--spacing-xl);
+        padding-right: 0;
+        text-align: center;
+        min-height: 300px;
+    }
+    
+    .biography-image img {
+        width: 60%;
+    }
+    
+    .biography-title {
+        font-size: var(--font-size-h3);
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .accordion-header h3 {
+        font-size: var(--font-size-h5);
+    }
+    
+    .accordion-icon {
+        font-size: var(--font-size-h4);
+        min-width: 25px;
+    }
+    
+    .accordion-content li {
+        font-size: var(--font-size-body-small);
+        padding-left: var(--spacing-sm);
+    }
+}
+
+@media (max-width: 480px) {
+    .biography-section {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .biography-title {
+        font-size: var(--font-size-h4);
+    }
+    
+    .accordion-header {
+        padding: var(--spacing-sm) 0;
+    }
+    
+    .accordion-header h3 {
+        font-size: var(--font-size-body-large);
+        font-weight: var(--font-weight-medium);
+    }
+    
+    .accordion-content li {
+        padding: var(--spacing-xs) 0;
+        padding-left: var(--spacing-sm);
+    }
+}
+
+/* Animation for accordion content */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.accordion-item.active .accordion-content {
+    animation: fadeInDown 0.3s ease;
+}
