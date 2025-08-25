@@ -29,7 +29,7 @@
 }
 
 .about-main-title {
-    font-size: var(--font-size-display-medium);
+    font-size: var(--font-size-display-large);
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-heading);
     margin-bottom: var(--spacing-md);
@@ -62,7 +62,7 @@
     }
     
     .about-main-title {
-        font-size: var(--font-size-h1);
+        font-size: var(--font-size-display-small);
     }
     
     .about-hero-subtitle {
@@ -77,7 +77,7 @@
     }
     
     .about-main-title {
-        font-size: var(--font-size-h2);
+        font-size: var(--font-size-h1);
     }
     
     .about-hero-subtitle {
