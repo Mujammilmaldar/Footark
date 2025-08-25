@@ -3,7 +3,7 @@
 
 <main>
     <!-- About Hero Section - Same as Image with Parallax -->
-    <section class="about-hero-section" style="background: url('assets/images/image.png'); background-size: cover; background-position: center; background-attachment: fixed;">
+    <section class="about-hero-section" style="background: url('assets/images/aboutBG.png'); background-size: cover; background-position: center; background-attachment: fixed;">
         <div class="parallax-overlay"></div>
         <div class="container">
             <div class="about-hero-content">

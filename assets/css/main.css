@@ -116,102 +116,116 @@
     Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-family-serif: "Lora", serif; /* Optional serif for headings or body */
 
-  /* -- Font Sizes (Advanced Responsive Scale with Professional Hierarchy) -- */
-  /* Using clamp() and calc() for fluid typography that scales perfectly */
-  /* clamp(MIN, PREFERRED, MAX) with viewport-based calculations */
+  /* -- Font Sizes (Optimized Responsive Scale for Better UX) -- */
+  /* Refined clamp() values for more harmonious typography */
+  /* Focus on readability and visual hierarchy */
 
   /* Display Sizes - For hero sections and major headings */
-  --font-size-display-large: clamp(3.5rem, calc(6vw + 2rem), 6rem);
-  --font-size-display-medium: clamp(3rem, calc(5vw + 1.5rem), 5rem);
-  --font-size-display-small: clamp(2.5rem, calc(4vw + 1.25rem), 4rem);
+  --font-size-display-large: clamp(3rem, calc(4.5vw + 1.5rem), 4.5rem);
+  --font-size-display-medium: clamp(2.5rem, calc(3.5vw + 1.25rem), 3.5rem);
+  --font-size-display-small: clamp(2rem, calc(2.5vw + 1rem), 2.75rem);
 
-  /* Heading Hierarchy - Responsive and professional */
-  --font-size-h1: clamp(2.25rem, calc(4.5vw + 1rem), 3.75rem);
-  --font-size-h2: clamp(1.875rem, calc(3.5vw + 0.875rem), 3rem);
-  --font-size-h3: clamp(1.5rem, calc(2.5vw + 0.75rem), 2.25rem);
-  --font-size-h4: clamp(1.25rem, calc(2vw + 0.625rem), 1.875rem);
-  --font-size-h5: clamp(1.125rem, calc(1.5vw + 0.5rem), 1.5rem);
-  --font-size-h6: clamp(1rem, calc(1vw + 0.5rem), 1.25rem);
+  /* Heading Hierarchy - Better proportions and readability */
+  --font-size-h1: clamp(1.875rem, calc(3vw + 0.875rem), 2.75rem);
+  --font-size-h2: clamp(1.5rem, calc(2.5vw + 0.75rem), 2.25rem);
+  --font-size-h3: clamp(1.25rem, calc(2vw + 0.625rem), 1.875rem);
+  --font-size-h4: clamp(1.125rem, calc(1.5vw + 0.5rem), 1.5rem);
+  --font-size-h5: clamp(1rem, calc(1.25vw + 0.375rem), 1.25rem);
+  --font-size-h6: clamp(0.875rem, calc(1vw + 0.25rem), 1.125rem);
 
-  /* Body Text - Optimized for readability across devices */
-  --font-size-body-large: clamp(1.125rem, calc(1vw + 0.875rem), 1.375rem);
-  --font-size-body: clamp(1rem, calc(0.75vw + 0.875rem), 1.125rem);
-  --font-size-body-small: clamp(0.875rem, calc(0.5vw + 0.75rem), 1rem);
+  /* Body Text - Enhanced readability with optimal line length */
+  --font-size-body-large: clamp(1.125rem, calc(0.75vw + 0.875rem), 1.25rem);
+  --font-size-body: clamp(1rem, calc(0.5vw + 0.875rem), 1.125rem);
+  --font-size-body-small: clamp(0.875rem, calc(0.25vw + 0.75rem), 0.9375rem);
 
-  /* Utility Text Sizes */
-  --font-size-lead: clamp(1.25rem, calc(1.25vw + 1rem), 1.5rem);
-  --font-size-subtitle: clamp(1.125rem, calc(1vw + 0.875rem), 1.25rem);
-  --font-size-small: clamp(0.8rem, calc(0.25vw + 0.75rem), 0.875rem);
-  --font-size-caption: clamp(0.75rem, calc(0.25vw + 0.7rem), 0.8rem);
+  /* Utility Text Sizes - Better balance */
+  --font-size-lead: clamp(1.25rem, calc(1vw + 1rem), 1.375rem);
+  --font-size-subtitle: clamp(1.0625rem, calc(0.75vw + 0.875rem), 1.1875rem);
+  --font-size-small: clamp(0.8125rem, calc(0.25vw + 0.75rem), 0.875rem);
+  --font-size-caption: clamp(0.75rem, calc(0.125vw + 0.7rem), 0.8125rem);
   --font-size-micro: clamp(0.6875rem, calc(0.125vw + 0.65rem), 0.75rem);
 
-  /* Button and UI Element Sizes */
-  --font-size-button-large: clamp(1rem, calc(1.2vw + 0.8rem), 1.125rem);
-  --font-size-button: clamp(0.875rem, calc(1vw + 0.75rem), 1rem);
-  --font-size-button-small: clamp(0.75rem, calc(0.8vw + 0.65rem), 0.875rem);
+  /* Button and UI Element Sizes - More consistent */
+  --font-size-button-large: clamp(1rem, calc(0.75vw + 0.875rem), 1.125rem);
+  --font-size-button: clamp(0.875rem, calc(0.5vw + 0.75rem), 0.9375rem);
+  --font-size-button-small: clamp(0.8125rem, calc(0.25vw + 0.75rem), 0.875rem);
 
-  /* Navigation and Menu Sizes */
-  --font-size-nav: clamp(0.9rem, calc(0.75vw + 0.8rem), 1rem);
-  --font-size-nav-small: clamp(0.8rem, calc(0.5vw + 0.75rem), 0.9rem);
+  /* Navigation and Menu Sizes - Better hierarchy */
+  --font-size-nav: clamp(0.9375rem, calc(0.5vw + 0.875rem), 1rem);
+  --font-size-nav-small: clamp(0.875rem, calc(0.25vw + 0.8125rem), 0.9375rem);
 
-  /* Header-specific Font Sizes */
-  --font-size-header-contact: clamp(0.75rem, calc(0.5vw + 0.7rem), 0.875rem);
-  --font-size-header-nav: clamp(0.875rem, calc(0.75vw + 0.8rem), 1rem);
-  --font-size-header-btn: clamp(0.8rem, calc(0.5vw + 0.75rem), 0.9rem);
-  --font-size-logo: clamp(1.5rem, calc(2vw + 1rem), 2rem);
+  /* Header-specific Font Sizes - Refined proportions */
+  --font-size-header-contact: clamp(0.8125rem, calc(0.25vw + 0.75rem), 0.875rem);
+  --font-size-header-nav: clamp(0.9375rem, calc(0.5vw + 0.875rem), 1rem);
+  --font-size-header-btn: clamp(0.875rem, calc(0.25vw + 0.8125rem), 0.9375rem);
+  --font-size-logo: clamp(1.5rem, calc(1.5vw + 1.125rem), 1.875rem);
 
   /* -- Font Weights -- */
   --font-weight-light: 300;
   --font-weight-normal: 400;
   --font-weight-medium: 500;
+  --font-weight-semibold: 600;
   --font-weight-bold: 700;
 
-  /* -- Line Heights -- */
-  --line-height-heading: 1.2;
-  --line-height-body: 1.6;
+  /* -- Line Heights - Optimized for readability -- */
+  --line-height-tight: 1.1;
+  --line-height-heading: 1.25;
+  --line-height-body: 1.65;
+  --line-height-relaxed: 1.75;
 
   /* --------------------------------------------------------------------------
-   * C. LAYOUT & SPACING (Responsive with calc() and clamp())
+   * C. LAYOUT & SPACING (Enhanced Responsive System)
    * ----------------------------------------------------------------------- */
 
-  /* Base Spacing Scale - Fluid and responsive */
-  --spacing-xs: clamp(0.25rem, calc(0.25vw + 0.2rem), 0.375rem);
-  --spacing-sm: clamp(0.5rem, calc(0.5vw + 0.4rem), 0.75rem);
-  --spacing-md: clamp(1rem, calc(1vw + 0.75rem), 1.5rem);
-  --spacing-lg: clamp(1.5rem, calc(2vw + 1rem), 2.5rem);
-  --spacing-xl: clamp(2rem, calc(3vw + 1.5rem), 4rem);
-  --spacing-xxl: clamp(3rem, calc(5vw + 2rem), 6rem);
-  --spacing-xxxl: clamp(4rem, calc(6vw + 3rem), 8rem);
+  /* Base Spacing Scale - Refined for better proportions */
+  --spacing-xs: clamp(0.375rem, calc(0.5vw + 0.25rem), 0.5rem);
+  --spacing-sm: clamp(0.5rem, calc(0.75vw + 0.375rem), 0.75rem);
+  --spacing-md: clamp(0.75rem, calc(1.25vw + 0.5rem), 1.25rem);
+  --spacing-lg: clamp(1.25rem, calc(2vw + 0.75rem), 2rem);
+  --spacing-xl: clamp(1.75rem, calc(3vw + 1rem), 3rem);
+  --spacing-xxl: clamp(2.5rem, calc(4vw + 1.5rem), 4.5rem);
+  --spacing-xxxl: clamp(3.5rem, calc(6vw + 2rem), 6rem);
 
-  /* Section Spacing - For major page sections */
-  --section-padding-y: clamp(3rem, calc(8vw + 1rem), 8rem);
-  --section-padding-x: clamp(1rem, calc(3vw + 0.5rem), 3rem);
+  /* Component-specific spacing */
+  --spacing-component-xs: clamp(0.5rem, calc(0.75vw + 0.25rem), 0.75rem);
+  --spacing-component-sm: clamp(0.75rem, calc(1vw + 0.5rem), 1rem);
+  --spacing-component-md: clamp(1rem, calc(1.5vw + 0.75rem), 1.5rem);
+  --spacing-component-lg: clamp(1.5rem, calc(2.5vw + 1rem), 2.5rem);
 
-  /* Header-specific Spacing */
-  --header-padding-y: clamp(0.5rem, calc(1vw + 0.25rem), 1rem);
+  /* Section Spacing - More balanced for different screen sizes */
+  --section-padding-y: clamp(2.5rem, calc(6vw + 1rem), 5rem);
+  --section-padding-x: clamp(1rem, calc(2.5vw + 0.5rem), 2.5rem);
+  --section-gap: clamp(1.5rem, calc(3vw + 0.75rem), 3rem);
+
+  /* Header-specific Spacing - Tighter and more professional */
+  --header-padding-y: clamp(0.75rem, calc(1vw + 0.5rem), 1.25rem);
   --header-padding-x: clamp(1rem, calc(2vw + 0.75rem), 2rem);
-  --header-first-row-padding: clamp(0.375rem, calc(0.75vw + 0.25rem), 0.75rem);
-  --header-contact-gap: clamp(1rem, calc(2vw + 0.5rem), 1.5rem);
-  --header-nav-gap: clamp(1.5rem, calc(2.5vw + 1rem), 2rem);
-  --header-logo-width: clamp(180px, calc(15vw + 120px), 220px);
+  --header-first-row-padding: clamp(0.5rem, calc(0.75vw + 0.375rem), 0.75rem);
+  --header-contact-gap: clamp(0.75rem, calc(1.5vw + 0.5rem), 1.25rem);
+  --header-nav-gap: clamp(1.25rem, calc(2vw + 1rem), 1.75rem);
+  --header-logo-width: clamp(160px, calc(12vw + 120px), 200px);
 
-  /* Container and Layout */
-  --container-padding: clamp(1rem, calc(2vw + 0.5rem), 2rem);
-  --container-width: 1200px;
-  --container-narrow: 800px;
-  --container-wide: 1400px;
+  /* Container and Layout - Better responsive behavior */
+  --container-padding: clamp(1rem, calc(2vw + 0.75rem), 2rem);
+  --container-width: 1400px;
+  --container-narrow: 900px;
+  --container-wide: 1600px;
 
-  /* Border and Shadow */
-  --border-radius: clamp(6px, calc(0.5vw + 4px), 12px);
-  --border-radius-large: clamp(12px, calc(1vw + 8px), 24px);
-  --border-radius-small: clamp(3px, calc(0.25vw + 2px), 6px);
+  /* Content spacing */
+  --content-max-width: 65ch; /* Optimal reading width */
+  --content-gap: clamp(1rem, calc(2vw + 0.5rem), 2rem);
 
-  --box-shadow: 0 calc(0.25rem + 0.25vw) calc(0.75rem + 0.5vw)
-    rgba(0, 0, 0, 0.1);
-  --box-shadow-large: 0 calc(0.5rem + 0.5vw) calc(1.5rem + 1vw)
-    rgba(0, 0, 0, 0.15);
-  --box-shadow-small: 0 calc(0.125rem + 0.125vw) calc(0.375rem + 0.25vw)
+  /* Border and Shadow - Refined for modern look */
+  --border-radius: clamp(6px, calc(0.375vw + 4px), 10px);
+  --border-radius-large: clamp(12px, calc(0.75vw + 8px), 20px);
+  --border-radius-small: clamp(3px, calc(0.125vw + 2px), 5px);
+
+  --box-shadow: 0 calc(0.125rem + 0.25vw) calc(0.5rem + 0.5vw)
     rgba(0, 0, 0, 0.08);
+  --box-shadow-large: 0 calc(0.25rem + 0.5vw) calc(1rem + 1vw)
+    rgba(0, 0, 0, 0.12);
+  --box-shadow-small: 0 calc(0.0625rem + 0.125vw) calc(0.25rem + 0.25vw)
+    rgba(0, 0, 0, 0.06);
 }
 
 /* ==========================================================================
@@ -251,15 +265,17 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: var(--font-family-sans);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-heading);
   color: var(--color-heading-primary);
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-component-sm);
   /* -- Animation Setup -- */
   position: relative;
-  display: inline-block;
+  display: block;
   padding-bottom: var(--spacing-xs);
 }
 
@@ -273,7 +289,7 @@ h4::after {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 3px;
+  height: 2px;
   background-color: var(--color-primary);
   transform: scaleX(0);
   transform-origin: left;
@@ -289,19 +305,53 @@ h4:hover::after {
 
 h1 {
   font-size: var(--font-size-h1);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--spacing-component-md);
 }
+
 h2 {
   font-size: var(--font-size-h2);
+  margin-bottom: var(--spacing-component-md);
 }
+
 h3 {
   font-size: var(--font-size-h3);
+  margin-bottom: var(--spacing-component-sm);
 }
+
 h4 {
   font-size: var(--font-size-h4);
+  margin-bottom: var(--spacing-component-sm);
+}
+
+h5 {
+  font-size: var(--font-size-h5);
+  margin-bottom: var(--spacing-component-xs);
+}
+
+h6 {
+  font-size: var(--font-size-h6);
+  margin-bottom: var(--spacing-component-xs);
 }
 
 p {
-  margin-bottom: var(--spacing-md);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  margin-bottom: var(--spacing-component-sm);
+  max-width: var(--content-max-width);
+}
+
+/* Lead paragraph */
+.lead {
+  font-size: var(--font-size-lead);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--spacing-component-md);
+}
+
+/* Small text */
+.small,
+small {
+  font-size: var(--font-size-small);
 }
 
 a {
@@ -315,22 +365,22 @@ a:hover {
   text-decoration: underline;
 }
 
-/* -- Button Styling with Professional Colors and Responsive Design -- */
+/* -- Button Styling with Optimized Typography and Spacing -- */
 button,
 .btn {
   display: inline-block;
   font-family: var(--font-family-sans);
-  font-size: clamp(0.875rem, 1vw + 0.75rem, 1rem);
-  font-weight: var(--font-weight-bold);
-  padding: clamp(0.75rem, 1.5vw + 0.5rem, 1.25rem)
-    clamp(1.5rem, 3vw + 1rem, 2.5rem);
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  padding: var(--spacing-component-sm) var(--spacing-component-lg);
   border: 2px solid var(--color-primary);
-  border-radius: calc(var(--border-radius) * 1.5);
+  border-radius: var(--border-radius);
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.025em;
   color: var(--color-text-inverse);
   background-color: var(--color-primary);
   /* -- Animation Setup -- */
@@ -338,36 +388,36 @@ button,
   z-index: 1;
   overflow: hidden;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 12px rgba(232, 90, 79, 0.3);
+  box-shadow: var(--box-shadow);
 }
 
 /* Enhanced hover effects */
 button:hover,
 .btn:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   background-color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
-  box-shadow: 0 8px 25px rgba(232, 90, 79, 0.4);
+  box-shadow: var(--box-shadow-large);
   text-decoration: none;
 }
 
 button:active,
 .btn:active {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(232, 90, 79, 0.3);
+  transform: translateY(0);
+  box-shadow: var(--box-shadow-small);
 }
 
 /* Secondary Button Style */
 .btn-secondary {
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
-  box-shadow: 0 4px 12px rgba(79, 138, 139, 0.3);
+  box-shadow: 0 4px 12px rgba(79, 138, 139, 0.2);
 }
 
 .btn-secondary:hover {
   background-color: var(--color-secondary-dark);
   border-color: var(--color-secondary-dark);
-  box-shadow: 0 8px 25px rgba(79, 138, 139, 0.4);
+  box-shadow: 0 6px 20px rgba(79, 138, 139, 0.3);
 }
 
 /* Outline Button Style */
@@ -381,21 +431,22 @@ button:active,
 .btn-outline:hover {
   background-color: var(--color-primary);
   color: var(--color-text-inverse);
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(232, 90, 79, 0.3);
+  transform: translateY(-2px);
+  box-shadow: var(--box-shadow);
 }
 
 /* Large Button Variant */
 .btn-large {
-  font-size: clamp(1rem, 1.2vw + 0.8rem, 1.125rem);
-  padding: clamp(1rem, 2vw + 0.75rem, 1.5rem) clamp(2rem, 4vw + 1.5rem, 3rem);
+  font-size: var(--font-size-button-large);
+  padding: var(--spacing-component-md) var(--spacing-xl);
+  border-radius: var(--border-radius-large);
 }
 
 /* Small Button Variant */
 .btn-small {
-  font-size: clamp(0.75rem, 0.8vw + 0.65rem, 0.875rem);
-  padding: clamp(0.5rem, 1vw + 0.25rem, 0.75rem)
-    clamp(1rem, 2vw + 0.75rem, 1.5rem);
+  font-size: var(--font-size-button-small);
+  padding: var(--spacing-component-xs) var(--spacing-component-md);
+  border-radius: var(--border-radius-small);
 }
 
 /* ==========================================================================

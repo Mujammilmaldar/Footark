@@ -96,4 +96,110 @@
         </div>
     </div>
 </section>
+
+<!-- Contact Us Section -->
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <!-- Left Side - Contact Information -->
+            <div class="col-lg-6 col-md-6">
+                <div class="contact-info-container">
+                    <div class="contact-header">
+                        <span class="contact-tag">CONTACT US</span>
+                        <h2 class="contact-title">Discover the Best In Home Care</h2>
+                        <p class="contact-subtitle">Delivering world class home care</p>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <i class="location-icon"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h4>Location</h4>
+                                <p>New York 60 East<br>65th Street<br>NY 10065</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <i class="hours-icon"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h4>Hours</h4>
+                                <p>Mon-Wed: 8am - 7pm<br>Thursday: 8am - 9pm<br>Friday: 8am - 5pm</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <i class="social-icon"></i>
+                            </div>
+                            <div class="contact-content">
+                                <h4>Social</h4>
+                                <div class="contact-social-links">
+                                    <a href="#" class="contact-social-link">Facebook</a>
+                                    <a href="#" class="contact-social-link">Twitter</a>
+                                    <a href="#" class="contact-social-link">Instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-actions">
+                        <div class="contact-appointment">
+                            <h5>Make an Appointment</h5>
+                            <a href="tel:88700600" class="contact-phone">📞 88 700 600</a>
+                        </div>
+                        <div class="contact-schedule">
+                            <h5>Online Schedule</h5>
+                            <a href="#" class="contact-book-btn">📅 Book here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Side - Contact Form -->
+            <div class="col-lg-6 col-md-6">
+                <div class="contact-form-container">
+                    <div class="contact-form-header">
+                        <h3>Send us a message</h3>
+                        <p class="form-note">Required fields are marked with an asterisk (*).</p>
+                    </div>
+                    
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="fullName">First and Last name*</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="Your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email address*</label>
+                            <input type="email" id="email" name="email" placeholder="Your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="condition">Condition*</label>
+                            <select id="condition" name="condition" required>
+                                <option value="">Select condition</option>
+                                <option value="arrhythmia">Arrhythmia</option>
+                                <option value="foot-pain">Foot Pain</option>
+                                <option value="ankle-injury">Ankle Injury</option>
+                                <option value="plantar-fasciitis">Plantar Fasciitis</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Additional notes</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us more about your condition or any questions you have..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="contact-submit-btn">SEND YOUR MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </main>
