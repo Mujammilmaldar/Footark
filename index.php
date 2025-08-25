@@ -53,7 +53,7 @@
                     
                     <div class="about-features">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-3 col-md-3 col-sm-6">
                                 <div class="feature-box">
                                     <div class="feature-icon">
                                         <i class="heart-icon"></i>
@@ -62,7 +62,7 @@
                                     <p class="feature-desc">We care for the whole person, complexity of each person's life, and believe that addressing a broad range.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-3 col-md-3 col-sm-6">
                                 <div class="feature-box">
                                     <div class="feature-icon">
                                         <i class="home-icon"></i>
@@ -71,7 +71,7 @@
                                     <p class="feature-desc">A community in which all people achieve their full potential for health and well-being across the lifespan.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-3 col-md-3 col-sm-6">
                                 <div class="feature-box">
                                     <div class="feature-icon">
                                         <i class="approach-icon"></i>
@@ -80,7 +80,7 @@
                                     <p class="feature-desc">Partnerships with education, government, and other community organizations will care multiply.</p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-3 col-md-3 col-sm-6">
                                 <div class="feature-box">
                                     <div class="feature-icon">
                                         <i class="providers-icon"></i>
@@ -203,3 +203,4 @@
     </div>
 </section>
 </main>
+<?php include 'includes/footer.php';?>

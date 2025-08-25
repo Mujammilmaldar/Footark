@@ -668,7 +668,55 @@ button:active,
 .font-bold {
   font-weight: var(--font-weight-bold);
 }
+.d-flex {
+    display: flex !important;
+}
 
+.align-items-center {
+    align-items: center !important;
+}
+
+.align-items-stretch {
+    align-items: stretch !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.gap-sm {
+    gap: var(--spacing-sm) !important;
+}
+
+.gap-md {
+    gap: var(--spacing-md) !important;
+}
+
+.gap-lg {
+    gap: var(--spacing-lg) !important;
+}
+.col-lg-6 , .col-md-6 {
+  width: 50%;
+}
+.row{
+  display: flex;
+}
+.flex-row{
+  flex-direction: row;
+  gap: var(--spacing-sm);
+}
 /* -- Layout -- */
 .container {
   width: 90%;

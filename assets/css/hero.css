@@ -317,7 +317,6 @@
 .row {
     display: flex;
     align-items: center;
-    gap: var(--section-gap);
     flex-wrap: wrap;
 }
 
@@ -441,25 +440,26 @@
 .about-features .row {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--spacing-component-md);
+    gap: var(--spacing-component-sm);
+    align-items: stretch;
 }
 
-.about-features .col-md-6 {
+.about-features .col-lg-3,
+.about-features .col-md-3 {
     flex: 1;
-    min-width: 250px;
+    min-width: 200px;
+    display: flex;
 }
 
 .feature-box {
-    margin-bottom: var(--spacing-component-md);
-    padding: var(--spacing-component-sm) 0;
+    width: 100%;
+    padding: var(--spacing-component-md);
     background: transparent;
     transition: all 0.3s ease;
     border-left: 3px solid transparent;
-}
-
-.feature-box:hover {
-    transform: translateX(8px);
-    border-left-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 /* Feature Icon with clean styling */
@@ -571,10 +571,12 @@
     .about-features .row {
         flex-direction: row;
         flex-wrap: wrap;
+        gap: var(--spacing-component-sm);
     }
     
-    .about-features .col-md-6 {
-        min-width: 100%;
+    .about-features .col-lg-3,
+    .about-features .col-md-3 {
+        min-width: calc(50% - var(--spacing-component-sm));
     }
 }
 
@@ -713,7 +715,6 @@
 
 /* Contact Details with enhanced flex layout */
 .contact-details {
-    margin-bottom: var(--spacing-component-lg);
     display: flex;
     flex-direction: column;
     gap: var(--spacing-component-sm);
@@ -905,7 +906,7 @@
 /* Right Side - Contact Form with clean styling */
 .contact-form-container {
     background: var(--color-bg-primary);
-    padding: var(--spacing-component-xl);
+    padding: var(--spacing-component-lg);
     border-radius: var(--border-radius-large);
     border: 1px solid var(--color-border-light);
     animation: fadeInRight 1s ease-out 0.3s both;
@@ -1120,45 +1121,7 @@
 }
 
 /* Utility classes for better flexbox control */
-.d-flex {
-    display: flex !important;
-}
 
-.align-items-center {
-    align-items: center !important;
-}
-
-.align-items-stretch {
-    align-items: stretch !important;
-}
-
-.justify-content-center {
-    justify-content: center !important;
-}
-
-.justify-content-between {
-    justify-content: space-between !important;
-}
-
-.flex-wrap {
-    flex-wrap: wrap !important;
-}
-
-.flex-column {
-    flex-direction: column !important;
-}
-
-.gap-sm {
-    gap: var(--spacing-sm) !important;
-}
-
-.gap-md {
-    gap: var(--spacing-md) !important;
-}
-
-.gap-lg {
-    gap: var(--spacing-lg) !important;
-}
 
 /* Additional animations for enhanced user experience */
 @keyframes pulseGlow {
