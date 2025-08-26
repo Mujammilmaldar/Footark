@@ -127,9 +127,9 @@
 
   /* -- Font Family -- */
   /* Using 'Inter', a clean and modern sans-serif font. */
-  --font-family-sans: "Mark-OT", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  --font-family-sans: "Mark-OT-Bold", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-family-serif: "Lora", serif; /* Optional serif for headings or body */
+  --font-family-serif: "Mark-OT", serif; /* Optional serif for headings or body */
 
   /* -- Font Sizes (Optimized Responsive Scale for Better UX) -- */
   /* Refined clamp() values for more harmonious typography */
@@ -737,7 +737,7 @@ button:active,
 }
 /* -- Layout -- */
 .container {
-  width: 90%;
+  width: 100%;
   max-width: var(--container-width);
   margin-left: auto;
   margin-right: auto;
