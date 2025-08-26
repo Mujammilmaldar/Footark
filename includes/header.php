@@ -22,15 +22,15 @@
             <div class="first-row">
                 <div class="contact-info">
                     <div class="icon-container">
-                        <img src="assets/svg/call.svg" alt="Phone" class="contact-icon">
+                        <i class="fas fa-phone contact-icon"></i>
                         <span class="contact-text">+91 98765 43210</span>
                     </div>
                     <div class="icon-container">
-                        <img src="assets/svg/email.svg" alt="Email" class="contact-icon">
+                        <i class="fas fa-envelope contact-icon"></i>
                         <span class="contact-text">info@footark.com</span>
                     </div>
                     <div class="icon-container">
-                        <img src="assets/svg/location.svg" alt="Location" class="contact-icon">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
                         <span class="contact-text">Mumbai, India</span>
                     </div>
                 </div>
@@ -38,13 +38,13 @@
                     <a href="appointment.php" class="appointment-btn">Book Appointment</a>
                     <div class="social-links">
                         <a href="#" class="social-link">
-                            <img src="assets/svg/facebook.svg" alt="Facebook">
+                            <i class="fab fa-facebook-f"></i>
                         </a>
                         <a href="#" class="social-link">
-                            <img src="assets/svg/instagram.svg" alt="Instagram">
+                            <i class="fab fa-instagram"></i>
                         </a>
                         <a href="#" class="social-link">
-                            <img src="assets/svg/linkedin.svg" alt="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                             <a href="index.php" class="menu-link">Home</a>
                         </li>
                         <li class="menu-item">
-                            <a href="dr-abhishek-kini.php" class="menu-link">About</a>
+                            <a href="about.php" class="menu-link">About</a>
                         </li>
                         <li class="menu-item dropdown">
                             <a href="#" class="menu-link dropdown-toggle">
