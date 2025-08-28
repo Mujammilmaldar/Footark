@@ -1,0 +1,454 @@
+/* ==========================================================================
+   INNER PAGES STYLES - Sports Medicine and Condition Pages
+   ==========================================================================
+   Styles specific to inner pages like ankle sprain, conditions, treatments
+   Uses variables from main.css
+   ========================================================================== */
+
+/* ==========================================================================
+   BREADCRUMB STYLES
+   ========================================================================== */
+.breadcrumb {
+    background: var(--color-bg-secondary);
+    padding: var(--spacing-sm) 0;
+    font-size: var(--font-size-small);
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.breadcrumb a {
+    color: var(--color-link);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.breadcrumb a:hover {
+    color: var(--color-link-hover);
+}
+
+.breadcrumb span {
+    color: var(--color-text-muted);
+}
+
+/* ==========================================================================
+   HERO BANNER STYLES
+   ========================================================================== */
+.hero-banner {
+    background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary-dark) 100%);
+    color: var(--color-text-inverse);
+    padding: var(--spacing-xxxl) 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10%;
+    width: 70%;
+    height: 100%;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none"><circle cx="650" cy="150" r="120" fill="rgba(255,255,255,0.08)"/><circle cx="700" cy="350" r="80" fill="rgba(255,255,255,0.05)"/><circle cx="600" cy="450" r="60" fill="rgba(255,255,255,0.06)"/><path d="M500 100 Q650 200 600 400 Q750 500 700 600 H800 V0 H500 Z" fill="rgba(255,255,255,0.03)"/></svg>') no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+}
+
+.hero-banner h1 {
+    font-size: var(--font-size-display-medium);
+    margin-bottom: var(--spacing-lg);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+    color: var(--color-text-inverse);
+}
+
+.hero-banner h1::after {
+    display: none; /* Remove underline animation for hero */
+}
+
+.hero-banner p {
+    font-size: var(--font-size-body-large);
+    line-height: var(--line-height-body);
+    opacity: 0.9;
+    margin-bottom: var(--spacing-xl);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+    padding: var(--spacing-md) var(--spacing-lg);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-button);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--box-shadow);
+    border: 2px solid var(--color-primary);
+}
+
+.btn-primary:hover {
+    background: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow-large);
+    text-decoration: none;
+    color: var(--color-text-inverse);
+}
+
+.btn-secondary {
+    background: rgba(255,255,255,0.1);
+    color: var(--color-text-inverse);
+    padding: var(--spacing-md) var(--spacing-lg);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-button);
+    border: 2px solid rgba(255,255,255,0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-secondary:hover {
+    background: rgba(255,255,255,0.2);
+    color: var(--color-text-inverse);
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   MAIN CONTENT LAYOUT
+   ========================================================================== */
+.main-wrapper {
+    background: var(--color-bg-primary);
+    padding: var(--section-padding-y) 0;
+}
+
+.content-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-xl);
+    align-items: start;
+}
+
+.main-content {
+    background: var(--color-bg-primary);
+}
+
+.content-section {
+    margin-bottom: var(--spacing-xl);
+}
+
+.content-section h2 {
+    color: var(--color-heading-primary);
+    font-size: var(--font-size-h2);
+    margin-bottom: var(--spacing-lg);
+    font-weight: var(--font-weight-bold);
+}
+
+.content-section h3 {
+    color: var(--color-heading-secondary);
+    font-size: var(--font-size-h3);
+    margin-bottom: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+    font-weight: var(--font-weight-semibold);
+}
+
+.content-section p {
+    color: var(--color-text-primary);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    margin-bottom: var(--spacing-md);
+    max-width: var(--content-max-width);
+}
+
+.content-section ul {
+    margin: var(--spacing-md) 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.content-section li {
+    position: relative;
+    padding: var(--spacing-xs) 0 var(--spacing-xs) var(--spacing-lg);
+    color: var(--color-text-primary);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+}
+
+.content-section li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--color-secondary);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-body-large);
+}
+
+/* ==========================================================================
+   CONTENT IMAGES
+   ========================================================================== */
+.content-image {
+    margin: var(--spacing-xl) 0;
+    text-align: center;
+}
+
+.runner-image {
+    width: 100%;
+    max-width: 500px;
+    height: 250px;
+    background: linear-gradient(135deg, var(--color-secondary-lighter) 0%, var(--color-secondary-light) 100%);
+    border-radius: var(--border-radius-large);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.runner-image::before {
+    content: '🏃‍♂️';
+    font-size: 48px;
+    position: relative;
+    z-index: 2;
+}
+
+.runner-image::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 20%;
+    right: 20%;
+    height: 20px;
+    background: rgba(79, 138, 139, 0.2);
+    border-radius: 50%;
+    filter: blur(8px);
+}
+
+/* ==========================================================================
+   SIDEBAR STYLES
+   ========================================================================== */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.widget {
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow-small);
+}
+
+.widget-header {
+    background: var(--color-secondary);
+    color: var(--color-text-inverse);
+    padding: var(--spacing-md) var(--spacing-md);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.widget-content {
+    padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.widget-content p {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-body);
+    margin-bottom: var(--spacing-sm);
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.phone-number {
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-secondary);
+    margin: var(--spacing-md) 0;
+}
+
+.btn-widget {
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    text-decoration: none;
+    border-radius: var(--border-radius-small);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    display: inline-block;
+    margin: var(--spacing-xs) 0;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-widget:hover {
+    background: var(--color-primary-dark);
+    transform: translateY(-1px);
+    box-shadow: var(--box-shadow-small);
+    text-decoration: none;
+    color: var(--color-text-inverse);
+}
+
+/* ==========================================================================
+   DOCTORS SECTION
+   ========================================================================== */
+.doctors-section {
+    background: var(--color-primary);
+    padding: var(--section-padding-y) 0;
+    margin-top: var(--spacing-xl);
+}
+
+.doctors-title {
+    color: var(--color-text-inverse);
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.doctors-title h2 {
+    font-size: var(--font-size-h2);
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-text-inverse);
+}
+
+.doctors-title h2::after {
+    display: none; /* Remove underline animation */
+}
+
+.doctors-title p {
+    font-size: var(--font-size-body);
+    opacity: 0.9;
+}
+
+.doctors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.doctor-card {
+    background: var(--color-bg-primary);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow-large);
+}
+
+.doctor-image {
+    height: 200px;
+    background: var(--color-bg-tertiary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: var(--color-text-muted);
+}
+
+.doctor-info {
+    padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.doctor-info h4 {
+    color: var(--color-heading-primary);
+    font-size: var(--font-size-h5);
+    margin-bottom: var(--spacing-xs);
+    font-weight: var(--font-weight-semibold);
+}
+
+.doctor-specialty {
+    color: var(--color-secondary);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: var(--spacing-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.doctor-info p {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-body);
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   ========================================================================== */
+@media (max-width: 768px) {
+    .content-layout {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+
+    .sidebar {
+        order: -1;
+    }
+
+    .hero-banner h1 {
+        font-size: var(--font-size-display-small);
+    }
+
+    .hero-banner p {
+        font-size: var(--font-size-body);
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .doctors-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .content-section h2 {
+        font-size: var(--font-size-h3);
+    }
+
+    .content-section h3 {
+        font-size: var(--font-size-h4);
+    }
+}
+
+@media (max-width: 480px) {
+    .main-wrapper {
+        padding: var(--spacing-lg) 0;
+    }
+
+    .hero-banner {
+        padding: var(--spacing-xxl) 0;
+    }
+
+    .hero-banner h1 {
+        font-size: var(--font-size-h1);
+    }
+
+    .content-section {
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .sidebar {
+        gap: var(--spacing-md);
+    }
+}

@@ -182,211 +182,298 @@
         </div>
     </section>
 
-    <!-- Review Section  -->
+    <!-- Review Section - Google Reviews Style CSS Slider -->
     <section class="testimonials-section">
         <div class="container">
-            <div class="testimonials-header text-center">
+            <div class="testimonials-header">
                 <h1 class="testimonials-title">Real customers, real results</h1>
             </div>
 
-            <!-- Swiper Container -->
-            <div class="swiper testimonials-swiper">
-                <div class="swiper-wrapper">
+            <!-- CSS Slider with Multiple Cards -->
+            <div class="testimonials-slider">
+                <!-- Radio buttons for controlling slides -->
+                <input type="radio" name="testimonial-slider" id="testimonial-slide1" checked>
+                <input type="radio" name="testimonial-slider" id="testimonial-slide2">
+                <input type="radio" name="testimonial-slider" id="testimonial-slide3">
 
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-card">
-                            <div class="card-header">
-                                <div class="stars">
-                                    <span>★★★★★</span>
+                <div class="slider-viewport">
+                    <div class="slider-track">
+                        
+                        <!-- Review Card 1 -->
+                        <div class="testimonial-slide">
+                            <div class="google-review-card">
+                                <div class="google-header">
+                                    <div class="google-logo">
+                                        <div class="google-logo-icon">G</div>
+                                        <span class="google-text">Google Review</span>
+                                    </div>
+                                    <div class="verified-badge">
+                                        <div class="verified-icon">✓</div>
+                                        <span class="verified-text">Verified</span>
+                                    </div>
                                 </div>
-                                <div class="google-verified">
-                                    <span class="verified-icon">✓</span>
+                                
+                                <div class="star-rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="rating-text">5.0</span>
                                 </div>
-                                <div class="google-logo">
-                                    <span class="google-g">G</span>
+                                
+                                <div class="review-content">
+                                    <p class="review-text">I am a retired Paediatrician and my wife a retired GP. We had gone to India where my wife twisted her foot and fractured 4 metatarsals in her foot. Dr Kini provided exceptional care and expertise that made all the difference in her recovery.</p>
+                                    <a href="#" class="read-more">Read more</a>
                                 </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <p>I am a retired Paediatrician and my wife a retired GP. We had gone to India where my
-                                    wife twisted her foot and fractured 4 metatarsals in her...</p>
-                                <a href="#" class="read-more">Read more</a>
-                            </div>
-                            <div class="reviewer-info">
-                                <div class="reviewer-avatar">
-                                    <span class="avatar-text">AD</span>
-                                </div>
-                                <div class="reviewer-details">
-                                    <div class="reviewer-name">Adrian Daniels</div>
-                                    <div class="review-date">2022-03-03</div>
+                                
+                                <div class="reviewer-info">
+                                    <div class="reviewer-avatar">
+                                        <span class="avatar-text">AD</span>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">Adrian Daniels</div>
+                                        <div class="review-date">March 3, 2022</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-card">
-                            <div class="card-header">
-                                <div class="stars">
-                                    <span>★★★★★</span>
+                        <!-- Review Card 2 -->
+                        <div class="testimonial-slide">
+                            <div class="google-review-card">
+                                <div class="google-header">
+                                    <div class="google-logo">
+                                        <div class="google-logo-icon">G</div>
+                                        <span class="google-text">Google Review</span>
+                                    </div>
+                                    <div class="verified-badge">
+                                        <div class="verified-icon">✓</div>
+                                        <span class="verified-text">Verified</span>
+                                    </div>
                                 </div>
-                                <div class="google-verified">
-                                    <span class="verified-icon">✓</span>
+                                
+                                <div class="star-rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="rating-text">5.0</span>
                                 </div>
-                                <div class="google-logo">
-                                    <span class="google-g">G</span>
+                                
+                                <div class="review-content">
+                                    <p class="review-text">My wife saw Mr Kini as she had become unable to walk due to the build up of significant scar tissue from a former achilles injury. His surgical expertise and post-operative care were outstanding. She can now walk pain-free.</p>
+                                    <a href="#" class="read-more">Read more</a>
                                 </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <p>My wife saw Mr Kini as she had become unable to walk due to the build up of
-                                    significant scar tissue from a former achilles injury a few...</p>
-                                <a href="#" class="read-more">Read more</a>
-                            </div>
-                            <div class="reviewer-info">
-                                <div class="reviewer-avatar">
-                                    <span class="avatar-text">JS</span>
-                                </div>
-                                <div class="reviewer-details">
-                                    <div class="reviewer-name">John Smith</div>
-                                    <div class="review-date">2022-02-15</div>
+                                
+                                <div class="reviewer-info">
+                                    <div class="reviewer-avatar">
+                                        <span class="avatar-text">JS</span>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">John Smith</div>
+                                        <div class="review-date">February 15, 2022</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-card">
-                            <div class="card-header">
-                                <div class="stars">
-                                    <span>★★★★★</span>
+                        <!-- Review Card 3 -->
+                        <div class="testimonial-slide">
+                            <div class="google-review-card">
+                                <div class="google-header">
+                                    <div class="google-logo">
+                                        <div class="google-logo-icon">G</div>
+                                        <span class="google-text">Google Review</span>
+                                    </div>
+                                    <div class="verified-badge">
+                                        <div class="verified-icon">✓</div>
+                                        <span class="verified-text">Verified</span>
+                                    </div>
                                 </div>
-                                <div class="google-verified">
-                                    <span class="verified-icon">✓</span>
+                                
+                                <div class="star-rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="rating-text">5.0</span>
                                 </div>
-                                <div class="google-logo">
-                                    <span class="google-g">G</span>
+                                
+                                <div class="review-content">
+                                    <p class="review-text">I can highly recommend Dr Kini, he is a brilliant orthopaedic surgeon. I had hammered toe surgery in July, which I'm quickly recovering from. His attention to detail and patient care throughout the entire process was exceptional.</p>
+                                    <a href="#" class="read-more">Read more</a>
                                 </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <p>I can highly recommend Dr Kini, he is a brilliant orthopaedic surgeon. I had hammered
-                                    toe surgery in July, which I'm quickly recovering from...</p>
-                                <a href="#" class="read-more">Read more</a>
-                            </div>
-                            <div class="reviewer-info">
-                                <div class="reviewer-avatar">
-                                    <span class="avatar-text">MJ</span>
-                                </div>
-                                <div class="reviewer-details">
-                                    <div class="reviewer-name">Mary Johnson</div>
-                                    <div class="review-date">2022-01-28</div>
+                                
+                                <div class="reviewer-info">
+                                    <div class="reviewer-avatar">
+                                        <span class="avatar-text">MJ</span>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">Mary Johnson</div>
+                                        <div class="review-date">January 28, 2022</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Slide 4 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-card">
-                            <div class="card-header">
-                                <div class="stars">
-                                    <span>★★★★★</span>
+                        <!-- Review Card 4 -->
+                        <div class="testimonial-slide">
+                            <div class="google-review-card">
+                                <div class="google-header">
+                                    <div class="google-logo">
+                                        <div class="google-logo-icon">G</div>
+                                        <span class="google-text">Google Review</span>
+                                    </div>
+                                    <div class="verified-badge">
+                                        <div class="verified-icon">✓</div>
+                                        <span class="verified-text">Verified</span>
+                                    </div>
                                 </div>
-                                <div class="google-verified">
-                                    <span class="verified-icon">✓</span>
+                                
+                                <div class="star-rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="rating-text">5.0</span>
                                 </div>
-                                <div class="google-logo">
-                                    <span class="google-g">G</span>
+                                
+                                <div class="review-content">
+                                    <p class="review-text">I initially saw Dr Kini for a broken toe, but on the x-ray he spotted Haglunds Deformity in one foot - this was a revelation, it explained why I had been having issues. His diagnostic skills and treatment approach were exceptional.</p>
+                                    <a href="#" class="read-more">Read more</a>
                                 </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <p>I initially saw Dr Kini for a broken toe, but on the x-ray he spotted Haglunds
-                                    Deformity in one foot - this was a revelation, it explained why...</p>
-                                <a href="#" class="read-more">Read more</a>
-                            </div>
-                            <div class="reviewer-info">
-                                <div class="reviewer-avatar">
-                                    <span class="avatar-text">RW</span>
-                                </div>
-                                <div class="reviewer-details">
-                                    <div class="reviewer-name">Robert Wilson</div>
-                                    <div class="review-date">2021-12-10</div>
+                                
+                                <div class="reviewer-info">
+                                    <div class="reviewer-avatar">
+                                        <span class="avatar-text">RW</span>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">Robert Wilson</div>
+                                        <div class="review-date">December 10, 2021</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Slide 5 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-card">
-                            <div class="card-header">
-                                <div class="stars">
-                                    <span>★★★★★</span>
+                        <!-- Review Card 5 -->
+                        <div class="testimonial-slide">
+                            <div class="google-review-card">
+                                <div class="google-header">
+                                    <div class="google-logo">
+                                        <div class="google-logo-icon">G</div>
+                                        <span class="google-text">Google Review</span>
+                                    </div>
+                                    <div class="verified-badge">
+                                        <div class="verified-icon">✓</div>
+                                        <span class="verified-text">Verified</span>
+                                    </div>
                                 </div>
-                                <div class="google-verified">
-                                    <span class="verified-icon">✓</span>
+                                
+                                <div class="star-rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="rating-text">5.0</span>
                                 </div>
-                                <div class="google-logo">
-                                    <span class="google-g">G</span>
+                                
+                                <div class="review-content">
+                                    <p class="review-text">Dr Kini performed ankle arthroscopy for my chronic ankle pain. The procedure was minimally invasive and recovery was much faster than expected. I'm now back to running and all my normal activities without any pain.</p>
+                                    <a href="#" class="read-more">Read more</a>
                                 </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <p>Dr Kini performed ankle arthroscopy for my chronic ankle pain. The procedure was
-                                    minimally invasive and recovery was much faster than expected...</p>
-                                <a href="#" class="read-more">Read more</a>
-                            </div>
-                            <div class="reviewer-info">
-                                <div class="reviewer-avatar">
-                                    <span class="avatar-text">SP</span>
-                                </div>
-                                <div class="reviewer-details">
-                                    <div class="reviewer-name">Sarah Parker</div>
-                                    <div class="review-date">2021-11-22</div>
+                                
+                                <div class="reviewer-info">
+                                    <div class="reviewer-avatar">
+                                        <span class="avatar-text">SP</span>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">Sarah Parker</div>
+                                        <div class="review-date">November 22, 2021</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Slide 6 -->
-                    <div class="swiper-slide">
-                        <div class="testimonial-card">
-                            <div class="card-header">
-                                <div class="stars">
-                                    <span>★★★★★</span>
+                        <!-- Review Card 6 -->
+                        <div class="testimonial-slide">
+                            <div class="google-review-card">
+                                <div class="google-header">
+                                    <div class="google-logo">
+                                        <div class="google-logo-icon">G</div>
+                                        <span class="google-text">Google Review</span>
+                                    </div>
+                                    <div class="verified-badge">
+                                        <div class="verified-icon">✓</div>
+                                        <span class="verified-text">Verified</span>
+                                    </div>
                                 </div>
-                                <div class="google-verified">
-                                    <span class="verified-icon">✓</span>
+                                
+                                <div class="star-rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="rating-text">5.0</span>
                                 </div>
-                                <div class="google-logo">
-                                    <span class="google-g">G</span>
+                                
+                                <div class="review-content">
+                                    <p class="review-text">Excellent care and treatment for my flat foot condition. Dr Kini explained everything clearly and the reconstruction surgery was very successful. The follow-up care was outstanding and I couldn't be happier with the results.</p>
+                                    <a href="#" class="read-more">Read more</a>
                                 </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <p>Excellent care and treatment for my flat foot condition. Dr Kini explained everything
-                                    clearly and the reconstruction surgery was very successful...</p>
-                                <a href="#" class="read-more">Read more</a>
-                            </div>
-                            <div class="reviewer-info">
-                                <div class="reviewer-avatar">
-                                    <span class="avatar-text">DL</span>
-                                </div>
-                                <div class="reviewer-details">
-                                    <div class="reviewer-name">David Lee</div>
-                                    <div class="review-date">2021-10-05</div>
+                                
+                                <div class="reviewer-info">
+                                    <div class="reviewer-avatar">
+                                        <span class="avatar-text">DL</span>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">David Lee</div>
+                                        <div class="review-date">October 5, 2021</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
 
-                <!-- Navigation buttons -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-
-                <!-- Pagination -->
-                <div class="swiper-pagination"></div>
+                <!-- Slider Controls -->
+                <div class="slider-controls">
+                    <div class="slider-dots">
+                        <label for="testimonial-slide1" class="dot-control"></label>
+                        <label for="testimonial-slide2" class="dot-control"></label>
+                        <label for="testimonial-slide3" class="dot-control"></label>
+                    </div>
+                    
+                    <div class="testimonial-arrows">
+                        <!-- Previous arrows - show different target based on current slide -->
+                        <label for="testimonial-slide3" class="testimonial-prev-arrow testimonial-prev-from-1">‹</label>
+                        <label for="testimonial-slide1" class="testimonial-prev-arrow testimonial-prev-from-2">‹</label>
+                        <label for="testimonial-slide2" class="testimonial-prev-arrow testimonial-prev-from-3">‹</label>
+                        
+                        <!-- Next arrows - show different target based on current slide -->
+                        <label for="testimonial-slide2" class="testimonial-next-arrow testimonial-next-from-1">›</label>
+                        <label for="testimonial-slide3" class="testimonial-next-arrow testimonial-next-from-2">›</label>
+                        <label for="testimonial-slide1" class="testimonial-next-arrow testimonial-next-from-3">›</label>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

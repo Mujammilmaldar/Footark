@@ -1693,7 +1693,7 @@
 }
 
 /* Slider Controls (Dots) - Positioned properly to be visible */
-.slider-controls {
+.before-after-section .slider-controls {
     position: absolute;
     bottom: 10px; /* Adjusted to be more visible */
     left: 50%;
@@ -1704,13 +1704,13 @@
     padding: var(--spacing-xs) var(--spacing-md);
 }
 
-.control-btn {
+.before-after-section .control-btn {
     cursor: pointer;
     padding: var(--spacing-xs);
     transition: all 0.3s ease;
 }
 
-.control-dot {
+.before-after-section .control-dot {
     display: block;
     width: clamp(10px, calc(1vw + 8px), 14px);
     height: clamp(10px, calc(1vw + 8px), 14px);
@@ -1720,7 +1720,7 @@
     border: 2px solid transparent;
 }
 
-.control-btn:hover .control-dot {
+.before-after-section .control-btn:hover .control-dot {
     background: var(--color-primary-light);
     transform: scale(1.2);
 }
@@ -1734,7 +1734,7 @@
 }
 
 /* Arrow Navigation - Fixed positioning and improved styling */
-.slider-arrows {
+.before-after-section .slider-arrows {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -1746,7 +1746,7 @@
     z-index: 10;
 }
 
-.arrow-btn {
+.before-after-section .arrow-btn {
     width: clamp(42px, calc(3vw + 32px), 52px);
     height: clamp(42px, calc(3vw + 32px), 52px);
     background: rgba(255, 255, 255, 0.95);
@@ -1761,7 +1761,7 @@
     border: 2px solid transparent;
 }
 
-.arrow-btn:hover {
+.before-after-section .arrow-btn:hover {
     background: var(--color-primary);
     color: var(--color-text-inverse);
     transform: scale(1.1);
@@ -1769,31 +1769,28 @@
     border-color: var(--color-primary-light);
 }
 
-.arrow-btn i {
+.before-after-section .arrow-btn i {
     font-size: clamp(16px, calc(1.5vw + 12px), 20px);
     color: var(--color-text-primary);
     transition: color 0.3s ease;
 }
 
-.arrow-btn:hover i {
+.before-after-section .arrow-btn:hover i {
     color: var(--color-text-inverse);
 }
 
-/* Dynamic Arrow Targeting - Updated for 2 slides */
-/* When slide 1 is active, prev goes to slide 2, next goes to slide 2 */
-#slide1:checked ~ .slider-arrows .prev-btn {
+/* Simple Arrow Navigation - No layout shifts */
+.before-after-section .arrow-btn {
+    position: relative;
     pointer-events: all;
-}
-#slide1:checked ~ .slider-arrows .next-btn {
-    pointer-events: all;
+    cursor: pointer;
 }
 
-/* When slide 2 is active, prev goes to slide 1, next goes to slide 1 */
-#slide2:checked ~ .slider-arrows .prev-btn {
-    pointer-events: all;
-}
-#slide2:checked ~ .slider-arrows .next-btn {
-    pointer-events: all;
+/* Both arrows are always visible and functional */
+.before-after-section .prev-btn,
+.before-after-section .next-btn {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* Auto-animation using CSS animations (optional) - Updated for 2 slides */
@@ -1911,17 +1908,17 @@
         margin-bottom: clamp(1.5rem, calc(2vw + 1rem), 2rem);
     }
     
-    .slider-controls {
+    .before-after-section .slider-controls {
         bottom: clamp(-0.25rem, calc(-0.125vw - 0.25rem), -0.75rem); /* Better mobile positioning */
         padding: var(--spacing-xs) var(--spacing-sm);
     }
     
-    .arrow-btn {
+    .before-after-section .arrow-btn {
         width: 38px;
         height: 38px;
     }
     
-    .arrow-btn i {
+    .before-after-section .arrow-btn i {
         font-size: 14px;
     }
 }
@@ -1956,5 +1953,676 @@
         flex: 1;
         min-width: calc(33.333% - 1rem);
         margin: 0.5rem;
+    }
+}
+
+/* ==========================================================================
+   TESTIMONIALS SECTION - CSS-Only Google Reviews Style Slider
+   ========================================================================== */
+
+.testimonials-section {
+    position: relative;
+    padding: var(--section-padding-y) 0;
+    background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
+    overflow: hidden;
+}
+
+.testimonials-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="%23e8e8e8" stroke-width="0.5" opacity="0.3"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>') repeat;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Header Styling */
+.testimonials-header {
+    text-align: center;
+    margin-bottom: var(--spacing-xxl);
+    position: relative;
+    z-index: 2;
+}
+
+.testimonials-title {
+    font-family: var(--font-family-sans);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-heading-primary);
+    margin-bottom: var(--spacing-component-md);
+    position: relative;
+}
+
+.testimonials-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    border-radius: 2px;
+}
+
+/* CSS-Only Slider Container with Multiple Cards */
+.testimonials-slider {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+    z-index: 2;
+}
+
+/* Hide radio inputs */
+.testimonials-slider input[type="radio"] {
+    display: none;
+}
+
+/* Slider Viewport - Shows multiple cards */
+.slider-viewport {
+    overflow: hidden;
+    position: relative;
+    border-radius: var(--border-radius-large);
+    background: transparent;
+}
+
+/* Slider Track - Shows 3 cards at a time, slides to show more */
+.slider-track {
+    display: flex;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-xl);
+}
+
+/* Individual Slide - Each slide contains one card */
+.testimonial-slide {
+    min-width: calc(33.333% - var(--spacing-lg));
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+/* Radio Button Controls for Sliding */
+#testimonial-slide1:checked ~ .slider-viewport .slider-track { 
+    transform: translateX(0%); 
+}
+#testimonial-slide2:checked ~ .slider-viewport .slider-track { 
+    transform: translateX(-100%); 
+}
+#testimonial-slide3:checked ~ .slider-viewport .slider-track { 
+    transform: translateX(-200%); 
+}
+
+/* Google Review Card */
+.google-review-card {
+    background: var(--color-white);
+    border-radius: var(--border-radius-large);
+    padding: var(--spacing-xl);
+    box-shadow: var(--box-shadow-large);
+    border: 1px solid var(--color-border-light);
+    position: relative;
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.google-review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Google Header */
+.google-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-component-md);
+    padding-bottom: var(--spacing-component-sm);
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.google-logo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.google-logo-icon {
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(45deg, #4285f4, #34a853, #fbbc05, #ea4335);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.google-text {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text-secondary);
+}
+
+.verified-badge {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    background: #f0f9ff;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--border-radius-small);
+    border: 1px solid #bfdbfe;
+}
+
+.verified-icon {
+    width: 16px;
+    height: 16px;
+    background: #22c55e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+}
+
+.verified-text {
+    font-size: var(--font-size-small);
+    color: #1e40af;
+    font-weight: var(--font-weight-medium);
+}
+
+/* Star Rating */
+.star-rating {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    margin-bottom: var(--spacing-component-md);
+}
+
+.stars {
+    display: flex;
+    gap: 2px;
+}
+
+.star {
+    color: #fbbf24;
+    font-size: 18px;
+}
+
+.rating-text {
+    font-size: var(--font-size-small);
+    color: var(--color-text-muted);
+    margin-left: var(--spacing-sm);
+}
+
+/* Review Content */
+.review-content {
+    margin-bottom: var(--spacing-component-lg);
+    flex: 1;
+}
+
+.review-text {
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-component-sm);
+    position: relative;
+}
+
+.review-text::before {
+    content: '"';
+    position: absolute;
+    top: -15px;
+    left: -25px;
+    font-size: 4rem;
+    color: var(--color-primary);
+    opacity: 0.2;
+    font-family: serif;
+    z-index: 0;
+}
+
+.read-more {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-small);
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+}
+
+/* Reviewer Info */
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-component-sm);
+    margin-top: auto;
+}
+
+.reviewer-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-body);
+    flex-shrink: 0;
+}
+
+.reviewer-details {
+    flex: 1;
+}
+
+.reviewer-name {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    margin-bottom: 2px;
+}
+
+.review-date {
+    font-size: var(--font-size-small);
+    color: var(--color-text-muted);
+}
+
+/* Navigation Controls */
+.testimonials-section .slider-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-component-md);
+    margin-top: var(--spacing-xl);
+    position: relative;
+    z-index: 3;
+}
+
+/* Dot Navigation */
+.testimonials-section .slider-dots {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.testimonials-section .dot-control {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--color-gray-300);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.testimonials-section .dot-control:hover {
+    background: var(--color-primary-light);
+    transform: scale(1.2);
+}
+
+#testimonial-slide1:checked ~ .slider-viewport .slider-controls .dot-control:nth-child(1),
+#testimonial-slide2:checked ~ .slider-viewport .slider-controls .dot-control:nth-child(2),
+#testimonial-slide3:checked ~ .slider-viewport .slider-controls .dot-control:nth-child(3) {
+    background: var(--color-primary);
+    transform: scale(1.3);
+}
+
+/* Arrow Navigation - Old testimonials (to be removed) */
+.testimonials-section .arrow-nav {
+    display: none; /* Hide this old navigation */
+}
+
+/* Arrow Navigation - Old testimonials (to be removed) */
+.testimonials-section .arrow-nav {
+    display: none; /* Hide this old navigation */
+}
+
+.testimonials-section .old-arrow-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--color-white);
+    border: 2px solid var(--color-border-medium);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    position: relative;
+    box-shadow: var(--box-shadow);
+}
+
+.testimonials-section .old-arrow-btn:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: var(--box-shadow-large);
+}
+
+.testimonials-section .old-arrow-btn::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border: 2px solid currentColor;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(-45deg);
+}
+
+.testimonials-section .old-arrow-btn.next::before {
+    transform: rotate(135deg);
+}
+
+/* Mobile Responsive Design - Enhanced for Slider */
+@media (max-width: 1200px) {
+    .testimonial-slide {
+        min-width: calc(50% - var(--spacing-lg));
+    }
+    
+    /* Adjust sliding positions for 2 cards */
+    #testimonial-slide1:checked ~ .slider-viewport .slider-track { 
+        transform: translateX(0%); 
+    }
+    #testimonial-slide2:checked ~ .slider-viewport .slider-track { 
+        transform: translateX(-50%); 
+    }
+    #testimonial-slide3:checked ~ .slider-viewport .slider-track { 
+        transform: translateX(-100%); 
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonials-section {
+        padding: var(--spacing-xl) 0;
+    }
+    
+    .testimonial-slide {
+        min-width: calc(100% - var(--spacing-lg));
+    }
+    
+    .slider-track {
+        gap: var(--spacing-md);
+        padding: var(--spacing-lg);
+    }
+    
+    /* Reset sliding positions for 1 card */
+    #testimonial-slide1:checked ~ .slider-viewport .slider-track { 
+        transform: translateX(0%); 
+    }
+    #testimonial-slide2:checked ~ .slider-viewport .slider-track { 
+        transform: translateX(-100%); 
+    }
+    #testimonial-slide3:checked ~ .slider-viewport .slider-track { 
+        transform: translateX(-200%); 
+    }
+    
+    .google-review-card {
+        padding: var(--spacing-lg);
+    }
+    
+    .slider-controls {
+        margin-top: var(--spacing-lg);
+        gap: var(--spacing-component-sm);
+    }
+    
+    .testimonials-title {
+        font-size: var(--font-size-h2);
+    }
+    
+    .testimonials-title::after {
+        width: 40px;
+        height: 2px;
+    }
+    
+    .review-text::before {
+        font-size: 2.5rem;
+        left: -20px;
+        top: -12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider-track {
+        padding: var(--spacing-md);
+        gap: var(--spacing-sm);
+    }
+    
+    .google-review-card {
+        padding: var(--spacing-md);
+    }
+    
+    .google-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-sm);
+    }
+    
+    .verified-badge {
+        align-self: flex-start;
+    }
+    
+    .testimonials-section {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .testimonials-header {
+        margin-bottom: var(--spacing-xl);
+    }
+    
+    .testimonials-title {
+        font-size: var(--font-size-h3);
+    }
+    
+    .review-content {
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .review-text {
+        font-size: var(--font-size-body-small);
+        line-height: 1.6;
+    }
+    
+    .review-text::before {
+        font-size: 2rem;
+        left: -15px;
+        top: -8px;
+    }
+    
+    .star-rating {
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .stars .star {
+        font-size: 16px;
+    }
+    
+    .arrow-nav {
+        display: none;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 360px) {
+    .testimonials-slider {
+        padding: 0 var(--spacing-sm);
+    }
+    
+    .slider-track {
+        padding: var(--spacing-sm);
+    }
+    
+    .google-review-card {
+        padding: var(--spacing-sm);
+    }
+    
+    .reviewer-avatar {
+        width: 40px;
+        height: 40px;
+        font-size: var(--font-size-small);
+    }
+    
+    .google-logo-icon {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+    
+    .testimonials-title {
+        font-size: var(--font-size-h4);
+    }
+}
+
+/* Enhanced animations and micro-interactions */
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.google-review-card {
+    animation: slideInUp 0.6s ease-out;
+}
+
+/* Additional modern styling enhancements */
+.google-review-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, transparent 0%, rgba(232, 90, 79, 0.02) 100%);
+    border-radius: var(--border-radius-large);
+    pointer-events: none;
+}
+
+.star {
+    transition: color 0.2s ease;
+}
+
+.star:hover {
+    color: #f59e0b;
+    transform: scale(1.1);
+}
+
+/* Improved accessibility */
+.dot-control:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+.arrow-btn:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Enhanced hover effects for better interactivity */
+.testimonial-slide:hover .google-review-card {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+/* Testimonial-specific Arrow Navigation */
+.testimonial-arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 50px;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.testimonial-prev-arrow,
+.testimonial-next-arrow {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    pointer-events: auto;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.testimonial-prev-arrow {
+    left: 20px;
+}
+
+.testimonial-next-arrow {
+    right: 20px;
+}
+
+.testimonial-prev-arrow:hover,
+.testimonial-next-arrow:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Show correct arrows based on active slide */
+#testimonial-slide1:checked ~ .slider-viewport .slider-controls .testimonial-arrows .testimonial-prev-from-1,
+#testimonial-slide1:checked ~ .slider-viewport .slider-controls .testimonial-arrows .testimonial-next-from-1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+#testimonial-slide2:checked ~ .slider-viewport .slider-controls .testimonial-arrows .testimonial-prev-from-2,
+#testimonial-slide2:checked ~ .slider-viewport .slider-controls .testimonial-arrows .testimonial-next-from-2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+#testimonial-slide3:checked ~ .slider-viewport .slider-controls .testimonial-arrows .testimonial-prev-from-3,
+#testimonial-slide3:checked ~ .slider-viewport .slider-controls .testimonial-arrows .testimonial-next-from-3 {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Hide testimonial arrows on mobile */
+@media (max-width: 768px) {
+    .testimonial-arrows {
+        display: none;
     }
 }
