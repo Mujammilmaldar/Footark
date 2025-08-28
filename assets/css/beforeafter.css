@@ -1,0 +1,479 @@
+/* ==========================================================================
+   BEFORE & AFTER GALLERY STYLES
+   ==========================================================================
+   Compact card-based layout for before/after patient results
+   Uses design system variables from main.css for consistency
+   ========================================================================== */
+
+/* ==========================================================================
+   PAGE HEADER SECTION
+   ========================================================================== */
+.page-header-section {
+    background: linear-gradient(135deg, var(--color-secondary-darker) 0%, var(--color-secondary-dark) 100%);
+    color: var(--color-text-inverse);
+    padding: var(--spacing-xxl) 0 var(--spacing-xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+ol ,li{
+    display: flex;
+}
+
+.page-header-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23ffffff" fill-opacity="0.05"><circle cx="30" cy="30" r="1"/></g></svg>') repeat;
+    pointer-events: none;
+}
+
+.page-header-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Breadcrumb Navigation */
+.page-breadcrumb {
+    margin-bottom: var(--spacing-md);
+}
+
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+}
+
+.breadcrumb-item {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.breadcrumb-item a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb-item a:hover {
+    color: var(--color-accent-cool);
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: var(--color-text-inverse);
+    font-weight: var(--font-weight-semibold);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 var(--spacing-xs);
+}
+
+/* Page Title */
+.page-title {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-inverse);
+    margin-bottom: var(--spacing-lg);
+    letter-spacing: 0.02em;
+    position: relative;
+}
+
+.page-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: var(--color-primary);
+}
+
+/* Page Meta Information */
+.page-meta {
+    margin-top: var(--spacing-sm);
+}
+
+.meta-info {
+    font-size: var(--font-size-body-small);
+    color: rgba(255, 255, 255, 0.9);
+    line-height: var(--line-height-body);
+}
+
+.meta-label {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.meta-date {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-accent-cool);
+}
+
+.meta-by {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 var(--spacing-xs);
+}
+
+.meta-author {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-inverse);
+}
+
+.meta-clinic {
+    color: rgba(255, 255, 255, 0.8);
+    font-style: italic;
+}
+
+/* ==========================================================================
+   GALLERY WRAPPER & HEADER
+   ========================================================================== */
+.gallery-wrapper {
+    background: var(--color-bg-primary);
+    padding: var(--section-padding-y) 0;
+}
+
+.gallery-header {
+    text-align: center;
+    margin-bottom: var(--spacing-xxl);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-header h2 {
+    font-family: var(--font-family-serif);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-heading-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.gallery-header h2::after {
+    display: none; /* Remove underline animation */
+}
+
+.gallery-header p {
+    font-size: var(--font-size-body-large);
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-body);
+    margin: 0;
+}
+
+/* ==========================================================================
+   GALLERY GRID & CARD STYLES
+   ========================================================================== */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xxl);
+}
+
+.before-after-card {
+    background: var(--color-white);
+    border-radius: var(--border-radius-large);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid var(--color-border-light);
+    position: relative;
+}
+
+.before-after-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow-large);
+}
+
+/* ==========================================================================
+   IMAGE CONTAINER WITH OVERLAY
+   ========================================================================== */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background: var(--color-gray-100);
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.before-after-card:hover .image-container img {
+    transform: scale(1.05);
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(232, 90, 79, 0.8), rgba(79, 138, 139, 0.8));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.before-after-card:hover .image-overlay {
+    opacity: 1;
+}
+
+.overlay-text {
+    font-family: var(--font-family-sans);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-inverse);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: 2px solid var(--color-text-inverse);
+    border-radius: var(--border-radius);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* ==========================================================================
+   CARD CONTENT AREA
+   ========================================================================== */
+.card-content {
+    padding: var(--spacing-lg);
+}
+
+.card-content h3 {
+    font-family: var(--font-family-serif);
+    font-size: var(--font-size-h5);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-heading-primary);
+    margin-bottom: var(--spacing-sm);
+    line-height: var(--line-height-heading);
+}
+
+.card-content h3::after {
+    display: none; /* Remove underline animation */
+}
+
+.card-content p {
+    font-size: var(--font-size-body-small);
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-body);
+    margin-bottom: var(--spacing-md);
+    font-weight: var(--font-weight-medium);
+}
+
+/* ==========================================================================
+   CARD META INFORMATION
+   ========================================================================== */
+.card-meta {
+    display: flex;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+}
+
+.card-meta span {
+    font-family: var(--font-family-sans);
+    font-size: var(--font-size-caption);
+    font-weight: var(--font-weight-semibold);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--border-radius-small);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.procedure-type {
+    background: var(--color-primary-lighter);
+    color: var(--color-primary-dark);
+    border: 1px solid var(--color-primary-light);
+}
+
+.recovery-time {
+    background: var(--color-secondary-lighter);
+    color: var(--color-secondary-dark);
+    border: 1px solid var(--color-secondary-light);
+}
+
+/* ==========================================================================
+   CALL TO ACTION SECTION
+   ========================================================================== */
+.cta-section {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    border-radius: var(--border-radius-large);
+    padding: var(--spacing-xxl);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    transform: rotate(45deg);
+}
+
+.cta-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    font-family: var(--font-family-serif);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-inverse);
+    margin-bottom: var(--spacing-md);
+}
+
+.cta-content h2::after {
+    display: none; /* Remove underline animation */
+}
+
+.cta-content p {
+    font-size: var(--font-size-body-large);
+    color: var(--color-text-inverse);
+    opacity: 0.9;
+    line-height: var(--line-height-body);
+    margin-bottom: var(--spacing-lg);
+}
+
+.cta-buttons {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-buttons .btn-primary {
+    background: var(--color-white);
+    color: var(--color-primary);
+    border-color: var(--color-white);
+}
+
+.cta-buttons .btn-primary:hover {
+    background: var(--color-gray-100);
+    color: var(--color-primary-dark);
+    border-color: var(--color-gray-100);
+}
+
+.cta-buttons .btn-secondary {
+    background: rgba(255,255,255,0.1);
+    color: var(--color-text-inverse);
+    border-color: rgba(255,255,255,0.3);
+}
+
+.cta-buttons .btn-secondary:hover {
+    background: rgba(255,255,255,0.2);
+    color: var(--color-text-inverse);
+}
+
+/* ==========================================================================
+   ANIMATIONS & EFFECTS
+   ========================================================================== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   ========================================================================== */
+@media (max-width: 768px) {
+    .page-header-section {
+        padding: var(--spacing-xl) 0;
+        text-align: center;
+    }
+    
+    .page-title {
+        font-size: var(--font-size-h1);
+    }
+    
+    .meta-info {
+        text-align: center;
+        line-height: 1.8;
+    }
+    
+    .meta-by,
+    .meta-clinic {
+        display: block;
+        margin: var(--spacing-xs) 0;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: var(--spacing-md);
+    }
+    
+    .gallery-header {
+        margin-bottom: var(--spacing-xl);
+    }
+    
+    .card-content {
+        padding: var(--spacing-md);
+    }
+    
+    .cta-section {
+        padding: var(--spacing-xl);
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header-section {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .page-title {
+        font-size: var(--font-size-h2);
+    }
+    
+    .breadcrumb {
+        font-size: var(--font-size-caption);
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .image-container {
+        height: 200px;
+    }
+    
+    .cta-content h2 {
+        font-size: var(--font-size-h3);
+    }
+    
+    .cta-content p {
+        font-size: var(--font-size-body);
+    }
+}

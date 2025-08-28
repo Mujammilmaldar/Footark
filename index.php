@@ -182,22 +182,17 @@
         </div>
     </section>
 
-    <!-- Review Section - Google Reviews Style CSS Slider -->
+    <!-- Review Section - JavaScript Testimonials Slider -->
     <section class="testimonials-section">
         <div class="container">
             <div class="testimonials-header">
                 <h1 class="testimonials-title">Real customers, real results</h1>
             </div>
 
-            <!-- CSS Slider with Multiple Cards -->
-            <div class="testimonials-slider">
-                <!-- Radio buttons for controlling slides -->
-                <input type="radio" name="testimonial-slider" id="testimonial-slide1" checked>
-                <input type="radio" name="testimonial-slider" id="testimonial-slide2">
-                <input type="radio" name="testimonial-slider" id="testimonial-slide3">
-
+            <!-- JavaScript Slider -->
+            <div class="testimonials-slider" id="testimonialsSlider">
                 <div class="slider-viewport">
-                    <div class="slider-track">
+                    <div class="slider-track" id="sliderTrack">
                         
                         <!-- Review Card 1 -->
                         <div class="testimonial-slide">
@@ -456,22 +451,15 @@
 
                 <!-- Slider Controls -->
                 <div class="slider-controls">
-                    <div class="slider-dots">
-                        <label for="testimonial-slide1" class="dot-control"></label>
-                        <label for="testimonial-slide2" class="dot-control"></label>
-                        <label for="testimonial-slide3" class="dot-control"></label>
-                    </div>
+                    <div class="slider-dots" id="sliderDots"></div>
                     
-                    <div class="testimonial-arrows">
-                        <!-- Previous arrows - show different target based on current slide -->
-                        <label for="testimonial-slide3" class="testimonial-prev-arrow testimonial-prev-from-1">‹</label>
-                        <label for="testimonial-slide1" class="testimonial-prev-arrow testimonial-prev-from-2">‹</label>
-                        <label for="testimonial-slide2" class="testimonial-prev-arrow testimonial-prev-from-3">‹</label>
-                        
-                        <!-- Next arrows - show different target based on current slide -->
-                        <label for="testimonial-slide2" class="testimonial-next-arrow testimonial-next-from-1">›</label>
-                        <label for="testimonial-slide3" class="testimonial-next-arrow testimonial-next-from-2">›</label>
-                        <label for="testimonial-slide1" class="testimonial-next-arrow testimonial-next-from-3">›</label>
+                    <div class="slider-arrows">
+                        <button class="slider-arrow prev-arrow" id="prevBtn" aria-label="Previous testimonials">
+        <i class="fa fa-chevron-left"></i>
+    </button>
+    <button class="slider-arrow next-arrow" id="nextBtn" aria-label="Next testimonials">
+        <i class="fa fa-chevron-right"></i>
+    </button>
                     </div>
                 </div>
             </div>
@@ -649,4 +637,8 @@
         </div>
     </section>
 </main>
+
+<!-- Lightweight Testimonials Slider JavaScript -->
+<script src="assets/js/testimonials-slider.js"></script>
+
 <?php include 'includes/footer.php'; ?>

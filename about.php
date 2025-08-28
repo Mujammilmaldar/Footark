@@ -89,9 +89,8 @@
                         
                         <div class="biography-accordion">
                             <div class="accordion-item">
-                                <div class="accordion-header" data-target="specialties">
-                                    <h3>Specialties</h3>
-                                    <span class="accordion-icon">+</span>
+                                <div class="accordion-header">
+                                    <h3><a href="#specialties">Specialties</a></h3>
                                 </div>
                                 <div class="accordion-content" id="specialties">
                                     <ul>
@@ -107,9 +106,8 @@
                             </div>
 
                             <div class="accordion-item">
-                                <div class="accordion-header" data-target="qualifications">
-                                    <h3>Qualifications</h3>
-                                    <span class="accordion-icon">+</span>
+                                <div class="accordion-header">
+                                    <h3><a href="#qualifications">Qualifications</a></h3>
                                 </div>
                                 <div class="accordion-content" id="qualifications">
                                     <ul>
@@ -125,9 +123,8 @@
                             </div>
 
                             <div class="accordion-item">
-                                <div class="accordion-header" data-target="research">
-                                    <h3>Research and Publications</h3>
-                                    <span class="accordion-icon">+</span>
+                                <div class="accordion-header">
+                                    <h3><a href="#research">Research and Publications</a></h3>
                                 </div>
                                 <div class="accordion-content" id="research">
                                     <ul>
@@ -142,9 +139,8 @@
                             </div>
 
                             <div class="accordion-item">
-                                <div class="accordion-header" data-target="achievements">
-                                    <h3>Achievements</h3>
-                                    <span class="accordion-icon">+</span>
+                                <div class="accordion-header">
+                                    <h3><a href="#achievements">Achievements</a></h3>
                                 </div>
                                 <div class="accordion-content" id="achievements">
                                     <ul>
@@ -204,65 +200,11 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Accordion functionality
-function initAccordion() {
-    const accordionHeaders = document.querySelectorAll('.accordion-header');
-    const biographyImage = document.querySelector('.biography-image');
-    
-    accordionHeaders.forEach(header => {
-        header.addEventListener('click', function() {
-            const target = this.getAttribute('data-target');
-            const content = document.getElementById(target);
-            const icon = this.querySelector('.accordion-icon');
-            const accordionItem = this.parentElement;
-            
-            // Close all other accordion items
-            accordionHeaders.forEach(otherHeader => {
-                if (otherHeader !== this) {
-                    const otherTarget = otherHeader.getAttribute('data-target');
-                    const otherContent = document.getElementById(otherTarget);
-                    const otherIcon = otherHeader.querySelector('.accordion-icon');
-                    const otherItem = otherHeader.parentElement;
-                    
-                    otherContent.style.maxHeight = '0';
-                    otherIcon.textContent = '+';
-                    otherItem.classList.remove('active');
-                }
-            });
-            
-            // Toggle current accordion item
-            if (content.style.maxHeight === '0px' || !content.style.maxHeight) {
-                content.style.maxHeight = content.scrollHeight + 'px';
-                icon.textContent = '−';
-                accordionItem.classList.add('active');
-                
-                // Scale up the image when accordion opens
-                if (biographyImage) {
-                    biographyImage.classList.add('scaled');
-                }
-            } else {
-                content.style.maxHeight = '0';
-                icon.textContent = '+';
-                accordionItem.classList.remove('active');
-                
-                // Check if any accordion is still active
-                const hasActiveAccordion = document.querySelector('.accordion-item.active');
-                if (!hasActiveAccordion && biographyImage) {
-                    biographyImage.classList.remove('scaled');
-                }
-            }
-        });
-    });
-}
-
-// Start observing and initialize accordion when DOM is loaded
+// Start observing when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
     const statsSection = document.querySelector('.doctor-stats');
     if (statsSection) {
         observer.observe(statsSection);
     }
-    
-    // Initialize accordion
-    initAccordion();
 });
 </script>

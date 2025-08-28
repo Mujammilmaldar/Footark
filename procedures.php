@@ -56,35 +56,35 @@
                             <div class="procedures-column">
                                 <ul class="procedure-items">
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Achilles Tendon Surgery</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Bilateral Bunionectomy</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Bunion Surgery</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Cheilectomy</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Corn Removal Surgery</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Cosmetic Foot Surgery</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Flat Foot Surgery</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Hammer Toe Surgery</a>
                                     </li>
                                 </ul>
@@ -96,31 +96,31 @@
                             <div class="procedures-column">
                                 <ul class="procedure-items">
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Heel Spur Surgery</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Ingrown Toenail Surgery</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Neuroma Surgery</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Orthotics</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Overgrown Toe Skin Surgery</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Plantar Fasciitis Surgery</a>
                                     </li>
                                     <li class="procedure-item">
-                                        <span class="procedure-bullet">◉</span>
+                                        <span class="procedure-bullet"></span>
                                         <a href="#" class="procedure-link">Tendon Surgery</a>
                                     </li>
                                 </ul>

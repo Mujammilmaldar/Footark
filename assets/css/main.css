@@ -15,14 +15,14 @@
   /* -- Custom Font Import -- */
   @font-face {
     font-family: 'Mark-OT';
-    src: url('/fonts/Mark-OT.ttf') format('truetype');
+    src: url('./fonts/Mark-OT.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap; /* Ensures text remains visible during font loading */
   }
   @font-face {
     font-family: 'Mark-OT-Bold';
-    src: url('/fonts/Mark-OT-Bold.ttf') format('truetype');
+    src: url('./fonts/MarkOT-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap; /* Ensures text remains visible during font loading */
@@ -286,7 +286,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-sans);
+  font-family: var(--font-family-serif) !important;
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-heading);
   color: var(--color-heading-primary);

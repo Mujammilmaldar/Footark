@@ -1,22 +1,20 @@
 <?php include 'includes/header.php';?>
 <link rel="stylesheet" href="assets/css/inner-pages.css">
 
-    <!-- Breadcrumb -->
-    <section class="breadcrumb">
-        <div class="container">
-            <a href="index.php">Home</a> > <a href="conditions.php">Conditions</a> > <span>Ankle Sprain / Instability</span>
-        </div>
-    </section>
-
     <!-- Hero Banner -->
     <section class="hero-banner">
         <div class="container">
+            <div class="hero-breadcrumb" style="margin-bottom: 15px; font-size: 14px; color: #ffffff;">
+                <a href="index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
+                <a href="services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
+                <a href="conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
+                <span style="color: #ffffff;">Ankle Sprain</span>
+            </div>
             <div class="hero-content">
                 <h1>Ankle Sprain & Instability Treatment</h1>
                 <p>Expert care for ankle sprains and chronic instability. Our specialized team helps patients recover from acute injuries and provides long-term solutions for recurring ankle problems.</p>
                 <div class="hero-buttons">
                     <a href="appointment.php" class="btn-primary">Schedule Consultation</a>
-                    <a href="tel:+919876543210" class="btn-secondary">Call +91 98765 43210</a>
                 </div>
             </div>
         </div>
@@ -26,96 +24,11 @@
     <section class="main-wrapper">
         <div class="container">
             <div class="content-layout">
-                <div class="main-content">
-                    <div class="content-section">
-                        <h2>Understanding Ankle Sprains and Instability</h2>
-                        <p>An ankle sprain is one of the most common musculoskeletal injuries, occurring when the ligaments that support the ankle are stretched or torn. While many ankle sprains heal with proper treatment, some can lead to chronic ankle instability if not managed correctly.</p>
-                        
-                        <p>At Foot Ark, our specialists understand that each ankle injury is unique. We provide comprehensive evaluation and treatment plans that address not only the immediate injury but also work to prevent future instability and complications.</p>
-                    </div>
-
-                    <div class="content-section">
-                        <h3>Types of Ankle Sprains</h3>
-                        <p>Ankle sprains are classified based on their severity and location:</p>
-                        
-                        <ul>
-                            <li><strong>Grade I (Mild):</strong> Slight stretching and microscopic tearing of ligament fibers</li>
-                            <li><strong>Grade II (Moderate):</strong> Partial tearing of ligaments with moderate pain and swelling</li>
-                            <li><strong>Grade III (Severe):</strong> Complete rupture of ligaments requiring extensive treatment</li>
-                            <li><strong>Lateral Ankle Sprains:</strong> Most common type affecting the outer ankle ligaments</li>
-                            <li><strong>Medial Ankle Sprains:</strong> Less common but often more serious, affecting inner ankle</li>
-                            <li><strong>High Ankle Sprains:</strong> Involve ligaments above the ankle joint (syndesmosis)</li>
-                        </ul>
-                    </div>
-
-                    <div class="content-image">
-                        <div class="runner-image"></div>
-                    </div>
-
-                    <div class="content-section">
-                        <h3>Signs and Symptoms</h3>
-                        <p>Common symptoms of ankle sprains include:</p>
-                        
-                        <ul>
-                            <li>Pain and tenderness around the ankle joint</li>
-                            <li>Swelling and inflammation</li>
-                            <li>Bruising and discoloration</li>
-                            <li>Limited range of motion</li>
-                            <li>Difficulty bearing weight on the affected foot</li>
-                            <li>Feeling of instability or "giving way"</li>
-                            <li>Popping sensation at the time of injury</li>
-                            <li>Numbness or tingling in severe cases</li>
-                        </ul>
-                    </div>
-
-                    <div class="content-section">
-                        <h3>Chronic Ankle Instability</h3>
-                        <p>When ankle sprains don't heal properly or occur repeatedly, they can lead to chronic ankle instability. This condition is characterized by:</p>
-                        
-                        <ul>
-                            <li>Recurring ankle sprains</li>
-                            <li>Persistent feeling of ankle "giving way"</li>
-                            <li>Chronic pain and swelling</li>
-                            <li>Decreased confidence in ankle stability</li>
-                            <li>Reduced athletic performance</li>
-                            <li>Difficulty walking on uneven surfaces</li>
-                        </ul>
-                    </div>
-
-                    <div class="content-section">
-                        <h3>Our Treatment Approach</h3>
-                        <p>Our comprehensive treatment plans are tailored to each patient's specific needs and may include:</p>
-                        
-                        <ul>
-                            <li><strong>Acute Phase Management:</strong> RICE protocol, immobilization, and pain management</li>
-                            <li><strong>Physical Therapy:</strong> Strengthening, balance training, and proprioception exercises</li>
-                            <li><strong>Bracing and Support:</strong> Custom orthotics and ankle braces for stability</li>
-                            <li><strong>Injection Therapy:</strong> Anti-inflammatory injections when appropriate</li>
-                            <li><strong>Arthroscopic Surgery:</strong> Minimally invasive procedures for persistent problems</li>
-                            <li><strong>Ligament Reconstruction:</strong> Surgical repair for severe instability</li>
-                            <li><strong>Return to Activity:</strong> Gradual progression back to sports and daily activities</li>
-                        </ul>
-                    </div>
-
-                    <div class="content-section">
-                        <h3>Prevention Strategies</h3>
-                        <p>Preventing future ankle injuries is a key component of our treatment philosophy:</p>
-                        
-                        <ul>
-                            <li>Proper warm-up and stretching routines</li>
-                            <li>Ankle strengthening exercises</li>
-                            <li>Balance and proprioception training</li>
-                            <li>Appropriate footwear selection</li>
-                            <li>Gradual return to activities after injury</li>
-                            <li>Environmental awareness and modification</li>
-                        </ul>
-                    </div>
-                </div>
-
+                
                 <div class="sidebar">
                     <div class="widget">
                         <div class="widget-header">Schedule an Appointment</div>
-                        <div class="widget-content contact-info">
+                        <div class="widget-content  flex-column">
                             <p>Experiencing ankle pain or instability? Get expert treatment from our specialists.</p>
                             <div class="phone-number">+91 98765 43210</div>
                             <a href="appointment.php" class="btn-widget">REQUEST APPOINTMENT</a>
@@ -150,66 +63,66 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+                <div class="main-content">
+                    <div class="content-section" id="understanding">
+                        <h2>Understanding Ankle Sprains and Instability</h2>
+                        <div class="content-with-image">
+                            <div class="content-text">
+                                <p>An ankle sprain (also known as a lateral ankle ligament sprain) is the most commonly occurring injury to the ankle. During weight bearing activity (walking, running or jumping) the ankle and foot move inwards, towards the mid-line of the body, more than the stabilizing structures allow, thus resulting in injuries to these structures.</p>
+                                
+                                <p>Most commonly it is the lateral ankle ligaments and the lateral ankle joint capsule that are torn. The normal ankle joint is not simply a hinge joint, there is also rotation which occurs during up and down movement of the ankle. The same type of forces which "lever the ankle inwards" during an ankle sprain can also lead to fractures of the lower fibula (the outer bone of the ankle), most commonly when rotational force is also involved.</p>
+                                
+                                <p>Because of this any inability to bear weight comfortably after an ankle sprain or any tenderness of the bones around the ankle after a supposed ankle sprain requires a plain x-ray to exclude the presence of an ankle fracture.</p>
+                            </div>
+                            <div class="content-image-card">
+                                <img src="assets/images/services/inner-pages/Bunion-Surgery1.jpg" alt="Ankle Treatment">
+                            </div>
+                        </div>
+                    </div>
 
-    <!-- Doctors Section -->
-    <section class="doctors-section">
-        <div class="container">
-            <div class="doctors-title">
-                <h2>Meet Our Foot & Ankle Specialists</h2>
-                <p>Expert orthopedic surgeons dedicated to treating ankle sprains and instability</p>
-            </div>
-            <div class="doctors-grid">
-                <div class="doctor-card">
-                    <div class="doctor-image">👨‍⚕️</div>
-                    <div class="doctor-info">
-                        <h4>Dr. Rajesh Sharma</h4>
-                        <div class="doctor-specialty">Sports Medicine Specialist</div>
-                        <p>Fellowship-trained in sports medicine with expertise in foot and ankle injuries. Team physician for local sports organizations.</p>
+                    <div class="content-section" id="ligaments">
+                        <h3>The Ankle Ligaments Injured by an Ankle Sprain</h3>
+                        <p>There are three lateral ankle ligaments in all. The most important are the anterior talo-fibula ligament (ATFL) and the calcaneo-fibula ligament (CFL). If excessive inversion (movement towards to the mid-line of the body) occurs then most commonly the anterior talo-fibula ligament is injured, but in 20% of cases approximately so is the calcaneo fibula ligament.</p>
+                        
+                        <p>The anatomical diagram below shows these two structures as discrete entities. They are usually actually in continuity with the lateral ankle capsule.</p>
                     </div>
-                </div>
-                <div class="doctor-card">
-                    <div class="doctor-image">👩‍⚕️</div>
-                    <div class="doctor-info">
-                        <h4>Dr. Priya Patel</h4>
-                        <div class="doctor-specialty">Orthopedic Foot & Ankle Surgeon</div>
-                        <p>Specializes in minimally invasive arthroscopic procedures and sports-related reconstructive surgery.</p>
+
+                    <div class="content-section" id="injuries">
+                        <h3>What else can be injured when an ankle sprain occurs?</h3>
+                        <div class="content-with-image">
+                            <div class="content-text">
+                                <p>The same type of forces around the ankle can produce an ankle fracture, crush the lining of the joint resulting in chondral (cartilage) or osteo chondral injury.</p>
+                                
+                                <p>Alternatively the bleeding may eventually lead to scarring which remains within the ankle joint and this scar tissue can interpose itself between the bones of the ankle and produce pain and feelings of instability. More rarely the peroneal tendons can become dislodged from their normal position behind the fibula, a condition known as peroneal tendon subluxation.</p>
+                            </div>
+                            <div class="content-image-card">
+                                <img src="assets/images/services/inner-pages/Heelpain.jpg" alt="Ankle Assessment">
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="doctor-card">
-                    <div class="doctor-image">👨‍⚕️</div>
-                    <div class="doctor-info">
-                        <h4>Dr. Amit Gupta</h4>
-                        <div class="doctor-specialty">Biomechanics Specialist</div>
-                        <p>Expert in gait analysis, performance optimization, and custom orthotic fabrication for athletes.</p>
+
+                    <div class="content-section" id="symptoms">
+                        <h3>What symptoms might I have with an ankle sprain?</h3>
+                        <p>The initial symptoms following an ankle sprain are pain, swelling and subsequently bruising which may affect both sides of the joint. Additionally, it is not unusual to find it painful to put weight through the joint and the joint may also feel immediately unstable.</p>
+                        
+                        <div class="highlight-box">
+                            <h4>Important Notice</h4>
+                            <p>Pain on attempted weight bearing after a presumed ankle sprain is something that requires immediate medical review. Pain to the touch of any of the ankle bones or an inability to put weight through the ankle following ankle sprain necessitates an x-ray examination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="doctor-card">
-                    <div class="doctor-image">👩‍⚕️</div>
-                    <div class="doctor-info">
-                        <h4>Dr. Sunita Singh</h4>
-                        <div class="doctor-specialty">Sports Medicine Physician</div>
-                        <p>Focuses on injury prevention, rehabilitation protocols, and safe return-to-sport guidelines.</p>
+
+                    <div class="content-section" id="prevalence">
+                        <h3>How common is a sprained ankle injury?</h3>
+                        <p>It may be as common as to account for 25% of all musculoskeletal injuries. Another way of looking at it is that one injury occurs per day per 10,000 of population.</p>
                     </div>
-                </div>
-                <div class="doctor-card">
-                    <div class="doctor-image">👨‍⚕️</div>
-                    <div class="doctor-info">
-                        <h4>Dr. Vikram Rao</h4>
-                        <div class="doctor-specialty">Reconstructive Surgery</div>
-                        <p>Specializes in complex foot and ankle reconstruction for severe sports injuries and revision procedures.</p>
+
+                    <div class="content-section" id="instability">
+                        <h3>Ankle Instability</h3>
+                        <p>This is when the ankle continues to feel unstable after a fracture or sprain and 'gives way' (which can cause more injuries).</p>
                     </div>
+
                 </div>
-                <div class="doctor-card">
-                    <div class="doctor-image">👩‍⚕️</div>
-                    <div class="doctor-info">
-                        <h4>Dr. Kavitha Reddy</h4>
-                        <div class="doctor-specialty">Pediatric Sports Medicine</div>
-                        <p>Expert in treating young athletes with growth-related conditions and adolescent sports injuries.</p>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
@@ -240,5 +153,3 @@
             }
         });
     </script>
-</body>
-</html>
