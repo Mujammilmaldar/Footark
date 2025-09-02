@@ -478,52 +478,116 @@
                 <div class="auto-slider-track">
                     <div class="logo-slide">
                         <img src="assets/images/company/aziz.png" alt="Aziz Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Aziz Polyclinic</h4>
+                            <p class="logo-address">AMC Rd, near Damani Hospital, Dibrugarh, Assam 786001</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/hinduja.png" alt="Hinduja Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Hinduja Hospital & Research Center</h4>
+                            <p class="logo-address">SVS Rd, Mahim West, Shivaji Park, Mumbai, 400016</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/Jupiter.png" alt="Jupiter Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Jupiter Hospital</h4>
+                            <p class="logo-address">Eastern Express Highway, Service Rd, Next To Viviana Mall, Thane, 400601</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/lilavati.png" alt="Lilavati Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Lilavati Hospital & Research Center</h4>
+                            <p class="logo-address">Lilavati Hospital, A-791, Bandra Reclamation Rd, Bandra West, Mumbai, 400050</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/MGM.png" alt="MGM Healthcare">
+                        <div class="logo-info">
+                            <h4 class="logo-name">MGM Hospital</h4>
+                            <p class="logo-address">Plot No.35, Atmashanti Society, Sector 3, Vashi, Navi Mumbai, Maharashtra 400703</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/oyster.png" alt="Oyster & Pearl Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Oyster & Pearl Hospital</h4>
+                            <p class="logo-address">1671-75, Ganeshkhind Rd, near Hotel Pride, Narveer Tanaji Wadi, Shivajinagar, Pune, Maharashtra 411016</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/Parekhs.png" alt="Parekh's Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Parekh’s Hospital</h4>
+                            <p class="logo-address">Shyamal Cross Road, 132 Feet Ring Road Shyamal, Satellite, Ahmedabad, Gujarat 380015</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/Reliance.png" alt="Reliance Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">HN Reliance Hospital</h4>
+                            <p class="logo-address">Prarthana Samaj, Raja Rammohan Roy Rd, Charni Road East, Khetwadi, Girgaon, Mumbai, 400004</p>
+                        </div>
                     </div>
                     <!-- Duplicate slides for seamless loop -->
                     <div class="logo-slide">
                         <img src="assets/images/company/aziz.png" alt="Aziz Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Aziz Polyclinic</h4>
+                            <p class="logo-address">AMC Rd, near Damani Hospital, Dibrugarh, Assam 786001</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/hinduja.png" alt="Hinduja Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Hinduja Hospital & Research Center</h4>
+                            <p class="logo-address">SVS Rd, Mahim West, Shivaji Park, Mumbai, 400016</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/Jupiter.png" alt="Jupiter Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Jupiter Hospital</h4>
+                            <p class="logo-address">Eastern Express Highway, Service Rd, Next To Viviana Mall, Thane, 400601</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/lilavati.png" alt="Lilavati Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Lilavati Hospital & Research Center</h4>
+                            <p class="logo-address">Lilavati Hospital, A-791, Bandra Reclamation Rd, Bandra West, Mumbai, 400050</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/MGM.png" alt="MGM Healthcare">
+                        <div class="logo-info">
+                            <h4 class="logo-name">MGM Hospital</h4>
+                            <p class="logo-address">Plot No.35, Atmashanti Society, Sector 3, Vashi, Navi Mumbai, Maharashtra 400703</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/oyster.png" alt="Oyster & Pearl Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Oyster & Pearl Hospital</h4>
+                            <p class="logo-address">1671-75, Ganeshkhind Rd, near Hotel Pride, Narveer Tanaji Wadi, Shivajinagar, Pune, Maharashtra 411016</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/Parekhs.png" alt="Parekh's Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">Parekh’s Hospital</h4>
+                            <p class="logo-address">Shyamal Cross Road, 132 Feet Ring Road Shyamal, Satellite, Ahmedabad, Gujarat 380015</p>
+                        </div>
                     </div>
                     <div class="logo-slide">
                         <img src="assets/images/company/Reliance.png" alt="Reliance Hospital">
+                        <div class="logo-info">
+                            <h4 class="logo-name">HN Reliance Hospital</h4>
+                            <p class="logo-address">Prarthana Samaj, Raja Rammohan Roy Rd, Charni Road East, Khetwadi, Girgaon, Mumbai, 400004</p>
+                        </div>
                     </div>
                 </div>
             </div>
