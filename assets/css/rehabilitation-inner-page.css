@@ -1345,8 +1345,7 @@ img {
 }
 
 .emergency-text {
-  margin-bottom: 15px;
-  color: var(--color-text-secondary);
+  color: var(--text-white);
   font-size: 0.95rem;
 }
 

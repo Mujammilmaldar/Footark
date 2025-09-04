@@ -1,8 +1,20 @@
 <?php
-// Simple path detection - if we're in a subdirectory, add ../
+// Enhanced path detection - automatically detect subdirectories
 $pathPrefix = '';
-if (strpos($_SERVER['PHP_SELF'], '/conditions/') !== false || 
-    strpos($_SERVER['PHP_SELF'], '/rehabilitation/') !== false) {
+$currentPath = $_SERVER['PHP_SELF'];
+
+// Check if we're in any subdirectory (conditions, rehabilitation, blog, etc.)
+if (strpos($currentPath, '/conditions/') !== false || 
+    strpos($currentPath, '/rehabilitation/') !== false ||
+    strpos($currentPath, '/blog/') !== false ||
+    strpos($currentPath, '/procedures/') !== false) {
+    $pathPrefix = '../';
+}
+
+// Alternative method: count directory levels
+$pathParts = explode('/', trim($currentPath, '/'));
+if (count($pathParts) > 1 && $pathParts[0] !== 'index.php') {
+    // We're in a subdirectory, need to go up one level
     $pathPrefix = '../';
 }
 ?>
@@ -21,6 +33,9 @@ if (strpos($_SERVER['PHP_SELF'], '/conditions/') !== false ||
     <?php endif; ?>
     <?php if (strpos($_SERVER['REQUEST_URI'], '/rehabilitation/') !== false): ?>
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/rehabilitation-inner-page.css">
+    <?php endif; ?>
+    <?php if (strpos($_SERVER['REQUEST_URI'], '/blog/') !== false): ?>
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/blog.css">
     <?php endif; ?>
 </head>
 <body>
