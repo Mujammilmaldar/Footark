@@ -1,0 +1,1963 @@
+/* ==========================================================================
+   REHABILITATION INNER PAGES CSS
+   ==========================================================================
+   Modern styling for rehabilitation treatment pages
+   Uses design system variables from main.css for consistency
+   ========================================================================== */
+
+/* ==========================================================================
+   0. MOBILE RESPONSIVE BASE
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure responsive images */
+.medical-card img,
+.sidebar-card img,
+.rehab-featured-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Prevent horizontal scroll */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px var(--container-padding);
+}
+
+/* ==========================================================================
+   1. HERO BANNER SECTION
+   ========================================================================== */
+
+.rehab-hero-banner {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
+  padding: var(--spacing-xxl) 0 var(--spacing-xl) 0;
+  color: var(--color-text-inverse);
+  position: relative;
+  overflow: hidden;
+}
+
+.rehab-hero-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="white" opacity="0.1"/><circle cx="50" cy="10" r="0.5" fill="white" opacity="0.1"/><circle cx="10" cy="60" r="0.8" fill="white" opacity="0.1"/><circle cx="90" cy="40" r="0.6" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.rehab-hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.rehab-breadcrumb {
+  margin-bottom: var(--spacing-md);
+  font-size: var(--font-size-body-small);
+  opacity: 0.9;
+}
+
+.rehab-breadcrumb a {
+  color: var(--color-text-inverse);
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.rehab-breadcrumb a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.rehab-breadcrumb .separator {
+  margin: 0 var(--spacing-xs);
+  opacity: 0.7;
+}
+
+.rehab-hero-title {
+  font-size: var(--font-size-display-medium);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-md);
+  line-height: var(--line-height-heading);
+  color: var(--color-text-inverse);
+}
+
+.rehab-hero-subtitle {
+  font-size: var(--font-size-lead);
+  font-weight: var(--font-weight-normal);
+  opacity: 0.95;
+  line-height: var(--line-height-body);
+  max-width: 600px;
+}
+
+/* ==========================================================================
+   2. MAIN CONTENT LAYOUT
+   ========================================================================== */
+
+.rehab-main-wrapper {
+  padding: var(--spacing-xxl) 0;
+  background-color: var(--color-bg-primary);
+}
+
+.rehab-content-layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: var(--spacing-xl);
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.rehab-main-content {
+  background: var(--color-white);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   3. CONTENT SECTIONS
+   ========================================================================== */
+
+.rehab-content-section {
+  padding: var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border-light);
+  position: relative;
+}
+
+.rehab-content-section:last-child {
+  border-bottom: none;
+}
+
+.rehab-content-section:first-child {
+  background: linear-gradient(
+    135deg,
+    rgba(232, 90, 79, 0.05) 0%,
+    rgba(79, 138, 139, 0.05) 100%
+  );
+}
+
+.section-title {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-heading-primary);
+  margin-bottom: var(--spacing-lg);
+  line-height: var(--line-height-heading);
+  position: relative;
+  padding-bottom: var(--spacing-sm);
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  border-radius: 2px;
+}
+
+.rehab-content-section h3 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-heading-secondary);
+  margin: var(--spacing-lg) 0 var(--spacing-md) 0;
+  position: relative;
+  padding-left: var(--spacing-md);
+}
+
+.rehab-content-section h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 20px;
+  background: var(--color-secondary);
+  border-radius: 2px;
+}
+
+.rehab-content-section p {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+  text-align: justify;
+}
+
+/* ==========================================================================
+   4. FEATURED IMAGE
+   ========================================================================== */
+
+.rehab-featured-image {
+  position: relative;
+  margin-bottom: var(--spacing-lg);
+  border-radius: var(--border-radius-large);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+
+.rehab-featured-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.rehab-featured-image:hover img {
+  transform: scale(1.05);
+}
+
+.rehab-featured-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    rgba(232, 90, 79, 0.1) 0%,
+    rgba(79, 138, 139, 0.1) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.rehab-featured-image:hover::after {
+  opacity: 1;
+}
+
+/* ==========================================================================
+   5. TREATMENT LISTS
+   ========================================================================== */
+
+.rehab-treatment-list {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-md) 0;
+}
+
+.rehab-treatment-list li {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--color-border-light);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.rehab-treatment-list li:hover {
+  background-color: rgba(232, 90, 79, 0.05);
+  transform: translateX(5px);
+  border-radius: var(--border-radius-small);
+  padding-left: var(--spacing-sm);
+}
+
+.rehab-treatment-list li:last-child {
+  border-bottom: none;
+}
+
+.rehab-treatment-list .treatment-icon {
+  color: var(--color-primary);
+  margin-right: var(--spacing-sm);
+  font-size: var(--font-size-body);
+  margin-top: 2px;
+  transition: transform 0.3s ease;
+}
+
+.rehab-treatment-list li:hover .treatment-icon {
+  transform: scale(1.2);
+}
+
+.rehab-treatment-list .treatment-text {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-text-secondary);
+  flex: 1;
+}
+
+/* ==========================================================================
+   6. TIMELINE SECTIONS
+   ========================================================================== */
+
+.rehab-timeline-section {
+  margin: var(--spacing-xl) 0;
+  position: relative;
+}
+
+.timeline-header {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
+  color: var(--color-text-inverse);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.timeline-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -50px;
+  width: 100px;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+.timeline-header h3 {
+  margin: 0;
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-inverse);
+}
+
+.timeline-header h3::before {
+  display: none;
+}
+
+.timeline-content {
+  background: var(--color-white);
+  border: 1px solid var(--color-border-light);
+  border-top: none;
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+  padding: var(--spacing-lg);
+}
+
+/* ==========================================================================
+   7. SIDEBAR STYLING
+   ========================================================================== */
+
+.rehab-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.rehab-widget {
+  background: var(--color-white);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rehab-widget:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--box-shadow-large);
+}
+
+.rehab-widget-header {
+  background: linear-gradient(
+    135deg,
+    var(--color-secondary) 0%,
+    var(--color-primary) 100%
+  );
+  color: var(--color-text-inverse);
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: var(--font-size-h5);
+  font-weight: var(--font-weight-semibold);
+  position: relative;
+}
+
+.rehab-widget-content {
+  padding: var(--spacing-lg);
+}
+
+.rehab-widget-content p {
+  font-size: var(--font-size-body-small);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+  line-height: var(--line-height-body);
+}
+
+.rehab-phone-number {
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.rehab-phone-number:hover {
+  color: var(--color-secondary);
+}
+
+.rehab-btn-widget {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
+  color: var(--color-text-inverse);
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-body-small);
+  margin-bottom: var(--spacing-sm);
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.rehab-btn-widget:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(232, 90, 79, 0.3);
+  color: var(--color-text-inverse);
+  text-decoration: none;
+}
+
+.rehab-btn-widget:last-child {
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   8. GOALS AND HIGHLIGHTS
+   ========================================================================== */
+
+.rehab-goals-section {
+  background: linear-gradient(
+    135deg,
+    rgba(79, 138, 139, 0.05) 0%,
+    rgba(232, 90, 79, 0.05) 100%
+  );
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+  border-left: 4px solid var(--color-secondary);
+}
+
+.rehab-goals-section h3 {
+  color: var(--color-secondary);
+  margin-top: 0;
+}
+
+.rehab-goals-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rehab-goals-list li {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-xs) 0;
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+}
+
+.rehab-goals-list li::before {
+  content: "🎯";
+  margin-right: var(--spacing-sm);
+  font-size: var(--font-size-body-large);
+}
+
+.medical-hero {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 40px 0 60px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.breadcrumb-nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.breadcrumb-link {
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb-link:hover {
+  color: var(--color-primary);
+}
+
+.breadcrumb-separator {
+  margin: 0 12px;
+  color: #6c757d;
+  font-size: 12px;
+}
+
+.breadcrumb-current {
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.medical-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--color-primary);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-heading-primary);
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.medical-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .medical-stats {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .medical-stats {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e9ecef;
+}
+
+.stat-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--color-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.stat-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-heading-primary);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+/* Main Content Layout */
+.medical-content {
+  padding: 60px 0;
+  background: #ffffff;
+}
+
+.content-layout {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 40px;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .content-layout {
+    grid-template-columns: 1fr 300px;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-layout {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  
+  .medical-content {
+    padding: 40px 0;
+  }
+}
+
+.primary-content {
+  background: white;
+}
+
+/* Medical Sections */
+.medical-section {
+  margin-bottom: 50px;
+}
+
+.section-header {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-heading-primary);
+  margin-bottom: 8px;
+}
+
+.section-icon {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
+
+.medical-card {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 30px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.medical-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.medical-card:hover::before {
+  transform: scaleX(1);
+}
+
+.medical-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Instruction Blocks */
+.instruction-block {
+  background: white;
+  border-left: 4px solid var(--color-primary);
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.instruction-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(232, 90, 79, 0.05), rgba(79, 138, 139, 0.05));
+  transition: width 0.3s ease;
+}
+
+.instruction-block:hover::before {
+  width: 100%;
+}
+
+.instruction-block:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  border-left-color: var(--color-secondary);
+}
+
+.instruction-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color-heading-primary);
+  margin-bottom: 15px;
+}
+
+.priority-icon {
+  color: var(--color-primary);
+}
+
+.instruction-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+  margin-bottom: 15px;
+}
+
+.clinical-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.note-icon {
+  color: #856404;
+  margin-top: 2px;
+}
+
+.elevation-guide {
+  margin-top: 15px;
+}
+
+.guide-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.guide-item:last-child {
+  border-bottom: none;
+}
+
+.guide-icon {
+  color: var(--color-secondary);
+  width: 20px;
+  text-align: center;
+}
+
+/* Care Protocol */
+.care-protocol {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.protocol-step {
+  display: flex;
+  gap: 20px;
+  padding: 25px;
+  border-bottom: 1px solid #e9ecef;
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 8px;
+}
+
+.protocol-step::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(232, 90, 79, 0.05), rgba(79, 138, 139, 0.05));
+  transition: width 0.3s ease;
+  border-radius: 8px;
+}
+
+.protocol-step:hover::before {
+  width: 100%;
+}
+
+.protocol-step:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.protocol-step:hover .step-number {
+  transform: scale(1.1) rotate(360deg);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+}
+
+.protocol-step:last-child {
+  border-bottom: none;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  background: var(--color-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-heading-primary);
+  margin-bottom: 8px;
+}
+
+.step-description {
+  color: var(--color-text-primary);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.warning-alert {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  padding: 12px 15px;
+  border-radius: 6px;
+}
+
+.alert-icon {
+  color: #dc3545;
+}
+
+.appointment-notice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #d1ecf1;
+  border: 1px solid #bee5eb;
+  color: #0c5460;
+  padding: 12px 15px;
+  border-radius: 6px;
+}
+
+.notice-icon {
+  color: var(--color-info);
+}
+
+/* Therapy Grid */
+.therapy-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .therapy-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .therapy-grid {
+    gap: 15px;
+  }
+}
+
+.therapy-section {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.therapy-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-heading-primary);
+  margin-bottom: 20px;
+}
+
+.therapy-icon {
+  color: var(--color-primary);
+}
+
+/* Protocol Timeline */
+.protocol-timeline {
+  position: relative;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-marker {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 4px;
+  position: relative;
+}
+
+.timeline-marker.phase-1 {
+  background: var(--color-primary);
+}
+
+.timeline-marker.phase-2 {
+  background: var(--color-secondary);
+}
+
+.timeline-item::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  width: 2px;
+  height: calc(100% + 8px);
+  background: #e9ecef;
+  z-index: -1;
+}
+
+.timeline-item:last-child::after {
+  display: none;
+}
+
+.timeline-content h5 {
+  font-weight: 600;
+  color: var(--color-heading-primary);
+  margin-bottom: 5px;
+}
+
+.timeline-content p {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Medication List */
+.medication-list {
+  margin-bottom: 15px;
+}
+
+.med-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.med-name {
+  font-weight: 600;
+  color: var(--color-heading-primary);
+}
+
+.med-strength {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  background: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.med-note {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
+
+/* Hygiene Options */
+.hygiene-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .hygiene-options {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hygiene-options {
+    gap: 12px;
+  }
+}
+
+.hygiene-option {
+  background: white;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.hygiene-option.recommended {
+  border-color: var(--color-success);
+  background: #f8fff8;
+}
+
+.hygiene-option.alternative {
+  border-color: var(--color-warning);
+  background: #fffbf0;
+}
+
+.option-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.option-icon {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+.option-title {
+  font-weight: 600;
+  color: var(--color-heading-primary);
+  flex: 1;
+}
+
+.option-badge {
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.recommended .option-badge {
+  background: var(--color-success);
+  color: white;
+}
+
+.alternative .option-badge {
+  background: var(--color-warning);
+  color: white;
+}
+
+.option-description {
+  color: var(--color-text-primary);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Warning Grid */
+.warning-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .warning-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .warning-grid {
+    gap: 15px;
+  }
+}
+
+.warning-category {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #dc3545;
+}
+
+.warning-category.urgent {
+  border-left-color: #dc3545;
+  background: #fff5f5;
+}
+
+.warning-category.critical {
+  border-left-color: #fd7e14;
+  background: #fff8f0;
+}
+
+.warning-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-heading-primary);
+  margin-bottom: 15px;
+}
+
+.warning-icon {
+  color: #dc3545;
+}
+
+.warning-list {
+  list-style: none;
+}
+
+.warning-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+  color: var(--color-text-primary);
+}
+
+.warning-list li:last-child {
+  border-bottom: none;
+}
+
+.emergency-contact {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #dc3545;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.emergency-icon {
+  font-size: 1.5rem;
+}
+
+/* Medical Sidebar */
+.medical-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sidebar-card {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.sidebar-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.sidebar-card:hover::before {
+  transform: scaleX(1);
+}
+
+.sidebar-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar-card .card-header {
+  background: #f8f9fa;
+  padding: 20px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-heading-primary);
+  margin-bottom: 8px;
+}
+
+.availability-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+}
+
+.availability-status.online .status-dot {
+  width: 8px;
+  height: 8px;
+  background: #28a745;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+  position: relative;
+}
+
+.availability-status.online .status-dot::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #28a745;
+  border-radius: 50%;
+  animation: ripple 2s infinite;
+  opacity: 0;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.status-text {
+  color: #28a745;
+  font-weight: 500;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.emergency-text {
+  margin-bottom: 15px;
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+}
+
+.emergency-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: var(--color-primary);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+}
+
+.emergency-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.emergency-button:hover::before {
+  left: 100%;
+}
+
+.emergency-button:hover {
+  background: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(232, 90, 79, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.emergency-button .fas {
+  transition: transform 0.3s ease;
+}
+
+.emergency-button:hover .fas {
+  transform: scale(1.1);
+}
+
+.button-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.phone-number {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Appointment Timeline */
+.appointment-timeline {
+  margin-bottom: 20px;
+}
+
+.appointment-timeline .timeline-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  border-left: 4px solid #6c757d;
+}
+
+.appointment-timeline .timeline-item.urgent {
+  border-left-color: var(--color-primary);
+  background: #fff5f5;
+}
+
+.appointment-timeline .timeline-item.routine {
+  border-left-color: var(--color-secondary);
+  background: #f0f8ff;
+}
+
+.timeline-date {
+  font-weight: 600;
+  color: var(--color-heading-primary);
+}
+
+.timeline-description {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+.appointment-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--color-secondary);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.appointment-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.appointment-button:hover::before {
+  left: 100%;
+}
+
+.appointment-button:hover {
+  background: var(--color-secondary-dark);
+  transform: translateY(-1px);
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(79, 138, 139, 0.3);
+}
+
+.appointment-button .fas {
+  transition: transform 0.3s ease;
+}
+
+.appointment-button:hover .fas {
+  transform: rotate(360deg);
+}
+
+/* Recovery Phases Sidebar */
+.recovery-phases .phase-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.recovery-phases .phase-item.active {
+  background: #e8f5e8;
+  border-left: 4px solid #28a745;
+}
+
+.phase-marker {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.phase-marker.week-1 {
+  background: var(--color-primary);
+}
+
+.phase-marker.week-3 {
+  background: var(--color-secondary);
+}
+
+.phase-marker.week-6 {
+  background: #28a745;
+}
+
+.phase-info h4 {
+  font-weight: 600;
+  color: var(--color-heading-primary);
+  margin-bottom: 5px;
+}
+
+.phase-info p {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+}
+
+/* Contact Information */
+.contact-info-of-rehabilitation {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  background: rgba(232, 90, 79, 0.05);
+  transform: translateX(3px);
+}
+
+.contact-icon {
+  color: var(--color-primary);
+  margin-top: 2px;
+  width: 16px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover .contact-icon {
+  color: var(--color-secondary);
+  transform: scale(1.2);
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.contact-details strong {
+  font-weight: 600;
+  color: var(--color-heading-primary);
+}
+
+.contact-details span {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .content-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .medical-sidebar {
+    order: -1;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .medical-stats {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .stat-card {
+    padding: 15px;
+  }
+
+  .therapy-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .hygiene-options {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .warning-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .breadcrumb-nav {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .medical-card {
+    padding: 20px;
+  }
+
+  .instruction-block {
+    padding: 20px;
+  }
+
+  .protocol-step {
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .step-number {
+    align-self: flex-start;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .medical-hero {
+    padding: 30px 0 40px;
+  }
+
+  .sidebar-card {
+    margin-bottom: 20px;
+  }
+
+  .emergency-button {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+  }
+
+  .appointment-button {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  .contact-item {
+    padding: 6px;
+  }
+
+  /* Contact Information Mobile */
+  .contact-info-of-rehabilitation .contact-item {
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .contact-info-of-rehabilitation .contact-icon {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    flex-shrink: 0;
+    width: 1.5rem;
+    text-align: center;
+  }
+
+  .contact-info-of-rehabilitation .contact-details {
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .contact-info-of-rehabilitation .contact-details strong {
+    font-size: 0.95rem;
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+
+  .contact-info-of-rehabilitation .contact-details span {
+    font-size: 0.85rem;
+    color: var(--text-color);
+    line-height: 1.4;
+  }
+
+  .recovery-phases .phase-item {
+    padding: 12px;
+  }
+
+  .phase-marker {
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-description {
+    font-size: 0.95rem;
+  }
+
+  .medical-badge {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .stat-card {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .stat-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .stat-number {
+    font-size: 1.2rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .section-icon {
+    font-size: 1.2rem;
+  }
+
+  .medical-card {
+    padding: 15px;
+  }
+
+  .instruction-block {
+    padding: 15px;
+  }
+
+  .instruction-title {
+    font-size: 1.1rem;
+  }
+
+  .protocol-step {
+    padding: 15px;
+  }
+
+  .step-number {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+
+  .therapy-section {
+    padding: 15px;
+  }
+
+  .hygiene-option {
+    padding: 15px;
+  }
+
+  .warning-category {
+    padding: 15px;
+  }
+
+  .sidebar-card .card-header {
+    padding: 15px;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .emergency-button {
+    padding: 10px 14px;
+    font-size: 0.85rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .appointment-button {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+  }
+
+  .recovery-phases .phase-item {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .phase-marker {
+    width: 30px;
+    height: 30px;
+    font-size: 0.8rem;
+  }
+
+  .phase-info h4 {
+    font-size: 0.9rem;
+  }
+
+  .phase-info p {
+    font-size: 0.8rem;
+  }
+
+  .timeline-date {
+    font-size: 0.8rem;
+  }
+
+  .timeline-description {
+    font-size: 0.75rem;
+  }
+
+  .breadcrumb-nav {
+    font-size: 0.8rem;
+  }
+
+  /* Contact Information Small Mobile */
+  .contact-info-of-rehabilitation .contact-item {
+    padding: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .contact-info-of-rehabilitation .contact-icon {
+    font-size: 0.9rem;
+    margin-right: 0.4rem;
+  }
+
+  .contact-info-of-rehabilitation .contact-details {
+    font-size: 0.8rem;
+  }
+
+  .contact-info-of-rehabilitation .contact-details strong {
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .medical-hero {
+    padding: 20px 0 30px;
+  }
+}
+/* ==========================================================================
+   9. RESPONSIVE DESIGN
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .rehab-hero-banner {
+    padding: var(--spacing-xl) 0 var(--spacing-lg) 0;
+  }
+
+  .rehab-hero-title {
+    font-size: var(--font-size-h1);
+  }
+
+  .rehab-hero-subtitle {
+    font-size: var(--font-size-body-large);
+  }
+
+  .rehab-content-layout {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .rehab-sidebar {
+    order: -1;
+  }
+
+  .rehab-content-section {
+    padding: var(--spacing-md);
+  }
+
+  .section-title {
+    font-size: var(--font-size-h2);
+  }
+
+  .rehab-content-section h3 {
+    font-size: var(--font-size-h4);
+  }
+
+  .rehab-featured-image img {
+    height: 200px;
+  }
+
+  .timeline-header,
+  .timeline-content {
+    padding: var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .rehab-main-wrapper {
+    padding: var(--spacing-lg) 0;
+  }
+
+  .rehab-hero-title {
+    font-size: var(--font-size-h2);
+  }
+
+  .rehab-hero-subtitle {
+    font-size: var(--font-size-body);
+  }
+
+  .section-title {
+    font-size: var(--font-size-h3);
+  }
+
+  .rehab-content-section h3 {
+    font-size: var(--font-size-h5);
+    padding-left: var(--spacing-sm);
+  }
+
+  .rehab-treatment-list .treatment-text {
+    font-size: var(--font-size-body-small);
+  }
+
+  .rehab-featured-image img {
+    height: 180px;
+      }
+}

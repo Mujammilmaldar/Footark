@@ -1,3 +1,10 @@
+<?php
+// Simple path detection - if we're in a subdirectory, add ../
+$pathPrefix = '';
+if (strpos($_SERVER['PHP_SELF'], '/conditions/') !== false) {
+    $pathPrefix = '../';
+}
+?>
 <footer class="main-footer">
     <div class="footer-content">
         <div class="container">
@@ -34,12 +41,12 @@
                     <div class="footer-section">
                         <h4 class="footer-title">Quick Links</h4>
                         <ul class="footer-links">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="about.php">About Us</a></li>
-                            <li><a href="services.php">Services</a></li>
-                            <li><a href="team.php">Our Team</a></li>
-                            <li><a href="blog.php">Blog</a></li>
-                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>index.php">Home</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>about.php">About Us</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>services.php">Services</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>team.php">Our Team</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>blog.php">Blog</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>contact.php">Contact</a></li>
                         </ul>
                     </div>
                 </div>

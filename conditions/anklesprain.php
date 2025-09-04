@@ -1,20 +1,19 @@
-<?php include 'includes/header.php';?>
-<link rel="stylesheet" href="assets/css/inner-pages.css">
+<?php include '../includes/header.php';?>
 
     <!-- Hero Banner -->
     <section class="hero-banner">
         <div class="container">
             <div class="hero-breadcrumb" style="margin-bottom: 15px; font-size: 14px; color: #ffffff;">
-                <a href="index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
-                <a href="services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
-                <a href="conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
+                <a href="../index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
+                <a href="../services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
+                <a href="../conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
                 <span style="color: #ffffff;">Ankle Sprain</span>
             </div>
             <div class="hero-content">
                 <h1>Ankle Sprain & Instability Treatment</h1>
                 <p>Expert care for ankle sprains and chronic instability. Our specialized team helps patients recover from acute injuries and provides long-term solutions for recurring ankle problems.</p>
                 <div class="hero-buttons">
-                    <a href="appointment.php" class="btn-primary">Schedule Consultation</a>
+                    <a href="../appointment.php" class="btn-primary">Schedule Consultation</a>
                 </div>
             </div>
         </div>
@@ -31,7 +30,7 @@
                         <div class="widget-content  flex-column">
                             <p>Experiencing ankle pain or instability? Get expert treatment from our specialists.</p>
                             <div class="phone-number">+91 98765 43210</div>
-                            <a href="appointment.php" class="btn-widget">REQUEST APPOINTMENT</a>
+                            <a href="../appointment.php" class="btn-widget">REQUEST APPOINTMENT</a>
                             <a href="#" class="btn-widget">PATIENT PORTAL</a>
                         </div>
                     </div>
@@ -75,7 +74,7 @@
                                 <p>Because of this any inability to bear weight comfortably after an ankle sprain or any tenderness of the bones around the ankle after a supposed ankle sprain requires a plain x-ray to exclude the presence of an ankle fracture.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="assets/images/services/inner-pages/Bunion-Surgery1.jpg" alt="Ankle Treatment">
+                                <img src="../assets/images/services/inner-pages/Bunion-Surgery1.jpg" alt="Ankle Treatment">
                             </div>
                         </div>
                     </div>
@@ -96,7 +95,7 @@
                                 <p>Alternatively the bleeding may eventually lead to scarring which remains within the ankle joint and this scar tissue can interpose itself between the bones of the ankle and produce pain and feelings of instability. More rarely the peroneal tendons can become dislodged from their normal position behind the fibula, a condition known as peroneal tendon subluxation.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="assets/images/services/inner-pages/Heelpain.jpg" alt="Ankle Assessment">
+                                <img src="../assets/images/services/inner-pages/Heelpain.jpg" alt="Ankle Assessment">
                             </div>
                         </div>
                     </div>
@@ -127,7 +126,7 @@
         </div>
     </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
 
     <script>
         // Smooth scrolling

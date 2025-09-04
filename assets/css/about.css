@@ -262,7 +262,9 @@ html {
 
 .doctor-image img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
     border-radius: var(--border-radius-large);
     box-shadow: var(--box-shadow-large);
 }
@@ -569,12 +571,14 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .biography-image img {
     width: 80%;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
     border-radius: var(--border-radius-large);
     box-shadow: var(--box-shadow-large);
     transition: transform 0.5s ease, box-shadow 0.3s ease;
@@ -616,11 +620,12 @@ html {
         margin-bottom: var(--spacing-xl);
         padding-right: 0;
         text-align: center;
-        min-height: 300px;
+        min-height: 250px;
     }
     
     .biography-image img {
         width: 60%;
+        height: 180px;
     }
     
     .biography-title {
@@ -681,4 +686,198 @@ html {
 
 .accordion-item.active .accordion-content {
     animation: fadeInDown 0.3s ease;
+}
+
+/* ==========================================================================
+   BIOGRAPHY DETAILS SECTION - Enhanced Styling
+   ========================================================================== */
+
+.biography-details-section {
+    padding: var(--spacing-xxl) 0;
+    background-color: var(--color-bg-primary);
+    position: relative;
+}
+
+.biography-details-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(232, 90, 79, 0.02) 0%, rgba(232, 90, 79, 0.05) 100%);
+    pointer-events: none;
+}
+
+.details-section {
+    margin-bottom: var(--spacing-xxl);
+    position: relative;
+    animation: fadeInUp 0.6s ease-out;
+    animation-fill-mode: both;
+}
+
+.details-section:nth-child(1) { animation-delay: 0.1s; }
+.details-section:nth-child(2) { animation-delay: 0.2s; }
+.details-section:nth-child(3) { animation-delay: 0.3s; }
+.details-section:nth-child(4) { animation-delay: 0.4s; }
+.details-section:nth-child(5) { animation-delay: 0.5s; }
+
+.details-section:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    color: var(--color-heading-primary);
+    margin-bottom: var(--spacing-lg);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-bold);
+    border-bottom: 3px solid var(--color-secondary);
+    padding-bottom: var(--spacing-sm);
+    display: inline-block;
+    line-height: var(--line-height-heading);
+    position: relative;
+    overflow: hidden;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+    animation: shimmer 2s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.subsection-title {
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-md);
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-heading);
+    position: relative;
+}
+
+.subsection-title::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 20px;
+    background: var(--color-secondary);
+    border-radius: 2px;
+    opacity: 0.7;
+}
+
+.details-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.details-list li {
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--color-border-light);
+    font-size: var(--font-size-body);
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-body);
+    transition: all 0.3s ease;
+    position: relative;
+    padding-left: var(--spacing-lg);
+    cursor: pointer;
+}
+
+.details-list li:hover {
+    color: var(--color-primary);
+    transform: translateX(5px);
+    background-color: rgba(232, 90, 79, 0.05);
+    border-radius: var(--border-radius-small);
+    box-shadow: 0 2px 8px rgba(232, 90, 79, 0.1);
+}
+
+.details-list li::before {
+    content: attr(data-icon);
+    position: absolute;
+    left: 0;
+    color: var(--color-secondary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-semibold);
+    width: var(--spacing-md);
+    transition: transform 0.3s ease;
+}
+
+.details-list li:hover::before {
+    transform: scale(1.2);
+}
+
+.details-list li:last-child {
+    border-bottom: none;
+}
+
+/* Enhanced animations */
+@keyframes shimmer {
+    0% { left: -100%; }
+    50% { left: 100%; }
+    100% { left: 100%; }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design for Biography Details */
+@media (max-width: 768px) {
+    .biography-details-section {
+        padding: var(--spacing-xl) 0;
+    }
+    
+    .details-section {
+        margin-bottom: var(--spacing-xl);
+    }
+    
+    .section-title {
+        font-size: var(--font-size-h2);
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .subsection-title {
+        font-size: var(--font-size-h5);
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .details-list li {
+        font-size: var(--font-size-body-small);
+        padding-left: var(--spacing-md);
+    }
+}
+
+@media (max-width: 480px) {
+    .biography-details-section {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .section-title {
+        font-size: var(--font-size-h3);
+    }
+    
+    .subsection-title {
+        font-size: var(--font-size-body-large);
+        font-weight: var(--font-weight-medium);
+    }
+    
+    .details-list li {
+        padding: var(--spacing-xs) 0;
+        padding-left: var(--spacing-sm);
+    }
 }

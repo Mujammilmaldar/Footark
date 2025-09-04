@@ -186,7 +186,8 @@
     <section class="testimonials-section">
         <div class="container">
             <div class="testimonials-header">
-                <h1 class="testimonials-title">Real customers, real results</h1>
+                <span class="testimonials-tag">REVIEWS</span>
+                <h2 class="testimonials-title">Real customers, real results</h2>
             </div>
 
             <!-- JavaScript Slider -->

@@ -1,5 +1,5 @@
-<?php include 'includes/header.php';?>
-<link rel="stylesheet" href="assets/css/inner-pages.css">
+<?php include '../includes/header.php';?>
+<link rel="stylesheet" href="../assets/css/inner-pages.css">
 
     <!-- Hero Banner -->
     <section class="hero-banner">
@@ -12,7 +12,7 @@
             </div>
             <div class="hero-content">
                 <h1>Ankle Sprain & Instability Treatment</h1>
-                <p>Comprehensive care for ankle sprains and chronic instability. Our specialized team helps patients recover from acute injuries and provides long-term solutions for recurring ankle problems.</p>
+                <p>Expert care for ankle sprains and chronic instability. Our specialized team helps patients recover from acute injuries and provides long-term solutions for recurring ankle problems.</p>
                 <div class="hero-buttons">
                     <a href="appointment.php" class="btn-primary">Schedule Consultation</a>
                 </div>
@@ -70,21 +70,13 @@
                             <div class="content-text">
                                 <p>An ankle sprain (also known as a lateral ankle ligament sprain) is the most commonly occurring injury to the ankle. During weight bearing activity (walking, running or jumping) the ankle and foot move inwards, towards the mid-line of the body, more than the stabilizing structures allow, thus resulting in injuries to these structures.</p>
                                 
-                                <p>Most commonly it is the lateral ankle ligaments and the lateral ankle joint capsule are torn. The normal ankle joint is not simply a hinge joint, there is also rotation which occurs during up and down movement of the ankle.</p>
+                                <p>Most commonly it is the lateral ankle ligaments and the lateral ankle joint capsule that are torn. The normal ankle joint is not simply a hinge joint, there is also rotation which occurs during up and down movement of the ankle. The same type of forces which "lever the ankle inwards" during an ankle sprain can also lead to fractures of the lower fibula (the outer bone of the ankle), most commonly when rotational force is also involved.</p>
+                                
+                                <p>Because of this any inability to bear weight comfortably after an ankle sprain or any tenderness of the bones around the ankle after a supposed ankle sprain requires a plain x-ray to exclude the presence of an ankle fracture.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="assets/images/services/inner-pages/Bunion-Surgery1.jpg" alt="Ankle Sprain Treatment">
+                                <img src="assets/images/services/inner-pages/Bunion-Surgery1.jpg" alt="Ankle Treatment">
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="content-section" id="fractures">
-                        <h3>Ankle Sprains and Fractures</h3>
-                        <p>The same type of forces which "lever the ankle inwards" during an ankle sprain can also lead to fractures of the lower fibula (the outer bone of the ankle), most commonly when rotational force is also involved.</p>
-                        
-                        <div class="highlight-box">
-                            <h4>Important Notice</h4>
-                            <p>Because of this any inability to bear weight comfortably after an ankle sprain or any tenderness of the bones around the ankle after a supposed ankle sprain requires a plain x-ray to exclude the presence of an ankle fracture.</p>
                         </div>
                     </div>
 
@@ -95,18 +87,28 @@
                         <p>The anatomical diagram below shows these two structures as discrete entities. They are usually actually in continuity with the lateral ankle capsule.</p>
                     </div>
 
-                    <div class="content-section" id="other-injuries">
+                    <div class="content-section" id="injuries">
                         <h3>What else can be injured when an ankle sprain occurs?</h3>
-                        <p>The same type of forces around the ankle can produce an ankle fracture, crush the lining of the joint resulting in chondral (cartilage) or osteo chondral injury.</p>
-                        
-                        <p>Alternatively the bleeding may eventually lead to scarring which remains within the ankle joint and this scar tissue can interpose itself between the bones of the ankle and produce pain and feelings of instability. More rarely the peroneal tendons can become dislodged from their normal position behind the fibula, a condition known as peroneal tendon subluxation.</p>
+                        <div class="content-with-image">
+                            <div class="content-text">
+                                <p>The same type of forces around the ankle can produce an ankle fracture, crush the lining of the joint resulting in chondral (cartilage) or osteo chondral injury.</p>
+                                
+                                <p>Alternatively the bleeding may eventually lead to scarring which remains within the ankle joint and this scar tissue can interpose itself between the bones of the ankle and produce pain and feelings of instability. More rarely the peroneal tendons can become dislodged from their normal position behind the fibula, a condition known as peroneal tendon subluxation.</p>
+                            </div>
+                            <div class="content-image-card">
+                                <img src="assets/images/services/inner-pages/Heelpain.jpg" alt="Ankle Assessment">
+                            </div>
+                        </div>
                     </div>
 
                     <div class="content-section" id="symptoms">
                         <h3>What symptoms might I have with an ankle sprain?</h3>
                         <p>The initial symptoms following an ankle sprain are pain, swelling and subsequently bruising which may affect both sides of the joint. Additionally, it is not unusual to find it painful to put weight through the joint and the joint may also feel immediately unstable.</p>
                         
-                        <p>Pain on attempted weight bearing after a presumed ankle sprain is something that requires immediate medical review. Pain to the touch of any of the ankle bones or an inability to put weight through the ankle following ankle sprain necessitates an x-ray examination.</p>
+                        <div class="highlight-box">
+                            <h4>Important Notice</h4>
+                            <p>Pain on attempted weight bearing after a presumed ankle sprain is something that requires immediate medical review. Pain to the touch of any of the ankle bones or an inability to put weight through the ankle following ankle sprain necessitates an x-ray examination.</p>
+                        </div>
                     </div>
 
                     <div class="content-section" id="prevalence">
