@@ -1,21 +1,29 @@
 <?php
-// Enhanced path detection - automatically detect subdirectories
+// Path detection for XAMPP - determine if we need Footancle/ prefix
 $pathPrefix = '';
-$currentPath = $_SERVER['PHP_SELF'];
 
-// Check if we're in any subdirectory (conditions, rehabilitation, blog, etc.)
-if (strpos($currentPath, '/conditions/') !== false || 
-    strpos($currentPath, '/rehabilitation/') !== false ||
-    strpos($currentPath, '/blog/') !== false ||
-    strpos($currentPath, '/procedures/') !== false) {
-    $pathPrefix = '../';
-}
+// Get current script information
+$scriptPath = $_SERVER['SCRIPT_NAME'];
+$requestUri = $_SERVER['REQUEST_URI'];
+$documentRoot = $_SERVER['DOCUMENT_ROOT'];
 
-// Alternative method: count directory levels
-$pathParts = explode('/', trim($currentPath, '/'));
-if (count($pathParts) > 1 && $pathParts[0] !== 'index.php') {
-    // We're in a subdirectory, need to go up one level
-    $pathPrefix = '../';
+// Check if we're accessing via localhost/ directly (without Footancle in URL)
+if (strpos($requestUri, '/Footancle/') === false) {
+    // We're accessing from localhost root, so we need to prefix with Footancle/
+    $scriptDir = dirname($scriptPath);
+    if ($scriptDir !== '/' && $scriptDir !== '' && $scriptDir !== '\\') {
+        // We're in a subdirectory like /blog/, so we need ../Footancle/
+        $pathPrefix = '../Footancle/';
+    } else {
+        // We're in root, so we need Footancle/
+        $pathPrefix = 'Footancle/';
+    }
+} else {
+    // We're accessing via localhost/Footancle/, use normal relative paths
+    $scriptDir = dirname($scriptPath);
+    if ($scriptDir !== '/' && $scriptDir !== '' && $scriptDir !== '\\') {
+        $pathPrefix = '../';
+    }
 }
 ?>
 <!DOCTYPE html>

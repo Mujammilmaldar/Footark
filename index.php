@@ -1,6 +1,7 @@
 <?php include 'includes/header.php'; ?>
 <link rel="stylesheet" href="assets/css/hero.css">
 <link rel="stylesheet" href="assets/css/about.css">
+<link rel="stylesheet" href="assets/css/testimonials-new.css">
 <main>
     <section class="hero-section">
         <div class="video-hero-container">
@@ -704,6 +705,6 @@
 </main>
 
 <!-- Lightweight Testimonials Slider JavaScript -->
-<script src="assets/js/testimonials-slider.js"></script>
+<script src="assets/js/testimonials-new.js"></script>
 
 <?php include 'includes/footer.php'; ?>
