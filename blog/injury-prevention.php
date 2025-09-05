@@ -25,14 +25,6 @@ document.body.className += ' blog-wrapper';
             <h1 class="blog-main-title">Injury Prevention Strategies For Athletes & Sportspersons</h1>
             <div class="blog-meta-info">
                 <div class="blog-meta-item">
-                    <i class="fas fa-calendar blog-meta-icon"></i>
-                    <span>September 4, 2025</span>
-                </div>
-                <div class="blog-meta-item">
-                    <i class="fas fa-clock blog-meta-icon"></i>
-                    <span>8 min read</span>
-                </div>
-                <div class="blog-meta-item">
                     <i class="fas fa-user blog-meta-icon"></i>
                     <span>Dr. Sports Medicine Team</span>
                 </div>
@@ -47,6 +39,34 @@ document.body.className += ' blog-wrapper';
     <div class="blog-layout">
         <!-- Main Content Column -->
         <main class="blog-main-column">
+            
+            <!-- Table of Contents - Horizontal Format -->
+            <div class="blog-toc-horizontal">
+                <h3 class="blog-toc-title">
+                    <i class="fas fa-list"></i>
+                    Table of Contents
+                </h3>
+                <ul class="blog-toc-horizontal-list">
+                    <li class="blog-toc-horizontal-item">
+                        <a href="#why-care" class="blog-toc-horizontal-link">Why Athletic Foot Care Matters</a>
+                    </li>
+                    <li class="blog-toc-horizontal-item">
+                        <a href="#injuries" class="blog-toc-horizontal-link">Understanding Sports Injuries</a>
+                    </li>
+                    <li class="blog-toc-horizontal-item">
+                        <a href="#exercises" class="blog-toc-horizontal-link">Essential Exercises & Stretches</a>
+                    </li>
+                    <li class="blog-toc-horizontal-item">
+                        <a href="#prevention" class="blog-toc-horizontal-link">Prevention Guidelines</a>
+                    </li>
+                    <li class="blog-toc-horizontal-item">
+                        <a href="#footwear" class="blog-toc-horizontal-link">Proper Footwear</a>
+                    </li>
+                    <li class="blog-toc-horizontal-item">
+                        <a href="#recovery" class="blog-toc-horizontal-link">Recovery & Rehabilitation</a>
+                    </li>
+                </ul>
+            </div>
             
             <!-- Introduction Section -->
             <article class="blog-content-card" id="why-care">
@@ -220,39 +240,40 @@ document.body.className += ' blog-wrapper';
 
         <!-- Sidebar Column -->
         <aside class="blog-sidebar-column">
-            <!-- Table of Contents Widget -->
-            <div class="blog-sidebar-widget">
+            <!-- Related Articles Widget -->
+            <!-- <div class="blog-sidebar-widget">
                 <div class="blog-widget-header">
                     <h3 class="blog-widget-title">
-                        <i class="fas fa-list"></i>
-                        Table of Contents
+                        <i class="fas fa-newspaper"></i>
+                        Related Articles
                     </h3>
                 </div>
                 <div class="blog-widget-body">
-                    <ul class="blog-toc-list">
-                        <li class="blog-toc-item">
-                            <a href="#why-care" class="blog-toc-link">Why Athletic Foot Care Matters</a>
-                        </li>
-                        <li class="blog-toc-item">
-                            <a href="#injuries" class="blog-toc-link">Understanding Sports Injuries</a>
-                        </li>
-                        <li class="blog-toc-item">
-                            <a href="#exercises" class="blog-toc-link">Essential Exercises & Stretches</a>
-                        </li>
-                        <li class="blog-toc-item">
-                            <a href="#prevention" class="blog-toc-link">Prevention Guidelines</a>
-                        </li>
-                        <li class="blog-toc-item">
-                            <a href="#footwear" class="blog-toc-link">Proper Footwear</a>
-                        </li>
-                        <li class="blog-toc-item">
-                            <a href="#recovery" class="blog-toc-link">Recovery & Rehabilitation</a>
-                        </li>
-                    </ul>
+                    <div class="blog-related-article">
+                        <div class="blog-related-thumbnail"></div>
+                        <div class="blog-related-content">
+                            <h4>Ankle Sprain Recovery Guide</h4>
+                            <p>Complete rehabilitation protocol for ankle sprains</p>
+                        </div>
+                    </div>
+                    <div class="blog-related-article">
+                        <div class="blog-related-thumbnail"></div>
+                        <div class="blog-related-content">
+                            <h4>Sports Footwear Selection</h4>
+                            <p>How to choose the right shoes for your sport</p>
+                        </div>
+                    </div>
+                    <div class="blog-related-article">
+                        <div class="blog-related-thumbnail"></div>
+                        <div class="blog-related-content">
+                            <h4>Plantar Fasciitis Prevention</h4>
+                            <p>Strategies to avoid heel pain in athletes</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </div> -->
 
-            <!-- Related Articles Widget -->
+            <!-- Quick Contact Widget -->
             <div class="blog-sidebar-widget">
                 <div class="blog-widget-header">
                     <h3 class="blog-widget-title">
@@ -286,7 +307,7 @@ document.body.className += ' blog-wrapper';
             </div>
 
             <!-- Quick Contact Widget -->
-            <div class="blog-sidebar-widget">
+            <div class="blog-sidebar-widget" style="margin-top: 2rem;">
                 <div class="blog-widget-header">
                     <h3 class="blog-widget-title">
                         <i class="fas fa-phone"></i>
@@ -320,8 +341,8 @@ window.addEventListener('scroll', function() {
 // Active section highlighting for table of contents
 function updateActiveSection() {
     const sections = document.querySelectorAll('article[id], h3[id]');
-    const tocLinks = document.querySelectorAll('.blog-toc-link');
-    const tocItems = document.querySelectorAll('.blog-toc-item');
+    const tocLinks = document.querySelectorAll('.blog-toc-horizontal-link');
+    const tocItems = document.querySelectorAll('.blog-toc-horizontal-item');
     
     let currentSection = '';
     const scrollPosition = window.scrollY + 100;
@@ -340,9 +361,9 @@ function updateActiveSection() {
     
     // Add active class to current section
     if (currentSection) {
-        const activeLink = document.querySelector(`.blog-toc-link[href="#${currentSection}"]`);
+        const activeLink = document.querySelector(`.blog-toc-horizontal-link[href="#${currentSection}"]`);
         if (activeLink) {
-            activeLink.closest('.blog-toc-item').classList.add('active');
+            activeLink.closest('.blog-toc-horizontal-item').classList.add('active');
         }
     }
 }
@@ -352,7 +373,7 @@ window.addEventListener('scroll', updateActiveSection);
 window.addEventListener('load', updateActiveSection);
 
 // Smooth scrolling for table of contents
-document.querySelectorAll('.blog-toc-link').forEach(anchor => {
+document.querySelectorAll('.blog-toc-horizontal-link').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const targetId = this.getAttribute('href').substring(1);

@@ -1,0 +1,212 @@
+/* ==========================================================================
+   BEFORE-AFTER SLIDER RESPONSIVE FIXES
+   ========================================================================== */
+
+/* Desktop: 2 cards per slide, 3 slides total - FORCE OVERRIDE */
+@media (min-width: 769px) {
+    .before-after-section .slider-track {
+        width: 300% !important; /* 3 slides showing 2 cards each */
+        display: flex !important;
+    }
+    
+    /* Hide mobile-only slides on desktop */
+    .before-after-section .slide-group:nth-child(2),
+    .before-after-section .slide-group:nth-child(4),
+    .before-after-section .slide-group:nth-child(6) {
+        display: none !important;
+    }
+    
+    /* Each slide group shows 2 cards side by side */
+    .before-after-section .slide-group {
+        width: calc(100% / 3) !important; /* 3 slide groups */
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 2rem !important;
+        padding: 0 2rem !important;
+        grid-template-columns: none !important; /* Override any grid */
+    }
+    
+    .before-after-section .slide {
+        width: calc(50% - 1rem) !important; /* 2 cards per slide */
+        height: 350px !important;
+        min-height: 350px !important;
+        max-height: 350px !important;
+        flex-shrink: 0;
+        margin: 0 !important;
+    }
+    
+    .before-after-section .slide img {
+        height: 280px !important;
+    }
+    
+    .before-after-section .slider-wrapper {
+        height: 350px !important;
+        margin: 0 auto;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+    /* Show only 3 control buttons on desktop (for 3 slides) */
+    .before-after-section .control-btn:nth-child(n+4) {
+        display: none !important;
+    }
+    
+    /* Desktop transforms for 3 slides (2 cards each) - FORCE OVERRIDE */
+    .before-after-section #slide1:checked ~ .slider-track {
+        transform: translateX(0%) !important;
+    }
+    
+    .before-after-section #slide2:checked ~ .slider-track {
+        transform: translateX(-33.333%) !important;
+    }
+    
+    .before-after-section #slide3:checked ~ .slider-track {
+        transform: translateX(-66.666%) !important;
+    }
+    
+    /* Desktop: Show dots for first 3 slides only */
+    .before-after-section #slide1:checked ~ .slider-controls .control-btn:nth-child(1) .control-dot,
+    .before-after-section #slide2:checked ~ .slider-controls .control-btn:nth-child(2) .control-dot,
+    .before-after-section #slide3:checked ~ .slider-controls .control-btn:nth-child(3) .control-dot {
+        background: var(--color-primary) !important;
+        border-color: var(--color-white) !important;
+        transform: scale(1.3) !important;
+    }
+}
+
+/* Mobile: 1 card per slide, 6 slides total */
+@media (max-width: 768px) {
+    /* Before-After Section - Mobile single card display */
+    .before-after-section .slider-track {
+        width: 600% !important; /* 6 individual slides */
+        display: flex !important;
+    }
+    
+    /* Each slide group contains one slide on mobile */
+    .before-after-section .slide-group {
+        width: calc(100% / 6) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 0 !important;
+        padding: 0 0.5rem !important;
+    }
+    
+    /* Hide second slide in each group on mobile - show only first slide */
+    .before-after-section .slide-group .slide:nth-child(2) {
+        display: none !important;
+    }
+    
+    .before-after-section .slide {
+        width: 100% !important;
+        height: 350px !important;
+        min-height: 350px !important;
+        max-height: 350px !important;
+        flex-shrink: 0;
+    }
+    
+    .before-after-section .slide img {
+        height: 280px !important; /* Consistent with desktop */
+    }
+    
+    .before-after-section .slider-wrapper {
+        height: 350px !important;
+        margin: 0 1rem;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+    /* Show all 6 control buttons on mobile */
+    .before-after-section .control-btn {
+        display: block !important;
+    }
+    
+/* Mobile transforms for 6 individual slides - FORCE OVERRIDE */
+    .before-after-section #slide1:checked ~ .slider-track {
+        transform: translateX(0%) !important;
+    }
+    
+    .before-after-section #slide2:checked ~ .slider-track {
+        transform: translateX(-16.666%) !important;
+    }
+    
+    .before-after-section #slide3:checked ~ .slider-track {
+        transform: translateX(-33.333%) !important;
+    }
+    
+    .before-after-section #slide4:checked ~ .slider-track {
+        transform: translateX(-50%) !important;
+    }
+    
+    .before-after-section #slide5:checked ~ .slider-track {
+        transform: translateX(-66.666%) !important;
+    }
+    
+    .before-after-section #slide6:checked ~ .slider-track {
+        transform: translateX(-83.333%) !important;
+    }
+    
+    /* Mobile: Show individual dots for each slide */
+    .before-after-section #slide1:checked ~ .slider-controls .control-btn:nth-child(1) .control-dot,
+    .before-after-section #slide2:checked ~ .slider-controls .control-btn:nth-child(2) .control-dot,
+    .before-after-section #slide3:checked ~ .slider-controls .control-btn:nth-child(3) .control-dot,
+    .before-after-section #slide4:checked ~ .slider-controls .control-btn:nth-child(4) .control-dot,
+    .before-after-section #slide5:checked ~ .slider-controls .control-btn:nth-child(5) .control-dot,
+    .before-after-section #slide6:checked ~ .slider-controls .control-btn:nth-child(6) .control-dot {
+        background: var(--color-primary) !important;
+        border-color: var(--color-white) !important;
+        transform: scale(1.3) !important;
+    }
+    
+    /* Testimonials Section - Fixed for single card navigation */
+    .testimonials-section .slider-track {
+        display: flex !important;
+        width: calc(100% * 6) !important; /* 6 slides total */
+        gap: 0 !important;
+        transition: transform 0.5s ease !important;
+        padding: 0px !important;
+    }
+    
+    .testimonials-section .testimonial-slide {
+        min-width: calc(100% / 6) !important; /* Each slide is 1/6 of track */
+        width: calc(100% / 6) !important;
+        flex-shrink: 0 !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    
+    .testimonials-section .slider-viewport {
+        overflow: hidden !important;
+        width: 100% !important;
+    }
+    
+    .testimonials-section .google-review-card {
+        margin: 0 1rem !important;
+        width: calc(100% - 2rem) !important;
+        max-width: 500px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Even smaller mobile devices */
+    .before-after-section .slide {
+        min-height: 300px;
+        max-height: 350px;
+    }
+    
+    .before-after-section .slider-wrapper {
+        height: 350px;
+        margin: 0 0.5rem;
+    }
+    
+    .testimonials-section .google-review-card {
+        margin: 0 0.5rem !important;
+        width: calc(100% - 1rem) !important;
+        padding: 1rem !important;
+    }
+}

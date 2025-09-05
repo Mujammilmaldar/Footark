@@ -86,7 +86,7 @@
     position: relative !important;
     max-width: var(--container-width);
     margin: 0 auto;
-    padding: 0 var(--container-padding);
+    padding: 0px !important;
     z-index: 11 !important;
     background: transparent !important;
     opacity: 1 !important;
@@ -312,9 +312,9 @@
     gap: var(--spacing-sm);
 }
 
-.testimonials-section .dot-control {
-    width: 12px;
-    height: 12px;
+.testimonials-section button.dot-control {
+    width: 12px !important;
+    height: 12px !important;
     border-radius: 50%;
     background: rgba(79, 138, 139, 0.3);
     border: none;

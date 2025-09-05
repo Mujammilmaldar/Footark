@@ -19,10 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Calculate how many slides to show based on screen width
     function getSlidesPerView() {
         const width = window.innerWidth;
-        // Fixed slide count to ensure whole cards are displayed properly
-        if (width < 768) return 1;     // Mobile: 1 card
-        if (width < 1200) return 2;    // Tablet: 2 cards
-        return 3;                      // Desktop: 3 cards
+        // Show 1 card per slide for all screen sizes
+        return 1;
     }
 
     // Initialize slider
@@ -68,20 +66,35 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateSlideWidth() {
-        // Ensure slides have the correct width with gap consideration
-        const gap = 24; // Match the CSS gap value
-        const slideWidth = `calc(${100 / slider.slidesPerView}% - ${gap * (slider.slidesPerView - 1) / slider.slidesPerView}px)`;
-        
-        slider.slides.forEach(slide => {
-            slide.style.minWidth = slideWidth;
-        });
+        // Force single slide on mobile, multiple on desktop
+        if (window.innerWidth <= 768) {
+            slider.slides.forEach(slide => {
+                slide.style.minWidth = '100%';
+                slide.style.width = '100%';
+            });
+        } else {
+            // Ensure slides have the correct width with gap consideration for desktop
+            const gap = 24; // Match the CSS gap value
+            const slideWidth = `calc(${100 / slider.slidesPerView}% - ${gap * (slider.slidesPerView - 1) / slider.slidesPerView}px)`;
+            
+            slider.slides.forEach(slide => {
+                slide.style.minWidth = slideWidth;
+            });
+        }
     }
 
     function createDots() {
         if (!slider.dots) return;
         
         slider.dots.innerHTML = '';
-        const maxDots = Math.max(1, slider.slides.length - slider.slidesPerView + 1);
+        
+        // For single slide view, create dot for each slide
+        let maxDots;
+        if (slider.slidesPerView === 1) {
+            maxDots = slider.slides.length;
+        } else {
+            maxDots = Math.max(1, slider.slides.length - slider.slidesPerView + 1);
+        }
         
         console.log('Creating', maxDots, 'dots for navigation');
         
@@ -97,9 +110,20 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateSlider() {
         if (!slider.track) return;
         
-        // Calculate exact percentage to move (account for variable widths and gaps)
-        const slideWidth = 100 / slider.slidesPerView;
-        const translatePercent = -slider.currentSlide * slideWidth;
+        console.log('Updating slider. Current slide:', slider.currentSlide, 'Slides per view:', slider.slidesPerView);
+        
+        // For mobile (1 slide per view), calculate differently
+        let translatePercent;
+        if (slider.slidesPerView === 1) {
+            // Simple calculation for single slide display
+            translatePercent = -slider.currentSlide * 100;
+        } else {
+            // Calculate exact percentage to move for multiple slides
+            const slideWidth = 100 / slider.slidesPerView;
+            translatePercent = -slider.currentSlide * slideWidth;
+        }
+        
+        console.log('Transform percentage:', translatePercent);
         
         // Apply transform with hardware acceleration
         slider.track.style.transform = `translate3d(${translatePercent}%, 0, 0)`;
@@ -119,8 +143,13 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateButtonStates() {
         if (!slider.prevBtn || !slider.nextBtn) return;
         
-        // Calculate max slide position
-        const maxSlide = Math.max(0, slider.slides.length - slider.slidesPerView);
+        // Calculate max slide position based on slides per view
+        let maxSlide;
+        if (slider.slidesPerView === 1) {
+            maxSlide = slider.slides.length - 1;
+        } else {
+            maxSlide = Math.max(0, slider.slides.length - slider.slidesPerView);
+        }
         
         // Disable previous button at first slide
         slider.prevBtn.disabled = slider.currentSlide <= 0;
@@ -134,8 +163,13 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (slider.isTransitioning) return;
         
-        // Calculate max slide position
-        const maxSlide = Math.max(0, slider.slides.length - slider.slidesPerView);
+        // Calculate max slide position based on slides per view
+        let maxSlide;
+        if (slider.slidesPerView === 1) {
+            maxSlide = slider.slides.length - 1;
+        } else {
+            maxSlide = Math.max(0, slider.slides.length - slider.slidesPerView);
+        }
         
         if (slider.currentSlide < maxSlide) {
             slider.currentSlide++;
@@ -159,8 +193,14 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (slider.isTransitioning || index === slider.currentSlide) return;
         
-        // Keep index in bounds
-        const maxSlide = Math.max(0, slider.slides.length - slider.slidesPerView);
+        // Keep index in bounds based on slides per view
+        let maxSlide;
+        if (slider.slidesPerView === 1) {
+            maxSlide = slider.slides.length - 1;
+        } else {
+            maxSlide = Math.max(0, slider.slides.length - slider.slidesPerView);
+        }
+        
         slider.currentSlide = Math.min(Math.max(0, index), maxSlide);
         slideTransition();
     }
@@ -205,15 +245,23 @@ document.addEventListener('DOMContentLoaded', function() {
         clearTimeout(window.resizeTimeout);
         window.resizeTimeout = setTimeout(() => {
             const newSlidesPerView = getSlidesPerView();
+            console.log('Resize detected. New slides per view:', newSlidesPerView);
             
             if (newSlidesPerView !== slider.slidesPerView) {
                 slider.slidesPerView = newSlidesPerView;
+                console.log('Updating slider for new slides per view');
                 
                 // Update slide widths
                 updateSlideWidth();
                 
                 // Make sure current slide is still valid
-                const maxSlide = Math.max(0, slider.slides.length - slider.slidesPerView);
+                let maxSlide;
+                if (slider.slidesPerView === 1) {
+                    maxSlide = slider.slides.length - 1;
+                } else {
+                    maxSlide = Math.max(0, slider.slides.length - slider.slidesPerView);
+                }
+                
                 if (slider.currentSlide > maxSlide) {
                     slider.currentSlide = maxSlide;
                 }

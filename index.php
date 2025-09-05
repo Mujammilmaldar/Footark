@@ -1,7 +1,9 @@
 <?php include 'includes/header.php'; ?>
-<link rel="stylesheet" href="assets/css/hero.css">
-<link rel="stylesheet" href="assets/css/about.css">
-<link rel="stylesheet" href="assets/css/testimonials-new.css">
+<link rel="stylesheet" href="assets/css/hero.css?v=<?php echo time(); ?>">
+<link rel="stylesheet" href="assets/css/about.css?v=<?php echo time(); ?>">
+<link rel="stylesheet" href="assets/css/testimonials-new.css?v=<?php echo time(); ?>">
+<link rel="stylesheet" href="assets/css/mobile-responsive.css?v=<?php echo time(); ?>">
+<link rel="stylesheet" href="assets/css/mobile-slider-fix.css?v=<?php echo time(); ?>">
 <main>
     <section class="hero-section">
         <div class="video-hero-container">
@@ -110,8 +112,13 @@
                 <div class="slider-wrapper">
                     <input type="radio" name="slider" id="slide1" checked>
                     <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <input type="radio" name="slider" id="slide5">
+                    <input type="radio" name="slider" id="slide6">
 
                     <div class="slider-track">
+                        <!-- Slide 1: Cards 1 & 2 (Desktop: 2 cards, Mobile: Card 1 only) -->
                         <div class="slide-group">
                             <div class="slide">
                                 <img src="assets/images/before-after/1.png" alt="Before After 1">
@@ -127,6 +134,21 @@
                                     <p>3 months recovery</p>
                                 </div>
                             </div>
+                        </div>
+                        
+                        <!-- Slide 2: Card 2 only (Mobile only) -->
+                        <div class="slide-group">
+                            <div class="slide">
+                                <img src="assets/images/before-after/2.png" alt="Before After 2">
+                                <div class="slide-overlay">
+                                    <h4>Plantar Fasciitis</h4>
+                                    <p>3 months recovery</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 3: Cards 3 & 4 (Desktop: 2 cards, Mobile: Card 3 only) -->
+                        <div class="slide-group">
                             <div class="slide">
                                 <img src="assets/images/before-after/3.png" alt="Before After 3">
                                 <div class="slide-overlay">
@@ -134,8 +156,16 @@
                                     <p>4 months healing</p>
                                 </div>
                             </div>
+                            <div class="slide">
+                                <img src="assets/images/before-after/4.png" alt="Before After 4">
+                                <div class="slide-overlay">
+                                    <h4>Hammer Toe</h4>
+                                    <p>2 months treatment</p>
+                                </div>
+                            </div>
                         </div>
-
+                        
+                        <!-- Slide 4: Card 4 only (Mobile only) -->
                         <div class="slide-group">
                             <div class="slide">
                                 <img src="assets/images/before-after/4.png" alt="Before After 4">
@@ -144,6 +174,10 @@
                                     <p>2 months treatment</p>
                                 </div>
                             </div>
+                        </div>
+                        
+                        <!-- Slide 5: Cards 5 & 6 (Desktop: 2 cards, Mobile: Card 5 only) -->
+                        <div class="slide-group">
                             <div class="slide">
                                 <img src="assets/images/before-after/5.png" alt="Before After 5">
                                 <div class="slide-overlay">
@@ -159,6 +193,17 @@
                                 </div>
                             </div>
                         </div>
+                        
+                        <!-- Slide 6: Card 6 only (Mobile only) -->
+                        <div class="slide-group">
+                            <div class="slide">
+                                <img src="assets/images/before-after/6.png" alt="Before After 6">
+                                <div class="slide-overlay">
+                                    <h4>Diabetic Foot Care</h4>
+                                    <p>Ongoing care</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="slider-controls">
@@ -166,6 +211,18 @@
                             <span class="control-dot"></span>
                         </label>
                         <label for="slide2" class="control-btn">
+                            <span class="control-dot"></span>
+                        </label>
+                        <label for="slide3" class="control-btn">
+                            <span class="control-dot"></span>
+                        </label>
+                        <label for="slide4" class="control-btn">
+                            <span class="control-dot"></span>
+                        </label>
+                        <label for="slide5" class="control-btn">
+                            <span class="control-dot"></span>
+                        </label>
+                        <label for="slide6" class="control-btn">
                             <span class="control-dot"></span>
                         </label>
                     </div>

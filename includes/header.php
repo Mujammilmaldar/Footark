@@ -1,28 +1,23 @@
 <?php
 // Path detection for XAMPP - determine if we need Footancle/ prefix
 $pathPrefix = '';
-
-// Get current script information
 $scriptPath = $_SERVER['SCRIPT_NAME'];
 $requestUri = $_SERVER['REQUEST_URI'];
-$documentRoot = $_SERVER['DOCUMENT_ROOT'];
 
-// Check if we're accessing via localhost/ directly (without Footancle in URL)
-if (strpos($requestUri, '/Footancle/') === false) {
-    // We're accessing from localhost root, so we need to prefix with Footancle/
+// If the script path contains /Footancle/, we are inside the Footancle folder
+if (strpos($scriptPath, '/Footancle/') !== false) {
     $scriptDir = dirname($scriptPath);
-    if ($scriptDir !== '/' && $scriptDir !== '' && $scriptDir !== '\\') {
-        // We're in a subdirectory like /blog/, so we need ../Footancle/
-        $pathPrefix = '../Footancle/';
+    if ($scriptDir !== '/' && $scriptDir !== '' && $scriptDir !== '\\' && basename($scriptDir) !== 'Footancle') {
+        $pathPrefix = '../';
     } else {
-        // We're in root, so we need Footancle/
-        $pathPrefix = 'Footancle/';
+        $pathPrefix = '';
     }
 } else {
-    // We're accessing via localhost/Footancle/, use normal relative paths
     $scriptDir = dirname($scriptPath);
     if ($scriptDir !== '/' && $scriptDir !== '' && $scriptDir !== '\\') {
-        $pathPrefix = '../';
+        $pathPrefix = '../Footancle/';
+    } else {
+        $pathPrefix = 'Footancle/';
     }
 }
 ?>
@@ -186,10 +181,10 @@ if (strpos($requestUri, '/Footancle/') === false) {
                             </a>
                             <div class="dropdown-menu">
                                 <ul class="dropdown-list">
-                                    <li><a href="<?php echo $pathPrefix; ?>injury-prevention.php">Injury Prevention</a></li>
-                                    <li><a href="<?php echo $pathPrefix; ?>marathon-footwear.php">Marathon Footwear</a></li>
-                                    <li><a href="<?php echo $pathPrefix; ?>marathon-training.php">Marathon Training</a></li>
-                                    <li><a href="<?php echo $pathPrefix; ?>week-before-marathon.php">Pre-Marathon Tips</a></li>
+                                    <li><a href="<?php echo $pathPrefix; ?>blog/injury-prevention.php">Injury Prevention</a></li>
+                                    <li><a href="<?php echo $pathPrefix; ?>blog/marathon-footwear.php">Marathon Footwear</a></li>
+                                    <li><a href="<?php echo $pathPrefix; ?>blog/marathon-training.php">Marathon Training</a></li>
+                                    <li><a href="<?php echo $pathPrefix; ?>blog/week-before-marathon.php">Pre-Marathon Tips</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -201,6 +196,22 @@ if (strpos($requestUri, '/Footancle/') === false) {
             </div>
         </div>
     </header>
+
+    <!-- Mobile Contact Footer (only visible on mobile) -->
+    <div class="mobile-contact-footer">
+        <a href="tel:+919876543210" class="mobile-contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Call</span>
+        </a>
+        <a href="https://wa.me/919876543210" class="mobile-contact-item" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp</span>
+        </a>
+        <a href="<?php echo $pathPrefix; ?>contact.php" class="mobile-contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+        </a>
+    </div>
 
     <!-- Mobile Menu JavaScript -->
     <script>
@@ -221,6 +232,11 @@ if (strpos($requestUri, '/Footancle/') === false) {
                 navMenu.classList.remove('mobile-active');
                 mobileToggle.classList.remove('active');
                 document.body.classList.remove('menu-open');
+                // Close all dropdowns when menu closes
+                const dropdowns = navMenu.querySelectorAll('.dropdown');
+                dropdowns.forEach(dropdown => {
+                    dropdown.classList.remove('active');
+                });
             }
             
             // Hamburger button click
@@ -243,12 +259,67 @@ if (strpos($requestUri, '/Footancle/') === false) {
                 });
             }
 
-            // Close menu when clicking on a link
+            // Handle dropdown toggles in mobile menu - enhanced mobile support
             if (navMenu) {
-                const menuLinks = navMenu.querySelectorAll('a');
+                const dropdownToggles = navMenu.querySelectorAll('.dropdown-toggle');
+                dropdownToggles.forEach(toggle => {
+                    // Handle both click and touch events for mobile
+                    const handleToggle = function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        console.log('Dropdown toggle clicked'); // Debug
+                        
+                        const dropdown = this.closest('.dropdown');
+                        const isCurrentlyActive = dropdown.classList.contains('active');
+                        
+                        console.log('Current state:', isCurrentlyActive ? 'open' : 'closed'); // Debug
+                        
+                        // Close all dropdowns first
+                        const allDropdowns = navMenu.querySelectorAll('.dropdown');
+                        allDropdowns.forEach(dd => {
+                            dd.classList.remove('active');
+                        });
+                        
+                        // If the clicked dropdown wasn't active, open it
+                        if (!isCurrentlyActive) {
+                            dropdown.classList.add('active');
+                            console.log('Opening dropdown'); // Debug
+                        } else {
+                            console.log('Closing dropdown'); // Debug
+                        }
+                    };
+                    
+                    toggle.addEventListener('click', handleToggle);
+                    toggle.addEventListener('touchend', handleToggle);
+                });
+                
+                // Close dropdowns when clicking/touching anywhere else in the menu
+                navMenu.addEventListener('click', function(e) {
+                    if (!e.target.closest('.dropdown-toggle') && !e.target.closest('.dropdown-menu')) {
+                        const allDropdowns = navMenu.querySelectorAll('.dropdown');
+                        allDropdowns.forEach(dd => {
+                            dd.classList.remove('active');
+                        });
+                    }
+                });
+                
+                navMenu.addEventListener('touchend', function(e) {
+                    if (!e.target.closest('.dropdown-toggle') && !e.target.closest('.dropdown-menu')) {
+                        const allDropdowns = navMenu.querySelectorAll('.dropdown');
+                        allDropdowns.forEach(dd => {
+                            dd.classList.remove('active');
+                        });
+                    }
+                });
+                
+                // Close menu only when clicking on actual page links
+                const menuLinks = navMenu.querySelectorAll('a:not(.dropdown-toggle)');
                 menuLinks.forEach(link => {
                     link.addEventListener('click', function() {
-                        closeMenu();
+                        if (this.getAttribute('href') !== '#') {
+                            closeMenu();
+                        }
                     });
                 });
             }
@@ -258,6 +329,13 @@ if (strpos($requestUri, '/Footancle/') === false) {
                 if (navMenu && navMenu.classList.contains('mobile-active') && 
                     !navMenu.contains(e.target) && 
                     !mobileToggle.contains(e.target)) {
+                    closeMenu();
+                }
+            });
+            
+            // Handle window resize
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
                     closeMenu();
                 }
             });

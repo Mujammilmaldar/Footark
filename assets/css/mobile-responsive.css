@@ -1,0 +1,380 @@
+/* ==========================================================================
+   MOBILE RESPONSIVE ENHANCEMENTS - Fixed Header Compatibility
+   ========================================================================== */
+
+/* Reset excessive padding/margins for mobile - exclude header */
+@media (max-width: 768px) {
+    .container:not(header) {
+        padding: 0 1rem;
+    }
+    
+    /* Section spacing optimization - exclude header */
+    section {
+        padding: 2rem 0;
+    }
+    
+    /* Typography optimization - exclude header elements */
+    main h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin-bottom: 0.75rem;
+    }
+    
+    main h2 {
+        font-size: 1.6rem;
+        line-height: 1.3;
+        margin-bottom: 0.75rem;
+    }
+    
+    main h3 {
+        font-size: 1.4rem;
+        line-height: 1.3;
+        margin-bottom: 0.5rem;
+    }
+    
+    main h4 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    main h5 {
+        font-size: 1.1rem;
+        margin-bottom: 0.4rem;
+    }
+    
+    main p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 0.75rem;
+    }
+    
+    /* Button optimization - exclude header buttons */
+    main .btn {
+        font-size: 0.9rem;
+        padding: 0.7rem 1.2rem;
+    }
+    
+    /* Remove excessive spacing - exclude header */
+    main .row {
+        margin: 0;
+        gap: 1rem;
+    }
+    
+    main .col-lg-6, main .col-md-6 {
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+    
+    /* Form optimization */
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    
+    .form-group label {
+        font-size: 0.9rem;
+        margin-bottom: 0.3rem;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 0.9rem;
+        padding: 0.6rem 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container:not(header) {
+        padding: 0 0.75rem;
+    }
+    
+    /* Further section optimization - exclude header */
+    section {
+        padding: 1.5rem 0;
+    }
+    
+    /* Further typography optimization - exclude header */
+    main h1 {
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    main h2 {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    main h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.4rem;
+    }
+    
+    main p {
+        font-size: 0.85rem;
+        margin-bottom: 0.6rem;
+    }
+    
+    /* Button optimization - exclude header */
+    main .btn {
+        font-size: 0.85rem;
+        padding: 0.6rem 1rem;
+    }
+    
+    /* Further spacing reduction - exclude header */
+    main .row {
+        gap: 0.75rem;
+    }
+    
+    main .col-lg-6, main .col-md-6 {
+        margin-bottom: 0.75rem;
+    }
+    
+    /* Form optimization */
+    .form-group {
+        margin-bottom: 0.75rem;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 0.85rem;
+        padding: 0.5rem 0.7rem;
+    }
+    .testimonials-section button.dot-control {
+        width: 12px !important;
+        height: 12px !important;
+     }
+}
+
+/* Contact Section Mobile Optimization */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 2rem 0 !important;
+    }
+    
+    .contact-info-container {
+        padding: 0 !important;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    .contact-title {
+        font-size: 1.6rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    .contact-subtitle {
+        font-size: 0.9rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .contact-details {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    .contact-item {
+        padding: 0.75rem 0 !important;
+        border-bottom: 1px solid #eee;
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 0.75rem !important;
+    }
+    
+    .contact-icon-wrapper {
+        width: 36px !important;
+        height: 36px !important;
+        flex-shrink: 0 !important;
+    }
+    
+    .contact-content h4 {
+        font-size: 1rem !important;
+        margin-bottom: 0.2rem !important;
+    }
+    
+    .contact-content p {
+        font-size: 0.85rem !important;
+        margin: 0 !important;
+    }
+    
+    .contact-actions {
+        flex-direction: column !important;
+        gap: 1rem !important;
+        margin-top: 1.5rem !important;
+        padding-top: 1rem !important;
+        border-top: 1px solid #eee !important;
+    }
+    
+    .contact-appointment,
+    .contact-schedule {
+        text-align: center !important;
+        padding: 0.75rem !important;
+        background: #f8f9fa !important;
+        border-radius: 8px !important;
+    }
+    
+    .contact-form-container {
+        padding: 1rem !important;
+        background: #fff !important;
+        border-radius: 8px !important;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+    }
+    
+    .contact-form-header h3 {
+        font-size: 1.3rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    .form-note {
+        font-size: 0.8rem !important;
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-section {
+        padding: 1.5rem 0 !important;
+    }
+    
+    .contact-title {
+        font-size: 1.4rem !important;
+    }
+    
+    .contact-details {
+        gap: 0.75rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .contact-item {
+        padding: 0.5rem 0 !important;
+        gap: 0.5rem !important;
+    }
+    
+    .contact-icon-wrapper {
+        width: 32px !important;
+        height: 32px !important;
+    }
+    
+    .contact-content h4 {
+        font-size: 0.9rem !important;
+    }
+    
+    .contact-content p {
+        font-size: 0.8rem !important;
+    }
+    
+    .contact-actions {
+        gap: 0.75rem !important;
+        margin-top: 1rem !important;
+    }
+    
+    .contact-appointment,
+    .contact-schedule {
+        padding: 0.5rem !important;
+    }
+    
+    .contact-form-container {
+        padding: 0.75rem !important;
+    }
+    
+    .contact-form-header h3 {
+        font-size: 1.2rem !important;
+    }
+}
+
+/* Image optimization for mobile */
+@media (max-width: 768px) {
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
+    .about-image img {
+        max-height: 300px !important;
+        object-fit: cover !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-image img {
+        max-height: 250px !important;
+    }
+}
+
+/* Slider mobile fixes */
+@media (max-width: 768px) {
+    .slider-controls {
+        padding: 0.5rem !important;
+    }
+    
+    .slider-arrows {
+        padding: 0 0.5rem !important;
+    }
+    
+    .arrow-btn {
+        width: 36px !important;
+        height: 36px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider-controls {
+        padding: 0.3rem !important;
+    }
+    
+    .slider-arrows {
+        padding: 0 0.3rem !important;
+    }
+    
+    .arrow-btn {
+        width: 32px !important;
+        height: 32px !important;
+    }
+    
+    .arrow-btn i {
+        font-size: 12px !important;
+    }
+}
+
+/* General mobile fixes - exclude header elements */
+@media (max-width: 768px) {
+    /* Remove hover effects on mobile - exclude header */
+    main *:hover {
+        transform: none;
+    }
+    .slider-arrow{
+        z-index: 99999999999;
+        margin-top: 100px;
+    }
+    /* Optimize touch targets - exclude header */
+    
+    /* Reduce animation complexity - exclude header */
+    main * {
+        animation-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further optimization for small screens - exclude header */
+    main button, main .btn, main a:not(.menu-link):not(.dropdown-toggle) {
+        /* min-height: 40px;
+        min-width: 40px; */
+    }
+    .testimonials-section button.dot-control {
+        width: 12px !important;
+        height: 12px !important;
+     }
+    /* Disable complex animations - exclude header */
+    main * {
+        animation: none;
+        transition: none;
+    }
+    
+    /* Simple fade transitions only - exclude header */
+    .testimonial-slide,
+    .logo-slide,
+    .slide {
+        transition: opacity 0.3s ease;
+    }
+}

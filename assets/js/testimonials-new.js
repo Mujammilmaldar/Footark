@@ -56,14 +56,22 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateSlidesPerView() {
-        if (window.innerWidth <= 768) {
-            slider.slidesPerView = 1; // Mobile: 1 card
-        } else if (window.innerWidth <= 1200) {
-            slider.slidesPerView = 2; // Tablet: 2 cards minimum
+        const width = window.innerWidth;
+        
+        // Mobile-first responsive breakpoints
+        if (width < 480) {
+            slider.slidesPerView = 1; // Very small phones: 1 card
+        } else if (width < 768) {
+            slider.slidesPerView = 1; // Phones: 1 card
+        } else if (width < 1024) {
+            slider.slidesPerView = 2; // Tablets: 2 cards
+        } else if (width < 1400) {
+            slider.slidesPerView = 2; // Small desktop: 2 cards
         } else {
-            slider.slidesPerView = 3; // Desktop: 3 cards
+            slider.slidesPerView = 3; // Large desktop: 3 cards
         }
-        console.log(`Slides per view: ${slider.slidesPerView} (window width: ${window.innerWidth}px)`);
+        
+        console.log(`Slides per view: ${slider.slidesPerView} (window width: ${width}px)`);
     }
 
     function createDots() {
@@ -88,15 +96,15 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateSlider() {
         if (!slider.track || slider.slides.length === 0) return;
 
-        // Calculate translateX with minimal gap
+        // Calculate translateX with mobile-optimized gaps
         const slideWidth = slider.slides[0].offsetWidth;
-        const gap = 2; // Minimal gap to match CSS
+        const gap = window.innerWidth < 768 ? 8 : 16; // Smaller gap on mobile
         const moveDistance = slideWidth + gap;
         
         let translateX = -slider.currentSlide * moveDistance;
         
-        // Apply transform
-        slider.track.style.transform = `translateX(${translateX}px)`;
+        // Apply transform with hardware acceleration
+        slider.track.style.transform = `translate3d(${translateX}px, 0, 0)`;
         
         console.log(`Moving to slide ${slider.currentSlide}, translateX: ${translateX}px, slideWidth: ${slideWidth}px`);
 
