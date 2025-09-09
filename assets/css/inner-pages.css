@@ -123,7 +123,7 @@
 }
 
 /* ==========================================================================
-   MAIN CONTENT LAYOUT - CLEAN AND SIMPLE
+   MAIN CONTENT LAYOUT - SIMPLE GRID WITH STICKY SIDEBAR
    ========================================================================== */
 .main-wrapper {
     background: var(--color-bg-primary);
@@ -132,19 +132,38 @@
 
 .content-layout {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: var(--spacing-xl);
+    grid-template-columns: 300px 1fr;
+    gap: var(--spacing-xxl);
+    max-width: 1400px;
+    margin: 0 auto;
     align-items: start;
 }
 
+/* Simple Sticky Sidebar */
+.sidebar {
+    position: sticky;
+    top: 120px;
+    height: fit-content;
+    max-height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+/* Main Content */
 .main-content {
     background: var(--color-bg-primary);
+    width: 100%;
 }
 
+/* Content Sections - Individual Article Sections */
 .content-section {
     margin-bottom: var(--spacing-xl);
+    scroll-margin-top: 120px; /* Offset for sticky header when scrolling to sections */
 }
 
+/* Main Article Headings */
 .content-section h2 {
     color: var(--color-heading-primary);
     font-size: var(--font-size-h2);
@@ -152,14 +171,17 @@
     font-weight: var(--font-weight-semibold);
 }
 
+/* Sub-section Headings */
 .content-section h3 {
     color: var(--color-heading-secondary);
     font-size: var(--font-size-h3);
     margin-bottom: var(--spacing-md);
     margin-top: var(--spacing-lg);
     font-weight: var(--font-weight-medium);
+    scroll-margin-top: 120px; /* Offset for sticky header when scrolling to sections */
 }
 
+/* Article Paragraphs */
 .content-section p {
     color: var(--color-text-secondary);
     font-size: var(--font-size-body);
@@ -394,12 +416,38 @@
 }
 
 /* ==========================================================================
-   SIDEBAR STYLES - CLEAN WIDGET DESIGN
+   SIDEBAR STYLES - SIMPLE STICKY DESIGN
    ========================================================================== */
 .sidebar {
+    position: sticky;
+    top: 120px;
+    height: fit-content;
+    max-height: 100%;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     gap: var(--spacing-md);
+    /* Custom scrollbar styling */
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border-medium) transparent;
+}
+
+/* Custom scrollbar for webkit browsers */
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--color-border-medium);
+    border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--color-border-dark);
 }
 
 .widget {
@@ -409,8 +457,10 @@
     overflow: hidden;
     box-shadow: var(--box-shadow);
     transition: all 0.3s ease;
-    padding: var(--spacing-lg);
+    padding: var(--spacing-md);
     position: relative;
+    /* Ensure widgets don't shrink */
+    flex-shrink: 0;
 }
 
 .widget:hover {
@@ -504,6 +554,67 @@
 
 .btn-widget + .btn-widget {
     margin-top: var(--spacing-xs);
+}
+
+/* ==========================================================================
+   TABLE OF CONTENTS STYLES
+   ========================================================================== */
+.toc-nav {
+    width: 100%;
+}
+
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-list li {
+    margin: 0;
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.toc-list li:last-child {
+    border-bottom: none;
+}
+
+.toc-link {
+    display: block;
+    padding: var(--spacing-sm) var(--spacing-xs);
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: var(--font-size-body-small);
+    line-height: 1.4;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+    position: relative;
+}
+
+.toc-link:hover {
+    color: var(--color-primary);
+    background: var(--color-bg-light);
+    border-left-color: var(--color-primary);
+    text-decoration: none;
+    padding-left: var(--spacing-sm);
+}
+
+.toc-link.active {
+    color: var(--color-primary);
+    background: var(--color-bg-light);
+    border-left-color: var(--color-primary);
+    font-weight: var(--font-weight-semibold);
+}
+
+.toc-link::before {
+    content: '→';
+    opacity: 0;
+    margin-right: var(--spacing-xs);
+    transition: opacity 0.3s ease;
+}
+
+.toc-link:hover::before,
+.toc-link.active::before {
+    opacity: 1;
 }
 
 /* ==========================================================================
@@ -675,9 +786,20 @@ body {
         max-width: 100%;
     }
 
+    /* Mobile Layout - Simple Stack */
     .content-layout {
         grid-template-columns: 1fr;
         gap: var(--spacing-xl);
+    }
+
+    /* Mobile Sidebar - Not Sticky, Normal Flow */
+    .sidebar {
+        position: static;
+        max-height: none;
+        overflow-y: visible;
+        order: -1;
+        margin-top: 0;
+        margin-bottom: var(--spacing-xl);
     }
 
     .content-with-image {

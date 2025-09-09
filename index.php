@@ -1,6 +1,7 @@
 <?php include 'includes/header.php'; ?>
 <link rel="stylesheet" href="assets/css/hero.css?v=<?php echo time(); ?>">
 <link rel="stylesheet" href="assets/css/about.css?v=<?php echo time(); ?>">
+<link rel="stylesheet" href="assets/css/treatment-results.css?v=<?php echo time(); ?>">
 <link rel="stylesheet" href="assets/css/testimonials-new.css?v=<?php echo time(); ?>">
 <link rel="stylesheet" href="assets/css/mobile-responsive.css?v=<?php echo time(); ?>">
 <link rel="stylesheet" href="assets/css/mobile-slider-fix.css?v=<?php echo time(); ?>">
@@ -33,7 +34,6 @@
             </div>
         </div>
     </section>
-
     <!-- About Section -->
     <section class="about-section">
         <div class="container">
@@ -46,19 +46,18 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="about-content">
                         <div class="about-tag">EXPERIENCE TRUE CAREGIVING</div>
-                        <h2 class="about-title">Our Caregivers are screened for empathy, trained in senior care, and
-                            matched with clients based on their compatibility.</h2>
+                        <h2 class="about-title">Expert, Compassionate Caregivers</h2>
 
                         <div class="about-features">
                             <div class="row">
                                 <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="feature-box">
                                         <div class="feature-icon">
-                                            <span data-ico-remixiconsbusiness="" class="bt_bb_icon_holder"></span>
+                                            <span data-ico-remixiconsbusiness="" class="bt_bb_icon_holder"></span>
                                         </div>
                                         <h4 class="feature-title">Values</h4>
-                                        <p class="feature-desc">We care for the whole person, complexity of each
-                                            person's life, and believe that addressing a broad range.</p>
+                                        <p class="feature-desc">We care for the whole person and believe that addressing a
+                                            broad range of life's complexities.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6">
@@ -67,8 +66,8 @@
                                             <i class="home-icon"></i>
                                         </div>
                                         <h4 class="feature-title">Experience</h4>
-                                        <p class="feature-desc">A community in which all people achieve their full
-                                            potential for health and well-being across the lifespan.</p>
+                                        <p class="feature-desc">A community where people achieve their full
+                                            potential for health and well-being.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6">
@@ -77,8 +76,8 @@
                                             <i class="approach-icon"></i>
                                         </div>
                                         <h4 class="feature-title">Approach</h4>
-                                        <p class="feature-desc">Partnerships with education, government, and other
-                                            community organizations will care multiply.</p>
+                                        <p class="feature-desc">Partnerships with education, government, and
+                                            community organizations multiply our impact.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6">
@@ -87,8 +86,8 @@
                                             <i class="providers-icon"></i>
                                         </div>
                                         <h4 class="feature-title">Providers</h4>
-                                        <p class="feature-desc">Provide patient-centered healthcare with excellence in
-                                            quality, service, and access a believe broad range of needs.</p>
+                                        <p class="feature-desc">Patient-centered healthcare with excellence in
+                                            quality, service, and access to a range of needs.</p>
                                     </div>
                                 </div>
                             </div>
@@ -99,141 +98,117 @@
         </div>
     </section>
 
-    <!-- Before and After Section -->
-    <section class="before-after-section">
+    <!-- Treatment Results Showcase Section -->
+    <section class="treatment-results-section">
         <div class="container">
-            <div class="slider-header">
-                <span class="slider-tag">TRANSFORMATIONS</span>
-                <h2 class="slider-title">Before & After Results</h2>
-                <p class="slider-subtitle">Real results from our professional treatments</p>
+            <div class="results-header">
+                <span class="results-tag">TRANSFORMATIONS</span>
+                <h2 class="results-title">Before & After Results</h2>
+                <p class="results-subtitle">Real results from our professional treatments</p>
             </div>
 
-            <div class="css-slider-container">
-                <div class="slider-wrapper">
-                    <input type="radio" name="slider" id="slide1" checked>
-                    <input type="radio" name="slider" id="slide2">
-                    <input type="radio" name="slider" id="slide3">
-                    <input type="radio" name="slider" id="slide4">
-                    <input type="radio" name="slider" id="slide5">
-                    <input type="radio" name="slider" id="slide6">
+            <div class="results-slider-container">
+                <div class="results-slider-wrapper">
+                    <div class="results-slider-track" id="resultsSliderTrack">
+                        
+                        <!-- Result Card 1 -->
+                        <div class="result-card">
+                            <div class="result-image-container">
+                                <img src="assets/images/before-after/1.png" alt="Bunion Correction Before After" class="result-image">
+                                <div class="result-overlay">
+                                    <div class="result-content">
+                                        <h4 class="result-title">Bunion Correction</h4>
+                                        <p class="result-duration">6 months treatment</p>
+                                        <div class="result-badge">Success</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                    <div class="slider-track">
-                        <!-- Slide 1: Cards 1 & 2 (Desktop: 2 cards, Mobile: Card 1 only) -->
-                        <div class="slide-group">
-                            <div class="slide">
-                                <img src="assets/images/before-after/1.png" alt="Before After 1">
-                                <div class="slide-overlay">
-                                    <h4>Bunion Correction</h4>
-                                    <p>6 months treatment</p>
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <img src="assets/images/before-after/2.png" alt="Before After 2">
-                                <div class="slide-overlay">
-                                    <h4>Plantar Fasciitis</h4>
-                                    <p>3 months recovery</p>
+                        <!-- Result Card 2 -->
+                        <div class="result-card">
+                            <div class="result-image-container">
+                                <img src="assets/images/before-after/2.png" alt="Plantar Fasciitis Before After" class="result-image">
+                                <div class="result-overlay">
+                                    <div class="result-content">
+                                        <h4 class="result-title">Plantar Fasciitis</h4>
+                                        <p class="result-duration">3 months recovery</p>
+                                        <div class="result-badge">Success</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-- Slide 2: Card 2 only (Mobile only) -->
-                        <div class="slide-group">
-                            <div class="slide">
-                                <img src="assets/images/before-after/2.png" alt="Before After 2">
-                                <div class="slide-overlay">
-                                    <h4>Plantar Fasciitis</h4>
-                                    <p>3 months recovery</p>
+
+                        <!-- Result Card 3 -->
+                        <div class="result-card">
+                            <div class="result-image-container">
+                                <img src="assets/images/before-after/3.png" alt="Ankle Surgery Before After" class="result-image">
+                                <div class="result-overlay">
+                                    <div class="result-content">
+                                        <h4 class="result-title">Ankle Surgery</h4>
+                                        <p class="result-duration">4 months healing</p>
+                                        <div class="result-badge">Success</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-- Slide 3: Cards 3 & 4 (Desktop: 2 cards, Mobile: Card 3 only) -->
-                        <div class="slide-group">
-                            <div class="slide">
-                                <img src="assets/images/before-after/3.png" alt="Before After 3">
-                                <div class="slide-overlay">
-                                    <h4>Ankle Surgery</h4>
-                                    <p>4 months healing</p>
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <img src="assets/images/before-after/4.png" alt="Before After 4">
-                                <div class="slide-overlay">
-                                    <h4>Hammer Toe</h4>
-                                    <p>2 months treatment</p>
+
+                        <!-- Result Card 4 -->
+                        <div class="result-card">
+                            <div class="result-image-container">
+                                <img src="assets/images/before-after/4.png" alt="Hammer Toe Before After" class="result-image">
+                                <div class="result-overlay">
+                                    <div class="result-content">
+                                        <h4 class="result-title">Hammer Toe</h4>
+                                        <p class="result-duration">2 months treatment</p>
+                                        <div class="result-badge">Success</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-- Slide 4: Card 4 only (Mobile only) -->
-                        <div class="slide-group">
-                            <div class="slide">
-                                <img src="assets/images/before-after/4.png" alt="Before After 4">
-                                <div class="slide-overlay">
-                                    <h4>Hammer Toe</h4>
-                                    <p>2 months treatment</p>
+
+                        <!-- Result Card 5 -->
+                        <div class="result-card">
+                            <div class="result-image-container">
+                                <img src="assets/images/before-after/5.png" alt="Ingrown Nail Before After" class="result-image">
+                                <div class="result-overlay">
+                                    <div class="result-content">
+                                        <h4 class="result-title">Ingrown Nail</h4>
+                                        <p class="result-duration">1 month recovery</p>
+                                        <div class="result-badge">Success</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-- Slide 5: Cards 5 & 6 (Desktop: 2 cards, Mobile: Card 5 only) -->
-                        <div class="slide-group">
-                            <div class="slide">
-                                <img src="assets/images/before-after/5.png" alt="Before After 5">
-                                <div class="slide-overlay">
-                                    <h4>Ingrown Nail</h4>
-                                    <p>1 month recovery</p>
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <img src="assets/images/before-after/6.png" alt="Before After 6">
-                                <div class="slide-overlay">
-                                    <h4>Diabetic Foot Care</h4>
-                                    <p>Ongoing care</p>
+
+                        <!-- Result Card 6 -->
+                        <div class="result-card">
+                            <div class="result-image-container">
+                                <img src="assets/images/before-after/6.png" alt="Diabetic Foot Care Before After" class="result-image">
+                                <div class="result-overlay">
+                                    <div class="result-content">
+                                        <h4 class="result-title">Diabetic Foot Care</h4>
+                                        <p class="result-duration">Ongoing care</p>
+                                        <div class="result-badge">Success</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-- Slide 6: Card 6 only (Mobile only) -->
-                        <div class="slide-group">
-                            <div class="slide">
-                                <img src="assets/images/before-after/6.png" alt="Before After 6">
-                                <div class="slide-overlay">
-                                    <h4>Diabetic Foot Care</h4>
-                                    <p>Ongoing care</p>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
+                </div>
 
-                    <div class="slider-controls">
-                        <label for="slide1" class="control-btn">
-                            <span class="control-dot"></span>
-                        </label>
-                        <label for="slide2" class="control-btn">
-                            <span class="control-dot"></span>
-                        </label>
-                        <label for="slide3" class="control-btn">
-                            <span class="control-dot"></span>
-                        </label>
-                        <label for="slide4" class="control-btn">
-                            <span class="control-dot"></span>
-                        </label>
-                        <label for="slide5" class="control-btn">
-                            <span class="control-dot"></span>
-                        </label>
-                        <label for="slide6" class="control-btn">
-                            <span class="control-dot"></span>
-                        </label>
-                    </div>
-
-                    <div class="slider-arrows">
-                        <label for="slide1" class="arrow-btn prev-btn">
+                <!-- Slider Controls -->
+                <div class="results-slider-controls">
+                    <div class="results-slider-dots" id="resultsSliderDots"></div>
+                    
+                    <div class="results-slider-arrows">
+                        <button class="results-arrow-btn prev-arrow" id="resultsPrevBtn" aria-label="Previous results">
                             <i class="fa fa-chevron-left"></i>
-                        </label>
-                        <label for="slide2" class="arrow-btn next-btn">
+                        </button>
+                        <button class="results-arrow-btn next-arrow" id="resultsNextBtn" aria-label="Next results">
                             <i class="fa fa-chevron-right"></i>
-                        </label>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -260,10 +235,6 @@
                                     <div class="google-logo">
                                         <div class="google-logo-icon">G</div>
                                         <span class="google-text">Google Review</span>
-                                    </div>
-                                    <div class="verified-badge">
-                                        <div class="verified-icon">✓</div>
-                                        <span class="verified-text">Verified</span>
                                     </div>
                                 </div>
                                 
@@ -303,10 +274,7 @@
                                         <div class="google-logo-icon">G</div>
                                         <span class="google-text">Google Review</span>
                                     </div>
-                                    <div class="verified-badge">
-                                        <div class="verified-icon">✓</div>
-                                        <span class="verified-text">Verified</span>
-                                    </div>
+                                   
                                 </div>
                                 
                                 <div class="star-rating">
@@ -345,10 +313,7 @@
                                         <div class="google-logo-icon">G</div>
                                         <span class="google-text">Google Review</span>
                                     </div>
-                                    <div class="verified-badge">
-                                        <div class="verified-icon">✓</div>
-                                        <span class="verified-text">Verified</span>
-                                    </div>
+                                    
                                 </div>
                                 
                                 <div class="star-rating">
@@ -387,10 +352,7 @@
                                         <div class="google-logo-icon">G</div>
                                         <span class="google-text">Google Review</span>
                                     </div>
-                                    <div class="verified-badge">
-                                        <div class="verified-icon">✓</div>
-                                        <span class="verified-text">Verified</span>
-                                    </div>
+                                   
                                 </div>
                                 
                                 <div class="star-rating">
@@ -429,10 +391,8 @@
                                         <div class="google-logo-icon">G</div>
                                         <span class="google-text">Google Review</span>
                                     </div>
-                                    <div class="verified-badge">
-                                        <div class="verified-icon">✓</div>
-                                        <span class="verified-text">Verified</span>
-                                    </div>
+                                    
+                                    
                                 </div>
                                 
                                 <div class="star-rating">
@@ -471,10 +431,7 @@
                                         <div class="google-logo-icon">G</div>
                                         <span class="google-text">Google Review</span>
                                     </div>
-                                    <div class="verified-badge">
-                                        <div class="verified-icon">✓</div>
-                                        <span class="verified-text">Verified</span>
-                                    </div>
+                                    
                                 </div>
                                 
                                 <div class="star-rating">
@@ -763,5 +720,7 @@
 
 <!-- Lightweight Testimonials Slider JavaScript -->
 <script src="assets/js/testimonials-new.js"></script>
+<!-- Treatment Results Slider JavaScript -->
+<script src="assets/js/treatment-results.js"></script>
 
 <?php include 'includes/footer.php'; ?>

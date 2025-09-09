@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .main-footer {
-    background: linear-gradient(135deg, var(--color-secondary-darker) 0%, var(--color-secondary-dark) 100%);
+    background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary) 100%);
     color: var(--color-text-inverse);
     position: relative;
     overflow: hidden;

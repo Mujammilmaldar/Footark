@@ -40,6 +40,9 @@ if (strpos($scriptPath, '/Footancle/') !== false) {
     <?php if (strpos($_SERVER['REQUEST_URI'], '/blog/') !== false): ?>
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/blog.css">
     <?php endif; ?>
+    <?php if (strpos($_SERVER['REQUEST_URI'], 'contact.php') !== false): ?>
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/contact.css">
+    <?php endif; ?>
 </head>
 <body>
     <header>
@@ -68,14 +71,14 @@ if (strpos($scriptPath, '/Footancle/') !== false) {
                 </div>
                 <div class="header-actions">
                     <a href="<?php echo $pathPrefix; ?>appointment.php" class="appointment-btn">Book Appointment</a>
-                    <div class="social-links">
-                        <a href="#" class="social-link">
+                    <div class="social-links-header">
+                        <a href="#" class="social-link-header">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="#" class="social-link-header">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="#" class="social-link-header">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>

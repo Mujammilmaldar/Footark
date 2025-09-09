@@ -501,7 +501,7 @@
    ========================================================================== */
 
 .blog-cta-section {
-  background: var(--color-primary);
+  background: var(--color-secondary);
   color: var(--color-white);
   padding: var(--spacing-md);
   border-radius: 0;

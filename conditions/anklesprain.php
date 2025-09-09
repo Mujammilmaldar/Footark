@@ -26,8 +26,24 @@
                 
                 <div class="sidebar">
                     <div class="widget">
+                        <div class="widget-header">Table of Contents</div>
+                        <div class="widget-content">
+                            <nav class="toc-nav">
+                                <ul class="toc-list">
+                                    <li><a href="#understanding" class="toc-link">Understanding Ankle Sprains</a></li>
+                                    <li><a href="#ligaments" class="toc-link">Ankle Ligaments Injured</a></li>
+                                    <li><a href="#injuries" class="toc-link">Other Possible Injuries</a></li>
+                                    <li><a href="#symptoms" class="toc-link">Symptoms</a></li>
+                                    <li><a href="#prevalence" class="toc-link">How Common Are Sprains</a></li>
+                                    <li><a href="#instability" class="toc-link">Ankle Instability</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="widget">
                         <div class="widget-header">Schedule an Appointment</div>
-                        <div class="widget-content  flex-column">
+                        <div class="widget-content flex-column">
                             <p>Experiencing ankle pain or instability? Get expert treatment from our specialists.</p>
                             <div class="phone-number">+91 98765 43210</div>
                             <a href="../appointment.php" class="btn-widget">REQUEST APPOINTMENT</a>
@@ -42,23 +58,6 @@
                             <p>Mumbai, India</p>
                             <p><strong>Phone:</strong> +91 98765 43210</p>
                             <p><strong>Email:</strong> info@footark.com</p>
-                        </div>
-                    </div>
-
-                    <div class="widget">
-                        <div class="widget-header">Office Hours</div>
-                        <div class="widget-content">
-                            <p><strong>Monday - Friday:</strong><br>9:00 AM - 6:00 PM</p>
-                            <p><strong>Saturday:</strong><br>9:00 AM - 1:00 PM</p>
-                            <p><strong>Sunday:</strong><br>Emergency Only</p>
-                        </div>
-                    </div>
-
-                    <div class="widget">
-                        <div class="widget-header">Insurance Information</div>
-                        <div class="widget-content">
-                            <p>We accept most major insurance plans. Please contact our office to verify your specific coverage.</p>
-                            <a href="#" class="btn-widget">VIEW ACCEPTED PLANS</a>
                         </div>
                     </div>
                 </div>
@@ -129,18 +128,50 @@
 <?php include '../includes/footer.php'; ?>
 
     <script>
-        // Smooth scrolling
+        // Smooth scrolling for all internal links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
                     target.scrollIntoView({
-                        behavior: 'smooth'
+                        behavior: 'smooth',
+                        block: 'start'
                     });
                 }
             });
         });
+
+        // Table of Contents active state
+        function updateActiveTOC() {
+            const sections = document.querySelectorAll('.content-section');
+            const tocLinks = document.querySelectorAll('.toc-link');
+            
+            let current = '';
+            const scrollPos = window.scrollY + 150; // Offset for header
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                
+                if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            tocLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Update TOC on scroll
+        window.addEventListener('scroll', updateActiveTOC);
+        
+        // Update TOC on load
+        document.addEventListener('DOMContentLoaded', updateActiveTOC);
 
         // Header scroll effect
         window.addEventListener('scroll', function() {
