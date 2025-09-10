@@ -331,27 +331,29 @@
 
 /* Special highlight boxes */
 .highlight-box {
-    background: linear-gradient(135deg, var(--color-primary-lighter), var(--color-accent-cool));
+    background: linear-gradient(135deg, rgba(33, 150, 243, 0.15), rgba(100, 181, 246, 0.08));
     border-radius: var(--border-radius-large);
     padding: var(--spacing-xl);
     margin: var(--spacing-xl) 0;
-    border-left: 6px solid var(--color-primary);
+    border-left: 6px solid rgba(33, 150, 243, 0.3);
     box-shadow: var(--box-shadow);
     position: relative;
     overflow: hidden;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .highlight-box::before {
-    content: '⚠️';
+    content: 'ℹ️';
     position: absolute;
     top: var(--spacing-lg);
     right: var(--spacing-lg);
     font-size: 24px;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .highlight-box h4 {
-    color: var(--color-primary-dark);
+    color: rgba(25, 118, 210, 0.9);
     font-size: var(--font-size-h4);
     font-weight: var(--font-weight-bold);
     margin-bottom: var(--spacing-md);
@@ -361,8 +363,9 @@
 }
 
 .highlight-box h4::before {
-    content: '🚨';
+    content: 'ℹ️';
     font-size: 20px;
+    opacity: 0.8;
 }
 
 .highlight-box p {

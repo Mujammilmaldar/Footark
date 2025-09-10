@@ -72,6 +72,7 @@ if (strpos($scriptPath, '/Footancle/') !== false) {
                 <div class="header-actions">
                     <a href="<?php echo $pathPrefix; ?>appointment.php" class="appointment-btn">Book Appointment</a>
                     <div class="social-links-header">
+                        <!-- Old filled icons - commented out
                         <a href="#" class="social-link-header">
                             <i class="fab fa-facebook-f"></i>
                         </a>
@@ -80,6 +81,18 @@ if (strpos($scriptPath, '/Footancle/') !== false) {
                         </a>
                         <a href="#" class="social-link-header">
                             <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        -->
+                        
+                        <!-- New outline/border style icons - no background, just borders -->
+                        <a href="#" class="social-link-header">
+                            <i class="fab fa-facebook" style="font-weight: 300;"></i>
+                        </a>
+                        <a href="#" class="social-link-header">
+                            <i class="fab fa-instagram" style="font-weight: 300;"></i>
+                        </a>
+                        <a href="#" class="social-link-header">
+                            <i class="fab fa-linkedin-in" style="font-weight: 300;"></i>
                         </a>
                     </div>
                 </div>

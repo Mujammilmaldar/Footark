@@ -51,24 +51,6 @@
                             <span class="stat-label">Recovery Period</span>
                         </div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <div class="stat-content">
-                            <span class="stat-number">95%</span>
-                            <span class="stat-label">Success Rate</span>
-                        </div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div class="stat-content">
-                            <span class="stat-number">24/7</span>
-                            <span class="stat-label">Care Support</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -83,7 +65,7 @@
                 <article class="primary-content">
                     
                     <!-- Immediate Post-Operative Care -->
-                    <section class="medical-section">
+                    <section class="medical-section" id="immediate-care">
                         <header class="section-header">
                             <h2 class="section-title">
                                 <i class="fas fa-stethoscope section-icon"></i>
@@ -128,7 +110,7 @@
                     </section>
 
                     <!-- Wound Care Management -->
-                    <section class="medical-section">
+                    <section class="medical-section" id="wound-care">
                         <header class="section-header">
                             <h2 class="section-title">
                                 <i class="fas fa-band-aid section-icon"></i>
@@ -169,7 +151,7 @@
                     </section>
 
                     <!-- Pain Management & Ice Therapy -->
-                    <section class="medical-section">
+                    <section class="medical-section" id="pain-management">
                         <header class="section-header">
                             <h2 class="section-title">
                                 <i class="fas fa-snowflake section-icon"></i>
@@ -209,7 +191,7 @@
                     </section>
 
                     <!-- Hygiene Guidelines -->
-                    <section class="medical-section">
+                    <section class="medical-section" id="hygiene">
                         <header class="section-header">
                             <h2 class="section-title">
                                 <i class="fas fa-shower section-icon"></i>
@@ -242,7 +224,7 @@
                     </section>
 
                     <!-- Physical Therapy -->
-                    <section class="medical-section">
+                    <section class="medical-section" id="physical-therapy">
                         <header class="section-header">
                             <h2 class="section-title">
                                 <i class="fas fa-dumbbell section-icon"></i>
@@ -268,7 +250,7 @@
                     </section>
 
                     <!-- Office Follow-up -->
-                    <section class="medical-section">
+                    <section class="medical-section" id="follow-up">
                         <header class="section-header">
                             <h2 class="section-title">
                                 <i class="fas fa-calendar-check section-icon"></i>
@@ -307,7 +289,7 @@
                     </section>
 
                     <!-- Complications -->
-                    <section class="medical-section">
+                    <section class="medical-section" id="complications">
                         <header class="section-header">
                             <h2 class="section-title">
                                 <i class="fas fa-shield-alt section-icon"></i>
@@ -341,7 +323,7 @@
                     </section>
 
                     <!-- Warning Signs -->
-                    <section class="medical-section">
+                    <section class="medical-section" id="warning-signs">
                         <header class="section-header">
                             <h2 class="section-title">
                                 <i class="fas fa-exclamation-triangle section-icon"></i>
@@ -389,96 +371,27 @@
                 <!-- Medical Sidebar -->
                 <aside class="medical-sidebar">
                     
-                    <!-- Emergency Contact -->
-                    <div class="sidebar-card emergency-card">
+                    <!-- Table of Contents -->
+                    <div class="sidebar-card">
                         <div class="card-header">
                             <h3 class="card-title">
-                                <i class="fas fa-phone"></i>
-                                Emergency Contact
-                            </h3>
-                            <div class="availability-status online">
-                                <span class="status-dot"></span>
-                                <span class="status-text">Available 24/7</span>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <p class="emergency-text">If you experience any concerning symptoms, contact us immediately:</p>
-                            <a href="tel:+919876543210" class="emergency-button">
-                                <i class="fas fa-phone"></i>
-                                <span class="button-text">
-                                    <strong>Call Now</strong>
-                                    <span class="phone-number">+91 98765 43210</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Appointment Scheduling -->
-                    <div class="sidebar-card appointment-card">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                <i class="fas fa-calendar-check"></i>
-                                Follow-up Schedule
+                                <i class="fas fa-list"></i>
+                                Table of Contents
                             </h3>
                         </div>
                         <div class="card-content">
-                            <div class="appointment-timeline">
-                                <div class="timeline-item urgent">
-                                    <div class="timeline-date">Day 7-10</div>
-                                    <div class="timeline-description">First post-op visit</div>
-                                </div>
-                                <div class="timeline-item routine">
-                                    <div class="timeline-date">Day 10-14</div>
-                                    <div class="timeline-description">Suture removal</div>
-                                </div>
-                                <div class="timeline-item routine">
-                                    <div class="timeline-date">Week 4</div>
-                                    <div class="timeline-description">Progress evaluation</div>
-                                </div>
-                                <div class="timeline-item routine">
-                                    <div class="timeline-date">Week 8</div>
-                                    <div class="timeline-description">Final assessment</div>
-                                </div>
-                            </div>
-                            <a href="../contact.php" class="appointment-button">
-                                <i class="fas fa-calendar-plus"></i>
-                                Schedule Appointment
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Recovery Timeline -->
-                    <div class="sidebar-card timeline-card">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                <i class="fas fa-clock"></i>
-                                Recovery Timeline
-                            </h3>
-                        </div>
-                        <div class="card-content">
-                            <div class="recovery-phases">
-                                <div class="phase-item active">
-                                    <div class="phase-marker week-1"></div>
-                                    <div class="phase-info">
-                                        <h4>Week 1-2</h4>
-                                        <p>Immediate post-op care, elevation, ice therapy</p>
-                                    </div>
-                                </div>
-                                <div class="phase-item">
-                                    <div class="phase-marker week-3"></div>
-                                    <div class="phase-info">
-                                        <h4>Week 3-4</h4>
-                                        <p>Dressing changes, gradual activity increase</p>
-                                    </div>
-                                </div>
-                                <div class="phase-item">
-                                    <div class="phase-marker week-6"></div>
-                                    <div class="phase-info">
-                                        <h4>Week 6-8</h4>
-                                        <p>Physical therapy, return to normal shoes</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <nav class="toc-nav">
+                                <ul class="toc-list">
+                                    <li><a href="#immediate-care" class="toc-link">Immediate Post-Operative Care</a></li>
+                                    <li><a href="#wound-care" class="toc-link">Wound Care Management</a></li>
+                                    <li><a href="#pain-management" class="toc-link">Pain Management & Ice Therapy</a></li>
+                                    <li><a href="#hygiene" class="toc-link">Hygiene Guidelines</a></li>
+                                    <li><a href="#physical-therapy" class="toc-link">Physical Therapy</a></li>
+                                    <li><a href="#follow-up" class="toc-link">Office Follow-up Schedule</a></li>
+                                    <li><a href="#complications" class="toc-link">Potential Complications</a></li>
+                                    <li><a href="#warning-signs" class="toc-link">Warning Signs</a></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
 
@@ -487,7 +400,7 @@
                         <div class="card-header">
                             <h3 class="card-title">
                                 <i class="fas fa-hospital"></i>
-                                Office Information
+                                Contact Information
                             </h3>
                         </div>
                         <div class="card-content">
@@ -530,5 +443,62 @@
 
     <!-- Footer -->
     <?php include '../includes/footer.php'; ?>
+
+    <script>
+        // Smooth scrolling for table of contents links
+        document.querySelectorAll('.toc-link').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Table of Contents active state
+        function updateActiveTOC() {
+            const sections = document.querySelectorAll('.medical-section');
+            const tocLinks = document.querySelectorAll('.toc-link');
+            
+            let current = '';
+            const scrollPos = window.scrollY + 150; // Offset for header
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                
+                if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            tocLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Update TOC on scroll
+        window.addEventListener('scroll', updateActiveTOC);
+        
+        // Update TOC on load
+        document.addEventListener('DOMContentLoaded', updateActiveTOC);
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.boxShadow = '0 2px 15px rgba(0,0,0,0.15)';
+            } else {
+                header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            }
+        });
+    </script>
 </body>
 </html>

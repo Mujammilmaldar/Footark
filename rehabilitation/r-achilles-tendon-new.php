@@ -48,40 +48,32 @@
             
             <!-- Sidebar -->
             <div class="rehab-sidebar">
+                <!-- Table of Contents -->
                 <div class="rehab-widget">
-                    <div class="rehab-widget-header">Schedule an Appointment</div>
+                    <div class="rehab-widget-header">Table of Contents</div>
                     <div class="rehab-widget-content">
-                        <p>Ready to start your rehabilitation journey? Get expert treatment from our specialists.</p>
-                        <a href="tel:+919876543210" class="rehab-phone-number">+91 98765 43210</a>
-                        <a href="../appointment.php" class="rehab-btn-widget">REQUEST APPOINTMENT</a>
-                        <a href="#" class="rehab-btn-widget">PATIENT PORTAL</a>
+                        <nav class="toc-nav">
+                            <ul class="toc-list">
+                                <li><a href="#general-considerations" class="toc-link">General Considerations</a></li>
+                                <li><a href="#weeks-0-3" class="toc-link">Weeks 0-3</a></li>
+                                <li><a href="#weeks-3-8" class="toc-link">Weeks 3-8</a></li>
+                                <li><a href="#weeks-8-16" class="toc-link">Weeks 8-16</a></li>
+                                <li><a href="#weeks-16-24" class="toc-link">Weeks 16-24</a></li>
+                                <li><a href="#return-to-sport" class="toc-link">Return to Sport</a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
 
+                <!-- Contact Information -->
                 <div class="rehab-widget">
-                    <div class="rehab-widget-header">Office Location</div>
+                    <div class="rehab-widget-header">Contact Information</div>
                     <div class="rehab-widget-content">
                         <p><strong>Mumbai Office</strong></p>
                         <p>Mumbai, India</p>
                         <p><strong>Phone:</strong> +91 98765 43210</p>
                         <p><strong>Email:</strong> info@footark.com</p>
-                    </div>
-                </div>
-
-                <div class="rehab-widget">
-                    <div class="rehab-widget-header">Office Hours</div>
-                    <div class="rehab-widget-content">
-                        <p><strong>Monday - Friday:</strong><br>9:00 AM - 6:00 PM</p>
-                        <p><strong>Saturday:</strong><br>9:00 AM - 1:00 PM</p>
-                        <p><strong>Sunday:</strong><br>Emergency Only</p>
-                    </div>
-                </div>
-
-                <div class="rehab-widget">
-                    <div class="rehab-widget-header">Insurance Information</div>
-                    <div class="rehab-widget-content">
-                        <p>We accept most major insurance plans. Please contact our office to verify your specific coverage.</p>
-                        <a href="#" class="rehab-btn-widget">VIEW ACCEPTED PLANS</a>
+                        <p><strong>Hours:</strong> Mon-Sat: 9:00 AM - 6:00 PM</p>
                     </div>
                 </div>
             </div>

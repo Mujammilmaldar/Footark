@@ -90,32 +90,32 @@
                         <div class="biography-accordion">
                             <div class="accordion-item">
                                 <div class="accordion-header">
-                                    <h3><a href="#specialties">Specialties</a></h3>
+                                    <h3><a href="#specialties">Specialties <i class="fas fa-plus"></i></a></h3>
                                 </div>
                             </div>
 
                             <div class="accordion-item">
                                 <div class="accordion-header">
-                                    <h3><a href="#qualifications">Qualifications</a></h3>
+                                    <h3><a href="#qualifications">Qualifications <i class="fas fa-plus"></i></a></h3>
                                 </div>
 
                             </div>
 
                             <div class="accordion-item">
                                 <div class="accordion-header">
-                                    <h3><a href="#research">Research and Publications</a></h3>
+                                    <h3><a href="#research">Research and Publications <i class="fas fa-plus"></i></a></h3>
                                 </div>
                             </div>
 
                             <div class="accordion-item">
                                 <div class="accordion-header">
-                                    <h3><a href="#achievements">Achievements</a></h3>
+                                    <h3><a href="#achievements">Achievements <i class="fas fa-plus"></i></a></h3>
                                 </div>
                             </div>
 
                             <div class="accordion-item">
                                 <div class="accordion-header">
-                                    <h3><a href="#experience">Professional Experience</a></h3>
+                                    <h3><a href="#experience">Professional Experience <i class="fas fa-plus"></i></a></h3>
                                 </div>
                             </div>
                         </div>

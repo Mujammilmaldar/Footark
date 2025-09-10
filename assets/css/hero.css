@@ -504,8 +504,9 @@
     background: transparent;
     transition: all 0.3s ease;
     border-left: 3px solid transparent;
+    gap: 12px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
 }
 
@@ -514,12 +515,12 @@
     width: clamp(48px, 4vw + 40px, 40px);
     height: clamp(48px, 4vw + 40px, 40px);
     background: transparent; /* no fill */
-    border: 2px solid var(--color-primary); /* bordered look */
+    /* border: 2px solid var(--color-primary); bordered look */
     color: var(--color-primary); /* icon color */
     border-radius: 50%; /* circular */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     margin-bottom: var(--spacing-sm);
     box-shadow: none; /* remove shadows */
     transition: none; /* no icon animations */
@@ -573,7 +574,7 @@
     font-size: var(--font-size-h5);
     font-weight: var(--font-weight-semibold);
     color: var(--color-heading-secondary);
-    margin-bottom: var(--spacing-component-xs);
+    margin-bottom: var(--spacing-component-x);
     line-height: var(--line-height-heading);
     transition: color 0.3s ease;
 }

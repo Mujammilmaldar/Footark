@@ -55,9 +55,11 @@
                                         <div class="feature-icon">
                                             <span data-ico-remixiconsbusiness="" class="bt_bb_icon_holder"></span>
                                         </div>
-                                        <h4 class="feature-title">Values</h4>
-                                        <p class="feature-desc">We care for the whole person and believe that addressing a
-                                            broad range of life's complexities.</p>
+                                        <div class="feature-content">
+                                            <h4 class="feature-title">Values</h4>
+                                            <p class="feature-desc">We care for the whole person and believe that addressing a
+                                                broad range of life's complexities.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6">
@@ -65,9 +67,11 @@
                                         <div class="feature-icon">
                                             <i class="home-icon"></i>
                                         </div>
-                                        <h4 class="feature-title">Experience</h4>
-                                        <p class="feature-desc">A community where people achieve their full
-                                            potential for health and well-being.</p>
+                                        <div class="feature-content">
+                                            <h4 class="feature-title">Experience</h4>
+                                            <p class="feature-desc">A community where people achieve their full
+                                                potential for health and well-being.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6">
@@ -75,9 +79,11 @@
                                         <div class="feature-icon">
                                             <i class="approach-icon"></i>
                                         </div>
-                                        <h4 class="feature-title">Approach</h4>
-                                        <p class="feature-desc">Partnerships with education, government, and
-                                            community organizations multiply our impact.</p>
+                                        <div class="feature-content">
+                                            <h4 class="feature-title">Approach</h4>
+                                            <p class="feature-desc">Partnerships with education, government, and
+                                                community organizations multiply our impact.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6">
@@ -85,9 +91,11 @@
                                         <div class="feature-icon">
                                             <i class="providers-icon"></i>
                                         </div>
-                                        <h4 class="feature-title">Providers</h4>
-                                        <p class="feature-desc">Patient-centered healthcare with excellence in
-                                            quality, service, and access to a range of needs.</p>
+                                        <div class="feature-content">
+                                            <h4 class="feature-title">Providers</h4>
+                                            <p class="feature-desc">Patient-centered healthcare with excellence in
+                                                quality, service, and access to a range of needs.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -623,40 +631,17 @@
                             <p class="contact-subtitle">Delivering world class home care</p>
                         </div>
 
-                        <div class="contact-details">
-                            <div class="contact-item flex-column">
-                                <div class="contact-icon-wrapper">
-                                    <i class="location-icon"></i>
-                                </div>
-                                <div class="contact-content">
-                                    <h4>Location</h4>
-                                    <p>New York 60 East<br>65th Street<br>NY 10065</p>
-                                </div>
-                            </div>
-
-                            <div class="contact-item flex-column">
-                                <div class="contact-icon-wrapper">
-                                    <i class="hours-icon"></i>
-                                </div>
-                                <div class="contact-content">
-                                    <h4>Hours</h4>
-                                    <p>Mon-Wed: 8am - 7pm<br>Thursday: 8am - 9pm<br>Friday: 8am - 5pm</p>
-                                </div>
-                            </div>
-
-                            <div class="contact-item flex-column">
-                                <div class="contact-icon-wrapper">
-                                    <i class="social-icon"></i>
-                                </div>
-                                <div class="contact-content">
-                                    <h4>Social</h4>
-                                    <div class="contact-social-links above-footer-links">
-                                        <a href="#" class="above-footer-links">Facebook</a>
-                                        <a href="#" class="above-footer-links">Twitter</a>
-                                        <a href="#" class="above-footer-links">Instagram</a>
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- Map Container -->
+                        <div class="contact-map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.9674891487547!2d72.83102731490284!3d19.03758078711428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf26f4c34d1b%3A0x2be8d86c82a7fdbb!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1639123456789!5m2!1sen!2sin" 
+                                width="100%" 
+                                height="350" 
+                                style="border:0; border-radius: 12px; margin: 20px 0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
                         </div>
 
                         <div class="contact-actions">
@@ -692,15 +677,8 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="condition">Condition*</label>
-                                <select id="condition" name="condition" required>
-                                    <option value="">Select condition</option>
-                                    <option value="arrhythmia">Arrhythmia</option>
-                                    <option value="foot-pain">Foot Pain</option>
-                                    <option value="ankle-injury">Ankle Injury</option>
-                                    <option value="plantar-fasciitis">Plantar Fasciitis</option>
-                                    <option value="other">Other</option>
-                                </select>
+                                <label for="phone">Phone Number*</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
                             </div>
 
                             <div class="form-group">

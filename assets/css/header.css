@@ -30,12 +30,15 @@ header {
 
 .nav-brand .brand-link {
     display: inline-block;
-    transition: transform 0.3s ease;
+    /* Commented out animation */
+    /* transition: transform 0.3s ease; */
 }
 
+/* Commented out brand link hover animation
 .nav-brand .brand-link:hover {
     transform: scale(1.05);
 }
+*/
 
 .nav-brand .brand-logo {
     width: var(--header-logo-width);
@@ -116,19 +119,27 @@ header {
 }
 
 .appointment-btn {
+    /* Old gradient background - commented out
     background: linear-gradient(45deg, var(--color-secondary), var(--color-secondary-light));
-    color: var(--color-text-inverse) !important;
+    */
+    
+    /* New outline style with lighter color */
+    background: transparent;
+    border: 2px solid var(--color-secondary-light);
+    color: var(--color-secondary-light) !important;
     padding: var(--button-padding);
     border-radius: var(--button-border-radius);
     font-size: var(--font-size-header-btn);
     font-weight: var(--font-weight-bold);
     text-decoration: none !important;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: var(--box-shadow-small);
+    transition: all 0.3s ease;
+    /* Removed box-shadow and position/overflow for animations */
+    /* box-shadow: var(--box-shadow-small);
     position: relative;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
+/* Commented out animation pseudo-element
 .appointment-btn::before {
     content: '';
     position: absolute;
@@ -139,15 +150,24 @@ header {
     background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
     transition: left 0.6s ease;
 }
+*/
 
 .appointment-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(107, 144, 128, 0.3);
+    /* Removed ALL animations and effects */
+    /* transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(107, 144, 128, 0.3); */
+    
+    /* Simple hover style - lighter secondary color */
+    background: var(--color-secondary-light);
+    color: var(--color-text-inverse) !important;
+    border-color: var(--color-secondary-light);
 }
 
+/* Commented out animation hover effect
 .appointment-btn:hover::before {
     left: 100%;
 }
+*/
 
 /* Social Links */
 .social-links-header {
@@ -377,19 +397,30 @@ header {
    -------------------------------------------------------------------------- */
 
 .cta-link {
+    /* Old gradient background - commented out
     background: linear-gradient(45deg, var(--color-secondary), var(--color-secondary-light));
-    color: var(--color-text-inverse) !important;
+    */
+    
+    /* New outline style - lighter color */
+    background: transparent;
+    border: 2px solid var(--color-secondary-light);
+    color: var(--color-secondary-light) !important;
     padding: var(--button-padding);
     border-radius: var(--button-border-radius);
     font-size: var(--font-size-header-btn);
     font-weight: var(--font-weight-bold);
     text-decoration: none !important;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: var(--box-shadow-small);
+    transition: all 0.3s ease;
+    /* Small differentiation - slightly thicker border */
+    border-width: 2.5px;
+    /* Removed box-shadow and position/overflow for animations */
+    /* box-shadow: var(--box-shadow-small);
     position: relative;
-    overflow: hidden;
+    overflow: hidden; */
 }
-/* .cta-link {
+
+/* Commented out old commented styles
+.cta-link {
     background: var(--color-white) !important;
     color: var(--color-primary-dark) !important;
     padding: 5px 20px !important;
@@ -403,8 +434,10 @@ header {
     box-shadow: 0 4px 15px rgba(217, 83, 79, 0.3);
     transform: translateY(0);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
+*/
 
+/* Commented out animation pseudo-element
 .cta-link::before {
     content: '';
     position: absolute;
@@ -420,17 +453,24 @@ header {
     z-index: -1;
     border-radius: 75px !important;
 }
+*/
 
 .cta-link:hover {
-    transform: translateY(3px);
-    box-shadow: 0 8px 25px rgba(217, 83, 79, 0.4);
-    background: var(--color-primary-dark) !important;
-    color: var(--color-white) !important;
+    /* Removed ALL animations and effects */
+    /* transform: translateY(3px);
+    box-shadow: 0 8px 25px rgba(217, 83, 79, 0.4); */
+    
+    /* Simple hover style - lighter secondary color */
+    background: var(--color-secondary-light);
+    color: var(--color-text-inverse) !important;
+    border-color: var(--color-secondary-light);
 }
 
+/* Commented out animation hover effect
 .cta-link:hover::before {
     transform: scale(0);
 }
+*/
 
 /* ==========================================================================
    MOBILE CONTACT FOOTER - Sticky bottom bar for mobile
