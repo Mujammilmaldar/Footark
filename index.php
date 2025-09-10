@@ -102,7 +102,7 @@
     <section class="treatment-results-section">
         <div class="container">
             <div class="results-header">
-                <span class="results-tag">TRANSFORMATIONS</span>
+                <span class="testimonials-tag">TRANSFORMATIONS</span>
                 <h2 class="results-title">Before & After Results</h2>
                 <p class="results-subtitle">Real results from our professional treatments</p>
             </div>
