@@ -106,6 +106,7 @@
   --color-info: #2196f3; /* Blue for information */
   --color-info-light: #64b5f6; /* Light blue */
   --color-info-dark: #1976d2; /* Dark blue */
+  --color-info-rgb: 33, 150, 243; /* RGB values for rgba() usage */
 
   /* -- Background Colors -- */
   --color-bg-primary: #ffffff; /* Main background */
@@ -135,44 +136,44 @@
   /* Focus on readability and visual hierarchy */
 
   /* Display Sizes - For hero sections and major headings */
-  --font-size-display-large: clamp(3rem, calc(4.5vw + 1.5rem), 4.5rem);
-  --font-size-display-medium: clamp(2.5rem, calc(3.5vw + 1.25rem), 3.5rem);
-  --font-size-display-small: clamp(2rem, calc(2.5vw + 1rem), 2.75rem);
+  --font-size-display-large: clamp(3rem, calc(5vw + 0.5rem), 4rem);
+  --font-size-display-medium: clamp(2.5rem, calc(4vw + 0.5rem), 3.25rem);
+  --font-size-display-small: clamp(2.25rem, calc(3vw + 0.5rem), 2.75rem);
 
   /* Heading Hierarchy - Better proportions and readability */
-  --font-size-h1: clamp(1.875rem, calc(3vw + 0.875rem), 2.75rem);
-  --font-size-h2: clamp(1.5rem, calc(2.5vw + 0.75rem), 2.25rem);
-  --font-size-h3: clamp(1.25rem, calc(2vw + 0.625rem), 1.875rem);
-  --font-size-h4: clamp(1.125rem, calc(1.5vw + 0.5rem), 1.5rem);
-  --font-size-h5: clamp(1rem, calc(1.25vw + 0.375rem), 1.25rem);
-  --font-size-h6: clamp(0.875rem, calc(1vw + 0.25rem), 1.125rem);
+  --font-size-h1: clamp(2rem, calc(4vw + 0.25rem), 2.5rem);
+  --font-size-h2: clamp(1.75rem, calc(3vw + 0.25rem), 2rem);
+  --font-size-h3: clamp(1.5rem, calc(2.5vw + 0.25rem), 1.75rem);
+  --font-size-h4: clamp(1.375rem, calc(2vw + 0.25rem), 1.5rem);
+  --font-size-h5: clamp(1.25rem, calc(1.5vw + 0.25rem), 1.25rem);
+  --font-size-h6: clamp(1.125rem, calc(1vw + 0.25rem), 1.125rem);
 
   /* Body Text - Enhanced readability with optimal line length */
-  --font-size-body-large: clamp(1.125rem, calc(0.75vw + 0.875rem), 1.25rem);
-  --font-size-body: clamp(1rem, calc(0.5vw + 0.875rem), 1.125rem);
+  --font-size-body-large: clamp(1.0625rem, calc(1vw + 0.75rem), 1.125rem);
+  --font-size-body: clamp(1rem, calc(0.5vw + 0.75rem), 1rem);
   --font-size-body-small: clamp(0.875rem, calc(0.25vw + 0.75rem), 0.9375rem);
 
   /* Utility Text Sizes - Better balance */
-  --font-size-lead: clamp(1.25rem, calc(1vw + 1rem), 1.375rem);
-  --font-size-subtitle: clamp(1.0625rem, calc(0.75vw + 0.875rem), 1.1875rem);
-  --font-size-small: clamp(0.8125rem, calc(0.25vw + 0.75rem), 0.875rem);
-  --font-size-caption: clamp(0.75rem, calc(0.125vw + 0.7rem), 0.8125rem);
-  --font-size-micro: clamp(0.6875rem, calc(0.125vw + 0.65rem), 0.75rem);
+  --font-size-lead: clamp(1.125rem, calc(0.875vw + 0.875rem), 1.25rem);
+  --font-size-subtitle: clamp(0.975rem, calc(0.625vw + 0.75rem), 1.0625rem);
+  --font-size-small: clamp(0.75rem, calc(0.1875vw + 0.675rem), 0.8125rem);
+  --font-size-caption: clamp(0.6875rem, calc(0.0625vw + 0.625rem), 0.75rem);
+  --font-size-micro: clamp(0.625rem, calc(0.0625vw + 0.5875rem), 0.6875rem);
 
   /* Button and UI Element Sizes - More consistent */
   --font-size-button-large: clamp(1rem, calc(0.75vw + 0.875rem), 1.125rem);
-  --font-size-button: clamp(0.875rem, calc(0.5vw + 0.75rem), 0.9375rem);
-  --font-size-button-small: clamp(0.8125rem, calc(0.25vw + 0.75rem), 0.875rem);
+  --font-size-button: clamp(0.9375rem, calc(0.5vw + 0.8125rem), 1rem);
+  --font-size-button-small: clamp(0.875rem, calc(0.25vw + 0.8125rem), 0.9375rem);
 
   /* Navigation and Menu Sizes - Better hierarchy */
-  --font-size-nav: clamp(0.9375rem, calc(0.5vw + 0.875rem), 1rem);
+  --font-size-nav: clamp(0.9375rem, calc(0.5vw + 0.8125rem), 1rem);
   --font-size-nav-small: clamp(0.875rem, calc(0.25vw + 0.8125rem), 0.9375rem);
 
   /* Header-specific Font Sizes - Refined proportions */
   --font-size-header-contact: clamp(0.8125rem, calc(0.25vw + 0.75rem), 0.875rem);
-  --font-size-header-nav: clamp(0.9375rem, calc(0.5vw + 0.875rem), 1rem);
+  --font-size-header-nav: clamp(0.9375rem, calc(0.5vw + 0.8125rem), 1rem);
   --font-size-header-btn: clamp(0.875rem, calc(0.25vw + 0.8125rem), 0.9375rem);
-  --font-size-logo: clamp(1.5rem, calc(1.5vw + 1.125rem), 1.875rem);
+  --font-size-logo: clamp(1.375rem, calc(1.25vw + 1rem), 1.75rem);
 
   /* -- Font Weights -- */
   --font-weight-light: 300;
@@ -388,7 +389,7 @@ button,
   font-size: var(--font-size-button);
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-tight);
-  padding: var(--spacing-component-sm) var(--spacing-component-lg);
+  padding: var(--spacing-component-xs) var(--spacing-component-md);
   border: 2px solid var(--color-primary);
   border-radius: var(--border-radius);
   cursor: pointer;
@@ -402,14 +403,14 @@ button,
   position: relative;
   z-index: 1;
   overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: var(--box-shadow);
 }
 
 /* Enhanced hover effects */
 button:hover,
 .btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   background-color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
   box-shadow: var(--box-shadow-large);

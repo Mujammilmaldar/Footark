@@ -157,7 +157,7 @@
 
 .blog-content-card h2 {
   font-family: var(--font-family-serif);
-  font-size: 1.5rem;
+  font-size: var(--font-size-h4);
   color: var(--color-heading-primary);
   margin: 0 0 var(--spacing-md) 0;
   font-weight: var(--font-weight-semibold);
@@ -165,7 +165,7 @@
 
 .blog-content-card h3 {
   font-family: var(--font-family-serif);
-  font-size: 1.25rem;
+  font-size: var(--font-size-h5);
   color: #6c757d;
   margin: var(--spacing-lg) 0 var(--spacing-md) 0;
   font-weight: var(--font-weight-semibold);
@@ -173,7 +173,7 @@
 
 .blog-content-card p {
   font-family: var(--font-family-sans);
-  font-size: 1rem;
+  font-size: var(--font-size-body);
   line-height: 1.6;
   color: var(--color-text-primary);
   margin-bottom: var(--spacing-md);
@@ -182,7 +182,7 @@
 
 .blog-content-card p:first-of-type {
   font-family: var(--font-family-sans);
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
   color: var(--color-text-secondary);
   font-weight: var(--font-weight-medium);
 }
@@ -246,7 +246,7 @@
 
 .blog-exercise-title {
   font-family: var(--font-family-serif);
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
   color: #6c757d;
   margin-bottom: var(--spacing-sm);
   font-weight: var(--font-weight-bold);
@@ -254,7 +254,7 @@
 
 .blog-exercise-description {
   font-family: var(--font-family-sans);
-  font-size: 0.95rem;
+  font-size: var(--font-size-body);
   line-height: 1.5;
   color: var(--color-text-primary);
 }
@@ -282,7 +282,7 @@
   width: 100%;
   border-collapse: collapse;
   background: var(--color-white);
-  font-size: 0.95rem;
+  font-size: var(--font-size-body);
   font-family: var(--font-family-sans);
 }
 
@@ -296,7 +296,7 @@
   font-weight: var(--font-weight-bold);
   padding: var(--spacing-sm) var(--spacing-md);
   text-align: left;
-  font-size: 0.9rem;
+  font-size: var(--font-size-small);
   text-transform: uppercase;
   letter-spacing: 0.25px;
 }
@@ -344,7 +344,7 @@
 
 .blog-widget-title {
   font-family: var(--font-family-serif);
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
   font-weight: var(--font-weight-bold);
   margin: 0;
   display: flex;
@@ -409,7 +409,7 @@
 
 .blog-toc-title {
   font-family: var(--font-family-serif);
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
   color: var(--color-heading-primary);
   margin-bottom: var(--spacing-sm);
   display: flex;
@@ -483,7 +483,7 @@
 
 .blog-related-content h4 {
   font-family: var(--font-family-serif);
-  font-size: 0.95rem;
+  font-size: var(--font-size-body);
   color: var(--color-heading-primary);
   margin: 0 0 2px 0;
   font-weight: var(--font-weight-medium);
@@ -491,7 +491,7 @@
 
 .blog-related-content p {
   font-family: var(--font-family-sans);
-  font-size: 0.85rem;
+  font-size: var(--font-size-small);
   color: var(--color-text-muted);
   margin: 0;
 }
@@ -526,7 +526,7 @@
 
 .blog-cta-title {
   font-family: var(--font-family-serif);
-  font-size: 1.5rem;
+  font-size: var(--font-size-h4);
   font-weight: var(--font-weight-bold);
   margin-bottom: var(--spacing-sm);
   color: var(--color-white);
@@ -534,7 +534,7 @@
 
 .blog-cta-text {
   font-family: var(--font-family-sans);
-  font-size: 1rem;
+  font-size: var(--font-size-body);
   line-height: 1.6;
   margin-bottom: var(--spacing-md);
   opacity: 0.9;
@@ -547,7 +547,7 @@
   padding: var(--spacing-sm) var(--spacing-lg);
   border: none;
   border-radius: var(--border-radius);
-  font-size: 1rem;
+  font-size: var(--font-size-body);
   font-weight: var(--font-weight-bold);
   cursor: pointer;
   transition: all 0.3s ease;
@@ -570,20 +570,21 @@
    ========================================================================== */
 
 .blog-medical-note {
-  background: #fff3cd;
-  border: 2px solid #ffc107;
-  border-radius: var(--border-radius-large);
-  padding: var(--spacing-md);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #d1ecf1;
+  border: 1px solid #bee5eb;
+  color: #0c5460;
+  padding: 12px 15px;
+  border-radius: 6px;
   margin: var(--spacing-md) 0;
   position: relative;
 }
 
 .blog-medical-note::before {
   content: '⚕️';
-  position: absolute;
-  top: -15px;
-  left: var(--spacing-md);
-  background: #ffc107;
+  background: #17a2b8;
   color: var(--color-white);
   width: 30px;
   height: 30px;
@@ -591,20 +592,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: var(--font-size-body);
+  flex-shrink: 0;
+  position: static;
 }
 
 .blog-medical-note h4 {
   font-family: var(--font-family-serif);
-  color: #856404;
+  color: #0c5460;
   margin-bottom: var(--spacing-xs);
   font-weight: var(--font-weight-bold);
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
 }
 
 .blog-medical-note p {
   font-family: var(--font-family-sans);
-  color: #856404;
+  color: #0c5460;
   margin: 0;
   font-weight: var(--font-weight-medium);
 }
@@ -681,7 +684,7 @@
   padding: 0 var(--spacing-md);
   position: relative;
   z-index: 1;
-  font-size: 1.2rem;
+  font-size: var(--font-size-h5);
 }
 
 .blog-divider-fancy::before {
@@ -710,7 +713,7 @@
 
 @media (max-width: 1024px) {
   .blog-layout {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: var(--spacing-md);
   }
   
@@ -810,11 +813,11 @@
   
   .blog-related-article {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
   
   .blog-related-thumbnail {
-    align-self: center;
+    align-self: left;
   }
 }
 
@@ -1271,7 +1274,7 @@
   position: absolute;
   top: -10px;
   left: var(--spacing-md);
-  font-size: 3rem;
+  font-size: var(--font-size-display-medium);
   color: var(--color-primary);
   font-family: var(--font-family-serif);
   line-height: 1;

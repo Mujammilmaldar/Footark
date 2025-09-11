@@ -377,7 +377,7 @@ img {
   border: 1px solid var(--color-border-light);
   border-top: none;
   border-radius: 0 0 var(--border-radius) var(--border-radius);
-  padding: var(--spacing-lg);
+  padding: 0px var(--spacing-lg);
 }
 
 /* Table of Contents Styling - Enhanced */
@@ -392,17 +392,17 @@ img {
 }
 
 .toc-list li {
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .toc-link {
   display: flex;
   align-items: center;
-  padding: 12px 18px;
+  padding: 10px 15px;
   color: var(--color-text-secondary);
   text-decoration: none;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: var(--font-size-body-small);
   font-weight: 500;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   border-left: 3px solid transparent;
@@ -470,7 +470,7 @@ img {
 .rehab-sidebar {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-lg);
+  gap: var(--spacing-md);
 }
 
 .rehab-widget {
@@ -605,18 +605,6 @@ img {
   overflow: hidden;
 }
 
-.medical-hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: -200px;
-  width: 400px;
-  height: 400px;
-  background: radial-gradient(circle, rgba(232, 90, 79, 0.05) 0%, transparent 70%);
-  border-radius: 50%;
-  animation: float 6s ease-in-out infinite;
-}
-
 @keyframes float {
   0%, 100% { transform: translateY(0px) rotate(0deg); }
   50% { transform: translateY(-20px) rotate(180deg); }
@@ -626,7 +614,7 @@ img {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: var(--font-size-body-small);
 }
 
 .breadcrumb-link {
@@ -643,7 +631,7 @@ img {
 .breadcrumb-separator {
   margin: 0 12px;
   color: #6c757d;
-  font-size: 12px;
+  font-size: var(--font-size-caption);
 }
 
 .breadcrumb-current {
@@ -663,7 +651,7 @@ img {
   color: white;
   padding: 12px 20px;
   border-radius: 25px;
-  font-size: 14px;
+  font-size: var(--font-size-body-small);
   font-weight: 600;
   margin-bottom: 25px;
   box-shadow: 0 4px 15px rgba(232, 90, 79, 0.3);
@@ -687,7 +675,7 @@ img {
 }
 
 .medical-badge i {
-  font-size: 16px;
+  font-size: var(--font-size-body);
   animation: pulse 2s ease-in-out infinite;
 }
 
@@ -697,7 +685,7 @@ img {
 }
 
 .hero-title {
-  font-size: 2.5rem;
+  font-size: var(--font-size-display-medium);
   font-weight: 700;
   color: var(--color-heading-primary);
   margin-bottom: 20px;
@@ -705,7 +693,7 @@ img {
 }
 
 .hero-description {
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
   color: var(--color-text-secondary);
   margin-bottom: 40px;
   line-height: 1.6;
@@ -754,7 +742,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size: var(--font-size-h5);
 }
 
 .stat-content {
@@ -763,14 +751,14 @@ img {
 }
 
 .stat-number {
-  font-size: 1.5rem;
+  font-size: var(--font-size-h4);
   font-weight: 700;
   color: var(--color-heading-primary);
   line-height: 1;
 }
 
 .stat-label {
-  font-size: 0.9rem;
+  font-size: var(--font-size-small);
   color: var(--color-text-secondary);
   margin-top: 2px;
 }
@@ -783,7 +771,7 @@ img {
 
 .content-layout {
   display: grid;
-  grid-template-columns: 350px 1fr;
+  grid-template-columns: 1fr 350px ;
   gap: 40px;
   align-items: start;
 }
@@ -828,7 +816,7 @@ img {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 1.8rem;
+  font-size: var(--font-size-h2);
   font-weight: 700;
   color: var(--color-heading-primary);
   margin-bottom: 8px;
@@ -836,11 +824,11 @@ img {
 
 .section-icon {
   color: var(--color-primary);
-  font-size: 1.5rem;
+  font-size: var(--font-size-h4);
 }
 
 .section-subtitle {
-  font-size: 1rem;
+  font-size: var(--font-size-body);
   color: var(--color-text-secondary);
   font-style: italic;
 }
@@ -953,7 +941,7 @@ img {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 1.3rem;
+  font-size: var(--font-size-h4);
   font-weight: 700;
   color: var(--color-heading-primary);
   margin-bottom: 18px;
@@ -974,7 +962,7 @@ img {
 
 .priority-icon {
   color: var(--color-primary);
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
   padding: 8px;
   background: rgba(232, 90, 79, 0.1);
   border-radius: 50%;
@@ -988,7 +976,7 @@ img {
 }
 
 .instruction-text {
-  font-size: 1rem;
+  font-size: var(--font-size-body);
   line-height: 1.6;
   color: var(--color-text-primary);
   margin-bottom: 15px;
@@ -998,15 +986,17 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  background: #fff3cd;
-  border: 1px solid #ffeaa7;
+  background: #d1ecf1;
+  border: 1px solid #bee5eb;
   padding: 15px;
   border-radius: 8px;
   margin-top: 15px;
+  flex-direction: column;
+  color: #0c5460;
 }
 
 .note-icon {
-  color: #856404;
+  color: var(--color-info);
   margin-top: 2px;
 }
 
@@ -1092,7 +1082,7 @@ img {
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: var(--font-size-h5);
   flex-shrink: 0;
   transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   position: relative;
@@ -1105,7 +1095,7 @@ img {
 }
 
 .step-title {
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
   font-weight: 600;
   color: var(--color-heading-primary);
   margin-bottom: 8px;
@@ -1178,7 +1168,7 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
   font-weight: 600;
   color: var(--color-heading-primary);
   margin-bottom: 20px;
@@ -1244,7 +1234,7 @@ img {
 
 .timeline-content p {
   color: var(--color-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--font-size-small);
   line-height: 1.5;
 }
 
@@ -1270,7 +1260,7 @@ img {
 }
 
 .med-strength {
-  font-size: 0.9rem;
+  font-size: var(--font-size-small);
   color: var(--color-text-secondary);
   background: white;
   padding: 4px 8px;
@@ -1278,7 +1268,7 @@ img {
 }
 
 .med-note {
-  font-size: 0.9rem;
+  font-size: var(--font-size-small);
   color: var(--color-text-secondary);
   font-style: italic;
 }
@@ -1330,7 +1320,7 @@ img {
 
 .option-icon {
   color: var(--color-primary);
-  font-size: 1.2rem;
+  font-size: var(--font-size-h5);
   margin-right: 8px;
 }
 
@@ -1341,7 +1331,7 @@ img {
 }
 
 .option-badge {
-  font-size: 0.75rem;
+  font-size: var(--font-size-caption);
   padding: 4px 8px;
   border-radius: 12px;
   font-weight: 600;
@@ -1359,7 +1349,7 @@ img {
 
 .option-description {
   color: var(--color-text-primary);
-  font-size: 0.95rem;
+  font-size: var(--font-size-body);
   line-height: 1.5;
 }
 
@@ -1405,7 +1395,7 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
   font-weight: 600;
   color: var(--color-heading-primary);
   margin-bottom: 15px;
@@ -1441,14 +1431,14 @@ img {
 }
 
 .emergency-icon {
-  font-size: 1.5rem;
+  font-size: var(--font-size-h4);
 }
 
 /* Medical Sidebar - Enhanced */
 .medical-sidebar {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .sidebar-card {
@@ -1461,29 +1451,6 @@ img {
   position: relative;
 }
 
-.sidebar-card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
-  transform: scaleX(0);
-  transition: transform 0.4s ease;
-}
-
-.sidebar-card::after {
-  content: "";
-  position: absolute;
-  top: -50%;
-  right: -50%;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle, rgba(232, 90, 79, 0.03) 0%, transparent 70%);
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
 
 .sidebar-card:hover::before {
   transform: scaleX(1);
@@ -1501,7 +1468,7 @@ img {
 
 .sidebar-card .card-header {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  padding: 25px;
+  padding: 18px 20px;
   border-bottom: 1px solid #e9ecef;
   position: relative;
 }
@@ -1510,16 +1477,17 @@ img {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
   font-weight: 600;
   color: var(--color-heading-primary);
-  margin-bottom: 8px;
+  margin-bottom: 0px;
   position: relative;
   z-index: 2;
+  padding-bottom: 0px;
 }
 
 .card-title i {
-  font-size: 18px;
+  font-size: var(--font-size-body-large);
   color: var(--color-primary);
   padding: 8px;
   background: rgba(232, 90, 79, 0.1);
@@ -1537,7 +1505,7 @@ img {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 0.85rem;
+  font-size: var(--font-size-small);
 }
 
 .availability-status.online .status-dot {
@@ -1591,12 +1559,12 @@ img {
 }
 
 .card-content {
-  padding: 20px;
+  padding: 18px 20px;
 }
 
 .emergency-text {
   color: var(--text-white);
-  font-size: 0.95rem;
+  font-size: var(--font-size-body);
 }
 
 .emergency-button {
@@ -1652,7 +1620,7 @@ img {
 }
 
 .phone-number {
-  font-size: 0.9rem;
+  font-size: var(--font-size-small);
   opacity: 0.9;
 }
 
@@ -1688,7 +1656,7 @@ img {
 }
 
 .timeline-description {
-  font-size: 0.9rem;
+  font-size: var(--font-size-small);
   color: var(--color-text-secondary);
 }
 
@@ -1785,7 +1753,7 @@ img {
 }
 
 .phase-info p {
-  font-size: 0.9rem;
+  font-size: var(--font-size-small);
   color: var(--color-text-secondary);
   line-height: 1.4;
 }
@@ -1794,14 +1762,14 @@ img {
 .contact-info-of-rehabilitation {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
   gap: 15px;
-  padding: 15px 0;
+  padding: 12px 0;
   border-bottom: 1px solid #f0f2f5;
   transition: all 0.3s ease;
   border-radius: 8px;
@@ -1835,7 +1803,7 @@ img {
 
 .contact-icon {
   color: var(--color-primary);
-  font-size: 16px;
+  font-size: var(--font-size-body);
   width: 40px;
   height: 40px;
   background: linear-gradient(135deg, rgba(232, 90, 79, 0.1), rgba(232, 90, 79, 0.05));
@@ -1873,7 +1841,7 @@ img {
 
 .contact-details span {
   color: var(--color-text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--font-size-small);
   transition: color 0.3s ease;
 }
 
@@ -1886,7 +1854,7 @@ img {
   position: relative;
   margin-bottom: 25px;
   padding-bottom: 15px;
-  font-size: 1.8rem;
+  font-size: var(--font-size-h2);
   font-weight: 700;
   background: linear-gradient(135deg, var(--color-heading-primary), var(--color-primary));
   -webkit-background-clip: text;
@@ -1912,7 +1880,7 @@ img {
 
 .main-content h3 {
   color: var(--color-primary);
-  font-size: 1.4rem;
+  font-size: var(--font-size-h4);
   font-weight: 600;
   margin: 25px 0 15px 0;
   position: relative;
@@ -1962,7 +1930,7 @@ img {
   transform: translateY(-50%);
   color: var(--color-primary);
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: var(--font-size-h6);
 }
 
 .main-content ol li::before {
@@ -1980,7 +1948,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8rem;
+  font-size: var(--font-size-small);
   font-weight: bold;
 }
 
@@ -1993,7 +1961,7 @@ img {
   line-height: 1.7;
   margin-bottom: 18px;
   color: var(--color-text-primary);
-  font-size: 1rem;
+  font-size: var(--font-size-body);
   position: relative;
 }
 
@@ -2023,7 +1991,7 @@ img {
   .content-layout {
     grid-template-columns: 1fr;
     gap: 30px;
-    padding: 0 15px;
+    padding: 0px;
   }
   
   .hero-banner {
@@ -2032,12 +2000,12 @@ img {
   }
   
   .hero-banner h1 {
-    font-size: 2rem;
+    font-size: var(--font-size-h1);
     margin-bottom: 15px;
   }
   
   .hero-banner p {
-    font-size: 1rem;
+    font-size: var(--font-size-body);
     margin-bottom: 20px;
   }
   
@@ -2045,6 +2013,7 @@ img {
     position: static;
     margin: 20px auto 0;
     transform: none;
+    margin-bottom: 10px;
   }
   
   .sidebar {
@@ -2060,11 +2029,11 @@ img {
   }
   
   .main-content h2 {
-    font-size: 1.5rem;
+    font-size: var(--font-size-h4);
   }
   
   .main-content h3 {
-    font-size: 1.2rem;
+    font-size: var(--font-size-h5);
   }
   
   .medical-cards {
@@ -2094,20 +2063,20 @@ img {
   .contact-icon {
     width: 35px;
     height: 35px;
-    font-size: 14px;
+    font-size: var(--font-size-body-small);
   }
-}
+
 
   .medical-sidebar {
     order: -1;
   }
 
   .hero-title {
-    font-size: 2rem;
+    font-size: var(--font-size-h1);
   }
 
   .hero-description {
-    font-size: 1rem;
+    font-size: var(--font-size-body);
   }
 
   .medical-stats {
@@ -2158,8 +2127,8 @@ img {
   }
 
   .section-title {
-    font-size: 1.5rem;
-    flex-direction: column;
+    font-size: var(--font-size-h4);
+    flex-direction: row;
     align-items: flex-start;
     gap: 8px;
   }
@@ -2174,12 +2143,12 @@ img {
 
   .emergency-button {
     padding: 12px 16px;
-    font-size: 0.9rem;
+    font-size: var(--font-size-small);
   }
 
   .appointment-button {
     padding: 10px 16px;
-    font-size: 0.9rem;
+    font-size: var(--font-size-small);
   }
 
   .contact-item {
@@ -2196,7 +2165,7 @@ img {
   }
 
   .contact-info-of-rehabilitation .contact-icon {
-    font-size: 1rem;
+    font-size: var(--font-size-body);
     margin-right: 0.5rem;
     flex-shrink: 0;
     width: 1.5rem;
@@ -2204,20 +2173,20 @@ img {
   }
 
   .contact-info-of-rehabilitation .contact-details {
-    font-size: 0.9rem;
+    font-size: var(--font-size-small);
     display: flex;
     flex-direction: column;
     flex: 1;
   }
 
   .contact-info-of-rehabilitation .contact-details strong {
-    font-size: 0.95rem;
+    font-size: var(--font-size-body);
     margin-bottom: 0.25rem;
     display: block;
   }
 
   .contact-info-of-rehabilitation .contact-details span {
-    font-size: 0.85rem;
+    font-size: var(--font-size-small);
     color: var(--text-color);
     line-height: 1.4;
   }
@@ -2229,7 +2198,7 @@ img {
   .phase-marker {
     width: 35px;
     height: 35px;
-    font-size: 0.9rem;
+    font-size: var(--font-size-small);
   }
 }
 
@@ -2239,16 +2208,16 @@ img {
   }
 
   .hero-title {
-    font-size: 1.75rem;
+    font-size: var(--font-size-h2);
   }
 
   .hero-description {
-    font-size: 0.95rem;
+    font-size: var(--font-size-body);
   }
 
   .medical-badge {
     padding: 6px 12px;
-    font-size: 0.8rem;
+    font-size: var(--font-size-small);
   }
 
   .stat-card {
@@ -2259,19 +2228,19 @@ img {
   .stat-icon {
     width: 40px;
     height: 40px;
-    font-size: 1rem;
+    font-size: var(--font-size-body);
   }
 
   .stat-number {
-    font-size: 1.2rem;
+    font-size: var(--font-size-h5);
   }
 
   .section-title {
-    font-size: 1.3rem;
+    font-size: var(--font-size-h2);
   }
 
   .section-icon {
-    font-size: 1.2rem;
+    font-size: var(--font-size-h5);
   }
 
   .medical-card {
@@ -2283,7 +2252,7 @@ img {
   }
 
   .instruction-title {
-    font-size: 1.1rem;
+    font-size: var(--font-size-h6);
   }
 
   .protocol-step {
@@ -2293,7 +2262,7 @@ img {
   .step-number {
     width: 35px;
     height: 35px;
-    font-size: 1rem;
+    font-size: var(--font-size-body);
   }
 
   .therapy-section {
@@ -2318,14 +2287,14 @@ img {
 
   .emergency-button {
     padding: 10px 14px;
-    font-size: 0.85rem;
+    font-size: var(--font-size-small);
     flex-direction: column;
     text-align: center;
   }
 
   .appointment-button {
     padding: 8px 14px;
-    font-size: 0.85rem;
+    font-size: var(--font-size-small);
   }
 
   .recovery-phases .phase-item {
@@ -2336,27 +2305,27 @@ img {
   .phase-marker {
     width: 30px;
     height: 30px;
-    font-size: 0.8rem;
+    font-size: var(--font-size-small);
   }
 
   .phase-info h4 {
-    font-size: 0.9rem;
+    font-size: var(--font-size-small);
   }
 
   .phase-info p {
-    font-size: 0.8rem;
+    font-size: var(--font-size-small);
   }
 
   .timeline-date {
-    font-size: 0.8rem;
+    font-size: var(--font-size-small);
   }
 
   .timeline-description {
-    font-size: 0.75rem;
+    font-size: var(--font-size-caption);
   }
 
   .breadcrumb-nav {
-    font-size: 0.8rem;
+    font-size: var(--font-size-small);
   }
 
   /* Contact Information Small Mobile */
@@ -2366,16 +2335,16 @@ img {
   }
 
   .contact-info-of-rehabilitation .contact-icon {
-    font-size: 0.9rem;
+    font-size: var(--font-size-small);
     margin-right: 0.4rem;
   }
 
   .contact-info-of-rehabilitation .contact-details {
-    font-size: 0.8rem;
+    font-size: var(--font-size-small);
   }
 
   .contact-info-of-rehabilitation .contact-details strong {
-    font-size: 0.85rem;
+    font-size: var(--font-size-small);
     margin-bottom: 0.2rem;
   }
 
@@ -2506,6 +2475,52 @@ html {
   }
 }
 
+/* Mobile Contact Section - Bottom of Page */
+.mobile-contact-section {
+  display: none;
+  background: #f8f9fa;
+  padding: 30px 0;
+  border-top: 1px solid #e9ecef;
+}
+
+.mobile-contact-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.mobile-contact-card .card-header {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 18px 20px;
+  border-bottom: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.mobile-contact-card .card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: var(--font-size-h6);
+  font-weight: 600;
+  color: var(--color-heading-primary);
+  margin: 0;
+}
+
+.mobile-contact-card .card-content {
+  padding: 20px;
+}
+
+/* Show on mobile only */
+@media (max-width: 768px) {
+  .mobile-contact-section {
+    display: block;
+  }
+}
+
 /* Tablet and Mobile Optimizations */
 @media (max-width: 768px) {
   .rehab-hero-banner {
@@ -2535,7 +2550,7 @@ html {
 
   .section-title {
     font-size: var(--font-size-h2);
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     gap: 10px;
   }
@@ -2581,7 +2596,7 @@ html {
     content: "•";
     color: var(--color-primary);
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: var(--font-size-h5);
     position: absolute;
     left: 0;
     top: 0;
@@ -2626,7 +2641,7 @@ html {
 
   .section-title {
     font-size: var(--font-size-h3);
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     gap: 8px;
   }
@@ -2653,11 +2668,11 @@ html {
   .rehab-content-section ul li {
     padding-left: 18px;
     margin-bottom: 8px;
-    font-size: 14px;
+    font-size: var(--font-size-body-small);
   }
 
   .rehab-content-section ul li::before {
-    font-size: 1.1rem;
+    font-size: var(--font-size-h6);
   }
 
   /* Better mobile spacing */
@@ -2678,13 +2693,13 @@ html {
   .emergency-button, 
   .appointment-button {
     padding: 12px;
-    font-size: 0.9rem;
+    font-size: var(--font-size-small);
     border-radius: 6px;
   }
 
   /* Better mobile typography */
   .instruction-title {
-    font-size: 1rem;
+    font-size: var(--font-size-body);
   }
 
   .protocol-step {
@@ -2717,7 +2732,7 @@ html {
   /* Mobile Table of Contents */
   .toc-link {
     padding: 8px 12px;
-    font-size: 13px;
+    font-size: var(--font-size-small);
   }
 
   .toc-link:hover {
@@ -2730,11 +2745,11 @@ html {
   }
 
   .contact-info-of-rehabilitation .contact-details {
-    font-size: 0.8rem;
+    font-size: var(--font-size-small);
   }
 
   .contact-info-of-rehabilitation .contact-details strong {
-    font-size: 0.85rem;
+    font-size: var(--font-size-small);
   }
 
   /* Mobile rehab widgets */
@@ -2744,6 +2759,6 @@ html {
 
   .rehab-widget-header {
     padding: 12px 15px;
-    font-size: 14px;
+    font-size: var(--font-size-body-small);
   }
 }

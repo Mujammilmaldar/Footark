@@ -15,42 +15,42 @@
     
     /* Typography optimization - exclude header elements */
     main h1 {
-        font-size: 1.8rem;
+        font-size: var(--font-size-h2);
         line-height: 1.2;
         margin-bottom: 0.75rem;
     }
     
     main h2 {
-        font-size: 1.6rem;
+        font-size: var(--font-size-h3);
         line-height: 1.3;
         margin-bottom: 0.75rem;
     }
     
     main h3 {
-        font-size: 1.4rem;
+        font-size: var(--font-size-h4);
         line-height: 1.3;
         margin-bottom: 0.5rem;
     }
     
     main h4 {
-        font-size: 1.2rem;
+        font-size: var(--font-size-h5);
         margin-bottom: 0.5rem;
     }
     
     main h5 {
-        font-size: 1.1rem;
+        font-size: var(--font-size-h6);
         margin-bottom: 0.4rem;
     }
     
     main p {
-        font-size: 0.9rem;
+        font-size: var(--font-size-small);
         line-height: 1.5;
         margin-bottom: 0.75rem;
     }
     
     /* Button optimization - exclude header buttons */
     main .btn {
-        font-size: 0.9rem;
+        font-size: var(--font-size-small);
         padding: 0.7rem 1.2rem;
     }
     
@@ -71,14 +71,14 @@
     }
     
     .form-group label {
-        font-size: 0.9rem;
+        font-size: var(--font-size-small);
         margin-bottom: 0.3rem;
     }
     
     .form-group input,
     .form-group select,
     .form-group textarea {
-        font-size: 0.9rem;
+        font-size: var(--font-size-small);
         padding: 0.6rem 0.8rem;
     }
 }
@@ -95,28 +95,28 @@
     
     /* Further typography optimization - exclude header */
     main h1 {
-        font-size: 1.6rem;
+        font-size: var(--font-size-h3);
         margin-bottom: 0.5rem;
     }
     
     main h2 {
-        font-size: 1.4rem;
+        font-size: var(--font-size-h4);
         margin-bottom: 0.5rem;
     }
     
     main h3 {
-        font-size: 1.2rem;
+        font-size: var(--font-size-h5);
         margin-bottom: 0.4rem;
     }
     
     main p {
-        font-size: 0.85rem;
+        font-size: var(--font-size-small);
         margin-bottom: 0.6rem;
     }
     
     /* Button optimization - exclude header */
     main .btn {
-        font-size: 0.85rem;
+        font-size: var(--font-size-small);
         padding: 0.6rem 1rem;
     }
     
@@ -137,7 +137,7 @@
     .form-group input,
     .form-group select,
     .form-group textarea {
-        font-size: 0.85rem;
+        font-size: var(--font-size-small);
         padding: 0.5rem 0.7rem;
     }
     .testimonials-section button.dot-control {
@@ -158,12 +158,12 @@
     }
     
     .contact-title {
-        font-size: 1.6rem !important;
+        font-size: var(--font-size-h3) !important;
         margin-bottom: 0.5rem !important;
     }
     
     .contact-subtitle {
-        font-size: 0.9rem !important;
+        font-size: var(--font-size-small) !important;
         margin-bottom: 1rem !important;
     }
     
@@ -188,12 +188,12 @@
     }
     
     .contact-content h4 {
-        font-size: 1rem !important;
+        font-size: var(--font-size-body) !important;
         margin-bottom: 0.2rem !important;
     }
     
     .contact-content p {
-        font-size: 0.85rem !important;
+        font-size: var(--font-size-small) !important;
         margin: 0 !important;
     }
     
@@ -221,12 +221,12 @@
     }
     
     .contact-form-header h3 {
-        font-size: 1.3rem !important;
+        font-size: var(--font-size-h4) !important;
         margin-bottom: 0.5rem !important;
     }
     
     .form-note {
-        font-size: 0.8rem !important;
+        font-size: var(--font-size-small) !important;
         margin-bottom: 1rem !important;
     }
 }
@@ -237,7 +237,7 @@
     }
     
     .contact-title {
-        font-size: 1.4rem !important;
+        font-size: var(--font-size-h4) !important;
     }
     
     .contact-details {
@@ -256,11 +256,11 @@
     }
     
     .contact-content h4 {
-        font-size: 0.9rem !important;
+        font-size: var(--font-size-small) !important;
     }
     
     .contact-content p {
-        font-size: 0.8rem !important;
+        font-size: var(--font-size-small) !important;
     }
     
     .contact-actions {
@@ -278,7 +278,7 @@
     }
     
     .contact-form-header h3 {
-        font-size: 1.2rem !important;
+        font-size: var(--font-size-h5) !important;
     }
 }
 
@@ -332,7 +332,7 @@
     }
     
     .arrow-btn i {
-        font-size: 12px !important;
+        font-size: var(--font-size-caption) !important;
     }
 }
 

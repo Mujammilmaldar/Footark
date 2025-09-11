@@ -83,8 +83,11 @@
                                 <p class="instruction-text">You will be provided with a post-operative shoe for your comfort. Use the post-operative shoe when you are up. You may put weight on the heel of the shoe and use your crutches as necessary.</p>
                                 
                                 <div class="clinical-note">
-                                    <i class="fas fa-info-circle note-icon"></i>
-                                    <strong>Important:</strong> Avoid putting weight on the forefoot or toes during the initial healing phase.
+                                    <div class="clinical-note-heading">
+                                        <i class="fas fa-info-circle note-icon"></i>
+                                        <strong>Important:</strong> 
+                                    </div>
+                                    Avoid putting weight on the forefoot or toes during the initial healing phase.
                                 </div>
                             </div>
                             
@@ -242,8 +245,11 @@
                                 <p class="instruction-text">Normally we will not have any physical therapy until 6-8 weeks after surgery. At that time we can do home exercises or physical therapy based on your individual needs and desires.</p>
                                 
                                 <div class="clinical-note">
-                                    <i class="fas fa-info-circle note-icon"></i>
-                                    <strong>Note:</strong> We will discuss your exercises and activity limitations when you are seen in the office.
+                                    <div class="clinical-note-heading">
+                                        <i class="fas fa-info-circle note-icon"></i>
+                                        <strong>Note:</strong>
+                                    </div>
+                                         We will discuss your exercises and activity limitations when you are seen in the office.
                                 </div>
                             </div>
                         </div>
@@ -315,8 +321,11 @@
                                 <p class="instruction-text">If you have had a previous blood clot, use estrogen, or have a family history of blood clots in the legs, arms or lungs you should probably be protected with TED hose and a blood thinner. If we recommended aspirin for blood clot protection you should use a baby aspirin twice a day for 2 weeks or as long as the leg or arm is immobilized.</p>
                                 
                                 <div class="clinical-note">
-                                    <i class="fas fa-stethoscope note-icon"></i>
-                                    <strong>Diagnosis:</strong> The presence or absence of a clot can usually be determined by a simple non-invasive ultrasound test at the hospital.
+                                    <div class="clinical-note-heading">
+                                        <i class="fas fa-stethoscope note-icon"></i>
+                                        <strong>Diagnosis:</strong> 
+                                    </div>
+                                    The presence or absence of a clot can usually be determined by a simple non-invasive ultrasound test at the hospital.
                                 </div>
                             </div>
                         </div>
@@ -376,7 +385,7 @@
                         <div class="card-header">
                             <h3 class="card-title">
                                 <i class="fas fa-list"></i>
-                                Table of Contents
+                                Quick Links
                             </h3>
                         </div>
                         <div class="card-content">
@@ -394,52 +403,56 @@
                             </nav>
                         </div>
                     </div>
-
-                    <!-- Office Information -->
-                    <div class="sidebar-card contact-card">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                <i class="fas fa-hospital"></i>
-                                Contact Information
-                            </h3>
-                        </div>
-                        <div class="card-content">
-                            <div class="contact-info-of-rehabilitation">
-                                <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt contact-icon"></i>
-                                    <div class="contact-details">
-                                        <strong>Address</strong>
-                                        <span>Mumbai, Maharashtra, India</span>
-                                    </div>
-                                </div>
-                                <div class="contact-item">
-                                    <i class="fas fa-phone contact-icon"></i>
-                                    <div class="contact-details">
-                                        <strong>Phone</strong>
-                                        <span>+91 98765 43210</span>
-                                    </div>
-                                </div>
-                                <div class="contact-item">
-                                    <i class="fas fa-envelope contact-icon"></i>
-                                    <div class="contact-details">
-                                        <strong>Email</strong>
-                                        <span>info@footancle.com</span>
-                                    </div>
-                                </div>
-                                <div class="contact-item">
-                                    <i class="fas fa-clock contact-icon"></i>
-                                    <div class="contact-details">
-                                        <strong>Hours</strong>
-                                        <span>Mon-Sat: 9:00 AM - 6:00 PM</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </aside>
             </div>
         </div>
     </main>
+
+    <!-- Mobile Contact Information (Bottom of Page) -->
+    <section class="mobile-contact-section">
+        <div class="container">
+            <div class="mobile-contact-card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        <i class="fas fa-hospital"></i>
+                        Contact Information
+                    </h3>
+                </div>
+                <div class="card-content">
+                    <div class="contact-info-of-rehabilitation">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <div class="contact-details">
+                                <strong>Address</strong>
+                                <span>Mumbai, Maharashtra, India</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <div class="contact-details">
+                                <strong>Phone</strong>
+                                <span>+91 98765 43210</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <div class="contact-details">
+                                <strong>Email</strong>
+                                <span>info@footancle.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <div class="contact-details">
+                                <strong>Hours</strong>
+                                <span>Mon-Sat: 9:00 AM - 6:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <?php include '../includes/footer.php'; ?>

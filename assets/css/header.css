@@ -281,7 +281,7 @@ header {
 .dropdown-toggle .dropdown-icon {
     margin-left: var(--spacing-xs);
     transition: transform 0.3s ease;
-    font-size: 0.7rem;
+    font-size: var(--font-size-caption);
     color: var(--color-text-muted);
 }
 
@@ -358,7 +358,7 @@ header {
     text-decoration: none;
     border-radius: calc(var(--border-radius) / 2);
     transition: all 0.2s ease;
-    font-size: 0.9rem;
+    font-size: var(--font-size-small);
     position: relative;
 }
 
@@ -503,7 +503,7 @@ header {
 }
 
 .mobile-contact-item i {
-    font-size: 1.2rem;
+    font-size: var(--font-size-h5);
     margin-bottom: 2px;
     color: var(--color-primary);
 }
@@ -604,7 +604,7 @@ header {
 }
 
 .mobile-menu-close i {
-    font-size: 18px;
+    font-size: var(--font-size-body-large);
 }
 
 /* ==========================================================================
@@ -707,6 +707,7 @@ header {
     /* Show mobile contact footer */
     .mobile-contact-footer {
         display: flex;
+        z-index: 998; /* Lower than mobile menu */
     }
     
     /* Add bottom padding to body to account for mobile footer */
@@ -719,20 +720,27 @@ header {
         display: flex;
     }
     
-    /* Mobile menu styling - remove overlay */
+    /* Mobile menu styling - account for mobile footer */
     .nav-menu {
         position: fixed;
         top: 0;
         right: -100%;
         width: 280px;
         height: 100vh;
+        height: 100dvh; /* Better mobile support */
         background: var(--color-bg-primary);
-        padding: var(--spacing-md);
+        padding: var(--spacing-md) var(--spacing-md) 120px var(--spacing-md); /* Extra bottom padding for mobile footer */
         transition: right 0.3s ease;
-        z-index: 1000;
+        z-index: 9999; /* Higher z-index */
         box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
         overflow-y: auto;
+        overflow-x: hidden;
         border-left: 1px solid var(--color-border-light);
+        /* Allow natural scrolling */
+        overscroll-behavior: auto;
+        -webkit-overflow-scrolling: touch;
+        /* Account for mobile contact footer */
+        padding-bottom: 150px;
     }
     
     .nav-menu.mobile-active {
@@ -747,7 +755,7 @@ header {
     /* Mobile menu header styling - smaller close button */
     .mobile-menu-header {
         display: none;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
         padding: 1rem 0 1.5rem 0;
         border-bottom: 1px solid var(--color-border-light);
@@ -782,7 +790,7 @@ header {
     }
     
     .mobile-menu-close i {
-        font-size: 12px;
+        font-size: var(--font-size-caption);
     }
     
     /* Menu list mobile styling */
@@ -824,10 +832,10 @@ header {
     
     .dropdown-toggle .dropdown-icon {
         transition: transform 0.3s ease;
-        font-size: 0.8rem;
+        font-size: var(--font-size-small);
     }
     
-    /* Mobile dropdown menu */
+    /* Mobile dropdown menu - account for mobile footer */
     .dropdown-menu {
         position: static;
         opacity: 1;
@@ -839,9 +847,13 @@ header {
         margin-left: var(--spacing-md);
         border-radius: var(--border-radius);
         margin-top: var(--spacing-xs);
+        margin-bottom: var(--spacing-lg); /* Extra margin for mobile footer */
         display: none;
         min-width: auto;
         padding: var(--spacing-xs) 0;
+        height: auto;
+        max-height: none;
+        overflow: visible;
     }
     
     /* Show dropdown when active */
@@ -898,9 +910,12 @@ header {
         padding-left: calc(var(--spacing-sm) + 8px);
     }
     
-    /* Prevent body scroll when menu is open */
+    /* Prevent body scroll when menu is open - enhanced */
     body.menu-open {
         overflow: hidden;
+        position: fixed;
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -966,6 +981,7 @@ header {
     .nav-menu {
         width: 280px;
         padding: var(--spacing-sm);
+        padding-bottom: 100px;
     }
     
     .mobile-menu-header {
@@ -982,7 +998,7 @@ header {
     }
     
     .mobile-menu-close i {
-        font-size: 14px;
+        font-size: var(--font-size-body-small);
     }
     
     .dropdown-content {
@@ -1005,7 +1021,7 @@ header {
     }
     
     .mobile-contact-item i {
-        font-size: 1.1rem;
+        font-size: var(--font-size-h6);
     }
     
     .mobile-contact-item span {

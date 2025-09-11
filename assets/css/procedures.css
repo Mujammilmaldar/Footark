@@ -297,7 +297,7 @@
 .procedure-bullet::before {
     content: '▶';
     color: var(--color-white);
-    font-size: 9px;
+    font-size: var(--font-size-micro);
     margin-left: 1px;
 }
 

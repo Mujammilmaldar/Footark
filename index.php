@@ -223,6 +223,95 @@
         </div>
     </section>
 
+    <!-- Conditions We Treat Section -->
+    <section class="conditions-section">
+        <div class="container">
+            <div class="conditions-header">
+                <span class="conditions-tag">SPECIALIZATIONS</span>
+                <h2 class="conditions-title">Conditions We Treat</h2>
+                <p class="conditions-subtitle">Comprehensive foot and ankle care for all conditions</p>
+            </div>
+
+            <div class="conditions-grid">
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-foot"></i>
+                    </div>
+                    <h4 class="condition-title">Bunion Surgery</h4>
+                    <p class="condition-desc">Advanced minimally invasive bunion correction using latest surgical techniques with faster recovery times and excellent cosmetic results.</p>
+                    <a href="bunion.php" class="condition-read-more">Read More</a>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-bone"></i>
+                    </div>
+                    <h4 class="condition-title">Heel Pain</h4>
+                    <p class="condition-desc">Comprehensive treatment for plantar fasciitis and heel spurs. We offer both conservative treatments and surgical options for persistent cases.</p>
+                    <a href="heel-pain.php" class="condition-read-more">Read More</a>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-walking"></i>
+                    </div>
+                    <h4 class="condition-title">Flat Foot</h4>
+                    <p class="condition-desc">Expert reconstruction for adult acquired flatfoot deformity including custom orthotics and advanced surgical reconstruction techniques.</p>
+                    <a href="flat-foot.php" class="condition-read-more">Read More</a>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h4 class="condition-title">Ankle Arthritis</h4>
+                    <p class="condition-desc">Specialized care including joint preservation techniques, ankle arthroscopy, and total ankle replacement to maintain mobility.</p>
+                    <a href="arthritis-midfoot.php" class="condition-read-more">Read More</a>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <h4 class="condition-title">Achilles Tendon</h4>
+                    <p class="condition-desc">Complete achilles care from acute ruptures to chronic tendinopathy using minimally invasive repair techniques and rehabilitation.</p>
+                    <a href="conditions/achilles-tendon-pain.php" class="condition-read-more">Read More</a>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h4 class="condition-title">Toe Deformities</h4>
+                    <p class="condition-desc">Expert correction of hammer toe, claw toe, and mallet toe deformities with minimal scarring and quick recovery options.</p>
+                    <a href="great-toe.php" class="condition-read-more">Read More</a>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h4 class="condition-title">Diabetic Foot</h4>
+                    <p class="condition-desc">Comprehensive diabetic foot care including ulcer treatment and infection management to prevent amputations and maintain foot health.</p>
+                    <a href="conditions/diabetic-foot.php" class="condition-read-more">Read More</a>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h4 class="condition-title">Sports Injuries</h4>
+                    <p class="condition-desc">Specialized treatment for athletic foot and ankle injuries with targeted rehabilitation and injury prevention strategies.</p>
+                    <a href="conditions/anklesprain.php" class="condition-read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="conditions-footer">
+                <a href="conditions.php" class="btn view-all-btn">VIEW ALL CONDITIONS</a>
+            </div>
+        </div>
+    </section>
+
     <!-- Review Section - JavaScript Testimonials Slider -->
     <section class="testimonials-section">
         <div class="container">
@@ -643,17 +732,6 @@
                                 referrerpolicy="no-referrer-when-downgrade">
                             </iframe>
                         </div>
-
-                        <div class="contact-actions">
-                            <div class="contact-appointment">
-                                <h5>Make an Appointment</h5>
-                                <a href="tel:88700600" class="contact-phone">📞 88 700 600</a>
-                            </div>
-                            <div class="contact-schedule">
-                                <h5>Online Schedule</h5>
-                                <a href="#" class="contact-book-btn">📅 Book here</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -678,7 +756,11 @@
 
                             <div class="form-group">
                                 <label for="phone">Phone Number*</label>
-                                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number" 
+                                       pattern="[0-9+\-\s()]*" 
+                                       title="Please enter only numbers, spaces, +, -, and parentheses"
+                                       oninput="this.value = this.value.replace(/[^0-9+\-\s()]/g, '')"
+                                       maxlength="15">
                             </div>
 
                             <div class="form-group">

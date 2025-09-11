@@ -108,9 +108,6 @@ if (strpos($scriptPath, '/Footancle/') !== false) {
                 <div class="nav-menu" id="nav-menu">
                     <!-- Mobile Menu Header -->
                     <div class="mobile-menu-header">
-                        <div class="mobile-menu-logo">
-                            <img src="<?php echo $pathPrefix; ?>assets/images/logo.png" alt="Foot Ark Logo" class="mobile-logo">
-                        </div>
                         <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close mobile menu">
                             <i class="fas fa-times"></i>
                         </button>
@@ -235,12 +232,19 @@ if (strpos($scriptPath, '/Footancle/') !== false) {
             const mobileToggle = document.getElementById('mobile-menu-toggle');
             const mobileClose = document.getElementById('mobile-menu-close');
             const navMenu = document.getElementById('nav-menu');
+            let scrollPosition = 0;
             
             // Function to open menu
             function openMenu() {
+                // Store current scroll position
+                scrollPosition = window.pageYOffset;
+                
                 navMenu.classList.add('mobile-active');
                 mobileToggle.classList.add('active');
                 document.body.classList.add('menu-open');
+                
+                // Fix body position to prevent scroll
+                document.body.style.top = `-${scrollPosition}px`;
             }
             
             // Function to close menu
@@ -248,6 +252,11 @@ if (strpos($scriptPath, '/Footancle/') !== false) {
                 navMenu.classList.remove('mobile-active');
                 mobileToggle.classList.remove('active');
                 document.body.classList.remove('menu-open');
+                
+                // Restore scroll position
+                document.body.style.top = '';
+                window.scrollTo(0, scrollPosition);
+                
                 // Close all dropdowns when menu closes
                 const dropdowns = navMenu.querySelectorAll('.dropdown');
                 dropdowns.forEach(dropdown => {
@@ -284,12 +293,8 @@ if (strpos($scriptPath, '/Footancle/') !== false) {
                         e.preventDefault();
                         e.stopPropagation();
                         
-                        console.log('Dropdown toggle clicked'); // Debug
-                        
                         const dropdown = this.closest('.dropdown');
                         const isCurrentlyActive = dropdown.classList.contains('active');
-                        
-                        console.log('Current state:', isCurrentlyActive ? 'open' : 'closed'); // Debug
                         
                         // Close all dropdowns first
                         const allDropdowns = navMenu.querySelectorAll('.dropdown');
@@ -300,9 +305,41 @@ if (strpos($scriptPath, '/Footancle/') !== false) {
                         // If the clicked dropdown wasn't active, open it
                         if (!isCurrentlyActive) {
                             dropdown.classList.add('active');
-                            console.log('Opening dropdown'); // Debug
-                        } else {
-                            console.log('Closing dropdown'); // Debug
+                            
+                            // Ensure entire dropdown is visible
+                            setTimeout(() => {
+                                const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+                                if (dropdownMenu) {
+                                    // Get the bottom of the dropdown relative to the menu
+                                    const dropdownRect = dropdownMenu.getBoundingClientRect();
+                                    const menuRect = navMenu.getBoundingClientRect();
+                                    
+                                    // Calculate if dropdown extends beyond visible area
+                                    const dropdownBottom = dropdownRect.bottom;
+                                    const menuBottom = menuRect.bottom;
+                                    
+                                    if (dropdownBottom > menuBottom) {
+                                        // Calculate how much to scroll
+                                        const scrollNeeded = dropdownBottom - menuBottom + 20; // 20px buffer
+                                        navMenu.scrollBy({
+                                            top: scrollNeeded,
+                                            behavior: 'smooth'
+                                        });
+                                    }
+                                    
+                                    // Also check if dropdown top is visible
+                                    const dropdownTop = dropdownRect.top;
+                                    const menuTop = menuRect.top;
+                                    
+                                    if (dropdownTop < menuTop) {
+                                        const scrollUp = menuTop - dropdownTop + 20; // 20px buffer
+                                        navMenu.scrollBy({
+                                            top: -scrollUp,
+                                            behavior: 'smooth'
+                                        });
+                                    }
+                                }
+                            }, 200);
                         }
                     };
                     
@@ -312,15 +349,6 @@ if (strpos($scriptPath, '/Footancle/') !== false) {
                 
                 // Close dropdowns when clicking/touching anywhere else in the menu
                 navMenu.addEventListener('click', function(e) {
-                    if (!e.target.closest('.dropdown-toggle') && !e.target.closest('.dropdown-menu')) {
-                        const allDropdowns = navMenu.querySelectorAll('.dropdown');
-                        allDropdowns.forEach(dd => {
-                            dd.classList.remove('active');
-                        });
-                    }
-                });
-                
-                navMenu.addEventListener('touchend', function(e) {
                     if (!e.target.closest('.dropdown-toggle') && !e.target.closest('.dropdown-menu')) {
                         const allDropdowns = navMenu.querySelectorAll('.dropdown');
                         allDropdowns.forEach(dd => {
