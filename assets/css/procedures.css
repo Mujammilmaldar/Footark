@@ -1,548 +1,647 @@
 /* ==========================================================================
-   PROCEDURES PAGE - Professional Medical Procedures Layout
+   PROCEDURES PAGE - Professional Medical Design
    ========================================================================== */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 /* ==========================================================================
-   PAGE HEADER SECTION
+   HERO SECTION - Professional Medical Header
    ========================================================================== */
 
-.page-header-section {
-    background: linear-gradient(135deg, var(--color-secondary-darker) 0%, var(--color-secondary-dark) 100%);
+.hero-section {
+    background: var(--color-secondary);
     color: var(--color-text-inverse);
-    padding: var(--spacing-xxl) 0 var(--spacing-xl) 0;
+    padding: 50px 0 40px 0;
     position: relative;
     overflow: hidden;
 }
 
-.page-header-section::before {
+.hero-section::before {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
-    bottom: 0;
-    background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23ffffff" fill-opacity="0.05"><circle cx="30" cy="30" r="1"/></g></svg>') repeat;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="70" cy="30" r="12" fill="rgba(255,255,255,0.03)"/><circle cx="85" cy="60" r="8" fill="rgba(255,255,255,0.02)"/></svg>') no-repeat right center;
     pointer-events: none;
 }
 
-.page-header-content {
-    position: relative;
-    z-index: 2;
-}
-
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Breadcrumb Navigation */
-.page-breadcrumb {
-    margin-bottom: var(--spacing-md);
-}
-
 .breadcrumb {
-    background: transparent;
-    padding: 0;
-    margin: 0;
-    font-size: var(--font-size-small);
-    font-weight: var(--font-weight-medium);
+    font-size: 14px;
+    margin-bottom: 25px;
+    opacity: 0.9;
 }
 
-.breadcrumb-item {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
-.breadcrumb-item a {
+.breadcrumb a {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     transition: color 0.3s ease;
-}
-
-.breadcrumb-item a:hover {
-    color: var(--color-accent-cool);
-    text-decoration: none;
-}
-
-.breadcrumb-item.active {
-    color: var(--color-text-inverse);
-    font-weight: var(--font-weight-semibold);
-}
-
-.breadcrumb-item + .breadcrumb-item::before {
-    content: ">";
-    color: rgba(255, 255, 255, 0.6);
-    margin: 0 var(--spacing-xs);
-}
-
-/* Page Title */
-.page-title {
-    font-size: var(--font-size-h1);
-    font-weight: var(--font-weight-bold);
-    color: var(--color-text-inverse);
-    margin-bottom: var(--spacing-lg);
-    letter-spacing: 0.02em;
     position: relative;
 }
 
-.page-title::after {
+.breadcrumb a::after {
     content: '';
     position: absolute;
-    bottom: -10px;
+    bottom: -1px;
     left: 0;
-    width: 80px;
-    height: 3px;
-    background: var(--color-primary);
+    width: 0;
+    height: 1px;
+    background: white;
+    transition: width 0.3s ease;
 }
 
-/* Page Meta Information */
-.page-meta {
-    margin-top: var(--spacing-sm);
+.breadcrumb a:hover {
+    color: white;
 }
 
-.meta-info {
-    font-size: var(--font-size-body-small);
-    color: rgba(255, 255, 255, 0.9);
-    line-height: var(--line-height-body);
+.breadcrumb a:hover::after {
+    width: 100%;
 }
 
-.meta-label {
-    color: rgba(255, 255, 255, 0.7);
+.breadcrumb span {
+    margin: 0 8px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
-.meta-date {
-    font-weight: var(--font-weight-semibold);
-    color: var(--color-accent-cool);
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease;
 }
 
-.meta-by {
-    color: rgba(255, 255, 255, 0.7);
-    margin: 0 var(--spacing-xs);
+.hero-section h1:hover {
+    transform: translateY(-2px);
 }
 
-.meta-author {
-    font-weight: var(--font-weight-semibold);
-    color: var(--color-text-inverse);
+.hero-section h1 i {
+    color: var(--color-primary);
+    font-size: 2rem;
+    transition: all 0.3s ease;
 }
 
-.meta-clinic {
-    color: rgba(255, 255, 255, 0.8);
-    font-style: italic;
+.hero-section h1:hover i {
+    transform: scale(1.05);
+    color: #ff7a6b;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 0;
+    line-height: 1.6;
+    max-width: 600px;
+    transition: opacity 0.3s ease;
+}
+
+.hero-section:hover p {
+    opacity: 1;
 }
 
 /* ==========================================================================
-   MAIN CONTENT SECTION
+   MAIN CONTENT - Professional Medical Layout
    ========================================================================== */
 
-.procedures-content-section {
-    padding: var(--section-padding-y) 0;
+.main-content {
+    padding: 50px 0;
     background: var(--color-bg-primary);
-    position: relative;
 }
 
-.procedures-content {
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-heading-primary);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.intro h2:hover {
+    color: var(--color-primary);
+}
+
+.intro h2::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: var(--color-primary);
+    border-radius: 2px;
+    transition: width 0.3s ease;
+}
+
+.intro h2:hover::after {
+    width: 70px;
+}
+
+.intro h2 i {
+    color: var(--color-primary);
+    font-size: 1.8rem;
+    transition: transform 0.3s ease;
+}
+
+.intro h2:hover i {
+    transform: scale(1.1);
+}
+
+.intro p {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   PROCEDURES GRID - Professional Medical Cards
+   ========================================================================== */
+
+.procedures-grid {
+    margin-bottom: 40px;
+}
+
+.procedure-card {
+    background: var(--color-bg-secondary);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--color-border-light);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.procedure-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(232, 90, 79, 0.04), transparent);
+    transition: left 0.5s ease;
+    z-index: 1;
+}
+
+.procedure-card:hover::before {
+    left: 100%;
+}
+
+.procedure-card:hover {
+    box-shadow: 0 8px 25px rgba(232, 90, 79, 0.15);
+    transform: translateY(-3px);
+    border-color: rgba(232, 90, 79, 0.2);
+}
+
+.procedure-card h3 {
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-heading-primary);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--color-primary);
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s ease;
+}
+
+.procedure-card:hover h3 {
+    color: var(--color-primary);
+}
+
+.procedure-card h3 i {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.procedure-card:hover h3 i {
+    transform: scale(1.1);
+    color: var(--color-secondary);
+}
+
+/* Professional Procedure List */
+.procedure-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     position: relative;
     z-index: 2;
 }
 
-/* Introduction Section */
-.procedures-intro {
-    margin-bottom: var(--spacing-xxl);
-    text-align: left;
-}
-
-.section-title {
-    font-size: var(--font-size-h1);
-    font-weight: var(--font-weight-bold);
-    color: var(--color-heading-primary);
-    margin-bottom: var(--spacing-component-lg);
+.procedure-list li {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--color-border-light);
+    transition: all 0.3s ease;
+    cursor: pointer;
     position: relative;
-    display: inline-block;
 }
 
-.section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 3px;
-    background: var(--color-primary);
+.procedure-list li:last-child {
+    border-bottom: none;
 }
 
-.intro-content {
-    margin: 0 auto;
+.procedure-list li:hover {
+    background: rgba(232, 90, 79, 0.05);
+    padding-left: 10px;
+    border-radius: 8px;
+    margin: 0 -10px;
+    transform: translateX(3px);
 }
 
-.lead-text {
-    width: 100% !important;
-    font-size: var(--font-size-lead);
-    line-height: var(--line-height-relaxed);
-    color: var(--color-text-secondary);
-    margin-bottom: var(--spacing-component-lg);
-    max-width: 100%;
-}
-
-.inline-link {
-    color: var(--color-link);
-    text-decoration: none;
-    font-weight: var(--font-weight-semibold);
-    transition: color 0.3s ease;
-}
-
-.inline-link:hover {
-    color: var(--color-link-hover);
-    text-decoration: underline;
-}
-
-.procedure-highlights {
-    font-size: var(--font-size-body);
-    line-height: var(--line-height-body);
-    color: var(--color-text-primary);
-}
-
-.procedure-link {
+.procedure-list li i {
     color: var(--color-primary);
-    text-decoration: none;
-    font-weight: var(--font-weight-semibold);
+    font-size: 1rem;
+    width: 20px;
+    margin-right: 12px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.procedure-list li:hover i {
+    color: var(--color-secondary);
+    transform: scale(1.1);
+}
+
+.procedure-list li span {
+    font-size: 0.95rem;
+    color: var(--color-text-primary);
+    font-weight: var(--font-weight-medium);
     transition: all 0.3s ease;
     position: relative;
 }
 
-.procedure-link:hover {
-    color: var(--color-primary-dark);
-    text-decoration: none;
+.procedure-list li:hover span {
+    color: var(--color-primary);
+    font-weight: var(--font-weight-semibold);
 }
 
-.procedure-link::after {
+.procedure-list li span::after {
     content: '';
     position: absolute;
     bottom: -2px;
     left: 0;
     width: 0;
-    height: 2px;
+    height: 1px;
     background: var(--color-primary);
+    border-radius: 1px;
     transition: width 0.3s ease;
 }
 
-.procedure-link:hover::after {
+.procedure-list li:hover span::after {
     width: 100%;
 }
 
 /* ==========================================================================
-   PROCEDURES LIST - Simple Clean List Layout
+   CTA SECTION - Professional Medical Call-to-Action
    ========================================================================== */
 
-.procedures-list {
-    margin-bottom: var(--spacing-xxl);
-}
-
-.procedures-column {
-    height: 100%;
-}
-
-/* Procedure Items List */
-.procedure-items {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background: var(--color-bg-secondary);
-    border-radius: var(--border-radius);
-    padding: var(--spacing-lg);
-    box-shadow: var(--box-shadow-small);
-    border: 1px solid var(--color-border-light);
-}
-
-.procedure-item {
-    display: flex;
-    align-items: flex-start;
-    padding: var(--spacing-sm) 0;
-    border-bottom: 1px solid var(--color-border-light);
-    transition: background-color 0.2s ease;
-}
-
-.procedure-item:last-child {
-    border-bottom: none;
-}
-
-.procedure-item:hover {
-    background-color: rgba(232, 90, 79, 0.03);
-}
-
-/* Procedure Bullet */
-.procedure-bullet {
-    color: var(--color-primary);
-    font-size: var(--font-size-body);
-    margin-right: var(--spacing-sm);
-    margin-top: 2px;
-    font-weight: var(--font-weight-bold);
-    flex-shrink: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 18px;
-    height: 18px;
+.cta-section {
     background: var(--color-primary);
-    border-radius: 50%;
-    transition: background-color 0.2s ease;
-}
-
-.procedure-bullet::before {
-    content: '▶';
-    color: var(--color-white);
-    font-size: var(--font-size-micro);
-    margin-left: 1px;
-}
-
-.procedure-item:hover .procedure-bullet {
-    background: var(--color-primary-dark);
-}
-
-/* Procedure Links */
-.procedure-item .procedure-link {
-    color: var(--color-link);
-    text-decoration: none;
-    font-size: var(--font-size-body);
-    font-weight: var(--font-weight-medium);
-    line-height: var(--line-height-body);
-    transition: color 0.2s ease;
-    flex: 1;
-    margin-top: 1px;
-}
-
-.procedure-item:hover .procedure-link {
-    color: var(--color-primary);
-}
-
-/* ==========================================================================
-   CALL TO ACTION SECTION
-   ========================================================================== */
-
-.procedures-cta {
-    background: linear-gradient(135deg, var(--color-bg-secondary) 0%, var(--color-bg-tertiary) 100%);
-    border-radius: var(--border-radius-large);
-    padding: var(--spacing-xxl);
-    margin-top: var(--spacing-xxl);
+    color: white;
+    border-radius: 10px;
+    padding: 40px 35px;
+    text-align: center;
     position: relative;
     overflow: hidden;
-    border: 1px solid var(--color-border-light);
+    box-shadow: 0 8px 25px rgba(232, 90, 79, 0.2);
 }
 
-.procedures-cta::before {
+.cta-section::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23e85a4f" fill-opacity="0.05"><circle cx="20" cy="20" r="1"/></g></svg>') repeat;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle cx="40" cy="40" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="160" cy="160" r="3" fill="rgba(255,255,255,0.06)"/><circle cx="120" cy="50" r="1.5" fill="rgba(255,255,255,0.08)"/></svg>') repeat;
     pointer-events: none;
+    opacity: 0.7;
 }
 
-.cta-content {
+.cta-section h3 {
+    font-size: 1.8rem;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 15px;
     position: relative;
     z-index: 2;
-    text-align: left;
+    transition: transform 0.3s ease;
 }
 
-.cta-title {
-    font-size: var(--font-size-h2);
-    font-weight: var(--font-weight-bold);
-    color: var(--color-heading-primary);
-    margin-bottom: var(--spacing-md);
-    line-height: var(--line-height-heading);
+.cta-section h3:hover {
+    transform: translateY(-2px);
 }
-ol,li{
+
+.cta-section p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.95;
+    position: relative;
+    z-index: 2;
+    line-height: 1.5;
+    transition: opacity 0.3s ease;
+}
+
+.cta-section:hover p {
+    opacity: 1;
+}
+
+.cta-buttons {
     display: flex;
-}
-
-.cta-subtitle {
-    font-size: var(--font-size-body-large);
-    line-height: var(--line-height-body);
-    color: var(--color-text-secondary);
-    margin-bottom: var(--spacing-xl);
-    max-width: 100%;
-}
-
-.cta-link {
-    color: var(--color-primary);
-    text-decoration: none;
-    font-weight: var(--font-weight-semibold);
-    transition: color 0.3s ease;
-}
-
-.cta-link:hover {
-    color: var(--color-primary-dark);
-    text-decoration: underline;
-}
-
-.cta-actions {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: var(--spacing-lg);
+    justify-content: center;
+    gap: 15px;
     flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
 }
 
-.cta-btn {
-    padding: var(--spacing-md) var(--spacing-xl);
-    font-size: var(--font-size-button-large);
-    font-weight: var(--font-weight-semibold);
-    border-radius: var(--border-radius-large);
-    text-transform: uppercase;
-    letter-spacing: 0.025em;
-    transition: all 0.3s ease;
-    text-decoration: none;
+.btn {
     display: inline-flex;
     align-items: center;
-    gap: var(--spacing-xs);
+    gap: 8px;
+    padding: 12px 25px;
+    font-size: 0.95rem;
+    font-weight: var(--font-weight-semibold);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: relative;
+    overflow: hidden;
 }
 
-.cta-btn:hover {
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+    transition: left 0.5s ease;
+}
+
+.btn:hover::before {
+    left: 100%;
+}
+
+.btn:hover {
     transform: translateY(-2px);
     text-decoration: none;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
-.cta-btn-secondary {
-    background: transparent;
+.btn-primary {
+    background: white;
+    color: var(--color-primary);
+    border-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    background: rgba(255, 255, 255, 0.95);
     color: var(--color-secondary);
-    border: 2px solid var(--color-secondary);
+    border-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
-.cta-btn-secondary:hover {
-    background: var(--color-secondary);
-    color: var(--color-text-inverse);
+.btn-secondary {
+    background: transparent;
+    color: white;
+    border-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: var(--color-primary);
+    border-color: white;
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.25);
 }
 
 /* ==========================================================================
-   RESPONSIVE DESIGN
+   MOBILE RESPONSIVENESS - Professional Medical Design
    ========================================================================== */
 
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 30px;
+    }
+    
+    .hero-section h1 {
+        font-size: 2.6rem;
+    }
+    
+    .intro h2 {
+        font-size: 2.2rem;
+    }
+}
+
 @media (max-width: 768px) {
-    .page-header-section {
-        padding: var(--spacing-xl) 0;
-        text-align: center;
+    .container {
+        padding: 0 25px;
     }
     
-    .page-title {
-        font-size: var(--font-size-h1);
+    .hero-section {
+        padding: 50px 0 40px 0;
     }
     
-    .meta-info {
-        text-align: center;
-        line-height: 1.8;
+    .hero-section h1 {
+        font-size: 2.2rem;
+        gap: 15px;
     }
     
-    .meta-by,
-    .meta-clinic {
-        display: block;
-        margin: var(--spacing-xs) 0;
+    .hero-section h1 i {
+        font-size: 2rem;
     }
     
-    .procedures-intro {
-        margin-bottom: var(--spacing-xl);
+    .hero-section p {
+        font-size: 1.1rem;
     }
     
-    .lead-text {
-        font-size: var(--font-size-body-large);
-        text-align: left;
+    .main-content {
+        padding: 60px 0;
     }
     
-    .procedure-items {
-        padding: var(--spacing-md);
-        margin-bottom: var(--spacing-lg);
+    .intro {
+        margin-bottom: 50px;
     }
     
-    .procedure-item {
-        padding: var(--spacing-xs) 0;
+    .intro h2 {
+        font-size: 2rem;
+        gap: 15px;
     }
     
-    .procedure-item .procedure-link {
-        font-size: var(--font-size-body-small);
+    .intro h2 i {
+        font-size: 1.8rem;
     }
     
-    .procedures-cta {
-        padding: var(--spacing-xl);
-        margin-top: var(--spacing-xl);
+    .procedure-card {
+        padding: 30px;
+        margin-bottom: 30px;
     }
     
-    .cta-title {
-        font-size: var(--font-size-h3);
+    .procedure-card h3 {
+        font-size: 1.4rem;
+        gap: 12px;
+        margin-bottom: 25px;
     }
     
-    .cta-subtitle {
-        font-size: var(--font-size-body);
+    .procedure-card h3 i {
+        font-size: 1.3rem;
     }
     
-    .cta-actions {
+    .procedure-list li {
+        padding: 15px 0;
+    }
+    
+    .cta-section {
+        padding: 50px 35px;
+    }
+    
+    .cta-section h3 {
+        font-size: 2rem;
+    }
+    
+    .cta-section p {
+        font-size: 1.2rem;
+        margin-bottom: 35px;
+    }
+    
+    .btn {
+        padding: 16px 32px;
+        font-size: 1rem;
+        gap: 10px;
+    }
+    
+    .cta-buttons {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 20px;
+    }
+    
+    .hero-section {
+        padding: 40px 0 30px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 1.8rem;
         flex-direction: column;
-        gap: var(--spacing-md);
+        gap: 12px;
+        text-align: center;
     }
     
-    .cta-btn {
+    .hero-section p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .main-content {
+        padding: 50px 0;
+    }
+    
+    .intro h2 {
+        font-size: 1.7rem;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .procedure-card {
+        padding: 25px;
+    }
+    
+    .procedure-card h3 {
+        font-size: 1.3rem;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .cta-section {
+        padding: 40px 25px;
+    }
+    
+    .cta-section h3 {
+        font-size: 1.8rem;
+    }
+    
+    .cta-section p {
+        font-size: 1.1rem;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .btn {
         width: 100%;
+        max-width: 300px;
         justify-content: center;
-        padding: var(--spacing-md);
     }
 }
 
 @media (max-width: 480px) {
-    .page-header-section {
-        padding: var(--spacing-lg) 0;
+    .container {
+        padding: 0 15px;
     }
     
-    .page-title {
-        font-size: var(--font-size-h2);
+    .hero-section h1 {
+        font-size: 1.6rem;
     }
     
-    .procedures-intro {
-        margin-bottom: var(--spacing-lg);
+    .procedure-card {
+        padding: 20px;
+        margin-bottom: 25px;
     }
     
-    .section-title {
-        font-size: var(--font-size-h2);
+    .procedure-list li {
+        padding: 12px 0;
     }
     
-    .procedure-items {
-        padding: var(--spacing-sm);
-    }
-    
-    .procedure-item {
-        padding: var(--spacing-xs) 0;
-    }
-    
-    .procedure-bullet {
-        font-size: var(--font-size-small);
-    }
-    
-    .procedures-cta {
-        padding: var(--spacing-lg);
-    }
-    
-    .cta-title {
-        font-size: var(--font-size-h4);
-    }
-    
-    .breadcrumb {
-        font-size: var(--font-size-caption);
-    }
-}
-
-/* Reduce motion for users who prefer it */
-@media (prefers-reduced-motion: reduce) {
-    *,
-    *::before,
-    *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
+    .btn {
+        padding: 14px 28px;
+        font-size: 0.95rem;
     }
 }

@@ -1,149 +1,129 @@
-<link rel="stylesheet" href="assets/css/procedures.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Procedures - Foot & Ankle Specialists</title>
+    <link rel="stylesheet" href="assets/css/procedures.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 <body>
-    <!-- Header -->
     <?php include 'includes/header.php'; ?>
 
-    <!-- Page Header Section -->
-    <section class="page-header-section">
+    <!-- Hero Section -->
+    <section class="hero-section">
         <div class="container">
-            <div class="page-header-content">
-                <nav aria-label="breadcrumb" class="page-breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.php">HOME</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">PROCEDURES</li>
-                    </ol>
-                </nav>
-                <h1 class="page-title">PROCEDURES</h1>
-                <div class="page-meta">
-                    <div class="meta-info">
-                        <span class="meta-label">Updated on</span>
-                        <span class="meta-date">Nov 9, 2023</span>
-                        <span class="meta-by">by</span>
-                        <span class="meta-author">Dr. Mohammad Rimawi (Podiatrist)</span>
-                        <span class="meta-clinic">of Manhattan Foot Specialists</span>
-                    </div>
-                </div>
-            </div>
+            <nav class="breadcrumb">
+                <a href="index.php"><i class="fas fa-home"></i> Home</a>
+                <span>/</span>
+                <span>Procedures</span>
+            </nav>
+            <h1><i class="fas fa-user-md"></i> Medical Procedures</h1>
+            <p>Advanced foot and ankle surgical procedures with minimally invasive techniques</p>
         </div>
     </section>
 
-    <!-- Main Content Section -->
-    <section class="procedures-content-section">
+    <!-- Main Content -->
+    <section class="main-content">
         <div class="container">
-            <div class="procedures-content">
-                <!-- Introduction -->
-                <div class="procedures-intro">
-                    <h2 class="section-title">Our Procedures</h2>
-                    <div class="intro-content">
-                        <p class="lead-text">
-                            Our <a href="#" class="inline-link">Podiatrists</a> place great importance on the aesthetic result of their surgical procedures, as well as their medical outcome. We are using minimally invasive techniques which provide comparable and often superior results to traditional surgical methods. Minimally invasive techniques enable your Manhattan foot doctor to treat many foot conditions requiring surgery in NYC. Common outpatient surgical procedures include:
-                        </p>
-                        <div class="procedure-highlights">
-                            <a href="#hammertoe" class="procedure-link">Hammertoe Surgery</a>,
-                            <a href="#bunion" class="procedure-link">Bunion Surgery</a>,
-                            <a href="#achilles" class="procedure-link">Achilles Tendon Surgery</a>,
-                            <a href="#corn-removal" class="procedure-link">Corn Removal Surgery</a>, and
-                            <a href="#plantar-fasciitis" class="procedure-link">Plantar Fasciitis Surgery</a>.
+            <!-- Introduction -->
+            <div class="intro">
+                <h2><i class="fas fa-stethoscope"></i> Our Procedures</h2>
+                <p>Our podiatrists use minimally invasive techniques that provide superior results with faster recovery times and better aesthetic outcomes.</p>
+            </div>
+
+            <!-- Procedures Grid -->
+            <div class="procedures-grid">
+                <div class="row g-4">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="procedure-card">
+                            <h3><i class="fas fa-foot"></i> Foot Surgeries</h3>
+                            <ul class="procedure-list">
+                                <li>
+                                    <i class="fas fa-bone"></i>
+                                    <span>Achilles Tendon Surgery</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-shoe-prints"></i>
+                                    <span>Bunion Surgery</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-cut"></i>
+                                    <span>Bilateral Bunionectomy</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-tools"></i>
+                                    <span>Cheilectomy</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle-notch"></i>
+                                    <span>Corn Removal Surgery</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-magic"></i>
+                                    <span>Cosmetic Foot Surgery</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-compress-arrows-alt"></i>
+                                    <span>Flat Foot Surgery</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-hand-point-right"></i>
+                                    <span>Hammer Toe Surgery</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-12">
+                        <div class="procedure-card">
+                            <h3><i class="fas fa-heartbeat"></i> Specialized Treatments</h3>
+                            <ul class="procedure-list">
+                                <li>
+                                    <i class="fas fa-walking"></i>
+                                    <span>Heel Spur Surgery</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-nail"></i>
+                                    <span>Ingrown Toenail Surgery</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-brain"></i>
+                                    <span>Neuroma Surgery</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-shoe-prints"></i>
+                                    <span>Custom Orthotics</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-scissors"></i>
+                                    <span>Overgrown Toe Skin Surgery</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-hand-holding-medical"></i>
+                                    <span>Plantar Fasciitis Surgery</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-link"></i>
+                                    <span>Tendon Surgery</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Procedures List -->
-                <div class="procedures-list">
-                    <div class="row flex-row">
-                        <!-- Left Column -->
-                        <div class="col-lg-6 col-md-12">
-                            <div class="procedures-column">
-                                <ul class="procedure-items">
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Achilles Tendon Surgery</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Bilateral Bunionectomy</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Bunion Surgery</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Cheilectomy</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Corn Removal Surgery</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Cosmetic Foot Surgery</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Flat Foot Surgery</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Hammer Toe Surgery</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- Right Column -->
-                        <div class="col-lg-6 col-md-12">
-                            <div class="procedures-column">
-                                <ul class="procedure-items">
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Heel Spur Surgery</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Ingrown Toenail Surgery</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Neuroma Surgery</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Orthotics</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Overgrown Toe Skin Surgery</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Plantar Fasciitis Surgery</a>
-                                    </li>
-                                    <li class="procedure-item">
-                                        <span class="procedure-bullet"></span>
-                                        <a href="#" class="procedure-link">Tendon Surgery</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Call to Action Section -->
-                <div class="procedures-cta">
-                    <div class="cta-content">
-                        <div class="cta-text">
-                            <h3 class="cta-title">Do you have any questions about podiatry conditions and treatments?</h3>
-                            <p class="cta-subtitle">Would like to schedule an appointment with the <a href="#" class="cta-link">best podiatrists in NYC</a> of Manhattan Foot Specialists, please contact our office for a consultation with the NYC Foot doctor.</p>
-                        </div>
-                        <div class="cta-actions">
-                            <a href="contact.php" class="btn btn-primary cta-btn">Schedule Consultation</a>
-                            <a href="tel:+1234567890" class="btn btn-outline cta-btn-secondary">
-                                <i class="fas fa-phone"></i>
-                                Call Us Now
-                            </a>
-                        </div>
-                    </div>
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h3>Schedule Your Consultation</h3>
+                <p>Connect with our expert podiatrists for personalized treatment options</p>
+                <div class="cta-buttons">
+                    <a href="contact.php" class="btn btn-primary">
+                        <i class="fas fa-calendar-plus"></i> Book Appointment
+                    </a>
+                    <a href="tel:+1234567890" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
                 </div>
             </div>
         </div>
