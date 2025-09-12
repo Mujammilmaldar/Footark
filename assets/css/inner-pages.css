@@ -341,29 +341,28 @@
 
 /* Special highlight boxes */
 .highlight-box {
-    background: linear-gradient(135deg, rgba(33, 150, 243, 0.15), rgba(100, 181, 246, 0.08));
-    border-radius: var(--border-radius-large);
-    padding: var(--spacing-xl);
-    margin: var(--spacing-xl) 0;
-    border-left: 6px solid rgba(33, 150, 243, 0.3);
-    box-shadow: var(--box-shadow);
+    background: #d1ecf1;
+    border: 1px solid #bee5eb;
+    color: #0c5460;
+    padding: 15px;
+    border-radius: 6px;
+    margin: var(--spacing-md) 0;
     position: relative;
-    overflow: hidden;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    border-left: 6px solid #0c5460;
+    box-shadow: 0 4px 12px rgba(12, 84, 96, 0.1);
 }
 
 .highlight-box::before {
     content: 'ℹ️';
     position: absolute;
-    top: var(--spacing-lg);
-    right: var(--spacing-lg);
-    font-size: var(--font-size-h3);
-    opacity: 0.6;
+    top: 15px;
+    right: 15px;
+    font-size: var(--font-size-h4);
+    opacity: 0.7;
 }
 
 .highlight-box h4 {
-    color: rgba(25, 118, 210, 0.9);
+    color: #0c5460;
     font-size: var(--font-size-h4);
     font-weight: var(--font-weight-bold);
     margin-bottom: var(--spacing-md);
@@ -379,9 +378,9 @@
 }
 
 .highlight-box p {
-    color: var(--color-text-primary);
+    color: #0c5460;
     margin: 0;
-    font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-medium);
     font-size: var(--font-size-body);
     line-height: var(--line-height-body);
 }

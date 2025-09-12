@@ -227,15 +227,15 @@
     <section class="conditions-section">
         <div class="container">
             <div class="conditions-header">
-                <span class="conditions-tag">SPECIALIZATIONS</span>
-                <h2 class="conditions-title">Conditions We Treat</h2>
-                <p class="conditions-subtitle">Comprehensive foot and ankle care for all conditions</p>
+                <span class="testimonials-tag">SPECIALIZATIONS</span>
+                <h2 class="conditions-title">Expert Foot & Ankle Care</h2>
+                <p class="conditions-subtitle">Comprehensive treatment for all foot and ankle conditions</p>
             </div>
 
             <div class="conditions-grid">
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-foot"></i>
+                        <i class="fas fa-user-md"></i>
                     </div>
                     <h4 class="condition-title">Bunion Surgery</h4>
                     <p class="condition-desc">Advanced minimally invasive bunion correction using latest surgical techniques with faster recovery times and excellent cosmetic results.</p>
@@ -244,7 +244,7 @@
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-bone"></i>
+                        <i class="fas fa-exclamation-triangle"></i>
                     </div>
                     <h4 class="condition-title">Heel Pain</h4>
                     <p class="condition-desc">Comprehensive treatment for plantar fasciitis and heel spurs. We offer both conservative treatments and surgical options for persistent cases.</p>
@@ -253,7 +253,7 @@
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-walking"></i>
+                        <i class="fas fa-shoe-prints"></i>
                     </div>
                     <h4 class="condition-title">Flat Foot</h4>
                     <p class="condition-desc">Expert reconstruction for adult acquired flatfoot deformity including custom orthotics and advanced surgical reconstruction techniques.</p>
@@ -262,7 +262,7 @@
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-ambulance"></i>
+                        <i class="fas fa-joint"></i>
                     </div>
                     <h4 class="condition-title">Ankle Arthritis</h4>
                     <p class="condition-desc">Specialized care including joint preservation techniques, ankle arthroscopy, and total ankle replacement to maintain mobility.</p>
@@ -271,7 +271,7 @@
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-hand-paper"></i>
+                        <i class="fas fa-band-aid"></i>
                     </div>
                     <h4 class="condition-title">Achilles Tendon</h4>
                     <p class="condition-desc">Complete achilles care from acute ruptures to chronic tendinopathy using minimally invasive repair techniques and rehabilitation.</p>
@@ -280,7 +280,7 @@
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-cut"></i>
+                        <i class="fas fa-procedures"></i>
                     </div>
                     <h4 class="condition-title">Toe Deformities</h4>
                     <p class="condition-desc">Expert correction of hammer toe, claw toe, and mallet toe deformities with minimal scarring and quick recovery options.</p>
@@ -289,7 +289,7 @@
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-heartbeat"></i>
+                        <i class="fas fa-plus-square"></i>
                     </div>
                     <h4 class="condition-title">Diabetic Foot</h4>
                     <p class="condition-desc">Comprehensive diabetic foot care including ulcer treatment and infection management to prevent amputations and maintain foot health.</p>
@@ -298,7 +298,7 @@
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-bolt"></i>
+                        <i class="fas fa-running"></i>
                     </div>
                     <h4 class="condition-title">Sports Injuries</h4>
                     <p class="condition-desc">Specialized treatment for athletic foot and ankle injuries with targeted rehabilitation and injury prevention strategies.</p>

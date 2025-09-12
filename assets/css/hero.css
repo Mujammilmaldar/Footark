@@ -412,8 +412,12 @@
 
 /* About Content with proper flex and animations */
 .about-content {
-    padding-left: var(--spacing-component-lg);
+    padding-left: var(--spacing-xl);
     animation: fadeInRight 1s ease-out 0.2s both;
+}
+
+.contact-section .container .row{
+    margin:0px;
 }
 
 @keyframes fadeInRight {
@@ -721,10 +725,6 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--color-primary);
-    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: var(--spacing-sm);
     position: relative;
 }
@@ -737,15 +737,21 @@
     transform: translateX(-50%);
     width: 60px;
     height: 2px;
-    background: linear-gradient(90deg, var(--color-primary), var(--color-primary-dark));
+    background: var(--color-primary);
     border-radius: 2px;
 }
 
 .logos-title {
     font-family: var(--font-family-sans);
-    font-size: var(--font-size-h3);
+    font-size: var(--font-size-h2);
     font-weight: var(--font-weight-bold);
     color: var(--color-heading-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.logos-subtitle {
+    font-size: var(--font-size-body-large);
+    color: var(--color-text-secondary);
     margin: 0;
 }
 
@@ -2664,7 +2670,7 @@
     
     .testimonials-tag {
         font-size: var(--font-size-small);
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
     }
     
     .testimonials-title {
@@ -2694,6 +2700,11 @@
         width: 42px;
         height: 42px;
         font-size: var(--font-size-body-large);
+    }
+    .about-features .row > .col-lg-3:nth-child(1) .feature-icon::before{
+        font-size: var(--font-size-body-small);
+        margin-top: 5px;
+        line-height: 1;
     }
 }
 
@@ -2776,6 +2787,7 @@
     font-size: var(--font-size-body-large);
     color: var(--color-text-secondary);
     margin: 0;
+    max-width: 100%;
 }
 
 /* Conditions Grid - 4x2 Layout */
