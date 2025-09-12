@@ -81,6 +81,7 @@ html {
     align-items: center;
     gap: 15px;
     transition: transform 0.3s ease;
+    color: white;
 }
 
 .hero-section h1:hover {
@@ -185,6 +186,19 @@ html {
     margin-bottom: 40px;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.col-lg-6 {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
 .procedure-card {
     background: var(--color-bg-secondary);
     border-radius: 10px;
@@ -195,6 +209,7 @@ html {
     transition: all 0.4s ease;
     position: relative;
     overflow: hidden;
+    height: 100%;
 }
 
 .procedure-card::before {
@@ -485,6 +500,10 @@ html {
     .hero-section h1 {
         font-size: 2.2rem;
         gap: 15px;
+        color: white;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
     }
     
     .hero-section h1 i {
@@ -493,6 +512,7 @@ html {
     
     .hero-section p {
         font-size: 1.1rem;
+        text-align: center;
     }
     
     .main-content {
@@ -512,9 +532,19 @@ html {
         font-size: 1.8rem;
     }
     
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .col-lg-6 {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    
     .procedure-card {
         padding: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 0;
     }
     
     .procedure-card h3 {
@@ -569,6 +599,7 @@ html {
         flex-direction: column;
         gap: 12px;
         text-align: center;
+        color: white;
     }
     
     .hero-section p {
@@ -586,8 +617,13 @@ html {
         gap: 10px;
     }
     
+    .row {
+        gap: 15px;
+    }
+    
     .procedure-card {
         padding: 25px;
+        margin-bottom: 0;
     }
     
     .procedure-card h3 {

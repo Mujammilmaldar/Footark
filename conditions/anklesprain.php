@@ -41,7 +41,7 @@
                         </div>
                     </div>
 
-                    <div class="widget">
+                    <div class="widget mobile-hidden">
                         <div class="widget-header">Schedule an Appointment</div>
                         <div class="widget-content flex-column">
                             <p>Experiencing ankle pain or instability? Get expert treatment from our specialists.</p>
@@ -51,7 +51,7 @@
                         </div>
                     </div>
 
-                    <div class="widget">
+                    <div class="widget mobile-hidden">
                         <div class="widget-header">Office Location</div>
                         <div class="widget-content">
                             <p><strong>Mumbai Office</strong></p>
@@ -120,7 +120,25 @@
                     </div>
 
                 </div>
+                <div class="widget desktop-hidden">
+                        <div class="widget-header">Schedule an Appointment</div>
+                        <div class="widget-content flex-column">
+                            <p>Experiencing ankle pain or instability? Get expert treatment from our specialists.</p>
+                            <div class="phone-number">+91 98765 43210</div>
+                            <a href="../appointment.php" class="btn-widget">REQUEST APPOINTMENT</a>
+                            <a href="#" class="btn-widget">PATIENT PORTAL</a>
+                        </div>
+                    </div>
 
+                    <div class="widget desktop-hidden">
+                        <div class="widget-header">Office Location</div>
+                        <div class="widget-content">
+                            <p><strong>Mumbai Office</strong></p>
+                            <p>Mumbai, India</p>
+                            <p><strong>Phone:</strong> +91 98765 43210</p>
+                            <p><strong>Email:</strong> info@footark.com</p>
+                        </div>
+                    </div>
             </div>
         </div>
     </section>

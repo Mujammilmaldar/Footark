@@ -570,13 +570,10 @@
    ========================================================================== */
 
 .blog-medical-note {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   background: #d1ecf1;
   border: 1px solid #bee5eb;
   color: #0c5460;
-  padding: 12px 15px;
+  padding: 15px;
   border-radius: 6px;
   margin: var(--spacing-md) 0;
   position: relative;
@@ -586,30 +583,37 @@
   content: '⚕️';
   background: #17a2b8;
   color: var(--color-white);
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: var(--font-size-body);
+  font-size: var(--font-size-body-small);
   flex-shrink: 0;
-  position: static;
+  margin-right: var(--spacing-sm);
+  vertical-align: middle;
 }
 
 .blog-medical-note h4 {
   font-family: var(--font-family-serif);
   color: #0c5460;
-  margin-bottom: var(--spacing-xs);
+  margin: 0 0 var(--spacing-sm) 0;
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-h6);
+  display: inline;
+  vertical-align: middle;
 }
 
 .blog-medical-note p {
   font-family: var(--font-family-sans);
   color: #0c5460;
-  margin: 0;
+  margin: var(--spacing-sm) 0 0 0;
   font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-body-small);
+  line-height: 1.5;
+  display: block;
+  clear: both;
 }
 
 .blog-quote-modern {
@@ -779,6 +783,27 @@
     display: block;
     text-align: center;
   }
+  
+  /* Medical note mobile styles */
+  .blog-medical-note {
+    padding: var(--spacing-sm);
+  }
+  
+  .blog-medical-note::before {
+    width: 24px;
+    height: 24px;
+    font-size: var(--font-size-small);
+    margin-right: var(--spacing-xs);
+  }
+  
+  .blog-medical-note h4 {
+    font-size: var(--font-size-body);
+  }
+  
+  .blog-medical-note p {
+    font-size: var(--font-size-small);
+    margin-top: var(--spacing-xs);
+  }
 }
 
 @media (max-width: 480px) {
@@ -809,6 +834,28 @@
   
   .blog-cta-section {
     padding: var(--spacing-sm);
+  }
+  
+  /* Medical note extra small mobile styles */
+  .blog-medical-note {
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+  
+  .blog-medical-note::before {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    margin-right: 6px;
+  }
+  
+  .blog-medical-note h4 {
+    font-size: var(--font-size-body-small);
+  }
+  
+  .blog-medical-note p {
+    font-size: var(--font-size-small);
+    margin-top: 6px;
+    line-height: 1.4;
   }
   
   .blog-related-article {
@@ -1422,6 +1469,9 @@
   
   .blog-highlight {
     padding: var(--spacing-md);
+  }
+  .footer-content .container{
+    padding: var(--spacing-sm);
   }
 }
 

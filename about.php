@@ -16,7 +16,7 @@
     <!-- Doctor Profile Section - Same as Image -->
     <section class="doctor-profile-section">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center column-reverse doctor-profile-row">
                 <div class="col-lg-7 col-md-6">
                     <div class="doctor-info">
                         <h2 class="doctor-name">Dr Johnathan Smith</h2>
@@ -77,7 +77,7 @@
     <!-- Biography Details Section -->
     <section class="biography-section">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center ">
                 <div class="col-lg-6 col-md-12 order-1">
                     <div class="biography-image">
                         <img src="assets/images/doctor2.png" alt="Dr. Johnathan Smith" class="img-fluid">
