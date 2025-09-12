@@ -391,6 +391,7 @@ html {
     }
     
     .stat-card {
+        text-align: center;
         padding: var(--spacing-md);
     }
     
@@ -465,10 +466,15 @@ html {
     .doctor-image img {
         width: 100%;
         max-width: 400px;
+        padding: var(--spacing-sm);
         height: auto;
         min-height: 300px;
     }
+    .footer-content .container,.footer-bottom{
+        padding: var(--spacing-md);
+    }
 }
+
 
 /* ==========================================================================
    ANIMATIONS

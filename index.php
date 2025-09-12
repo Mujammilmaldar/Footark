@@ -715,7 +715,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="contact-info-container">
                         <div class="contact-header">
-                            <span class="contact-tag">CONTACT US</span>
+                            <span class="about-tag">CONTACT US</span>
                             <h2 class="contact-title">Discover the Best In Home Care</h2>
                             <p class="contact-subtitle">Delivering world class home care</p>
                         </div>
