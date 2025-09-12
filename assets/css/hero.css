@@ -2858,6 +2858,7 @@
     margin-bottom: var(--spacing-xs);
     transition: color 0.3s ease;
     line-height: 1.3;
+    margin-top: 10px;
 }
 
 .condition-desc {
@@ -2983,7 +2984,8 @@
     }
     
     .condition-card {
-        padding: var(--spacing-sm);
+        padding: var(--spacing-md);
+        min-height: 260px;
     }
     
     .conditions-title {
