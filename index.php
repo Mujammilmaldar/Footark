@@ -784,7 +784,7 @@
                                     placeholder="Tell us more about your condition or any questions you have..."></textarea>
                             </div>
 
-                            <button type="submit" class="contact-submit-btn view-all-btn">SUBMIT</button>
+                            <button type="submit" class="contact-submit-btn">SEND YOUR MESSAGE</button>
                         </form>
                     </div>
                 </div>
