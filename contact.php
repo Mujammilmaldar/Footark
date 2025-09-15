@@ -96,7 +96,7 @@
                             </div>
 
                             <button type="submit" class="form-submit-btn">
-                                SEND YOUR MESSAGE
+                                Submit
                             </button>
 
                             <div class="form-note">
