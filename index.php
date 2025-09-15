@@ -310,7 +310,7 @@
             </div>
 
             <div class="conditions-footer">
-                <a href="conditions.php" class="btn view-all-btn">VIEW ALL CONDITIONS</a>
+                <a href="conditions.php" class="btn view-all-btn">VIEW ALL</a>
             </div>
         </div>
     </section>
@@ -333,8 +333,11 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
-                                        <span class="google-text">Google Review</span>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                    </div>
+                                    <div class="rating-badge">
+                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
+                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
                                     </div>
                                 </div>
                                 
@@ -371,10 +374,12 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
-                                        <span class="google-text">Google Review</span>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
                                     </div>
-                                   
+                                    <div class="rating-badge">
+                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
+                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
+                                    </div>
                                 </div>
                                 
                                 <div class="star-rating">
@@ -410,10 +415,12 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
-                                        <span class="google-text">Google Review</span>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
                                     </div>
-                                    
+                                    <div class="rating-badge">
+                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
+                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
+                                    </div>
                                 </div>
                                 
                                 <div class="star-rating">
@@ -449,10 +456,12 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
-                                        <span class="google-text">Google Review</span>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
                                     </div>
-                                   
+                                    <div class="rating-badge">
+                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
+                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
+                                    </div>
                                 </div>
                                 
                                 <div class="star-rating">
@@ -488,11 +497,12 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
-                                        <span class="google-text">Google Review</span>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
                                     </div>
-                                    
-                                    
+                                    <div class="rating-badge">
+                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
+                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
+                                    </div>
                                 </div>
                                 
                                 <div class="star-rating">
@@ -528,10 +538,12 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
-                                        <span class="google-text">Google Review</span>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
                                     </div>
-                                    
+                                    <div class="rating-badge">
+                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
+                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
+                                    </div>
                                 </div>
                                 
                                 <div class="star-rating">
@@ -772,7 +784,7 @@
                                     placeholder="Tell us more about your condition or any questions you have..."></textarea>
                             </div>
 
-                            <button type="submit" class="contact-submit-btn">SEND YOUR MESSAGE</button>
+                            <button type="submit" class="contact-submit-btn view-all-btn">SUBMIT</button>
                         </form>
                     </div>
                 </div>

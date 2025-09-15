@@ -907,14 +907,17 @@ html {
 }
 
 .details-list li::before {
-    content: attr(data-icon);
+    content: '';
     position: absolute;
     left: 0;
-    color: var(--color-secondary);
-    font-size: var(--font-size-body);
-    font-weight: var(--font-weight-semibold);
-    width: var(--spacing-md);
-    transition: transform 0.3s ease;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid var(--color-secondary);
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s ease;
 }
 
 .details-list li:hover::before {

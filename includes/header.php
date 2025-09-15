@@ -1,21 +1,43 @@
 <?php
-// Path detection for XAMPP - determine if we need Footancle/ prefix
+// Robust path detection for both Footancle and FootAncle variations
 $pathPrefix = '';
-$scriptPath = $_SERVER['SCRIPT_NAME'];
-$requestUri = $_SERVER['REQUEST_URI'];
 
-// If the script path contains /Footancle/, we are inside the Footancle folder
-if (strpos($scriptPath, '/Footancle/') !== false) {
-    $scriptDir = dirname($scriptPath);
-    if ($scriptDir !== '/' && $scriptDir !== '' && $scriptDir !== '\\' && basename($scriptDir) !== 'Footancle') {
-        $pathPrefix = '../';
-    } else {
-        $pathPrefix = '';
-    }
-} else {
-    $scriptDir = dirname($scriptPath);
-    if ($scriptDir !== '/' && $scriptDir !== '' && $scriptDir !== '\\') {
-        $pathPrefix = '../Footancle/';
+// Get the current script's directory and name
+$scriptDir = dirname($_SERVER['SCRIPT_NAME']);
+$scriptName = $_SERVER['SCRIPT_NAME'];
+
+// Normalize path separators
+$scriptDir = str_replace('\\', '/', $scriptDir);
+$scriptName = str_replace('\\', '/', $scriptName);
+
+// Check if we're in subdirectories first
+if (strpos($scriptDir, '/conditions') !== false) {
+    $pathPrefix = '../';
+}
+else if (strpos($scriptDir, '/treatments') !== false) {
+    $pathPrefix = '../';
+}
+else if (strpos($scriptDir, '/rehabilitation') !== false) {
+    $pathPrefix = '../';
+}
+else if (strpos($scriptDir, '/blog') !== false) {
+    $pathPrefix = '../';
+}
+// Check if we're in the root directory (handle both Footancle and FootAncle)
+else if ((strpos($scriptName, '/Footancle/') !== false || strpos($scriptName, '/FootAncle/') !== false) && 
+         (basename($scriptDir) === 'Footancle' || basename($scriptDir) === 'FootAncle' || 
+          $scriptDir === '/Footancle' || $scriptDir === '/FootAncle')) {
+    $pathPrefix = '';
+}
+// Handle case where we're directly in root with files like index.php, about.php
+else if (basename(dirname($scriptName)) === 'Footancle' || basename(dirname($scriptName)) === 'FootAncle') {
+    $pathPrefix = '';
+}
+// We're outside the main directory completely
+else {
+    // Use the actual directory name from the URL
+    if (strpos($_SERVER['REQUEST_URI'], '/FootAncle/') !== false) {
+        $pathPrefix = 'FootAncle/';
     } else {
         $pathPrefix = 'Footancle/';
     }
@@ -202,7 +224,7 @@ if (strpos($scriptPath, '/Footancle/') !== false) {
                             </div>
                         </li>
                         <li class="menu-item">
-                            <a href="<?php echo $pathPrefix; ?>contact.php" class="menu-link cta-link">Contact</a>
+                            <a href="<?php echo $pathPrefix; ?>contact.php" class="cta-link">Contact</a>
                         </li>
                     </ul>
                 </div>

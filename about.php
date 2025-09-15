@@ -135,18 +135,18 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <ul class="details-list">
-                                <li data-icon="🔸">Interventional Cardiology</li>
-                                <li data-icon="🔸">Coronary Artery Disease</li>
-                                <li data-icon="🔸">Valvular Heart Disease</li>
-                                <li data-icon="🔸">Heart Failure Management</li>
+                                <li>Interventional Cardiology</li>
+                                <li>Coronary Artery Disease</li>
+                                <li>Valvular Heart Disease</li>
+                                <li>Heart Failure Management</li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul class="details-list">
-                                <li data-icon="🔸">Hypertrophic Cardiomyopathy</li>
-                                <li data-icon="🔸">Cardiac Catheterization</li>
-                                <li data-icon="🔸">Preventive Cardiology</li>
-                                <li data-icon="🔸">Advanced Cardiac Imaging</li>
+                                <li>Hypertrophic Cardiomyopathy</li>
+                                <li>Cardiac Catheterization</li>
+                                <li>Preventive Cardiology</li>
+                                <li>Advanced Cardiac Imaging</li>
                             </ul>
                         </div>
                     </div>
@@ -160,18 +160,18 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <ul class="details-list">
-                                <li data-icon="🎓">MD - Doctor of Medicine</li>
-                                <li data-icon="🎓">Fellowship in Cardiology</li>
-                                <li data-icon="🎓">Fellowship in Interventional Cardiology</li>
-                                <li data-icon="🎓">Board Certified in Internal Medicine</li>
+                                <li>MD - Doctor of Medicine</li>
+                                <li>Fellowship in Cardiology</li>
+                                <li>Fellowship in Interventional Cardiology</li>
+                                <li>Board Certified in Internal Medicine</li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul class="details-list">
-                                <li data-icon="🏆">Fellow of American College of Cardiology (FACC)</li>
-                                <li data-icon="🏆">Fellow of European Society of Cardiology (FESC)</li>
-                                <li data-icon="🚑">Advanced Cardiac Life Support (ACLS) Certified</li>
-                                <li data-icon="📋">American Board of Internal Medicine Certification</li>
+                                <li>Fellow of American College of Cardiology (FACC)</li>
+                                <li>Fellow of European Society of Cardiology (FESC)</li>
+                                <li>Advanced Cardiac Life Support (ACLS) Certified</li>
+                                <li>American Board of Internal Medicine Certification</li>
                             </ul>
                         </div>
                     </div>
@@ -186,17 +186,17 @@
                         <div class="col-lg-6">
                             <h4 class="subsection-title">Recent Publications</h4>
                             <ul class="details-list">
-                                <li data-icon="📄">"Advances in Minimally Invasive Cardiac Surgery" - Journal of Cardiology 2023</li>
-                                <li data-icon="📄">"Novel Approaches to Heart Failure Management" - American Heart Journal 2022</li>
-                                <li data-icon="📄">"Coronary Intervention Techniques: A 20-Year Review" - Circulation Research 2021</li>
+                                <li>"Advances in Minimally Invasive Cardiac Surgery" - Journal of Cardiology 2023</li>
+                                <li>"Novel Approaches to Heart Failure Management" - American Heart Journal 2022</li>
+                                <li>"Coronary Intervention Techniques: A 20-Year Review" - Circulation Research 2021</li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <h4 class="subsection-title">Research Activities</h4>
                             <ul class="details-list">
-                                <li data-icon="🔬">Principal Investigator: Clinical Trial on New Stent Technology</li>
-                                <li data-icon="📚">Co-author: 50+ peer-reviewed publications</li>
-                                <li data-icon="📊">Research Focus: Cardiovascular Disease Prevention</li>
+                                <li>Principal Investigator: Clinical Trial on New Stent Technology</li>
+                                <li>Co-author: 50+ peer-reviewed publications</li>
+                                <li>Research Focus: Cardiovascular Disease Prevention</li>
                             </ul>
                         </div>
                     </div>
@@ -211,19 +211,19 @@
                         <div class="col-lg-6">
                             <h4 class="subsection-title">Recent Awards</h4>
                             <ul class="details-list">
-                                <li data-icon="🏆">Outstanding Physician Award - Medical Association 2023</li>
-                                <li data-icon="⭐">Excellence in Patient Care - Healthcare Excellence Awards 2022</li>
-                                <li data-icon="🥇">Top Doctor Recognition - Regional Medical Board 2021</li>
-                                <li data-icon="💡">Innovation in Cardiac Treatment - Medical Innovation Society 2020</li>
+                                <li>Outstanding Physician Award - Medical Association 2023</li>
+                                <li>Excellence in Patient Care - Healthcare Excellence Awards 2022</li>
+                                <li>Top Doctor Recognition - Regional Medical Board 2021</li>
+                                <li>Innovation in Cardiac Treatment - Medical Innovation Society 2020</li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <h4 class="subsection-title">Professional Milestones</h4>
                             <ul class="details-list">
-                                <li data-icon="📅">30+ Years of Medical Excellence</li>
-                                <li data-icon="❤️">20+ Years Specialized in Cardiology</li>
-                                <li data-icon="🎤">Guest Speaker at International Cardiology Conferences</li>
-                                <li data-icon="🌍">International Recognition in Cardiovascular Medicine</li>
+                                <li>30+ Years of Medical Excellence</li>
+                                <li>20+ Years Specialized in Cardiology</li>
+                                <li>Guest Speaker at International Cardiology Conferences</li>
+                                <li>International Recognition in Cardiovascular Medicine</li>
                             </ul>
                         </div>
                     </div>
@@ -238,17 +238,17 @@
                         <div class="col-lg-6">
                             <h4 class="subsection-title">Current Positions</h4>
                             <ul class="details-list">
-                                <li data-icon="🏥">Chief Medical Officer - Footancle Medical Center (2020-Present)</li>
-                                <li data-icon="👨‍⚕️">Senior Interventional Cardiologist</li>
-                                <li data-icon="📋">Director of Cardiovascular Research</li>
+                                <li>Chief Medical Officer - Footancle Medical Center (2020-Present)</li>
+                                <li>Senior Interventional Cardiologist</li>
+                                <li>Director of Cardiovascular Research</li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <h4 class="subsection-title">Previous Experience</h4>
                             <ul class="details-list">
-                                <li data-icon="🏢">Senior Cardiologist - Mumbai Heart Institute (2015-2020)</li>
-                                <li data-icon="🔬">Interventional Cardiologist - Delhi Cardiac Care (2010-2015)</li>
-                                <li data-icon="🎓">Cardiology Fellow - AIIMS (2008-2010)</li>
+                                <li>Senior Cardiologist - Mumbai Heart Institute (2015-2020)</li>
+                                <li>Interventional Cardiologist - Delhi Cardiac Care (2010-2015)</li>
+                                <li>Cardiology Fellow - AIIMS (2008-2010)</li>
                             </ul>
                         </div>
                     </div>

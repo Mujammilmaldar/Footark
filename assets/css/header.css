@@ -406,12 +406,13 @@ header {
     background: transparent;
     border: 2px solid var(--color-secondary-light);
     color: var(--color-secondary-light) !important;
-    padding: var(--button-padding);
+    padding: 6px 14px;
     border-radius: var(--button-border-radius);
     font-size: var(--font-size-header-btn);
     font-weight: var(--font-weight-bold);
     text-decoration: none !important;
-    transition: all 0.3s ease;
+    transition: all 0.3s 
+ease;
     /* Small differentiation - slightly thicker border */
     border-width: 2.5px;
     /* Removed box-shadow and position/overflow for animations */

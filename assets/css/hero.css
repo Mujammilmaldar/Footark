@@ -400,7 +400,7 @@
     width: 100%;
     max-height: 660px;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
     object-position: start ;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
@@ -1510,27 +1510,29 @@
     font-family: var(--font-family-sans);
 }
 
-/* Clean Submit Button */
+/* Clean Submit Button - Border Style like View All Button */
 .contact-submit-btn {
     width: 100%;
-    padding: clamp(0.75rem, calc(1vw + 0.625rem), 1rem) clamp(1.5rem, calc(2vw + 1rem), 2rem);
-    font-size: var(--font-size-button);
-    font-weight: var(--font-weight-bold);
+    padding: 14px 32px;
+    font-size: var(--font-size-body-small);
+    font-weight: var(--font-weight-medium);
     font-family: var(--font-family-sans);
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: var(--color-text-inverse);
-    background: var(--color-primary);
-    border: none;
-    border-radius: var(--border-radius);
+    letter-spacing: 1px;
+    color: var(--color-primary);
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    border-radius: 6px;
     cursor: pointer;
     transition: all 0.3s ease;
     margin-top: clamp(0.5rem, calc(0.75vw + 0.375rem), 0.75rem);
 }
 
 .contact-submit-btn:hover {
-    background: var(--color-primary-dark);
+    background: var(--color-primary);
+    color: var(--color-white);
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(232, 90, 79, 0.2);
 }
 
 .contact-submit-btn:active {
@@ -2833,7 +2835,7 @@
 .condition-card:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 30px rgba(59, 130, 246, 0.15);
-    border-color: #3b82f6;
+    border-color: var(--color-bg-secondary);
 }
 
 .condition-card:hover::before {
@@ -2962,6 +2964,7 @@
     transition: all 0.3s ease;
     border: 2px solid var(--color-primary);
     cursor: pointer;
+    width: auto;
 }
 
 .view-all-btn:hover {
@@ -2991,8 +2994,8 @@
     }
     
     .condition-icon {
-        width: 50px;
-        height: 50px;
+        width: auto;
+        height: 80px;
         margin-bottom: var(--spacing-sm);
     }
     

@@ -13,7 +13,7 @@
                 <h1>Ankle Sprain & Instability Treatment</h1>
                 <p>Expert care for ankle sprains and chronic instability. Our specialized team helps patients recover from acute injuries and provides long-term solutions for recurring ankle problems.</p>
                 <div class="hero-buttons">
-                    <a href="../appointment.php" class="btn-primary">Schedule Consultation</a>
+                    <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                 </div>
             </div>
         </div>
@@ -45,9 +45,7 @@
                         <div class="widget-header">Schedule an Appointment</div>
                         <div class="widget-content flex-column">
                             <p>Experiencing ankle pain or instability? Get expert treatment from our specialists.</p>
-                            <div class="phone-number">+91 98765 43210</div>
                             <a href="../appointment.php" class="btn-widget">REQUEST APPOINTMENT</a>
-                            <a href="#" class="btn-widget">PATIENT PORTAL</a>
                         </div>
                     </div>
 
@@ -124,9 +122,7 @@
                         <div class="widget-header">Schedule an Appointment</div>
                         <div class="widget-content flex-column">
                             <p>Experiencing ankle pain or instability? Get expert treatment from our specialists.</p>
-                            <div class="phone-number">+91 98765 43210</div>
                             <a href="../appointment.php" class="btn-widget">REQUEST APPOINTMENT</a>
-                            <a href="#" class="btn-widget">PATIENT PORTAL</a>
                         </div>
                     </div>
 
