@@ -40,61 +40,64 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">
                     <div class="about-image">
-                        <img src="assets/images/hero-about.avif" alt="Our Caregivers" class="img-fluid">
+                        <img src="assets/images/home-about/AboutDoc.png" alt="Dr. Abhishek Kini" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="about-content">
-                        <div class="about-tag">EXPERIENCE TRUE CAREGIVING</div>
-                        <h2 class="about-title">Expert, Compassionate Caregivers</h2>
+                        <div class="about-tag">TRUSTED FOOT & ANKLE SPECIALIST OFFERING WORLD-CLASS CARE IN MUMBAI</div>
+                        <h2 class="about-title">About Dr. Abhishek Kini</h2>
+                        <div class="doctor-info" style="margin-bottom: 2rem;">
+                            <p style="color: var(--color-text-secondary); font-size: 1rem; line-height: 1.4; margin-bottom: 0.5rem;">
+                                DNB (Orth), MNAMS<br>
+                                Dip. in Sports Medicine (IOC)<br>
+                                Foot & Ankle Reconstruction, Orthopaedic Surgeon
+                            </p>
+                        </div>
 
                         <div class="about-features">
                             <div class="row">
                                 <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="feature-box">
                                         <div class="feature-icon">
-                                            <span data-ico-remixiconsbusiness="" class="bt_bb_icon_holder"></span>
+                                            <img src="assets/images/home-about/Experienced.png" alt="Experienced" style="width: auto; height: 40px; object-fit: cover;">
                                         </div>
                                         <div class="feature-content">
-                                            <h4 class="feature-title">Values</h4>
-                                            <p class="feature-desc">We care for the whole person and believe that addressing a
-                                                broad range of life's complexities.</p>
+                                            <h4 class="feature-title">Experienced</h4>
+                                            <p class="feature-desc">Over 12 years in foot & ankle surgery with extensive experience in complex reconstructive procedures.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="feature-box">
                                         <div class="feature-icon">
-                                            <i class="home-icon"></i>
+                                           <img src="assets/images/home-about/Expert.png" alt="Expert" style="width: auto; height: 40px; object-fit: cover;">
                                         </div>
                                         <div class="feature-content">
-                                            <h4 class="feature-title">Experience</h4>
-                                            <p class="feature-desc">A community where people achieve their full
-                                                potential for health and well-being.</p>
+                                            <h4 class="feature-title">Expert</h4>
+                                            <p class="feature-desc">Specialized in arthroscopic & minimally invasive techniques for faster recovery and better outcomes.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="feature-box">
                                         <div class="feature-icon">
-                                            <i class="approach-icon"></i>
+                                            <img src="assets/images/home-about/Internationally Trained.png" alt="Internationally Trained" style="width: auto; height: 40px; object-fit: cover;">
                                         </div>
                                         <div class="feature-content">
-                                            <h4 class="feature-title">Approach</h4>
-                                            <p class="feature-desc">Partnerships with education, government, and
-                                                community organizations multiply our impact.</p>
+                                            <h4 class="feature-title">Internationally Trained</h4>
+                                            <p class="feature-desc">Advanced training in the UK & Holland, bringing world-class techniques to Mumbai.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="feature-box">
                                         <div class="feature-icon">
-                                            <i class="providers-icon"></i>
+                                            <img src="assets/images/home-about/PatientCentric.png" alt="Patient-Centric" style="width: auto; height: 40px; object-fit: cover;">
                                         </div>
                                         <div class="feature-content">
-                                            <h4 class="feature-title">Providers</h4>
-                                            <p class="feature-desc">Patient-centered healthcare with excellence in
-                                                quality, service, and access to a range of needs.</p>
+                                            <h4 class="feature-title">Patient-Centric</h4>
+                                            <p class="feature-desc">Focused on quicker recovery & long-term mobility with personalized treatment plans.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -227,7 +230,7 @@
     <section class="conditions-section">
         <div class="container">
             <div class="conditions-header">
-                <span class="testimonials-tag">SPECIALIZATIONS</span>
+                <span class="testimonials-tag">OUR SERVICES</span>
                 <h2 class="conditions-title">Expert Foot & Ankle Care</h2>
                 <p class="conditions-subtitle">Comprehensive treatment for all foot and ankle conditions</p>
             </div>
@@ -235,74 +238,74 @@
             <div class="conditions-grid">
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-user-md"></i>
+                        <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Ankle Arthroscopy" style="width: auto; height: 50px; object-fit: cover;">
                     </div>
-                    <h4 class="condition-title">Bunion Surgery</h4>
-                    <p class="condition-desc">Advanced minimally invasive bunion correction using latest surgical techniques with faster recovery times and excellent cosmetic results.</p>
-                    <a href="bunion.php" class="condition-read-more">Read More</a>
+                    <h4 class="condition-title">Ankle Arthroscopy</h4>
+                    <p class="condition-desc">Keyhole surgery for ankle joint problems with quick recovery.</p>
+                    <a href="treatments/t-ankle-arthroscopy.php" class="condition-read-more">Read More</a>
                 </div>
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
+                        <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Ligament Reconstruction" style="width: auto; height: 50px; object-fit: cover;">
                     </div>
-                    <h4 class="condition-title">Heel Pain</h4>
-                    <p class="condition-desc">Comprehensive treatment for plantar fasciitis and heel spurs. We offer both conservative treatments and surgical options for persistent cases.</p>
-                    <a href="heel-pain.php" class="condition-read-more">Read More</a>
+                    <h4 class="condition-title">Ligament Reconstruction</h4>
+                    <p class="condition-desc">Restoring stability and strength to injured knees & ankles.</p>
+                    <a href="treatments/t-ankle-ligament.php" class="condition-read-more">Read More</a>
                 </div>
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-shoe-prints"></i>
+                        <img src="assets/images/home-conditions/AnkleFusion.png" alt="Arthroscopic Ankle Fusion" style="width: auto; height: 50px; object-fit: cover;">
                     </div>
-                    <h4 class="condition-title">Flat Foot</h4>
-                    <p class="condition-desc">Expert reconstruction for adult acquired flatfoot deformity including custom orthotics and advanced surgical reconstruction techniques.</p>
+                    <h4 class="condition-title">Arthroscopic Ankle Fusion</h4>
+                    <p class="condition-desc">Minimally invasive treatment for severe ankle arthritis.</p>
+                    <a href="treatments/t-ankle-fusion.php" class="condition-read-more">Read More</a>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <img src="assets/images/home-conditions/SportsInjury.png" alt="Sports Injury Treatment" style="width: auto; height: 50px; object-fit: cover;">
+                    </div>
+                    <h4 class="condition-title">Sports Injury Treatment</h4>
+                    <p class="condition-desc">Expert care for athletes with ankle sprains, tendon tears & fractures.</p>
+                    <a href="conditions/anklesprain.php" class="condition-read-more">Read More</a>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-icon">
+                        <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Foot & Ankle Deformity Correction" style="width: auto; height: 50px; object-fit: cover;">
+                    </div>
+                    <h4 class="condition-title">Foot & Ankle Deformity Correction</h4>
+                    <p class="condition-desc">Surgical & non-surgical solutions for flat feet, bunions & misalignments.</p>
                     <a href="flat-foot.php" class="condition-read-more">Read More</a>
                 </div>
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-joint"></i>
+                        <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Minimally Invasive Surgery" style="width: auto; height: 50px; object-fit: cover;">
                     </div>
-                    <h4 class="condition-title">Ankle Arthritis</h4>
-                    <p class="condition-desc">Specialized care including joint preservation techniques, ankle arthroscopy, and total ankle replacement to maintain mobility.</p>
-                    <a href="arthritis-midfoot.php" class="condition-read-more">Read More</a>
+                    <h4 class="condition-title">Minimally Invasive Surgery</h4>
+                    <p class="condition-desc">Smaller cuts, faster healing, and less pain for foot & ankle conditions.</p>
+                    <a href="procedures.php" class="condition-read-more">Read More</a>
                 </div>
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-band-aid"></i>
+                        <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Tendon Repair" style="width: auto; height: 50px; object-fit: cover;">
                     </div>
-                    <h4 class="condition-title">Achilles Tendon</h4>
-                    <p class="condition-desc">Complete achilles care from acute ruptures to chronic tendinopathy using minimally invasive repair techniques and rehabilitation.</p>
-                    <a href="conditions/achilles-tendon-pain.php" class="condition-read-more">Read More</a>
+                    <h4 class="condition-title">Tendon Repair</h4>
+                    <p class="condition-desc">Advanced repair techniques for torn tendons with faster recovery times.</p>
+                    <a href="treatments/t-tendon-rupture.php" class="condition-read-more">Read More</a>
                 </div>
 
                 <div class="condition-card">
                     <div class="condition-icon">
-                        <i class="fas fa-procedures"></i>
+                        <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Bunion Surgery" style="width: auto; height: 50px; object-fit: cover;">
                     </div>
-                    <h4 class="condition-title">Toe Deformities</h4>
-                    <p class="condition-desc">Expert correction of hammer toe, claw toe, and mallet toe deformities with minimal scarring and quick recovery options.</p>
-                    <a href="great-toe.php" class="condition-read-more">Read More</a>
-                </div>
-
-                <div class="condition-card">
-                    <div class="condition-icon">
-                        <i class="fas fa-plus-square"></i>
-                    </div>
-                    <h4 class="condition-title">Diabetic Foot</h4>
-                    <p class="condition-desc">Comprehensive diabetic foot care including ulcer treatment and infection management to prevent amputations and maintain foot health.</p>
-                    <a href="conditions/diabetic-foot.php" class="condition-read-more">Read More</a>
-                </div>
-
-                <div class="condition-card">
-                    <div class="condition-icon">
-                        <i class="fas fa-running"></i>
-                    </div>
-                    <h4 class="condition-title">Sports Injuries</h4>
-                    <p class="condition-desc">Specialized treatment for athletic foot and ankle injuries with targeted rehabilitation and injury prevention strategies.</p>
-                    <a href="conditions/anklesprain.php" class="condition-read-more">Read More</a>
+                    <h4 class="condition-title">Bunion Surgery</h4>
+                    <p class="condition-desc">Modern bunion correction with minimal scarring and quick return to activities.</p>
+                    <a href="bunion.php" class="condition-read-more">Read More</a>
                 </div>
             </div>
 
@@ -330,7 +333,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <div class="google-logo-icon">G</div>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
                                         <span class="google-text">Google Review</span>
                                     </div>
                                 </div>
@@ -368,7 +371,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <div class="google-logo-icon">G</div>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
                                         <span class="google-text">Google Review</span>
                                     </div>
                                    
@@ -407,7 +410,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <div class="google-logo-icon">G</div>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
                                         <span class="google-text">Google Review</span>
                                     </div>
                                     
@@ -446,7 +449,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <div class="google-logo-icon">G</div>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
                                         <span class="google-text">Google Review</span>
                                     </div>
                                    
@@ -485,7 +488,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <div class="google-logo-icon">G</div>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
                                         <span class="google-text">Google Review</span>
                                     </div>
                                     
@@ -525,7 +528,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <div class="google-logo-icon">G</div>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto;">
                                         <span class="google-text">Google Review</span>
                                     </div>
                                     

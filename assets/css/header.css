@@ -67,6 +67,7 @@ header {
     padding: 0px var(--spacing-sm);
     background: linear-gradient(135deg, rgba(248, 249, 250, 0.6) 0%, rgba(240, 242, 245, 0.4) 50%, rgba(248, 249, 250, 0.6) 100%);
     margin-bottom: 0px !important;
+    margin-top: 3px;
 }
 
 .contact-info {

@@ -59,10 +59,95 @@
     <!-- Main Medical Content -->
     <main class="medical-content">
         <div class="container">
-            <div class="content-layout">
+            <!-- Quick Navigation Links -->
+            <section class="quick-navigation">
+                <div class="quick-nav-header">
+                    <h2 class="nav-title">
+                        <i class="fas fa-list-ul"></i>
+                        Quick Navigation
+                    </h2>
+                    <p class="nav-subtitle">Jump to specific sections of the rehabilitation guide</p>
+                </div>
+                <div class="quick-links-grid">
+                    <a href="#immediate-care" class="quick-link-card">
+                        <div class="link-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Immediate Care</h3>
+                            <p>First 24-48 hours post-surgery</p>
+                        </div>
+                    </a>
+                    <a href="#wound-care" class="quick-link-card">
+                        <div class="link-icon">
+                            <i class="fas fa-band-aid"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Wound Care</h3>
+                            <p>Dressing and wound management</p>
+                        </div>
+                    </a>
+                    <a href="#pain-management" class="quick-link-card">
+                        <div class="link-icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Pain Management</h3>
+                            <p>Pain relief and ice therapy</p>
+                        </div>
+                    </a>
+                    <a href="#hygiene" class="quick-link-card">
+                        <div class="link-icon">
+                            <i class="fas fa-shower"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Hygiene Guidelines</h3>
+                            <p>Bathing and cleaning instructions</p>
+                        </div>
+                    </a>
+                    <a href="#physical-therapy" class="quick-link-card">
+                        <div class="link-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Physical Therapy</h3>
+                            <p>Exercise and rehabilitation</p>
+                        </div>
+                    </a>
+                    <a href="#follow-up" class="quick-link-card">
+                        <div class="link-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Follow-up Care</h3>
+                            <p>Appointments and monitoring</p>
+                        </div>
+                    </a>
+                    <a href="#complications" class="quick-link-card">
+                        <div class="link-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Complications</h3>
+                            <p>Potential issues to watch for</p>
+                        </div>
+                    </a>
+                    <a href="#warning-signs" class="quick-link-card">
+                        <div class="link-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Warning Signs</h3>
+                            <p>When to contact your doctor</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <div class="content-layout-full">
                 
                 <!-- Primary Content -->
-                <article class="primary-content">
+                <article class="primary-content-full">
                     
                     <!-- Immediate Post-Operative Care -->
                     <section class="medical-section" id="immediate-care">
@@ -376,34 +461,6 @@
                     </section>
                 </article>
 
-                
-                <!-- Medical Sidebar -->
-                <aside class="medical-sidebar">
-                    
-                    <!-- Table of Contents -->
-                    <div class="sidebar-card">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                <i class="fas fa-list"></i>
-                                Quick Links
-                            </h3>
-                        </div>
-                        <div class="card-content">
-                            <nav class="toc-nav">
-                                <ul class="toc-list">
-                                    <li><a href="#immediate-care" class="toc-link">Immediate Post-Operative Care</a></li>
-                                    <li><a href="#wound-care" class="toc-link">Wound Care Management</a></li>
-                                    <li><a href="#pain-management" class="toc-link">Pain Management & Ice Therapy</a></li>
-                                    <li><a href="#hygiene" class="toc-link">Hygiene Guidelines</a></li>
-                                    <li><a href="#physical-therapy" class="toc-link">Physical Therapy</a></li>
-                                    <li><a href="#follow-up" class="toc-link">Office Follow-up Schedule</a></li>
-                                    <li><a href="#complications" class="toc-link">Potential Complications</a></li>
-                                    <li><a href="#warning-signs" class="toc-link">Warning Signs</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </aside>
             </div>
         </div>
     </main>
@@ -458,7 +515,52 @@
     <?php include '../includes/footer.php'; ?>
 
     <script>
-        // Smooth scrolling for table of contents links
+        // Smooth scrolling for quick navigation links
+        document.querySelectorAll('.quick-link-card').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Quick Navigation active state
+        function updateActiveQuickNav() {
+            const sections = document.querySelectorAll('.medical-section');
+            const quickLinks = document.querySelectorAll('.quick-link-card');
+            
+            let current = '';
+            const scrollPos = window.scrollY + 150; // Offset for header
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                
+                if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            // Remove active class from all quick links
+            quickLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+            
+            // Add active class to current section quick link
+            if (current) {
+                const activeLink = document.querySelector(`.quick-link-card[href="#${current}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('active');
+                }
+            }
+        }
+
+        // Smooth scrolling for table of contents links (if any)
         document.querySelectorAll('.toc-link').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -472,7 +574,7 @@
             });
         });
 
-        // Table of Contents active state
+        // Table of Contents active state (if any)
         function updateActiveTOC() {
             const sections = document.querySelectorAll('.medical-section');
             const tocLinks = document.querySelectorAll('.toc-link');
@@ -497,11 +599,17 @@
             });
         }
 
-        // Update TOC on scroll
-        window.addEventListener('scroll', updateActiveTOC);
+        // Update both Quick Nav and TOC on scroll
+        window.addEventListener('scroll', function() {
+            updateActiveQuickNav();
+            updateActiveTOC();
+        });
         
-        // Update TOC on load
-        document.addEventListener('DOMContentLoaded', updateActiveTOC);
+        // Update both on load
+        document.addEventListener('DOMContentLoaded', function() {
+            updateActiveQuickNav();
+            updateActiveTOC();
+        });
 
         // Header scroll effect
         window.addEventListener('scroll', function() {

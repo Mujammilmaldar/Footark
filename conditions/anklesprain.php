@@ -54,10 +54,10 @@
                     <div class="widget mobile-hidden">
                         <div class="widget-header">Office Location</div>
                         <div class="widget-content">
-                            <p><strong>Mumbai Office</strong></p>
-                            <p>Mumbai, India</p>
-                            <p><strong>Phone:</strong> +91 98765 43210</p>
-                            <p><strong>Email:</strong> info@footark.com</p>
+                            <p><i class="fas fa-map-marker-alt"></i> <strong>Mumbai Office</strong></p>
+                            <p style="margin-left: 20px;">Mumbai, India</p>
+                            <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +91 98765 43210</p>
+                            <p><i class="fas fa-envelope"></i> <strong>Email:</strong> info@footark.com</p>
                         </div>
                     </div>
                 </div>
@@ -133,10 +133,10 @@
                     <div class="widget desktop-hidden">
                         <div class="widget-header">Office Location</div>
                         <div class="widget-content">
-                            <p><strong>Mumbai Office</strong></p>
-                            <p>Mumbai, India</p>
-                            <p><strong>Phone:</strong> +91 98765 43210</p>
-                            <p><strong>Email:</strong> info@footark.com</p>
+                            <p><i class="fas fa-map-marker-alt"></i> <strong>Mumbai Office</strong></p>
+                            <p style="margin-left: 20px;">Mumbai, India</p>
+                            <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +91 98765 43210</p>
+                            <p><i class="fas fa-envelope"></i> <strong>Email:</strong> info@footark.com</p>
                         </div>
                     </div>
             </div>

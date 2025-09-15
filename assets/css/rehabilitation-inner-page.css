@@ -2762,3 +2762,169 @@ html {
     font-size: var(--font-size-body-small);
   }
 }
+
+/* ==========================================================================
+   QUICK NAVIGATION SECTION - BLOG TOC STYLE
+   ========================================================================== */
+
+/* Quick Navigation Container - Blog TOC Style */
+.quick-navigation {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: var(--border-radius);
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+/* Quick Navigation Header - Blog TOC Style */
+.quick-nav-header {
+    margin-bottom: var(--spacing-sm);
+}
+
+.nav-title {
+    font-family: var(--font-family-serif);
+    font-size: var(--font-size-h6);
+    color: var(--color-heading-primary);
+    margin-bottom: var(--spacing-sm);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.nav-title i {
+    color: var(--color-primary);
+}
+
+.nav-subtitle {
+    display: none;
+}
+
+/* Quick Links Grid - Horizontal Blog Style */
+.quick-links-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+}
+
+/* Quick Link Cards - Blog TOC Horizontal Style */
+.quick-link-card {
+    font-family: var(--font-family-sans);
+    display: inline-block;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    background: var(--color-white);
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    border-radius: var(--border-radius-small);
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+    font-size: var(--font-size-body-small);
+    white-space: nowrap;
+    flex: none;
+}
+
+.quick-link-card:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-color: var(--color-primary);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quick-link-card.active {
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-color: var(--color-primary);
+    font-weight: 500;
+}
+
+/* Hide all the complex elements - use only text */
+.link-icon {
+    display: none;
+}
+
+.link-content {
+    display: contents;
+}
+
+.link-content h3 {
+    display: contents;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    margin: 0;
+}
+
+.link-content p {
+    display: none;
+}
+
+/* Mobile Responsiveness - Blog TOC Style */
+@media (max-width: 768px) {
+    .quick-navigation {
+        padding: var(--spacing-sm);
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .quick-nav-header {
+        margin-bottom: 8px;
+    }
+    
+    .nav-title {
+        font-size: var(--font-size-body-large);
+        flex-direction: row;
+        gap: 6px;
+    }
+    
+    .quick-links-grid {
+        flex-direction: column;
+        gap: 2px;
+    }
+    
+    .quick-link-card {
+        display: block;
+        white-space: normal;
+        padding: 6px var(--spacing-sm);
+        font-size: var(--font-size-body-small);
+    }
+}
+
+@media (max-width: 480px) {
+    .quick-navigation {
+        padding: 12px;
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .nav-title {
+        font-size: var(--font-size-body);
+    }
+    
+    .quick-link-card {
+        padding: 4px 8px;
+        font-size: var(--font-size-caption);
+    }
+}
+
+/* Accessibility */
+.quick-link-card:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+    .quick-navigation {
+        background: transparent;
+        border: 1px solid #ccc;
+        break-inside: avoid;
+    }
+    
+    .quick-link-card {
+        color: #000 !important;
+        background: transparent !important;
+        border-color: #ccc !important;
+    }
+}

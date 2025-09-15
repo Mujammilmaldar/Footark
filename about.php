@@ -67,7 +67,7 @@
                 
                 <div class="col-lg-5 col-md-6">
                     <div class="doctor-image">
-                        <img src="assets/images/doctor-profile.png" alt="Dr Johnathan Smith" class="img-fluid">
+                        <img src="assets/images/home-about/AboutDoc.png" alt="Dr Johnathan Smith" class="img-fluid">
                     </div>
                 </div>
             </div>
