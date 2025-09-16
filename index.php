@@ -237,75 +237,108 @@
 
             <div class="conditions-grid">
                 <div class="condition-card">
-                    <div class="condition-icon">
-                        <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Ankle Arthroscopy" style="width: auto; height: 50px; object-fit: cover;">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Ankle Arthroscopy" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Ankle Arthroscopy</h4>
                     </div>
-                    <h4 class="condition-title">Ankle Arthroscopy</h4>
-                    <p class="condition-desc">Keyhole surgery for ankle joint problems with quick recovery.</p>
-                    <a href="treatments/t-ankle-arthroscopy.php" class="condition-read-more">Read More</a>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Keyhole surgery for ankle joint problems with quick recovery.</p>
+                        <a href="treatments/t-ankle-arthroscopy.php" class="condition-read-more">Read More</a>
+                    </div>
                 </div>
 
                 <div class="condition-card">
-                    <div class="condition-icon">
-                        <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Ligament Reconstruction" style="width: auto; height: 50px; object-fit: cover;">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Ligament Reconstruction" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Ligament Reconstruction</h4>
                     </div>
-                    <h4 class="condition-title">Ligament Reconstruction</h4>
-                    <p class="condition-desc">Restoring stability and strength to injured knees & ankles.</p>
-                    <a href="treatments/t-ankle-ligament.php" class="condition-read-more">Read More</a>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Restoring stability and strength to injured knees & ankles.</p>
+                        <a href="treatments/t-ankle-ligament.php" class="condition-read-more">Read More</a>
+                    </div>
                 </div>
 
                 <div class="condition-card">
-                    <div class="condition-icon">
-                        <img src="assets/images/home-conditions/AnkleFusion.png" alt="Arthroscopic Ankle Fusion" style="width: auto; height: 50px; object-fit: cover;">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/AnkleFusion.png" alt="Arthroscopic Ankle Fusion" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Arthroscopic Ankle Fusion</h4>
                     </div>
-                    <h4 class="condition-title">Arthroscopic Ankle Fusion</h4>
-                    <p class="condition-desc">Minimally invasive treatment for severe ankle arthritis.</p>
-                    <a href="treatments/t-ankle-fusion.php" class="condition-read-more">Read More</a>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Minimally invasive treatment for severe ankle arthritis.</p>
+                        <a href="treatments/t-ankle-fusion.php" class="condition-read-more">Read More</a>
+                    </div>
                 </div>
 
                 <div class="condition-card">
-                    <div class="condition-icon">
-                        <img src="assets/images/home-conditions/SportsInjury.png" alt="Sports Injury Treatment" style="width: auto; height: 50px; object-fit: cover;">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/SportsInjury.png" alt="Sports Injury Treatment" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Sports Injury Treatment</h4>
                     </div>
-                    <h4 class="condition-title">Sports Injury Treatment</h4>
-                    <p class="condition-desc">Expert care for athletes with ankle sprains, tendon tears & fractures.</p>
-                    <a href="conditions/anklesprain.php" class="condition-read-more">Read More</a>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Expert care for athletes with ankle sprains, tendon tears & fractures.</p>
+                        <a href="conditions/anklesprain.php" class="condition-read-more">Read More</a>
+                    </div>
                 </div>
 
                 <div class="condition-card">
-                    <div class="condition-icon">
-                        <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Foot & Ankle Deformity Correction" style="width: auto; height: 50px; object-fit: cover;">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Foot & Ankle Deformity Correction" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Foot & Ankle Deformity Correction</h4>
                     </div>
-                    <h4 class="condition-title">Foot & Ankle Deformity Correction</h4>
-                    <p class="condition-desc">Surgical & non-surgical solutions for flat feet, bunions & misalignments.</p>
-                    <a href="flat-foot.php" class="condition-read-more">Read More</a>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Surgical & non-surgical solutions for flat feet, bunions & misalignments.</p>
+                        <a href="flat-foot.php" class="condition-read-more">Read More</a>
+                    </div>
                 </div>
 
                 <div class="condition-card">
-                    <div class="condition-icon">
-                        <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Minimally Invasive Surgery" style="width: auto; height: 50px; object-fit: cover;">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Minimally Invasive Surgery" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Minimally Invasive Surgery</h4>
                     </div>
-                    <h4 class="condition-title">Minimally Invasive Surgery</h4>
-                    <p class="condition-desc">Smaller cuts, faster healing, and less pain for foot & ankle conditions.</p>
-                    <a href="procedures.php" class="condition-read-more">Read More</a>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Smaller cuts, faster healing, and less pain for foot & ankle conditions.</p>
+                        <a href="procedures.php" class="condition-read-more">Read More</a>
+                    </div>
                 </div>
 
                 <div class="condition-card">
-                    <div class="condition-icon">
-                        <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Tendon Repair" style="width: auto; height: 50px; object-fit: cover;">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Tendon Repair" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Tendon Repair</h4>
                     </div>
-                    <h4 class="condition-title">Tendon Repair</h4>
-                    <p class="condition-desc">Advanced repair techniques for torn tendons with faster recovery times.</p>
-                    <a href="treatments/t-tendon-rupture.php" class="condition-read-more">Read More</a>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Advanced repair techniques for torn tendons with faster recovery times.</p>
+                        <a href="treatments/t-tendon-rupture.php" class="condition-read-more">Read More</a>
+                    </div>
                 </div>
 
                 <div class="condition-card">
-                    <div class="condition-icon">
-                        <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Bunion Surgery" style="width: auto; height: 50px; object-fit: cover;">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Bunion Surgery" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Bunion Surgery</h4>
                     </div>
-                    <h4 class="condition-title">Bunion Surgery</h4>
-                    <p class="condition-desc">Modern bunion correction with minimal scarring and quick return to activities.</p>
-                    <a href="bunion.php" class="condition-read-more">Read More</a>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Modern bunion correction with minimal scarring and quick return to activities.</p>
+                        <a href="bunion.php" class="condition-read-more">Read More</a>
+                    </div>
+                </div>
                 </div>
             </div>
 
@@ -334,10 +367,6 @@
                                 <div class="google-header">
                                     <div class="google-logo">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
-                                    </div>
-                                    <div class="rating-badge">
-                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
-                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
                                     </div>
                                 </div>
                                 
@@ -376,10 +405,6 @@
                                     <div class="google-logo">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
                                     </div>
-                                    <div class="rating-badge">
-                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
-                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
-                                    </div>
                                 </div>
                                 
                                 <div class="star-rating">
@@ -416,10 +441,6 @@
                                 <div class="google-header">
                                     <div class="google-logo">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
-                                    </div>
-                                    <div class="rating-badge">
-                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
-                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
                                     </div>
                                 </div>
                                 
@@ -458,10 +479,6 @@
                                     <div class="google-logo">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
                                     </div>
-                                    <div class="rating-badge">
-                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
-                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
-                                    </div>
                                 </div>
                                 
                                 <div class="star-rating">
@@ -499,10 +516,6 @@
                                     <div class="google-logo">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
                                     </div>
-                                    <div class="rating-badge">
-                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
-                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
-                                    </div>
                                 </div>
                                 
                                 <div class="star-rating">
@@ -539,10 +552,6 @@
                                 <div class="google-header">
                                     <div class="google-logo">
                                         <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
-                                    </div>
-                                    <div class="rating-badge">
-                                        <i class="fas fa-star" style="color: #fbbf24; font-size: 14px; margin-right: 4px;"></i>
-                                        <span style="color: #6b7280; font-size: 13px; font-weight: 500;">Google Review</span>
                                     </div>
                                 </div>
                                 
@@ -784,7 +793,7 @@
                                     placeholder="Tell us more about your condition or any questions you have..."></textarea>
                             </div>
 
-                            <button type="submit" class="contact-submit-btn">SEND YOUR MESSAGE</button>
+                            <button type="submit" class="contact-submit-btn">Submit</button>
                         </form>
                     </div>
                 </div>
