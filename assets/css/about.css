@@ -81,10 +81,6 @@
         background-attachment: scroll !important; 
         padding: var(--spacing-md) 0;
     }
-    
-    .column-reverse {
-        flex-direction: column-reverse;
-    }
 
     
     .about-hero-content {
@@ -117,6 +113,13 @@
 /* Smooth scroll behavior for parallax */
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Enhanced parallax effect */
@@ -166,6 +169,8 @@ html {
 .doctor-profile-section {
     padding: var(--spacing-xl) 0;
     background-color: var(--color-bg-primary);
+    overflow-x: hidden;
+    width: 100%;
 }
 
 
@@ -194,6 +199,9 @@ html {
     grid-template-columns: 1fr 1fr;
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-lg);
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .description-column p {
@@ -292,7 +300,9 @@ html {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 calc(-1 * var(--container-padding));
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .row.align-items-center {
@@ -300,13 +310,18 @@ html {
 }
 
 .doctor-profile-row{
-    gap: 2%;
+    gap: 0;
+    margin: 0;
+    width: 100%;
+    flex-direction: row; /* Ensure row layout by default */
 }
 .col-lg-7,
 .col-lg-6,
 .col-lg-5,
 .col-md-6 {
     width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
 }
 
 .col-lg-7 {
@@ -340,7 +355,6 @@ html {
 .col-md-6 {
     flex: 0 0 50%;
     max-width: 49%;
-    gap: 2%;
 }
 
 
@@ -350,8 +364,70 @@ html {
     height: auto;
 }
 
+/* Ensure row layout for larger screens */
+@media (min-width: 1000px) {
+    .doctor-profile-row {
+        flex-direction: row !important;
+    }
+    
+    .col-lg-7 {
+        flex: 0 0 58.33%;
+        max-width: 58.33%;
+    }
+    
+    .col-lg-5 {
+        flex: 0 0 41.67%;
+        max-width: 41.67%;
+    }
+}
+
 /* Responsive Design for Doctor Profile */
-@media (max-width: 992px) {
+@media (max-width: 1400px) and (min-width: 1000px) {
+    .doctor-profile-section {
+        overflow-x: hidden;
+    }
+    
+    .doctor-profile-row {
+        gap: 0;
+        width: 100%;
+        margin: 0;
+        flex-direction: row; /* Ensure row layout */
+    }
+    
+    .col-lg-7 {
+        flex: 0 0 55%;
+        max-width: 55%;
+        padding-right: 15px;
+    }
+    
+    .col-lg-5 {
+        flex: 0 0 45%;
+        max-width: 45%;
+        padding-left: 15px;
+    }
+    
+    .doctor-description {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+    
+    .doctor-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-sm);
+    }
+    
+    .doctor-image img {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 999px) {
+    .column-reverse {
+        flex-direction: column-reverse;
+    }
+    
     .col-lg-7,
     .col-lg-5 {
         flex: 0 0 100%;
@@ -537,6 +613,8 @@ html {
 .biography-section {
     padding: var(--spacing-xxl) 0;
     background-color: var(--color-bg-secondary);
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .biography-content {
@@ -803,6 +881,8 @@ html {
     padding: var(--spacing-xxl) 0;
     background-color: var(--color-bg-primary);
     position: relative;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .biography-details-section::before {

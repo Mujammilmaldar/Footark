@@ -52,10 +52,10 @@
                     <div class="widget mobile-hidden">
                         <div class="widget-header">Office Location</div>
                         <div class="widget-content">
-                            <p><i class="fas fa-map-marker-alt"></i> <strong>Mumbai Office</strong></p>
+                            <p><i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> <strong>Mumbai Office</strong></p>
                             <p style="margin-left: 20px;">Mumbai, India</p>
-                            <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +91 98765 43210</p>
-                            <p><i class="fas fa-envelope"></i> <strong>Email:</strong> info@footark.com</p>
+                            <p><i class="fas fa-phone" style="margin-right: 5px;"></i> +91 98765 43210</p>
+                            <p><i class="fas fa-envelope" style="margin-right: 5px;"></i> info@footark.com</p>
                         </div>
                     </div>
                 </div>

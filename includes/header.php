@@ -24,22 +24,22 @@ else if (strpos($scriptDir, '/blog') !== false) {
     $pathPrefix = '../';
 }
 // Check if we're in the root directory (handle both Footancle and FootAncle)
-else if ((strpos($scriptName, '/Footancle/') !== false || strpos($scriptName, '/FootAncle/') !== false) && 
-         (basename($scriptDir) === 'Footancle' || basename($scriptDir) === 'FootAncle' || 
-          $scriptDir === '/Footancle' || $scriptDir === '/FootAncle')) {
+else if ((strpos($scriptName, '/Footark/') !== false || strpos($scriptName, '/Footark/') !== false) && 
+         (basename($scriptDir) === 'Footark' || basename($scriptDir) === 'Footark' || 
+          $scriptDir === '/Footark' || $scriptDir === '/Footark')) {
     $pathPrefix = '';
 }
 // Handle case where we're directly in root with files like index.php, about.php
-else if (basename(dirname($scriptName)) === 'Footancle' || basename(dirname($scriptName)) === 'FootAncle') {
+else if (basename(dirname($scriptName)) === 'Footark' || basename(dirname($scriptName)) === 'Footark') {
     $pathPrefix = '';
 }
 // We're outside the main directory completely
 else {
     // Use the actual directory name from the URL
-    if (strpos($_SERVER['REQUEST_URI'], '/FootAncle/') !== false) {
-        $pathPrefix = 'FootAncle/';
+    if (strpos($_SERVER['REQUEST_URI'], '/Footark/') !== false) {
+        $pathPrefix = 'Footark/';
     } else {
-        $pathPrefix = 'Footancle/';
+        $pathPrefix = 'Footark/';
     }
 }
 ?>

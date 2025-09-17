@@ -155,10 +155,10 @@
                                     <span class="time">Emergency Only</span>
                                 </div>
                             </div>
-                            <div class="emergency-note">
+                            <!-- <div class="emergency-note">
                                 <i class="fas fa-exclamation-triangle"></i>
                                 <span>24/7 Emergency Service Available</span>
-                            </div>
+                            </div> -->
                         </div>
 
                     </div>
