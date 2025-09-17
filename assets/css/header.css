@@ -61,9 +61,10 @@ header {
 
 .first-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     width: 100%;
+    gap: 2rem;
     padding: 0px var(--spacing-sm);
     background: linear-gradient(135deg, rgba(248, 249, 250, 0.6) 0%, rgba(240, 242, 245, 0.4) 50%, rgba(248, 249, 250, 0.6) 100%);
     margin-bottom: 0px !important;
@@ -226,7 +227,7 @@ header {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: var(--spacing-xs);
+    gap: 0px;
     align-items: center;
 }
 
@@ -287,6 +288,22 @@ header {
 }
 
 .dropdown:hover .dropdown-toggle .dropdown-icon {
+    transform: rotate(180deg);
+    color: var(--color-primary);
+}
+
+/* Separate dropdown arrow trigger */
+.dropdown-arrow-trigger {
+    margin-left: var(--spacing-xs);
+    transition: transform 0.3s ease;
+    font-size: var(--font-size-caption);
+    color: var(--color-text-muted);
+    cursor: pointer;
+    padding: var(--spacing-xs);
+}
+
+.dropdown:hover .dropdown-arrow-trigger,
+.dropdown.active .dropdown-arrow-trigger {
     transform: rotate(180deg);
     color: var(--color-primary);
 }
@@ -456,6 +473,31 @@ ease;
     border-radius: 75px !important;
 }
 */
+.view-all-btn {
+    display: inline-block;
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 11px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-body-small);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: 2px solid var(--color-primary);
+    cursor: pointer;
+    width: auto;
+}
+
+.view-all-btn:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(232, 90, 79, 0.4);
+    border-color: var(--color-primary);
+}
 
 .cta-link:hover {
     /* Removed ALL animations and effects */
@@ -1034,4 +1076,11 @@ ease;
     body {
         padding-bottom: 60px;
     }
+}
+
+.contact-btn{
+    padding: 1px 7px !important;
+    font-size: var(--font-size-header-nav) !important;
+    letter-spacing: 0px !important;
+    text-transform: capitalize !important;
 }

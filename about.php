@@ -16,7 +16,7 @@
     <!-- Doctor Profile Section - Same as Image -->
     <section class="doctor-profile-section">
         <div class="container">
-            <div class="row align-items-center column-reverse doctor-profile-row">
+            <div class="row align-items-center column-reverse doctor-profile-row" style="gap:3rem;">
                 <div class="col-lg-7 col-md-6">
                     <div class="doctor-info">
                         <h2 class="doctor-name">Dr. Abhishek Kini</h2>
@@ -68,7 +68,7 @@
                 
                 <div class="col-lg-5 col-md-6">
                     <div class="doctor-image">
-                        <img src="assets/images/home-about/AboutDoc.png" alt="Dr. Abhishek Kini" class="img-fluid">
+                        <img src="assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Dr. Abhishek Kini" class="img-fluid">
                     </div>
                 </div>
             </div>

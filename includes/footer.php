@@ -13,7 +13,7 @@ if (strpos($_SERVER['PHP_SELF'], '/conditions/') !== false) {
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="footer-section">
                         <div class="footer-logo">
-                            <h3>Footancle</h3>
+                            <h3>Footark</h3>
                             <p class="footer-tagline">Expert Foot & Ankle Care</p>
                         </div>
                         <p class="footer-description">

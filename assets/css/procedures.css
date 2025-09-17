@@ -20,22 +20,10 @@ html {
 .hero-section {
     background: var(--color-secondary);
     color: var(--color-text-inverse);
-    padding: 50px 0 40px 0;
+    padding: 50px 0 40px 50px;
     position: relative;
     overflow: hidden;
 }
-
-.hero-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="70" cy="30" r="12" fill="rgba(255,255,255,0.03)"/><circle cx="85" cy="60" r="8" fill="rgba(255,255,255,0.02)"/></svg>') no-repeat right center;
-    pointer-events: none;
-}
-
 .breadcrumb {
     font-size: 14px;
     margin-bottom: 25px;
@@ -276,10 +264,9 @@ html {
 .procedure-list li {
     display: flex;
     align-items: center;
-    padding: 12px 0;
+    padding: 0;
     border-bottom: 1px solid var(--color-border-light);
     transition: all 0.3s ease;
-    cursor: pointer;
     position: relative;
 }
 
@@ -287,15 +274,28 @@ html {
     border-bottom: none;
 }
 
-.procedure-list li:hover {
+.procedure-list li a {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.procedure-list li a:hover {
     background: rgba(232, 90, 79, 0.05);
     padding-left: 10px;
     border-radius: 8px;
     margin: 0 -10px;
     transform: translateX(3px);
+    text-decoration: none;
 }
 
-.procedure-list li i {
+.procedure-list li a i {
     color: var(--color-primary);
     font-size: 1rem;
     width: 20px;
@@ -304,12 +304,12 @@ html {
     transition: all 0.3s ease;
 }
 
-.procedure-list li:hover i {
+.procedure-list li a:hover i {
     color: var(--color-secondary);
     transform: scale(1.1);
 }
 
-.procedure-list li span {
+.procedure-list li a span {
     font-size: 0.95rem;
     color: var(--color-text-primary);
     font-weight: var(--font-weight-medium);
@@ -317,12 +317,12 @@ html {
     position: relative;
 }
 
-.procedure-list li:hover span {
+.procedure-list li a:hover span {
     color: var(--color-primary);
     font-weight: var(--font-weight-semibold);
 }
 
-.procedure-list li span::after {
+.procedure-list li a span::after {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -334,7 +334,7 @@ html {
     transition: width 0.3s ease;
 }
 
-.procedure-list li:hover span::after {
+.procedure-list li a:hover span::after {
     width: 100%;
 }
 

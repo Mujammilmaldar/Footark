@@ -1,10 +1,4 @@
 <?php include 'includes/header.php'; ?>
-<link rel="stylesheet" href="assets/css/hero.css?v=<?php echo time(); ?>">
-<link rel="stylesheet" href="assets/css/about.css?v=<?php echo time(); ?>">
-<link rel="stylesheet" href="assets/css/treatment-results.css?v=<?php echo time(); ?>">
-<link rel="stylesheet" href="assets/css/testimonials-new.css?v=<?php echo time(); ?>">
-<link rel="stylesheet" href="assets/css/mobile-responsive.css?v=<?php echo time(); ?>">
-<link rel="stylesheet" href="assets/css/mobile-slider-fix.css?v=<?php echo time(); ?>">
 <main>
     <section class="hero-section">
         <div class="video-hero-container">
@@ -18,15 +12,12 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6">
                         <div class="hero-content">
-                            <h1 class="hero-title">The Foot Experts</h1>
+                            <h1 class="hero-title">FOOTARK CLINIC</h1>
                             <p class="hero-subtitle">
-                                The London Foot & Ankle Surgery is UK's leading specialist centre
-                                for Podiatry and Foot Surgery, providing high quality private care in
-                                Central London
+                                A leading centre in Mumbai for Foot & Ankle care, offering advanced treatment and compassionate care.
                             </p>
                             <div class="hero-buttons">
-                                <a href="about.php" class="btn discover-btn">DISCOVER MORE</a>
-                                <a href="services.php" class="btn view-services-btn">VIEW OUR SERVICES</a>
+                                <a href="about.php" class="btn view-services-btn">Know More</a>
                             </div>
                         </div>
                     </div>
@@ -40,7 +31,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">
                     <div class="about-image">
-                        <img src="assets/images/home-about/AboutDoc.png" alt="Dr. Abhishek Kini" class="img-fluid">
+                        <img src="assets/images/Dr.Abhishekkini-FootAnkleSurgeonMumbai (2).webp" style="border-radius:var(--border-radius-large);" alt="Dr. Abhishek Kini" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -48,10 +39,16 @@
                         <div class="about-tag">TRUSTED FOOT & ANKLE SPECIALIST OFFERING WORLD-CLASS CARE IN MUMBAI</div>
                         <h2 class="about-title">About Dr. Abhishek Kini</h2>
                         <div class="doctor-info" style="margin-bottom: 2rem;">
-                            <p style="color: var(--color-text-secondary); font-size: 1rem; line-height: 1.4; margin-bottom: 0.5rem;">
-                                DNB (Orth), MNAMS<br>
-                                Dip. in Sports Medicine (IOC)<br>
-                                Foot & Ankle Reconstruction, Orthopaedic Surgeon
+                            <p style="color: var(--color-text-secondary); font-size: 1rem; line-height: 1.4; margin-bottom: 0.5rem;font-style:italic;">
+                                DNB (Orthopaedics), MNAMS<br>
+                                Diploma in Sports Medicine (IOC)<br>
+                                Foot & Ankle Specialist, Orthopaedic Surgeon
+                            </p>
+                        </div>
+                        
+                        <div class="about-description" style="margin-bottom: 2rem;">
+                            <p style="color: var(--color-text-secondary); font-size: 1.1rem; line-height: 1.6;">
+                                Expert foot and ankle surgeon with over 12 years of experience. Trained internationally in the UK and Holland. Specializes in minimally invasive surgery for faster recovery and better results.
                             </p>
                         </div>
 
@@ -63,8 +60,8 @@
                                             <img src="assets/images/home-about/Experienced.png" alt="Experienced" style="width: auto; height: 40px; object-fit: cover;">
                                         </div>
                                         <div class="feature-content">
-                                            <h4 class="feature-title">Experienced</h4>
-                                            <p class="feature-desc">Over 12 years in foot & ankle surgery with extensive experience in complex reconstructive procedures.</p>
+                                            <h4 class="feature-title">12+ Years</h4>
+                                            <p class="feature-desc">Expert in foot & ankle surgery with proven results.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -74,8 +71,8 @@
                                            <img src="assets/images/home-about/Expert.png" alt="Expert" style="width: auto; height: 40px; object-fit: cover;">
                                         </div>
                                         <div class="feature-content">
-                                            <h4 class="feature-title">Expert</h4>
-                                            <p class="feature-desc">Specialized in arthroscopic & minimally invasive techniques for faster recovery and better outcomes.</p>
+                                            <h4 class="feature-title">Advanced</h4>
+                                            <p class="feature-desc">Minimally invasive techniques for quick recovery.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -85,8 +82,8 @@
                                             <img src="assets/images/home-about/Internationally Trained.png" alt="Internationally Trained" style="width: auto; height: 40px; object-fit: cover;">
                                         </div>
                                         <div class="feature-content">
-                                            <h4 class="feature-title">Internationally Trained</h4>
-                                            <p class="feature-desc">Advanced training in the UK & Holland, bringing world-class techniques to Mumbai.</p>
+                                            <h4 class="feature-title">UK Trained</h4>
+                                            <p class="feature-desc">International training brings world-class care.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -96,12 +93,17 @@
                                             <img src="assets/images/home-about/PatientCentric.png" alt="Patient-Centric" style="width: auto; height: 40px; object-fit: cover;">
                                         </div>
                                         <div class="feature-content">
-                                            <h4 class="feature-title">Patient-Centric</h4>
-                                            <p class="feature-desc">Focused on quicker recovery & long-term mobility with personalized treatment plans.</p>
+                                            <h4 class="feature-title">Patient First</h4>
+                                            <p class="feature-desc">Personalized care for the best outcomes.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        
+                        <!-- About Button -->
+                        <div class="about-button" style="margin-top: 2rem;">
+                            <a href="about.php" class="btn view-all-btn">About Dr. Kini</a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +132,6 @@
                                     <div class="result-content">
                                         <h4 class="result-title">Bunion Correction</h4>
                                         <p class="result-duration">6 months treatment</p>
-                                        <div class="result-badge">Success</div>
                                     </div>
                                 </div>
                             </div>
@@ -144,7 +145,6 @@
                                     <div class="result-content">
                                         <h4 class="result-title">Plantar Fasciitis</h4>
                                         <p class="result-duration">3 months recovery</p>
-                                        <div class="result-badge">Success</div>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +158,6 @@
                                     <div class="result-content">
                                         <h4 class="result-title">Ankle Surgery</h4>
                                         <p class="result-duration">4 months healing</p>
-                                        <div class="result-badge">Success</div>
                                     </div>
                                 </div>
                             </div>
@@ -172,7 +171,6 @@
                                     <div class="result-content">
                                         <h4 class="result-title">Hammer Toe</h4>
                                         <p class="result-duration">2 months treatment</p>
-                                        <div class="result-badge">Success</div>
                                     </div>
                                 </div>
                             </div>
@@ -186,7 +184,6 @@
                                     <div class="result-content">
                                         <h4 class="result-title">Ingrown Nail</h4>
                                         <p class="result-duration">1 month recovery</p>
-                                        <div class="result-badge">Success</div>
                                     </div>
                                 </div>
                             </div>
@@ -200,7 +197,6 @@
                                     <div class="result-content">
                                         <h4 class="result-title">Diabetic Foot Care</h4>
                                         <p class="result-duration">Ongoing care</p>
-                                        <div class="result-badge">Success</div>
                                     </div>
                                 </div>
                             </div>
@@ -245,7 +241,7 @@
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Keyhole surgery for ankle joint problems with quick recovery.</p>
-                        <a href="treatments/t-ankle-arthroscopy.php" class="condition-read-more">Read More</a>
+                        <a href="treatments/t-ankle-arthroscopy.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
 
@@ -258,7 +254,7 @@
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Restoring stability and strength to injured knees & ankles.</p>
-                        <a href="treatments/t-ankle-ligament.php" class="condition-read-more">Read More</a>
+                        <a href="treatments/t-ankle-ligament.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
 
@@ -271,7 +267,7 @@
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Minimally invasive treatment for severe ankle arthritis.</p>
-                        <a href="treatments/t-ankle-fusion.php" class="condition-read-more">Read More</a>
+                        <a href="treatments/t-ankle-fusion.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
 
@@ -284,7 +280,7 @@
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Expert care for athletes with ankle sprains, tendon tears & fractures.</p>
-                        <a href="conditions/anklesprain.php" class="condition-read-more">Read More</a>
+                        <a href="conditions/anklesprain.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
 
@@ -293,11 +289,11 @@
                         <div class="condition-icon">
                             <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Foot & Ankle Deformity Correction" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
-                        <h4 class="condition-title">Foot & Ankle Deformity Correction</h4>
+                        <h4 class="condition-title">Ankle Deformity Correction</h4>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Surgical & non-surgical solutions for flat feet, bunions & misalignments.</p>
-                        <a href="flat-foot.php" class="condition-read-more">Read More</a>
+                        <a href="flat-foot.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
 
@@ -310,7 +306,7 @@
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Smaller cuts, faster healing, and less pain for foot & ankle conditions.</p>
-                        <a href="procedures.php" class="condition-read-more">Read More</a>
+                        <a href="procedures.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
 
@@ -323,7 +319,7 @@
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Advanced repair techniques for torn tendons with faster recovery times.</p>
-                        <a href="treatments/t-tendon-rupture.php" class="condition-read-more">Read More</a>
+                        <a href="treatments/t-tendon-rupture.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
 
@@ -336,7 +332,7 @@
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Modern bunion correction with minimal scarring and quick return to activities.</p>
-                        <a href="bunion.php" class="condition-read-more">Read More</a>
+                        <a href="bunion.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
                 </div>
@@ -350,7 +346,7 @@
 
     <!-- Review Section - JavaScript Testimonials Slider -->
     <section class="testimonials-section">
-        <div class="container">
+        <div class="container" style="max-width:100%;width: 100%;">
             <div class="testimonials-header">
                 <span class="testimonials-tag">REVIEWS</span>
                 <h2 class="testimonials-title">Real customers, real results</h2>
@@ -608,7 +604,7 @@
         <div class="container">
             <div class="logos-header">
                 <span class="logos-tag">TRUSTED BY</span>
-                <h2 class="logos-title">Our Partners & Clients</h2>
+                <h2 class="logos-title">Hospital Associations</h2>
             </div>
 
             <div class="auto-slider-container">
@@ -740,8 +736,7 @@
                     <div class="contact-info-container">
                         <div class="contact-header">
                             <span class="about-tag">CONTACT US</span>
-                            <h2 class="contact-title">Discover the Best In Home Care</h2>
-                            <p class="contact-subtitle">Delivering world class home care</p>
+                            <h3 class="contact-title">Your first step toward recovery starts here</h3>
                         </div>
 
                         <!-- Map Container -->
@@ -749,7 +744,7 @@
                             <iframe 
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.9674891487547!2d72.83102731490284!3d19.03758078711428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf26f4c34d1b%3A0x2be8d86c82a7fdbb!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1639123456789!5m2!1sen!2sin" 
                                 width="100%" 
-                                height="350" 
+                                height="450" 
                                 style="border:0; border-radius: 12px; margin: 20px 0;" 
                                 allowfullscreen="" 
                                 loading="lazy" 

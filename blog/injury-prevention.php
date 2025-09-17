@@ -218,15 +218,6 @@ document.body.className += ' blog-wrapper';
 
             <div class="blog-divider-fancy"></div>
 
-            <!-- Final CTA -->
-            <div class="blog-cta-section">
-                <div class="blog-cta-content">
-                    <h3 class="blog-cta-title">Ready to Start Your Prevention Journey?</h3>
-                    <p class="blog-cta-text">Contact our expert team for personalized injury prevention strategies and professional guidance tailored to your athletic needs.</p>
-                    <a href="../contact.php" class="blog-cta-button">Get Expert Advice</a>
-                </div>
-            </div>
-
         </main>
 
         <!-- Sidebar Column -->

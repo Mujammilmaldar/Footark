@@ -12,15 +12,6 @@
                     </ol>
                 </nav>
                 <h1 class="page-title">BEFORE & AFTER GALLERY</h1>
-                <div class="page-meta">
-                    <div class="meta-info">
-                        <span class="meta-label">Updated on</span>
-                        <span class="meta-date">Aug 28, 2025</span>
-                        <span class="meta-by">by</span>
-                        <span class="meta-author">Dr. Kini (Orthopedic Surgeon)</span>
-                        <span class="meta-clinic">of Foot Ark Specialists</span>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -37,9 +28,6 @@
                 <div class="before-after-card">
                     <div class="image-container">
                         <img src="assets/images/before-after/1.png" alt="Bunion Surgery Before After" loading="lazy">
-                        <div class="image-overlay">
-                            <span class="overlay-text">View Details</span>
-                        </div>
                     </div>
                     <div class="card-content">
                         <h3>Bunion Correction Surgery</h3>
@@ -54,9 +42,6 @@
                 <div class="before-after-card">
                     <div class="image-container">
                         <img src="assets/images/before-after/2.png" alt="Hammer Toe Correction" loading="lazy">
-                        <div class="image-overlay">
-                            <span class="overlay-text">View Details</span>
-                        </div>
                     </div>
                     <div class="card-content">
                         <h3>Hammer Toe Correction</h3>
@@ -71,9 +56,6 @@
                 <div class="before-after-card">
                     <div class="image-container">
                         <img src="assets/images/before-after/3.png" alt="Plantar Fasciitis Treatment" loading="lazy">
-                        <div class="image-overlay">
-                            <span class="overlay-text">View Details</span>
-                        </div>
                     </div>
                     <div class="card-content">
                         <h3>Plantar Fasciitis Treatment</h3>
@@ -88,9 +70,6 @@
                 <div class="before-after-card">
                     <div class="image-container">
                         <img src="assets/images/before-after/4.png" alt="Ankle Reconstruction" loading="lazy">
-                        <div class="image-overlay">
-                            <span class="overlay-text">View Details</span>
-                        </div>
                     </div>
                     <div class="card-content">
                         <h3>Ankle Reconstruction</h3>
@@ -105,9 +84,6 @@
                 <div class="before-after-card">
                     <div class="image-container">
                         <img src="assets/images/before-after/5.png" alt="Flat Foot Correction" loading="lazy">
-                        <div class="image-overlay">
-                            <span class="overlay-text">View Details</span>
-                        </div>
                     </div>
                     <div class="card-content">
                         <h3>Flat Foot Correction</h3>
@@ -122,9 +98,6 @@
                 <div class="before-after-card">
                     <div class="image-container">
                         <img src="assets/images/before-after/6.png" alt="Ingrown Toenail Treatment" loading="lazy">
-                        <div class="image-overlay">
-                            <span class="overlay-text">View Details</span>
-                        </div>
                     </div>
                     <div class="card-content">
                         <h3>Ingrown Toenail Treatment</h3>
@@ -133,18 +106,6 @@
                             <span class="procedure-type">Outpatient</span>
                             <span class="recovery-time">1-2 weeks</span>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Call to Action Section -->
-            <div class="cta-section">
-                <div class="cta-content">
-                    <h2>Ready to Transform Your Life?</h2>
-                    <p>Join thousands of satisfied patients who have regained their mobility and quality of life through our expert care.</p>
-                    <div class="cta-buttons">
-                        <a href="appointment.php" class="btn-primary">Schedule Your Consultation</a>
-                        <a href="tel:+919876543210" class="btn-secondary">Call Now: +91 98765 43210</a>
                     </div>
                 </div>
             </div>

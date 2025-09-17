@@ -209,7 +209,7 @@
   --spacing-component-lg: clamp(1.5rem, calc(2.5vw + 1rem), 2.5rem);
 
   /* Section Spacing - More balanced for different screen sizes */
-  --section-padding-y: clamp(2.5rem, calc(6vw + 1rem), 5rem);
+  --section-padding-y: clamp(1rem, calc(2.2vw + 0.5rem), 2.4rem);
   --section-padding-x: clamp(1rem, calc(2.5vw + 0.5rem), 2.5rem);
   --section-gap: clamp(1.5rem, calc(3vw + 0.75rem), 3rem);
 

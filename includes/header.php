@@ -1,5 +1,5 @@
 <?php
-// Robust path detection for both Footancle and FootAncle variations
+// Simplified path detection for Footancle directory
 $pathPrefix = '';
 
 // Get the current script's directory and name
@@ -23,24 +23,9 @@ else if (strpos($scriptDir, '/rehabilitation') !== false) {
 else if (strpos($scriptDir, '/blog') !== false) {
     $pathPrefix = '../';
 }
-// Check if we're in the root directory (handle both Footancle and FootAncle)
-else if ((strpos($scriptName, '/Footark/') !== false || strpos($scriptName, '/Footark/') !== false) && 
-         (basename($scriptDir) === 'Footark' || basename($scriptDir) === 'Footark' || 
-          $scriptDir === '/Footark' || $scriptDir === '/Footark')) {
-    $pathPrefix = '';
-}
-// Handle case where we're directly in root with files like index.php, about.php
-else if (basename(dirname($scriptName)) === 'Footark' || basename(dirname($scriptName)) === 'Footark') {
-    $pathPrefix = '';
-}
-// We're outside the main directory completely
+// For root directory files (index.php, about.php, etc.), no prefix needed
 else {
-    // Use the actual directory name from the URL
-    if (strpos($_SERVER['REQUEST_URI'], '/Footark/') !== false) {
-        $pathPrefix = 'Footark/';
-    } else {
-        $pathPrefix = 'Footark/';
-    }
+    $pathPrefix = '';
 }
 ?>
 <!DOCTYPE html>
@@ -53,6 +38,25 @@ else {
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/main.css">
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/header.css">
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/footer.css">
+    <?php 
+    // Detect if this is the home page (index.php or root directory)
+    $isHomePage = (
+        strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false || 
+        $_SERVER['REQUEST_URI'] === '/' || 
+        $_SERVER['REQUEST_URI'] === '/Footancle/' || 
+        $_SERVER['REQUEST_URI'] === '/Footancle' ||
+        basename($_SERVER['SCRIPT_NAME']) === 'index.php'
+    );
+    
+    if ($isHomePage): 
+    ?>
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/hero.css">
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/about.css">
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/treatment-results.css">
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/testimonials-new.css">
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/mobile-responsive.css">
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/mobile-slider-fix.css">
+    <?php endif; ?>
     <?php if (strpos($_SERVER['REQUEST_URI'], '/conditions/') !== false): ?>
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/inner-pages.css">
     <?php endif; ?>
@@ -92,7 +96,6 @@ else {
                     </div>
                 </div>
                 <div class="header-actions">
-                    <a href="<?php echo $pathPrefix; ?>appointment.php" class="appointment-btn">Book Appointment</a>
                     <div class="social-links-header">
                         <!-- Old filled icons - commented out
                         <a href="#" class="social-link-header">
@@ -143,7 +146,7 @@ else {
                             <a href="<?php echo $pathPrefix; ?>about.php" class="menu-link">About</a>
                         </li>
                         <li class="menu-item dropdown">
-                            <a href="#" class="menu-link dropdown-toggle">
+                            <a href="<?php echo $pathPrefix; ?>conditions.php" class="menu-link dropdown-toggle">
                                 Conditions
                                 <span class="dropdown-icon">▼</span>
                             </a>
@@ -195,6 +198,9 @@ else {
                                 </ul>
                             </div>
                         </li>
+                         <li class="menu-item">
+                            <a href="<?php echo $pathPrefix; ?>before-after.php" class="menu-link">Gallery</a>
+                        </li>
                         <li class="menu-item dropdown">
                             <a href="#" class="menu-link dropdown-toggle">
                                 Rehabilitation
@@ -224,7 +230,7 @@ else {
                             </div>
                         </li>
                         <li class="menu-item">
-                            <a href="<?php echo $pathPrefix; ?>contact.php" class="cta-link">Contact</a>
+                            <a href="<?php echo $pathPrefix; ?>contact.php" class="view-all-btn contact-btn">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -312,6 +318,12 @@ else {
                 dropdownToggles.forEach(toggle => {
                     // Handle both click and touch events for mobile
                     const handleToggle = function(e) {
+                        // Allow conditions.php link to work normally
+                        if (this.getAttribute('href') && this.getAttribute('href').includes('conditions.php')) {
+                            // Don't prevent default - allow normal link navigation
+                            return;
+                        }
+                        
                         e.preventDefault();
                         e.stopPropagation();
                         
