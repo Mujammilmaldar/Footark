@@ -329,6 +329,7 @@ body {
     max-width: 52.33%;
 }
 
+
 .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
@@ -548,6 +549,9 @@ body {
     }
     .footer-content .container,.footer-bottom{
         padding: var(--spacing-md);
+    }
+    .doctor-profile-section .container .row{
+        gap: 0px !important;
     }
 }
 

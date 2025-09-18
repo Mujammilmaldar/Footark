@@ -277,7 +277,7 @@ html {
 .procedure-list li a {
     display: flex;
     align-items: center;
-    padding: 12px 0;
+    padding: 6px 0;
     text-decoration: none;
     color: inherit;
     width: 100%;
@@ -471,7 +471,7 @@ html {
 }
 
 /* ==========================================================================
-   MOBILE RESPONSIVENESS - Professional Medical Design
+   MOBILE RESPONSIVENESS - Complete Mobile Optimization
    ========================================================================== */
 
 @media (max-width: 1200px) {
@@ -480,58 +480,85 @@ html {
     }
     
     .hero-section h1 {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
     
     .intro h2 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 }
 
 @media (max-width: 768px) {
     .container {
-        padding: 0 25px;
+        padding: 0 20px;
     }
     
+    /* Hero Section Mobile */
     .hero-section {
-        padding: 50px 0 40px 0;
+        padding: 30px 20px 25px 20px;
+        text-align: left;
+    }
+    
+    .breadcrumb {
+        font-size: 13px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
     }
     
     .hero-section h1 {
-        font-size: 2.2rem;
-        gap: 15px;
+        font-size: 1.8rem;
+        gap: 10px;
         color: white;
         flex-direction: row;
-        justify-content: center;
-        text-align: center;
+        justify-content: flex-start;
+        text-align: left;
+        margin-bottom: 15px;
     }
     
     .hero-section h1 i {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        flex-shrink: 0;
     }
     
     .hero-section p {
-        font-size: 1.1rem;
-        text-align: center;
+        font-size: 1rem;
+        text-align: left;
+        line-height: 1.6;
     }
     
+    /* Main Content Mobile */
     .main-content {
-        padding: 60px 0;
+        padding: 30px 0;
     }
     
     .intro {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+        text-align: center;
     }
     
     .intro h2 {
-        font-size: 2rem;
-        gap: 15px;
+        font-size: 1.6rem;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     
     .intro h2 i {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     
+    .intro p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    
+    /* Grid Layout Mobile */
     .row {
         flex-direction: column;
         gap: 20px;
@@ -542,119 +569,90 @@ html {
         max-width: 100%;
     }
     
+    /* Procedure Cards Mobile */
     .procedure-card {
-        padding: 30px;
+        padding: 25px 20px;
         margin-bottom: 0;
+        border-radius: 10px;
     }
     
     .procedure-card h3 {
         font-size: 1.4rem;
-        gap: 12px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+        gap: 10px;
+        text-align: left;
     }
     
     .procedure-card h3 i {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        flex-shrink: 0;
+    }
+    
+    /* Procedure List Mobile */
+    .procedure-list {
+        margin-top: 15px;
     }
     
     .procedure-list li {
-        padding: 15px 0;
+        padding: 12px 0;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
     }
     
-    .cta-section {
-        padding: 50px 35px;
+    .procedure-list li:last-child {
+        border-bottom: none;
     }
     
-    .cta-section h3 {
-        font-size: 2rem;
-    }
-    
-    .cta-section p {
-        font-size: 1.2rem;
-        margin-bottom: 35px;
-    }
-    
-    .btn {
-        padding: 16px 32px;
-        font-size: 1rem;
-        gap: 10px;
-    }
-    
-    .cta-buttons {
-        gap: 20px;
-    }
-}
-
-@media (max-width: 576px) {
-    .container {
-        padding: 0 20px;
-    }
-    
-    .hero-section {
-        padding: 40px 0 30px 0;
-    }
-    
-    .hero-section h1 {
-        font-size: 1.8rem;
-        flex-direction: column;
-        gap: 12px;
-        text-align: center;
-        color: white;
-    }
-    
-    .hero-section p {
-        font-size: 1rem;
-        text-align: center;
-    }
-    
-    .main-content {
-        padding: 50px 0;
-    }
-    
-    .intro h2 {
-        font-size: 1.7rem;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .row {
-        gap: 15px;
-    }
-    
-    .procedure-card {
-        padding: 25px;
-        margin-bottom: 0;
-    }
-    
-    .procedure-card h3 {
-        font-size: 1.3rem;
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
-    
-    .cta-section {
-        padding: 40px 25px;
-    }
-    
-    .cta-section h3 {
-        font-size: 1.8rem;
-    }
-    
-    .cta-section p {
-        font-size: 1.1rem;
-    }
-    
-    .cta-buttons {
-        flex-direction: column;
+    .procedure-list li a {
+        display: flex;
         align-items: center;
+        gap: 12px;
+        padding: 8px 0;
+    }
+    
+    .procedure-list li a i {
+        font-size: 0.9rem;
+        width: 18px;
+        margin-right: 0;
+        flex-shrink: 0;
+    }
+    
+    .procedure-list li a span {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        flex: 1;
+    }
+    
+    /* CTA Section Mobile */
+    .cta-section {
+        padding: 30px 25px;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    
+    .cta-section h3 {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+    }
+    
+    .cta-section p {
+        font-size: 1rem;
+        margin-bottom: 25px;
+        line-height: 1.6;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
         gap: 15px;
+        align-items: center;
     }
     
     .btn {
         width: 100%;
         max-width: 300px;
+        padding: 14px 25px;
+        font-size: 1rem;
         justify-content: center;
+        border-radius: 8px;
     }
 }
 
@@ -663,21 +661,106 @@ html {
         padding: 0 15px;
     }
     
-    .hero-section h1 {
-        font-size: 1.6rem;
+    /* Hero Section Small Mobile */
+    .hero-section {
+        padding: 25px 15px 20px 15px;
     }
     
-    .procedure-card {
-        padding: 20px;
+    .breadcrumb {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    
+    .hero-section h1 {
+        font-size: 1.5rem;
+        gap: 8px;
+        margin-bottom: 12px;
+    }
+    
+    .hero-section h1 i {
+        font-size: 1.3rem;
+    }
+    
+    .hero-section p {
+        font-size: 0.9rem;
+    }
+    
+    /* Main Content Small Mobile */
+    .main-content {
+        padding: 25px 0;
+    }
+    
+    .intro {
         margin-bottom: 25px;
     }
     
+    .intro h2 {
+        font-size: 1.4rem;
+        gap: 8px;
+    }
+    
+    .intro h2 i {
+        font-size: 1.2rem;
+    }
+    
+    .intro p {
+        font-size: 0.9rem;
+    }
+    
+    /* Procedure Cards Small Mobile */
+    .procedure-card {
+        padding: 20px 15px;
+        border-radius: 8px;
+    }
+    
+    .procedure-card h3 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        gap: 8px;
+    }
+    
+    .procedure-card h3 i {
+        font-size: 1.1rem;
+    }
+    
     .procedure-list li {
-        padding: 12px 0;
+        padding: 10px 0;
+    }
+    
+    .procedure-list li a {
+        gap: 10px;
+        padding: 6px 0;
+    }
+    
+    .procedure-list li a i {
+        font-size: 0.85rem;
+        width: 16px;
+    }
+    
+    .procedure-list li a span {
+        font-size: 0.9rem;
+    }
+    
+    /* CTA Section Small Mobile */
+    .cta-section {
+        padding: 25px 20px;
+        margin-top: 30px;
+        border-radius: 8px;
+    }
+    
+    .cta-section h3 {
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+    
+    .cta-section p {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
     }
     
     .btn {
-        padding: 14px 28px;
+        max-width: 280px;
+        padding: 12px 20px;
         font-size: 0.95rem;
     }
 }

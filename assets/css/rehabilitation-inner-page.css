@@ -2253,8 +2253,15 @@ img {
   .section-title {
     font-size: var(--font-size-h4);
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     gap: 8px;
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .section-header {
+    text-align: left;
+    align-items: flex-start;
   }
 
   .medical-hero {
@@ -2347,6 +2354,8 @@ img {
   .stat-card {
     padding: 12px;
     gap: 10px;
+    flex-direction: row;
+    align-items: center;
   }
 
   .stat-icon {
@@ -2361,6 +2370,15 @@ img {
 
   .section-title {
     font-size: var(--font-size-h2);
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .section-header {
+    text-align: left;
+    align-items: flex-start;
   }
 
   .section-icon {
@@ -2766,8 +2784,10 @@ html {
   .section-title {
     font-size: var(--font-size-h3);
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     gap: 8px;
+    text-align: left;
+    justify-content: flex-start;
   }
 
   .rehab-content-section h3 {
@@ -2848,9 +2868,11 @@ html {
   }
 
   .stat-card {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    text-align: left;
     padding: 15px;
+    align-items: center;
+    gap: var(--spacing-md);
   }
 
   /* Mobile Table of Contents */
@@ -3004,10 +3026,11 @@ html {
     }
     
     .quick-links-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: var(--spacing-xs);
-        flex-direction: unset;
+        justify-content: flex-start;
     }
     
     .quick-link-card {
@@ -3016,7 +3039,8 @@ html {
         white-space: normal;
         overflow: visible;
         text-overflow: unset;
-        width: 100%;
+        flex: 0 1 auto;
+        min-width: 120px;
         box-sizing: border-box;
         text-align: center;
     }
@@ -3033,14 +3057,19 @@ html {
     }
     
     .quick-links-grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 8px;
+        justify-content: flex-start;
     }
     
     .quick-link-card {
         padding: 8px 12px;
         font-size: var(--font-size-small);
         border-radius: 6px;
+        flex: 0 1 auto;
+        min-width: 100px;
     }
 }
 

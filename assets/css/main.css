@@ -7,6 +7,202 @@
    ========================================================================== */
 
 /* ==========================================================================
+   0. SMOOTH PAGE TRANSITIONS - Professional & Elegant
+   ========================================================================== */
+
+/* Page transition overlay - subtle and professional */
+.page-transition-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-transition-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Loading spinner - elegant and minimal */
+.page-transition-overlay::after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(232, 90, 79, 0.2);
+    border-top: 3px solid var(--color-primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Smooth page entry animation */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    opacity: 0;
+    animation: fadeInPage 0.4s ease-out forwards;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Loading state for page transitions */
+body.page-loading {
+    opacity: 0.8;
+    transform: scale(0.995);
+    pointer-events: none;
+    /* Ensure background color is maintained during loading */
+    background-color: var(--color-bg-primary) !important;
+}
+
+/* Mobile-specific fixes for content visibility */
+@media (max-width: 768px) {
+    /* body {
+        background-color: var(--color-bg-primary) !important;
+        opacity: 1 !important;
+    } */
+    
+    /* main {
+        background-color: transparent !important;
+        opacity: 1 !important;
+    }
+     */
+    section {
+        opacity: 1 !important;
+        /* background-color: transparent !important; */
+    }
+    
+    /* Ensure page loading state doesn't interfere on mobile
+    body.page-loading {
+        opacity: 0.95 !important;
+        background-color: var(--color-bg-primary) !important;
+    } */
+}
+
+@keyframes fadeInPage {
+    0% {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Smooth link transitions */
+a {
+    transition: all 0.2s ease;
+}
+
+/* Prevent layout shifts during loading */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+/* Smooth content loading */
+main {
+    animation: slideInContent 0.5s ease-out;
+}
+
+@keyframes slideInContent {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Section animations - subtle and professional */
+section {
+    animation: sectionFadeIn 0.6s ease-out forwards;
+    opacity: 0;
+    animation-delay: 0.1s;
+}
+
+@keyframes sectionFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Staggered animation for multiple sections */
+section:nth-child(1) { animation-delay: 0.1s; }
+section:nth-child(2) { animation-delay: 0.2s; }
+section:nth-child(3) { animation-delay: 0.3s; }
+section:nth-child(4) { animation-delay: 0.4s; }
+section:nth-child(5) { animation-delay: 0.5s; }
+
+/* Enhanced button animations */
+.btn, .view-all-btn, button {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover, .view-all-btn:hover, button:hover {
+    transform: translateY(-2px);
+}
+
+/* Card animations */
+.card, .condition-card, .procedure-card, .before-after-card, .result-card {
+    transition: all 0.4s ease;
+}
+
+.card:hover, .condition-card:hover, .procedure-card:hover, .before-after-card:hover, .result-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .page-transition-overlay {
+        display: none;
+    }
+    
+    body {
+        animation: none;
+        opacity: 1;
+    }
+    
+    main, section {
+        animation: none;
+        opacity: 1;
+    }
+}
+
+/* ==========================================================================
    1. CSS VARIABLES (CUSTOM PROPERTIES)
    ==========================================================================
    All core design tokens (colors, fonts, sizes) are defined here.

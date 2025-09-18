@@ -2,25 +2,33 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner">
-        <div class="container" style="display:flex;justify-content:space-between;align-items:center;">
-            <div class="inner-container">
-                <div class="hero-breadcrumb" style="margin-bottom: 15px; font-size: 14px; color: #ffffff;">
-                    <a href="../index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
-                    <a href="../services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
-                    <a href="../conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
-                    <span style="color: #ffffff;">Ankle Sprain</span>
+        <div class="container">
+            <div class="hero-container">
+                <div class="inner-container">
+                    <div class="hero-breadcrumb" style="margin-bottom: 15px; font-size: 14px; color: #ffffff;">
+                        <a href="../index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
+                        <a href="../services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
+                        <a href="../conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
+                        <span style="color: #ffffff;">Ankle Sprain</span>
+                    </div>
+                    <div class="hero-content">
+                        <h1>Ankle Sprain & Instability Treatment</h1>
+                        
+                        <!-- Mobile Image - Shows after heading on mobile only -->
+                        <div class="mobile-hero-image desktop-hidden">
+                            <img src="../assets/images/services/inner-pages/AnkleSprain.webp" alt="Ankle Sprain">
+                        </div>
+                        
+                        <p>Expert care for ankle sprains and chronic instability. Our specialized team helps patients recover from acute injuries and provides long-term solutions for recurring ankle problems.</p>
+                        <div class="hero-buttons">
+                            <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="hero-content">
-                <h1>Ankle Sprain & Instability Treatment</h1>
-                <p>Expert care for ankle sprains and chronic instability. Our specialized team helps patients recover from acute injuries and provides long-term solutions for recurring ankle problems.</p>
-                <div class="hero-buttons">
-                    <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
+                <div class="image-container mobile-hidden">
+                    <img src="../assets/images/services/inner-pages/AnkleSprain.webp" alt="Ankle Sprain">
                 </div>
             </div>
-        </div>
-        <div class="image-container">
-            <img src="../assets/images/services/inner-pages/AnkleSprain.webp" alt="Ankle Sprain">
-        </div>
         </div>
     </section>
 
@@ -112,9 +120,11 @@
                     </div>
 
                 </div>
-                <div class="widget desktop-hidden">
-                        <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Sprain">
-
+                <div class="widget widget-dr-kini desktop-hidden">
+                          <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Sprain">
+                        <h6 style="margin-bottom:0px;margin-top:10px;padding-bottom:0px;">Dr. Abhishek Kini</h6>
+                        <p style="font-style: italic;">Foot & Ankle Specialist</p>
+                        <a href="../about.php" class="view-all-btn contact-btn">Know More</a>
                     </div>
 
                     <div class="widget desktop-hidden">

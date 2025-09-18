@@ -16,9 +16,9 @@
             <nav class="breadcrumb">
                 <a href="index.php"><i class="fas fa-home"></i> Home</a>
                 <span>/</span>
-                <span>Procedures</span>
+                <span>Services</span>
             </nav>
-            <h1><i class="fas fa-user-md"></i> Medical Procedures</h1>
+            <h1>Our Services</h1>
             <p>Advanced foot and ankle surgical procedures with minimally invasive techniques</p>
         </div>
     </section>
@@ -26,18 +26,11 @@
     <!-- Main Content -->
     <section class="main-content">
         <div class="container">
-            <!-- Introduction -->
-            <div class="intro">
-                <h2><i class="fas fa-stethoscope"></i> Our Procedures</h2>
-                <p>Our podiatrists use minimally invasive techniques that provide superior results with faster recovery times and better aesthetic outcomes.</p>
-            </div>
-
             <!-- Procedures Grid -->
             <div class="procedures-grid">
                 <div class="row g-4">
                     <div class="col-lg-6 col-md-12">
                         <div class="procedure-card">
-                            <h3><i class="fas fa-foot"></i> Foot Surgeries</h3>
                             <ul class="procedure-list">
                                 <li>
                                     <a href="conditions/anklesprain.php">
@@ -93,7 +86,6 @@
                     
                     <div class="col-lg-6 col-md-12">
                         <div class="procedure-card">
-                            <h3><i class="fas fa-heartbeat"></i> Specialized Treatments</h3>
                             <ul class="procedure-list">
                                 <li>
                                     <a href="conditions/anklesprain.php">

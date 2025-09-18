@@ -146,10 +146,14 @@ else {
                             <a href="<?php echo $pathPrefix; ?>about.php" class="menu-link">About</a>
                         </li>
                         <li class="menu-item dropdown">
-                            <a href="<?php echo $pathPrefix; ?>conditions.php" class="menu-link dropdown-toggle">
-                                Conditions
-                                <span class="dropdown-icon">▼</span>
-                            </a>
+                            <div class="dropdown-container">
+                                <a href="<?php echo $pathPrefix; ?>conditions.php" class="menu-link conditions-link">
+                                    Conditions
+                                </a>
+                                <span class="dropdown-arrow" data-dropdown-toggle>
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </div>
                             <div class="dropdown-menu mega-dropdown">
                                 <div class="dropdown-content">
                                     <div class="dropdown-column">
@@ -183,10 +187,14 @@ else {
                             </div>
                         </li>
                         <li class="menu-item dropdown">
-                            <a href="#" class="menu-link dropdown-toggle">
-                                Treatments
-                                <span class="dropdown-icon">▼</span>
-                            </a>
+                            <div class="dropdown-container">
+                                <a href="<?php echo $pathPrefix; ?>conditions.php" class="menu-link treatments-link">
+                                    Treatments
+                                </a>
+                                <span class="dropdown-arrow" data-dropdown-toggle>
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </div>
                             <div class="dropdown-menu">
                                 <ul class="dropdown-list">
                                     <li><a href="<?php echo $pathPrefix; ?>t-ankle-arthroscopy.php">Ankle arthroscopy</a></li>
@@ -202,10 +210,14 @@ else {
                             <a href="<?php echo $pathPrefix; ?>before-after.php" class="menu-link">Gallery</a>
                         </li>
                         <li class="menu-item dropdown">
-                            <a href="#" class="menu-link dropdown-toggle">
-                                Rehabilitation
-                                <span class="dropdown-icon">▼</span>
-                            </a>
+                            <div class="dropdown-container">
+                                <span class="menu-link rehabilitation-link" style="cursor: pointer;">
+                                    Rehabilitation
+                                </span>
+                                <span class="dropdown-arrow" data-dropdown-toggle>
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </div>
                             <div class="dropdown-menu">
                                 <ul class="dropdown-list">
                                     <li><a href="<?php echo $pathPrefix; ?>rehabilitation/r-general-foot.php">General foot surgery guidelines</a></li>
@@ -216,10 +228,14 @@ else {
                             </div>
                         </li>
                         <li class="menu-item dropdown">
-                            <a href="#" class="menu-link dropdown-toggle">
-                                Blog
-                                <span class="dropdown-icon">▼</span>
-                            </a>
+                            <div class="dropdown-container">
+                                <span class="menu-link blog-link" style="cursor: pointer;">
+                                    Blog
+                                </span>
+                                <span class="dropdown-arrow" data-dropdown-toggle>
+                                    <i class="fas fa-chevron-down"></i>
+                                </span>
+                            </div>
                             <div class="dropdown-menu">
                                 <ul class="dropdown-list">
                                     <li><a href="<?php echo $pathPrefix; ?>blog/injury-prevention.php">Injury Prevention</a></li>
@@ -315,15 +331,36 @@ else {
             // Handle dropdown toggles in mobile menu - enhanced mobile support
             if (navMenu) {
                 const dropdownToggles = navMenu.querySelectorAll('.dropdown-toggle');
+                const dropdownArrows = navMenu.querySelectorAll('[data-dropdown-toggle]');
+                
+                // Handle traditional dropdown toggles
                 dropdownToggles.forEach(toggle => {
-                    // Handle both click and touch events for mobile
                     const handleToggle = function(e) {
-                        // Allow conditions.php link to work normally
-                        if (this.getAttribute('href') && this.getAttribute('href').includes('conditions.php')) {
-                            // Don't prevent default - allow normal link navigation
-                            return;
-                        }
+                        e.preventDefault();
+                        e.stopPropagation();
                         
+                        const dropdown = this.closest('.dropdown');
+                        const isCurrentlyActive = dropdown.classList.contains('active');
+                        
+                        // Close all dropdowns first
+                        const allDropdowns = navMenu.querySelectorAll('.dropdown');
+                        allDropdowns.forEach(dd => {
+                            dd.classList.remove('active');
+                        });
+                        
+                        // If the clicked dropdown wasn't active, open it
+                        if (!isCurrentlyActive) {
+                            dropdown.classList.add('active');
+                        }
+                    };
+                    
+                    toggle.addEventListener('click', handleToggle);
+                    toggle.addEventListener('touchend', handleToggle);
+                });
+                
+                // Handle separate dropdown arrows (like for Conditions)
+                dropdownArrows.forEach(arrow => {
+                    const handleArrowToggle = function(e) {
                         e.preventDefault();
                         e.stopPropagation();
                         
@@ -340,50 +377,67 @@ else {
                         if (!isCurrentlyActive) {
                             dropdown.classList.add('active');
                             
-                            // Ensure entire dropdown is visible
-                            setTimeout(() => {
-                                const dropdownMenu = dropdown.querySelector('.dropdown-menu');
-                                if (dropdownMenu) {
-                                    // Get the bottom of the dropdown relative to the menu
-                                    const dropdownRect = dropdownMenu.getBoundingClientRect();
-                                    const menuRect = navMenu.getBoundingClientRect();
-                                    
-                                    // Calculate if dropdown extends beyond visible area
-                                    const dropdownBottom = dropdownRect.bottom;
-                                    const menuBottom = menuRect.bottom;
-                                    
-                                    if (dropdownBottom > menuBottom) {
-                                        // Calculate how much to scroll
-                                        const scrollNeeded = dropdownBottom - menuBottom + 20; // 20px buffer
-                                        navMenu.scrollBy({
-                                            top: scrollNeeded,
-                                            behavior: 'smooth'
-                                        });
+                            // Ensure entire dropdown is visible on mobile
+                            if (window.innerWidth <= 768) {
+                                setTimeout(() => {
+                                    const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+                                    if (dropdownMenu) {
+                                        const dropdownRect = dropdownMenu.getBoundingClientRect();
+                                        const menuRect = navMenu.getBoundingClientRect();
+                                        
+                                        const dropdownBottom = dropdownRect.bottom;
+                                        const menuBottom = menuRect.bottom;
+                                        
+                                        if (dropdownBottom > menuBottom) {
+                                            const scrollNeeded = dropdownBottom - menuBottom + 20;
+                                            navMenu.scrollBy({
+                                                top: scrollNeeded,
+                                                behavior: 'smooth'
+                                            });
+                                        }
                                     }
-                                    
-                                    // Also check if dropdown top is visible
-                                    const dropdownTop = dropdownRect.top;
-                                    const menuTop = menuRect.top;
-                                    
-                                    if (dropdownTop < menuTop) {
-                                        const scrollUp = menuTop - dropdownTop + 20; // 20px buffer
-                                        navMenu.scrollBy({
-                                            top: -scrollUp,
-                                            behavior: 'smooth'
-                                        });
-                                    }
-                                }
-                            }, 200);
+                                }, 200);
+                            }
                         }
                     };
                     
-                    toggle.addEventListener('click', handleToggle);
-                    toggle.addEventListener('touchend', handleToggle);
+                    arrow.addEventListener('click', handleArrowToggle);
+                    arrow.addEventListener('touchend', handleArrowToggle);
+                });
+                
+                // Handle text-only dropdown toggles (rehabilitation and blog)
+                const textOnlyDropdowns = navMenu.querySelectorAll('.rehabilitation-link, .blog-link');
+                textOnlyDropdowns.forEach(textElement => {
+                    const handleTextToggle = function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        const dropdown = this.closest('.dropdown');
+                        const isCurrentlyActive = dropdown.classList.contains('active');
+                        
+                        // Close all dropdowns first
+                        const allDropdowns = navMenu.querySelectorAll('.dropdown');
+                        allDropdowns.forEach(dd => {
+                            dd.classList.remove('active');
+                        });
+                        
+                        // If the clicked dropdown wasn't active, open it
+                        if (!isCurrentlyActive) {
+                            dropdown.classList.add('active');
+                        }
+                    };
+                    
+                    textElement.addEventListener('click', handleTextToggle);
+                    textElement.addEventListener('touchend', handleTextToggle);
                 });
                 
                 // Close dropdowns when clicking/touching anywhere else in the menu
                 navMenu.addEventListener('click', function(e) {
-                    if (!e.target.closest('.dropdown-toggle') && !e.target.closest('.dropdown-menu')) {
+                    if (!e.target.closest('.dropdown-toggle') && 
+                        !e.target.closest('[data-dropdown-toggle]') && 
+                        !e.target.closest('.rehabilitation-link') &&
+                        !e.target.closest('.blog-link') &&
+                        !e.target.closest('.dropdown-menu')) {
                         const allDropdowns = navMenu.querySelectorAll('.dropdown');
                         allDropdowns.forEach(dd => {
                             dd.classList.remove('active');
@@ -417,6 +471,86 @@ else {
                     closeMenu();
                 }
             });
+            
+            // Clean Page Transitions - Professional & Fast  
+            function addSmoothTransitions() {
+                // Create minimal overlay
+                const overlay = document.createElement('div');
+                overlay.className = 'page-transition-overlay';
+                document.body.appendChild(overlay);
+                
+                // Add clean transitions to navigation links
+                const navLinks = document.querySelectorAll('a:not([href^="#"]):not([href^="javascript:"]):not([target="_blank"])');
+                
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        // Skip if it's a dropdown toggle or external link
+                        if (this.classList.contains('dropdown-toggle') || 
+                            this.getAttribute('href').startsWith('http') ||
+                            this.getAttribute('href').startsWith('#') ||
+                            this.getAttribute('href').startsWith('mailto:') ||
+                            this.getAttribute('href').startsWith('tel:')) {
+                            return;
+                        }
+                        
+                        e.preventDefault();
+                        const href = this.getAttribute('href');
+                        
+                        // Show clean overlay
+                        overlay.classList.add('active');
+                        document.body.classList.add('page-loading');
+                        
+                        // Fast navigation - no delay
+                        setTimeout(() => {
+                            window.location.href = href;
+                        }, 80);
+                    });
+                });
+                
+                // Clean page load handling - Force clear loading states
+                window.addEventListener('load', function() {
+                    overlay.classList.remove('active');
+                    document.body.classList.remove('page-loading');
+                    
+                    // Mobile-specific fix - Force restore body styles
+                    if (window.innerWidth <= 768) {
+                        document.body.style.opacity = '1';
+                        document.body.style.background = '';
+                        document.body.style.backgroundColor = '';
+                    }
+                });
+                
+                // Handle back/forward navigation cleanly
+                window.addEventListener('pageshow', function(e) {
+                    overlay.classList.remove('active');
+                    document.body.classList.remove('page-loading');
+                    
+                    // Mobile-specific fix - Force restore body styles
+                    if (window.innerWidth <= 768) {
+                        document.body.style.opacity = '1';
+                        document.body.style.background = '';
+                        document.body.style.backgroundColor = '';
+                    }
+                });
+                
+                // Handle forms
+                const forms = document.querySelectorAll('form[method]');
+                forms.forEach(form => {
+                    form.addEventListener('submit', function(e) {
+                        overlay.classList.add('active');
+                        document.body.classList.add('page-loading');
+                    });
+                });
+                
+                // Additional mobile fix - Force clear any stuck loading states after 1 second
+                setTimeout(() => {
+                    document.body.classList.remove('page-loading');
+                    overlay.classList.remove('active');
+                }, 1000);
+            }
+            
+            // Initialize smooth transitions
+            addSmoothTransitions();
         });
     </script>
 </body>

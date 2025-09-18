@@ -1294,7 +1294,9 @@
     margin-bottom: var(--spacing-xs);
     transition: color 0.3s ease;
 }
-
+.desktop-hidden-image{
+    display: none !important;
+}
 .contact-item:hover .contact-content h4 {
     color: var(--color-primary);
 }
@@ -3038,6 +3040,16 @@
     .conditions-grid {
         grid-template-columns: 1fr;
         gap: var(--spacing-sm);
+    }
+    .doctor-info{
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .desktop-hidden-image{
+        display: flex !important;
     }
     
     .conditions-section {

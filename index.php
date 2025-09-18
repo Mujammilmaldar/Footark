@@ -39,12 +39,16 @@
                         <div class="about-tag">TRUSTED FOOT & ANKLE SPECIALIST OFFERING WORLD-CLASS CARE IN MUMBAI</div>
                         <h2 class="about-title">About Dr. Abhishek Kini</h2>
                         <div class="doctor-info" style="margin-bottom: 2rem;">
+                            <div class="desktop-hidden-image">
+                                <img src="assets/images/Dr.Abhishekkini-FootAnkleSurgeonMumbai (2).webp" style="border-radius:var(--border-radius-large);" alt="Dr. Abhishek Kini" class="img-fluid">
+                        </div>
                             <p style="color: var(--color-text-secondary); font-size: 1rem; line-height: 1.4; margin-bottom: 0.5rem;font-style:italic;">
                                 DNB (Orthopaedics), MNAMS<br>
                                 Diploma in Sports Medicine (IOC)<br>
                                 Foot & Ankle Specialist, Orthopaedic Surgeon
                             </p>
                         </div>
+                        
                         
                         <div class="about-description" style="margin-bottom: 2rem;">
                             <p style="color: var(--color-text-secondary); font-size: 1.1rem; line-height: 1.6;">
