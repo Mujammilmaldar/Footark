@@ -539,7 +539,7 @@ else {
     </script>
 
     <!-- Mobile Contact Footer (fixed to viewport bottom) -->
-    <div class="mobile-contact-footer">
+    <!-- <div class="mobile-contact-footer">
         <a href="tel:+919876543210" class="mobile-contact-item">
             <i class="fas fa-phone"></i>
             <span>Call</span>
@@ -552,5 +552,5 @@ else {
             <i class="fas fa-envelope"></i>
             <span>Contact</span>
         </a>
-    </div>
+    </div> -->
 </body>

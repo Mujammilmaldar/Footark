@@ -823,10 +823,7 @@ ease;
     }
     
     /* Add bottom padding to body to account for mobile footer */
-    body {
-        padding-bottom: 70px;
-    }
-    
+
     /* Show mobile menu header when menu is active */
     .nav-menu.mobile-active .mobile-menu-header {
         display: flex;
@@ -1171,10 +1168,6 @@ ease;
         font-size: var(--font-size-micro);
     }
     
-    /* Adjust body padding for smaller mobile footer */
-    body {
-        padding-bottom: 60px;
-    }
 }
 
 .contact-btn{

@@ -304,7 +304,7 @@
     }
     
     .hero-content {
-        padding: 1rem 0;
+        padding: 0;
     }
     
     .hero-title {
@@ -628,6 +628,8 @@
         text-align: left;
         flex-direction: row;
         align-items: self-start;
+        padding-left: 0px !important;
+        margin-left: 0px !important;
     }
     
     .row {

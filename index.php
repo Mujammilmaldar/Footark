@@ -806,4 +806,46 @@
 <!-- Treatment Results Slider JavaScript -->
 <script src="assets/js/treatment-results.js"></script>
 
+<!-- Mobile Video Source Switcher -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Function to detect mobile devices
+    function isMobileDevice() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
+               window.innerWidth <= 768;
+    }
+    
+    // Get the video element
+    const heroVideo = document.getElementById('heroVideo');
+    
+    if (heroVideo && isMobileDevice()) {
+        // Get the source element
+        const videoSource = heroVideo.querySelector('source');
+        
+        if (videoSource) {
+            // Change to mobile video
+            videoSource.src = 'assets/video/mobilebanner-footarkclinic.mp4';
+            
+            // Reload the video with new source
+            heroVideo.load();
+        }
+    }
+    
+    // Optional: Handle window resize to switch video if needed
+    window.addEventListener('resize', function() {
+        if (heroVideo) {
+            const videoSource = heroVideo.querySelector('source');
+            
+            if (isMobileDevice() && videoSource && !videoSource.src.includes('mobilebanner-footarkclinic.mp4')) {
+                videoSource.src = 'assets/video/mobilebanner-footarkclinic.mp4';
+                heroVideo.load();
+            } else if (!isMobileDevice() && videoSource && !videoSource.src.includes('hero-bg.mp4')) {
+                videoSource.src = 'assets/video/hero-bg.mp4';
+                heroVideo.load();
+            }
+        }
+    });
+});
+</script>
+
 <?php include 'includes/footer.php'; ?>

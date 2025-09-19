@@ -184,7 +184,7 @@ body{
 
 .blog-content-card p:first-of-type {
   font-family: var(--font-family-sans);
-  font-size: var(--font-size-body-large);
+  font-size: var(--font-size-body-small);
   color: var(--color-text-secondary);
   font-weight: var(--font-weight-medium);
 }
@@ -744,50 +744,50 @@ body{
   }
   
   .blog-main-title {
-    font-size: 18px;
+    font-size: var(--font-size-h3);
   }
   
   .blog-category-badge {
-    font-size: 8px;
+    font-size: var(--font-size-caption);
   }
   
   .blog-intro-text {
-    font-size: 12px;
+    font-size: var(--font-size-body-small);
   }
   
   .blog-content-card h2 {
-    font-size: 16px;
+    font-size: var(--font-size-h4);
   }
   
   .blog-content-card h3 {
-    font-size: 14px;
+    font-size: var(--font-size-h5);
   }
   
   .blog-content-card p {
-    font-size: 11px;
+    font-size: var(--font-size-small);
   }
   
   .blog-exercise-title {
-    font-size: 13px;
+    font-size: var(--font-size-h6);
   }
   
   .blog-exercise-description {
-    font-size: 10px;
+    font-size: var(--font-size-caption);
   }
   
   .blog-widget-title {
-    font-size: 14px;
+    font-size: var(--font-size-h5);
   }
   
   .blog-toc-title {
-    font-size: 14px;
+    font-size: var(--font-size-h5);
   }
   
   .blog-meta-info {
     flex-direction: column;
     align-items: flex-start;
     gap: var(--spacing-xs);
-    font-size: 9px;
+    font-size: var(--font-size-caption);
   }
   
   .blog-exercise-gallery {
@@ -804,13 +804,13 @@ body{
   }
   
   .blog-data-table {
-    font-size: 10px;
+    font-size: var(--font-size-caption);
   }
   
   .blog-data-table th,
   .blog-data-table td {
     padding: var(--spacing-sm);
-    font-size: 9px;
+    font-size: var(--font-size-caption);
   }
   
   /* Horizontal TOC responsive */
@@ -822,11 +822,11 @@ body{
   .blog-toc-horizontal-link {
     display: block;
     text-align: center;
-    font-size: 9px;
+    font-size: var(--font-size-caption);
   }
   
   .blog-toc-link {
-    font-size: 9px;
+    font-size: var(--font-size-caption);
   }
   
   /* Medical note mobile styles */
@@ -842,7 +842,7 @@ body{
   }
   
   .blog-medical-note h4 {
-    font-size: 12px;
+    font-size: var(--font-size-body-small);
   }
   
   .blog-medical-note p {
@@ -857,63 +857,63 @@ body{
   }
   
   .blog-main-title {
-    font-size: 16px;
+    font-size: var(--font-size-h3);
   }
   
   .blog-category-badge {
-    font-size: 7px;
+    font-size: var(--font-size-micro);
   }
   
   .blog-intro-text {
-    font-size: 10px;
+    font-size: var(--font-size-body);
     padding: var(--spacing-sm);
     margin-bottom: 0px !important;
   }
   
   .blog-content-card h2 {
-    font-size: 14px;
+    font-size: var(--font-size-h5);
   }
   
   .blog-content-card h3 {
-    font-size: 12px;
+    font-size: var(--font-size-h6);
   }
   
   .blog-content-card p {
-    font-size: 9px;
+    font-size: var(--font-size-caption);
   }
   
   .blog-exercise-title {
-    font-size: 11px;
+    font-size: var(--font-size-body-small);
   }
   
   .blog-exercise-description {
-    font-size: 8px;
+    font-size: var(--font-size-small);
   }
   
   .blog-widget-title {
-    font-size: 12px;
+    font-size: var(--font-size-h6);
   }
   
   .blog-toc-title {
-    font-size: 12px;
+    font-size: var(--font-size-h6);
   }
   
   .blog-toc-horizontal-link {
-    font-size: 7px;
+    font-size: var(--font-size-micro);
     padding: 4px 8px;
   }
   
   .blog-toc-link {
-    font-size: 7px;
+    font-size: var(--font-size-micro);
   }
   
   .blog-meta-info {
-    font-size: 7px;
+    font-size: var(--font-size-body);
   }
   
   .blog-data-table th,
   .blog-data-table td {
-    font-size: 7px;
+    font-size: var(--font-size-micro);
     padding: 4px 8px;
   }
   
@@ -937,16 +937,16 @@ body{
   .blog-medical-note::before {
     width: 20px;
     height: 20px;
-    font-size: 12px;
+    font-size: var(--font-size-caption);
     margin-right: 6px;
   }
   
   .blog-medical-note h4 {
-    font-size: 10px;
+    font-size: var(--font-size-caption);
   }
   
   .blog-medical-note p {
-    font-size: 8px;
+    font-size: var(--font-size-small);
     margin-top: 6px;
     line-height: 1.4;
   }
