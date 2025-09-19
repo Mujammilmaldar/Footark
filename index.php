@@ -2,8 +2,14 @@
 <main>
     <section class="hero-section">
         <div class="video-hero-container">
-            <video id="heroVideo" autoplay muted loop playsinline>
+            <!-- Desktop Video -->
+            <video class="hero-video-desktop" autoplay muted loop playsinline preload="auto">
                 <source src="assets/video/hero-bg.mp4" type="video/mp4">
+            </video>
+            
+            <!-- Mobile Video -->
+            <video class="hero-video-mobile" autoplay muted loop playsinline preload="auto">
+                <source src="assets/video/mobilebanner-footarkclinic.mp4" type="video/mp4">
             </video>
         </div>
 
@@ -806,44 +812,27 @@
 <!-- Treatment Results Slider JavaScript -->
 <script src="assets/js/treatment-results.js"></script>
 
-<!-- Mobile Video Source Switcher -->
+<!-- Simple Video Load Script -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Function to detect mobile devices
-    function isMobileDevice() {
-        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
-               window.innerWidth <= 768;
-    }
+    const videos = document.querySelectorAll('.hero-video-desktop, .hero-video-mobile');
     
-    // Get the video element
-    const heroVideo = document.getElementById('heroVideo');
-    
-    if (heroVideo && isMobileDevice()) {
-        // Get the source element
-        const videoSource = heroVideo.querySelector('source');
+    videos.forEach(video => {
+        video.addEventListener('loadstart', function() {
+            console.log('Video loading started:', this.src);
+        });
         
-        if (videoSource) {
-            // Change to mobile video
-            videoSource.src = 'assets/video/mobilebanner-footarkclinic.mp4';
-            
-            // Reload the video with new source
-            heroVideo.load();
-        }
-    }
-    
-    // Optional: Handle window resize to switch video if needed
-    window.addEventListener('resize', function() {
-        if (heroVideo) {
-            const videoSource = heroVideo.querySelector('source');
-            
-            if (isMobileDevice() && videoSource && !videoSource.src.includes('mobilebanner-footarkclinic.mp4')) {
-                videoSource.src = 'assets/video/mobilebanner-footarkclinic.mp4';
-                heroVideo.load();
-            } else if (!isMobileDevice() && videoSource && !videoSource.src.includes('hero-bg.mp4')) {
-                videoSource.src = 'assets/video/hero-bg.mp4';
-                heroVideo.load();
-            }
-        }
+        video.addEventListener('error', function() {
+            console.log('Video failed to load:', this.src);
+        });
+        
+        video.addEventListener('canplay', function() {
+            console.log('Video can play:', this.src);
+            this.play().catch(e => console.log('Autoplay blocked:', e));
+        });
+        
+        // Force load the video
+        video.load();
     });
 });
 </script>

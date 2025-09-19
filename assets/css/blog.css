@@ -1564,7 +1564,7 @@ body{
     padding: var(--spacing-md);
   }
   .footer-content .container{
-    padding: var(--spacing-sm);
+    padding: var(--spacing-md);
   }
 }
 

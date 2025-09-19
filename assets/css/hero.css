@@ -35,9 +35,11 @@
     height: 100%;
     z-index: 1;
     overflow: hidden;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
 }
 
-.video-hero-container video {
+/* Desktop Video */
+.hero-video-desktop {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -47,7 +49,56 @@
     height: auto;
     transform: translate(-50%, -50%);
     object-fit: cover;
-    transition: transform 0.3s ease;
+    display: block;
+}
+
+/* Mobile Video */
+.hero-video-mobile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    display: none;
+}
+
+/* Responsive Video Switching */
+@media (max-width: 768px) {
+    .hero-video-desktop {
+        display: none;
+    }
+    
+    .hero-video-mobile {
+        display: block;
+    }
+}
+
+/* Mobile Video - Show on mobile, hide on desktop */
+@media (max-width: 768px) {
+    .hero-video-desktop {
+        display: none !important;
+    }
+    
+    .hero-video-mobile {
+        display: block !important;
+    }
+}
+
+/* Enhanced mobile video support */
+@media (max-width: 480px) {
+    .video-hero-container video {
+        /* Ensure video covers properly on small screens */
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        object-fit: cover;
+        object-position: center center;
+    }
 }
 
 /* --- Content and Overlay Styling --- */

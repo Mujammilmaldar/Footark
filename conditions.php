@@ -28,9 +28,9 @@
         <div class="container">
             <!-- Procedures Grid -->
             <div class="procedures-grid">
-                <div class="row g-4">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="procedure-card">
+                <div class="procedure-card">
+                    <div class="row g-4">
+                        <div class="col-lg-6 col-md-12">
                             <ul class="procedure-list">
                                 <li>
                                     <a href="conditions/anklesprain.php">
@@ -82,10 +82,8 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    
-                    <div class="col-lg-6 col-md-12">
-                        <div class="procedure-card">
+                        
+                        <div class="col-lg-6 col-md-12">
                             <ul class="procedure-list">
                                 <li>
                                     <a href="conditions/anklesprain.php">
