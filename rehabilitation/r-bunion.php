@@ -465,52 +465,6 @@
         </div>
     </main>
 
-    <!-- Mobile Contact Information (Bottom of Page) -->
-    <section class="mobile-contact-section">
-        <div class="container">
-            <div class="mobile-contact-card">
-                <div class="card-header">
-                    <h3 class="card-title">
-                        <i class="fas fa-hospital"></i>
-                        Contact Information
-                    </h3>
-                </div>
-                <div class="card-content">
-                    <div class="contact-info-of-rehabilitation">
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt contact-icon"></i>
-                            <div class="contact-details">
-                                <strong>Address</strong>
-                                <span>Mumbai, Maharashtra, India</span>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone contact-icon"></i>
-                            <div class="contact-details">
-                                <strong>Phone</strong>
-                                <span>+91 98765 43210</span>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-envelope contact-icon"></i>
-                            <div class="contact-details">
-                                <strong>Email</strong>
-                                <span>info@footancle.com</span>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-clock contact-icon"></i>
-                            <div class="contact-details">
-                                <strong>Hours</strong>
-                                <span>Mon-Sat: 9:00 AM - 6:00 PM</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <?php include '../includes/footer.php'; ?>
 

@@ -8,7 +8,9 @@
 /* ==========================================================================
    1. UNIQUE BLOG LAYOUT & STRUCTURE
    ========================================================================== */
-
+body{
+  overflow-x:hidden;
+}
 .blog-wrapper {
   background: #fafbfc;
   min-height: 100vh;
@@ -67,7 +69,7 @@
   display: inline-block;
   background: #6c757d;
   color: #ffffff;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-caption);
   font-weight: var(--font-weight-bold);
   padding: var(--spacing-xs) var(--spacing-sm);
   border-radius: 20px;
@@ -78,7 +80,7 @@
 
 .blog-main-title {
   font-family: var(--font-family-serif);
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-size: var(--font-size-h1);
   font-weight: var(--font-weight-bold);
   line-height: 1.2;
   color: var(--color-heading-primary);
@@ -91,7 +93,7 @@
   gap: var(--spacing-md);
   align-items: center;
   margin-bottom: var(--spacing-md);
-  font-size: var(--font-size-body-small);
+  font-size: var(--font-size-caption);
 }
 
 .blog-meta-item {
@@ -109,7 +111,7 @@
 
 .blog-intro-text {
   font-family: var(--font-family-sans);
-  font-size: var(--font-size-body);
+  font-size: var(--font-size-body-large);
   line-height: var(--line-height-body);
   color: var(--color-text-secondary);
   font-weight: var(--font-weight-normal);
@@ -157,7 +159,7 @@
 
 .blog-content-card h2 {
   font-family: var(--font-family-serif);
-  font-size: var(--font-size-h4);
+  font-size: var(--font-size-h3);
   color: var(--color-heading-primary);
   margin: 0 0 var(--spacing-md) 0;
   font-weight: var(--font-weight-semibold);
@@ -165,7 +167,7 @@
 
 .blog-content-card h3 {
   font-family: var(--font-family-serif);
-  font-size: var(--font-size-h5);
+  font-size: var(--font-size-h4);
   color: #6c757d;
   margin: var(--spacing-lg) 0 var(--spacing-md) 0;
   font-weight: var(--font-weight-semibold);
@@ -182,7 +184,7 @@
 
 .blog-content-card p:first-of-type {
   font-family: var(--font-family-sans);
-  font-size: var(--font-size-h6);
+  font-size: var(--font-size-body-large);
   color: var(--color-text-secondary);
   font-weight: var(--font-weight-medium);
 }
@@ -246,7 +248,7 @@
 
 .blog-exercise-title {
   font-family: var(--font-family-serif);
-  font-size: var(--font-size-h6);
+  font-size: var(--font-size-h5);
   color: #6c757d;
   margin-bottom: var(--spacing-sm);
   font-weight: var(--font-weight-bold);
@@ -296,7 +298,7 @@
   font-weight: var(--font-weight-bold);
   padding: var(--spacing-sm) var(--spacing-md);
   text-align: left;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-caption);
   text-transform: uppercase;
   letter-spacing: 0.25px;
 }
@@ -344,7 +346,7 @@
 
 .blog-widget-title {
   font-family: var(--font-family-serif);
-  font-size: var(--font-size-h6);
+  font-size: var(--font-size-h5);
   font-weight: var(--font-weight-bold);
   margin: 0;
   display: flex;
@@ -381,7 +383,7 @@
   border-radius: var(--border-radius-small);
   transition: all 0.3s ease;
   border-left: 3px solid transparent;
-  font-size: var(--font-size-body-small);
+  font-size: var(--font-size-caption);
 }
 
 .blog-toc-link:hover {
@@ -409,7 +411,7 @@
 
 .blog-toc-title {
   font-family: var(--font-family-serif);
-  font-size: var(--font-size-h6);
+  font-size: var(--font-size-h5);
   color: var(--color-heading-primary);
   margin-bottom: var(--spacing-sm);
   display: flex;
@@ -440,7 +442,7 @@
   border-radius: var(--border-radius-small);
   border: 1px solid #e9ecef;
   transition: all 0.3s ease;
-  font-size: var(--font-size-body-small);
+  font-size: var(--font-size-caption);
   white-space: nowrap;
 }
 
@@ -742,13 +744,50 @@
   }
   
   .blog-main-title {
-    font-size: var(--font-size-h1);
+    font-size: 18px;
+  }
+  
+  .blog-category-badge {
+    font-size: 8px;
+  }
+  
+  .blog-intro-text {
+    font-size: 12px;
+  }
+  
+  .blog-content-card h2 {
+    font-size: 16px;
+  }
+  
+  .blog-content-card h3 {
+    font-size: 14px;
+  }
+  
+  .blog-content-card p {
+    font-size: 11px;
+  }
+  
+  .blog-exercise-title {
+    font-size: 13px;
+  }
+  
+  .blog-exercise-description {
+    font-size: 10px;
+  }
+  
+  .blog-widget-title {
+    font-size: 14px;
+  }
+  
+  .blog-toc-title {
+    font-size: 14px;
   }
   
   .blog-meta-info {
     flex-direction: column;
     align-items: flex-start;
     gap: var(--spacing-xs);
+    font-size: 9px;
   }
   
   .blog-exercise-gallery {
@@ -765,23 +804,29 @@
   }
   
   .blog-data-table {
-    font-size: var(--font-size-small);
+    font-size: 10px;
   }
   
   .blog-data-table th,
   .blog-data-table td {
     padding: var(--spacing-sm);
+    font-size: 9px;
   }
   
   /* Horizontal TOC responsive */
   .blog-toc-horizontal-list {
-    flex-direction: column;
+    flex-direction: row;
     gap: var(--spacing-xs);
   }
   
   .blog-toc-horizontal-link {
     display: block;
     text-align: center;
+    font-size: 9px;
+  }
+  
+  .blog-toc-link {
+    font-size: 9px;
   }
   
   /* Medical note mobile styles */
@@ -797,7 +842,7 @@
   }
   
   .blog-medical-note h4 {
-    font-size: var(--font-size-body);
+    font-size: 12px;
   }
   
   .blog-medical-note p {
@@ -812,16 +857,64 @@
   }
   
   .blog-main-title {
-    font-size: var(--font-size-h2);
+    font-size: 16px;
+  }
+  
+  .blog-category-badge {
+    font-size: 7px;
   }
   
   .blog-intro-text {
-    font-size: var(--font-size-body);
+    font-size: 10px;
     padding: var(--spacing-sm);
+    margin-bottom: 0px !important;
   }
   
   .blog-content-card h2 {
-    font-size: var(--font-size-h3);
+    font-size: 14px;
+  }
+  
+  .blog-content-card h3 {
+    font-size: 12px;
+  }
+  
+  .blog-content-card p {
+    font-size: 9px;
+  }
+  
+  .blog-exercise-title {
+    font-size: 11px;
+  }
+  
+  .blog-exercise-description {
+    font-size: 8px;
+  }
+  
+  .blog-widget-title {
+    font-size: 12px;
+  }
+  
+  .blog-toc-title {
+    font-size: 12px;
+  }
+  
+  .blog-toc-horizontal-link {
+    font-size: 7px;
+    padding: 4px 8px;
+  }
+  
+  .blog-toc-link {
+    font-size: 7px;
+  }
+  
+  .blog-meta-info {
+    font-size: 7px;
+  }
+  
+  .blog-data-table th,
+  .blog-data-table td {
+    font-size: 7px;
+    padding: 4px 8px;
   }
   
   .blog-card-body {
@@ -849,11 +942,11 @@
   }
   
   .blog-medical-note h4 {
-    font-size: var(--font-size-body-small);
+    font-size: 10px;
   }
   
   .blog-medical-note p {
-    font-size: var(--font-size-small);
+    font-size: 8px;
     margin-top: 6px;
     line-height: 1.4;
   }

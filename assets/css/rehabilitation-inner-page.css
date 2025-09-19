@@ -391,6 +391,7 @@ img {
   border-top: none;
   border-radius: 0 0 var(--border-radius) var(--border-radius);
   padding: 0px var(--spacing-lg);
+  padding-top: 0px !important;
 }
 
 /* Table of Contents Styling - Enhanced */
@@ -897,7 +898,7 @@ img {
 /* Add mobile responsiveness for small screens */
 @media (max-width: 480px) {
   .content-layout-full {
-    padding: 0 10px;
+    padding: 0 0px;
   }
   
   .medical-content {
@@ -909,8 +910,8 @@ img {
   }
   
   .medical-card {
-    padding: var(--spacing-md);
-    margin-bottom: var(--spacing-md);
+    padding: 0px;
+    margin-bottom:0px;
   }
   
   .instruction-block {
@@ -2232,10 +2233,6 @@ img {
     gap: 8px;
   }
 
-  .medical-card {
-    padding: 20px;
-  }
-
   .instruction-block {
     padding: 20px;
   }
@@ -2383,10 +2380,6 @@ img {
 
   .section-icon {
     font-size: var(--font-size-h5);
-  }
-
-  .medical-card {
-    padding: 15px;
   }
 
   .instruction-block {
@@ -2746,8 +2739,8 @@ html {
 
   /* Mobile card adjustments */
   .medical-card {
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-bottom: 10px;
+    padding: 0px;
   }
 
   .sidebar-card {
@@ -2825,7 +2818,6 @@ html {
   }
 
   .medical-card {
-    padding: 15px;
     border-radius: 8px;
   }
 

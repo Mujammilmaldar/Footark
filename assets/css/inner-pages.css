@@ -8,7 +8,8 @@
 /* ==========================================================================
    BREADCRUMB STYLES
    ========================================================================== */
-.breadcrumb {
+
+   .breadcrumb {
     background: var(--color-bg-secondary);
     padding: var(--spacing-sm) 0;
     font-size: var(--font-size-small);

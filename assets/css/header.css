@@ -29,7 +29,7 @@ header {
 }
 
 .nav-brand .brand-link {
-    display: inline-block;
+    display: flex;
     /* Commented out animation */
     /* transition: transform 0.3s ease; */
 }

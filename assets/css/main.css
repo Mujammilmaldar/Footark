@@ -346,7 +346,7 @@ section:nth-child(5) { animation-delay: 0.5s; }
 
   /* Body Text - Enhanced readability with optimal line length */
   --font-size-body-large: clamp(1.0625rem, calc(1vw + 0.75rem), 1.125rem);
-  --font-size-body: clamp(1rem, calc(0.5vw + 0.75rem), 1rem);
+  --font-size-body: clamp(0.85rem, calc(0.5rem), 0.85rem);
   --font-size-body-small: clamp(0.875rem, calc(0.25vw + 0.75rem), 0.9375rem);
 
   /* Utility Text Sizes - Better balance */

@@ -66,7 +66,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-group mb-3">
                                 <label for="appointmentType" class="form-label">Appointment Type*</label>
                                 <select id="appointmentType" name="appointmentType" class="form-select" required>
                                     <option value="">Select appointment type</option>
@@ -77,7 +77,7 @@
                                 </select>
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-group mb-3">
                                 <label for="condition" class="form-label">Primary Concern</label>
                                 <select id="condition" name="condition" class="form-select">
                                     <option value="">Select your condition</option>
@@ -90,7 +90,7 @@
                                 </select>
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-group mb-3">
                                 <label for="message" class="form-label">Additional Information</label>
                                 <textarea id="message" name="message" class="form-textarea" placeholder="Please describe your symptoms, when they started, and any previous treatments..."></textarea>
                             </div>
