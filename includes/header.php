@@ -254,22 +254,6 @@ else {
         </div>
     </header>
 
-    <!-- Mobile Contact Footer (only visible on mobile) -->
-    <div class="mobile-contact-footer">
-        <a href="tel:+919876543210" class="mobile-contact-item">
-            <i class="fas fa-phone"></i>
-            <span>Call</span>
-        </a>
-        <a href="https://wa.me/919876543210" class="mobile-contact-item" target="_blank">
-            <i class="fab fa-whatsapp"></i>
-            <span>WhatsApp</span>
-        </a>
-        <a href="<?php echo $pathPrefix; ?>contact.php" class="mobile-contact-item">
-            <i class="fas fa-envelope"></i>
-            <span>Contact</span>
-        </a>
-    </div>
-
     <!-- Mobile Menu JavaScript -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -553,4 +537,20 @@ else {
             addSmoothTransitions();
         });
     </script>
+
+    <!-- Mobile Contact Footer (fixed to viewport bottom) -->
+    <div class="mobile-contact-footer">
+        <a href="tel:+919876543210" class="mobile-contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Call</span>
+        </a>
+        <a href="https://wa.me/919876543210" class="mobile-contact-item" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp</span>
+        </a>
+        <a href="<?php echo $pathPrefix; ?>contact.php" class="mobile-contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+        </a>
+    </div>
 </body>
