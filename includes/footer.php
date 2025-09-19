@@ -86,7 +86,7 @@ if (strpos($_SERVER['PHP_SELF'], '/conditions/') !== false) {
                             <div class="contact-item">
                                 <i class="fas fa-envelope"></i>
                                 <div class="contact-details">
-                                    <p><a href="mailto:info@footancle.com">info@footancle.com</a></p>
+                                    <p><a href="mailto:info@footark.com">info@footark.com</a></p>
                                 </div>
                             </div>
                             <div class="contact-item">

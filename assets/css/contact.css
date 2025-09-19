@@ -75,6 +75,8 @@ body{
 }
 
 .main-content .row {
+    display: flex;
+    justify-content: center;
     --bs-gutter-x: 80px; /* Increased gap between col-8 and col-4 */
     gap: 40px; /* Additional gap for better spacing */
 }
@@ -294,10 +296,12 @@ body{
 .contact-text {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     gap: var(--spacing-xs);
 }
 
 .contact-label {
+    width: 100%;
     font-size: var(--font-size-small);
     color: var(--color-text-secondary);
     font-weight: var(--font-weight-medium);
@@ -321,6 +325,7 @@ body{
 /* Force proper text colors */
 .contact-details .contact-value,
 .contact-details .contact-value:visited {
+    width: 100%;
     color: var(--color-text-primary) !important;
 }
 
@@ -340,6 +345,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: var(--spacing-sm) 0;
+    gap: 14px;
     border-bottom: 1px solid var(--color-border-light);
 }
 
