@@ -35,9 +35,9 @@ else {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="<?php echo $pathPrefix; ?>assets/images/logo.png">
-    <link rel="shortcut icon" href="<?php echo $pathPrefix; ?>assets/images/logo.png">
-    <link rel="apple-touch-icon" href="<?php echo $pathPrefix; ?>assets/images/logo.png">
+    <link rel="icon" type="image/x-icon" href="<?php echo $pathPrefix; ?>assets/images/favicon.png">
+    <link rel="shortcut icon" href="<?php echo $pathPrefix; ?>assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="<?php echo $pathPrefix; ?>assets/images/favicon.png">
     
     <!-- SEO Meta Tags -->
     <title><?php 
