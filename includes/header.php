@@ -33,6 +33,86 @@ else {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="<?php echo $pathPrefix; ?>assets/images/logo.png">
+    <link rel="shortcut icon" href="<?php echo $pathPrefix; ?>assets/images/logo.png">
+    <link rel="apple-touch-icon" href="<?php echo $pathPrefix; ?>assets/images/logo.png">
+    
+    <!-- SEO Meta Tags -->
+    <title><?php 
+        $currentPage = basename($_SERVER['SCRIPT_NAME'], '.php');
+        switch($currentPage) {
+            case 'index':
+                echo 'FootArk Clinic - Expert Foot & Ankle Specialist in Mumbai | Dr. Abhishek Kini';
+                break;
+            case 'about':
+                echo 'About Dr. Abhishek Kini - Leading Foot & Ankle Surgeon Mumbai | FootArk Clinic';
+                break;
+            case 'contact':
+                echo 'Contact FootArk Clinic - Book Appointment with Foot & Ankle Specialist Mumbai';
+                break;
+            case 'conditions':
+                echo 'Foot & Ankle Conditions Treatment - Expert Care Mumbai | FootArk Clinic';
+                break;
+            case 'procedures':
+                echo 'Advanced Foot & Ankle Procedures - Minimally Invasive Surgery Mumbai';
+                break;
+            default:
+                echo 'FootArk Clinic - Premier Foot & Ankle Care Mumbai | Dr. Abhishek Kini';
+        }
+    ?></title>
+    
+    <meta name="description" content="<?php 
+        switch($currentPage) {
+            case 'index':
+                echo 'Leading foot & ankle specialist Dr. Abhishek Kini offers expert treatment in Mumbai. 12+ years experience, UK trained, minimally invasive surgery. Book consultation today.';
+                break;
+            case 'about':
+                echo 'Dr. Abhishek Kini - DNB Orthopaedics, MNAMS, UK trained foot & ankle surgeon with 12+ years experience. Specializing in minimally invasive procedures in Mumbai.';
+                break;
+            case 'contact':
+                echo 'Contact FootArk Clinic to book appointment with Dr. Abhishek Kini. Expert foot & ankle treatment in Mumbai. Call +91 98765 43210 or book online.';
+                break;
+            default:
+                echo 'FootArk Clinic provides comprehensive foot & ankle care in Mumbai. Expert diagnosis, advanced treatment, and personalized care by Dr. Abhishek Kini.';
+        }
+    ?>">
+    
+    <meta name="keywords" content="foot doctor Mumbai, ankle specialist Mumbai, orthopedic surgeon, bunion surgery, ankle arthroscopy, sports injury treatment, Dr. Abhishek Kini">
+    <meta name="author" content="Dr. Abhishek Kini - FootArk Clinic">
+    
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:site_name" content="FootArk Clinic">
+    <meta property="og:title" content="<?php 
+        switch($currentPage) {
+            case 'index':
+                echo 'FootArk Clinic - Expert Foot & Ankle Specialist in Mumbai';
+                break;
+            case 'about':
+                echo 'Dr. Abhishek Kini - Leading Foot & Ankle Surgeon Mumbai';
+                break;
+            default:
+                echo 'FootArk Clinic - Premier Foot & Ankle Care Mumbai';
+        }
+    ?>">
+    <meta property="og:description" content="Leading foot & ankle specialist Dr. Abhishek Kini offers expert treatment in Mumbai. 12+ years experience, UK trained, minimally invasive surgery.">
+    <meta property="og:image" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI']) . '/' . $pathPrefix; ?>assets/images/doctor-profile.png">
+    <meta property="og:url" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FootArk Clinic - Expert Foot & Ankle Specialist Mumbai">
+    <meta name="twitter:description" content="Leading foot & ankle specialist Dr. Abhishek Kini offers expert treatment in Mumbai. 12+ years experience, UK trained, minimally invasive surgery.">
+    <meta name="twitter:image" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI']) . '/' . $pathPrefix; ?>assets/images/doctor-profile.png">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1e3c72">
+    <meta name="msapplication-TileColor" content="#1e3c72">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/main.css">
