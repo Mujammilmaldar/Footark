@@ -5,11 +5,15 @@
             <!-- Desktop Video -->
             <video class="hero-video-desktop" autoplay muted loop playsinline preload="auto">
                 <source src="assets/video/hero-bg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
             </video>
             
             <!-- Mobile Video -->
             <video class="hero-video-mobile" autoplay muted loop playsinline preload="auto">
+                <source src="assets/video/mobilebanner-footarkclinic.webm" type="video/webm">
                 <source src="assets/video/mobilebanner-footarkclinic.mp4" type="video/mp4">
+                <source src="assets/video/mobilebanner-footarkclinic.mov" type="video/quicktime">
+                Your browser does not support the video tag.
             </video>
         </div>
 

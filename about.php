@@ -8,7 +8,7 @@
         <div class="container">
             <div class="about-hero-content">
                 <h1 class="about-main-title">About Dr. <span class="title-accent">Abhishek Kini</span></h1>
-                <p class="about-hero-subtitle">Leading Foot & Ankle Specialist providing world-class care in Mumbai</p>
+                <p class="about-hero-subtitle">Foot & Ankle Surgeon | Sports Medicine Specialist</p>
             </div>
         </div>
     </section>

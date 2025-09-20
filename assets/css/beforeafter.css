@@ -17,7 +17,6 @@ body {
 /* Reset any interference with header navigation */
 header nav ul,
 header nav li,
-.nav-menu ul,
 .nav-menu li {
     display: block !important;
 }
