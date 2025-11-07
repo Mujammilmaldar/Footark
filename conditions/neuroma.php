@@ -9,24 +9,24 @@
                         <a href="../index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
                         <a href="../services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
                         <a href="../conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
-                        <span style="color: #ffffff;">Ankle Impingement</span>
+                        <span style="color: #ffffff;">Neuroma</span>
                     </div>
                     <div class="hero-content">
-                        <h1>Ankle Impingement Treatment</h1>
+                        <h1>Neuroma Treatment</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                            <img src="images/Neuroma.jpg" alt="Neuroma Treatment">
                         </div>
                         
-                        <p>Expert treatment for ankle impingement syndrome. Our specialized approach addresses both anterior and posterior impingement, helping patients return to pain-free movement and activity.</p>
+                        <p>Expert treatment for neuromas and nerve pain in the foot. Our specialized approach provides effective relief from pinched nerves and painful nerve conditions.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                    <img src="images/Neuroma.jpg" alt="Neuroma Treatment">
                 </div>
             </div>
         </div>
@@ -43,18 +43,16 @@
                         <div class="widget-content">
                             <nav class="toc-nav">
                                 <ul class="toc-list">
-                                    <li><a href="#understanding" class="toc-link">Understanding Ankle Impingement</a></li>
-                                    <li><a href="#anatomy" class="toc-link">Ankle Anatomy</a></li>
-                                    <li><a href="#joint-function" class="toc-link">Joint Function</a></li>
-                                    <li><a href="#bone-structure" class="toc-link">Bone Structure</a></li>
-                                    <li><a href="#os-trigonum" class="toc-link">Os Trigonum</a></li>
+                                    <li><a href="#understanding" class="toc-link">What is a Neuroma</a></li>
+                                    <li><a href="#causes" class="toc-link">Causes</a></li>
+                                    <li><a href="#symptoms" class="toc-link">Symptoms</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
 
                     <div class="widget widget-dr-kini mobile-hidden">
-                        <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Impingement">
+                        <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Neuroma">
                         <h6 style="margin-bottom:0px;margin-top:10px;padding-bottom:0px;">Dr. Abhishek Kini</h6>
                         <p style="font-style: italic;">Foot & Ankle Specialist</p>
                         <a href="../about.php" class="view-all-btn contact-btn">Know More</a>
@@ -62,44 +60,41 @@
                 </div>
                 <div class="main-content">
                     <div class="content-section" id="understanding">
-                        <h2>Understanding Ankle Impingement</h2>
+                        <h2>What is a Neuroma?</h2>
                         <div class="content-with-image">
                             <div class="content-text">
-                                <p>Ankle impingement occurs when soft tissues around the ankle are pinched or nipped. Impingement mainly happens when the ankle is fully bent up or down, leading to pain either in the front or back of the ankle joint. Problems near the front of the joint are usually associated with past ankle sprains. Pinching in the back of the ankle occurs most often in ballet dancers and is usually due to irritation around a bony prominence on the back of the ankle.</p>
+                                <p>A neuroma is a painful condition, also referred to as a "pinched nerve" or a nerve tumor. It is a benign growth of nerve tissue frequently found between the third and fourth toes. It brings on pain, a burning sensation, tingling, or numbness between the toes and in the ball of the foot.</p>
+                                <p>The principal symptom associated with a neuroma is pain between the toes while walking. Those suffering from the condition often find relief by stopping their walk, taking off their shoe, and rubbing the affected area. At times, the patient will describe the pain as similar to having a stone in his or her shoe. The vast majority of people who develop neuromas are women.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                                <img src="images/Neuroma.jpg" alt="Neuroma">
                             </div>
                         </div>
                     </div>
 
-                    <div class="content-section" id="anatomy">
-                        <h3>What parts of the ankle are involved?</h3>
-                        <p>The ankle joint is formed where the bones of the lower leg, the tibia and the fibula, connect above the anklebone, called the talus. The tibia is the main bone of the lower leg. The fibula is the small, thin bone along the outer edge of the tibia.</p>
+                    <div class="content-section" id="causes">
+                        <h3>Causes</h3>
+                        <p>Although the exact cause for this condition is unclear, a number of factors can contribute to the formation of a neuroma:</p>
+                        <ul>
+                            <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;Biomechanical deformities, such as a high-arched foot or a flat foot, can lead to the formation of a neuroma. These foot types bring on instability around the toe joints, leading to the development of the condition.</li>
+                            <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;Trauma can cause damage to the nerve, resulting in inflammation or swelling of the nerve.</li>
+                            <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;Improper footwear that causes the toes to be squeezed together is problematic. Avoid high-heeled shoes higher than two inches. Shoes at this height can increase pressure on the forefoot area.</li>
+                        </ul>
                     </div>
 
-                    <div class="content-section" id="joint-function">
-                        <h3>Ankle Joint Function</h3>
-                        <div class="content-with-image">
-                            <div class="content-text">
-                                <p>The ankle joint is a hinge that allows the foot to move up (dorsiflexion) and down (plantarflexion). The ankle is a synovial joint, meaning it is enclosed in a joint capsule that contains a lubricant called synovial fluid.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="content-section" id="bone-structure">
-                        <h3>Bone Structure and Relationships</h3>
-                        <p>The talus rests on the the heelbone (the calcaneus). The joint formed between these two bones is called the subtalar joint. The calcaneus extends backward below the ankle, forming a shelf on which the talus rests.</p>
-                    </div>
-
-                    <div class="content-section" id="os-trigonum">
-                        <h3>Os Trigonum and Impingement</h3>
-                        <p>Two small bony bumps, called tuberosities, project from the back of the talus, one on the inside (medial) edge and one on the outer (lateral) edge. In some people the lateral tuberosity is not united to the talus. The separate piece of bone is called an os trigonum. This separation of the os trigonum from the talus is usually not a fracture. About 15 percent of people have an os trigonum. An os trigonum sometimes causes problems of impingement in the back of the ankle.</p>
+                    <div class="content-section" id="symptoms">
+                        <h3>Symptoms</h3>
+                        <ul>
+                            <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;Pain in the forefoot and between the toes</li>
+                            <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;Tingling and numbness in the ball of the foot</li>
+                            <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;Swelling between the toes</li>
+                            <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;Pain in the ball of the foot when weight is placed on it</li>
+                        </ul>
                     </div>
 
                 </div>
                 <div class="widget widget-dr-kini desktop-hidden">
-                    <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Impingement">
+                    <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Neuroma">
                     <h6 style="margin-bottom:0px;margin-top:10px;padding-bottom:0px;">Dr. Abhishek Kini</h6>
                     <p style="font-style: italic;">Foot & Ankle Specialist</p>
                     <a href="../about.php" class="view-all-btn contact-btn">Know More</a>
@@ -141,7 +136,7 @@
             const tocLinks = document.querySelectorAll('.toc-link');
             
             let current = '';
-            const scrollPos = window.scrollY + 150; // Offset for header
+            const scrollPos = window.scrollY + 150;
             
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
@@ -160,13 +155,9 @@
             });
         }
 
-        // Update TOC on scroll
         window.addEventListener('scroll', updateActiveTOC);
-        
-        // Update TOC on load
         document.addEventListener('DOMContentLoaded', updateActiveTOC);
 
-        // Header scroll effect
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
             if (window.scrollY > 50) {
@@ -176,5 +167,3 @@
             }
         });
     </script>
-</body>
-</html>

@@ -9,24 +9,24 @@
                         <a href="../index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
                         <a href="../services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
                         <a href="../conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
-                        <span style="color: #ffffff;">Ankle Impingement</span>
+                        <span style="color: #ffffff;">Bunion (Hallux Valgus)</span>
                     </div>
                     <div class="hero-content">
-                        <h1>Ankle Impingement Treatment</h1>
+                        <h1>Bunion (Hallux Valgus) Treatment</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                            <img src="images/Bunion.jpg" alt="Bunion Treatment">
                         </div>
                         
-                        <p>Expert treatment for ankle impingement syndrome. Our specialized approach addresses both anterior and posterior impingement, helping patients return to pain-free movement and activity.</p>
+                        <p>Comprehensive treatment for bunions and hallux valgus deformities. Our specialized approach addresses both pain relief and corrective solutions for better foot function.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                    <img src="images/Bunion.jpg" alt="Bunion Treatment">
                 </div>
             </div>
         </div>
@@ -43,18 +43,19 @@
                         <div class="widget-content">
                             <nav class="toc-nav">
                                 <ul class="toc-list">
-                                    <li><a href="#understanding" class="toc-link">Understanding Ankle Impingement</a></li>
-                                    <li><a href="#anatomy" class="toc-link">Ankle Anatomy</a></li>
-                                    <li><a href="#joint-function" class="toc-link">Joint Function</a></li>
-                                    <li><a href="#bone-structure" class="toc-link">Bone Structure</a></li>
-                                    <li><a href="#os-trigonum" class="toc-link">Os Trigonum</a></li>
+                                    <li><a href="#understanding" class="toc-link">Understanding Bunions</a></li>
+                                    <li><a href="#hereditary" class="toc-link">Are Bunions Hereditary</a></li>
+                                    <li><a href="#causes" class="toc-link">How is it Caused</a></li>
+                                    <li><a href="#problems" class="toc-link">Problems it Causes</a></li>
+                                    <li><a href="#treatment" class="toc-link">What Can Be Done</a></li>
+                                    <li><a href="#surgery" class="toc-link">Surgical Treatment</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
 
                     <div class="widget widget-dr-kini mobile-hidden">
-                        <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Impingement">
+                        <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Bunion Treatment">
                         <h6 style="margin-bottom:0px;margin-top:10px;padding-bottom:0px;">Dr. Abhishek Kini</h6>
                         <p style="font-style: italic;">Foot & Ankle Specialist</p>
                         <a href="../about.php" class="view-all-btn contact-btn">Know More</a>
@@ -62,44 +63,45 @@
                 </div>
                 <div class="main-content">
                     <div class="content-section" id="understanding">
-                        <h2>Understanding Ankle Impingement</h2>
+                        <h2>Understanding Bunion (Hallux Valgus)</h2>
                         <div class="content-with-image">
                             <div class="content-text">
-                                <p>Ankle impingement occurs when soft tissues around the ankle are pinched or nipped. Impingement mainly happens when the ankle is fully bent up or down, leading to pain either in the front or back of the ankle joint. Problems near the front of the joint are usually associated with past ankle sprains. Pinching in the back of the ankle occurs most often in ballet dancers and is usually due to irritation around a bony prominence on the back of the ankle.</p>
+                                <p>Hallux valgus, often referred to as "a bunion," is a deformity of the big toe. It's a sore bump which develops on the joint connecting the big toe to the foot. The toe tilts over towards the smaller toes. Sometimes a soft fluid swelling develops over the bony lump due to constant rubbing on the inside of the shoe.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                                <img src="images/Bunion.jpg" alt="Bunion">
                             </div>
                         </div>
                     </div>
 
-                    <div class="content-section" id="anatomy">
-                        <h3>What parts of the ankle are involved?</h3>
-                        <p>The ankle joint is formed where the bones of the lower leg, the tibia and the fibula, connect above the anklebone, called the talus. The tibia is the main bone of the lower leg. The fibula is the small, thin bone along the outer edge of the tibia.</p>
+                    <div class="content-section" id="hereditary">
+                        <h3>Are bunions hereditary?</h3>
+                        <p>Bunions tend to run in families, but that does not mean that if you have a bunion, your children will inevitably have one too. The connection may be that bunions are a bit commoner in people with unusually flexible joints, and this can be hereditary. They are also commoner in women than in men.</p>
                     </div>
 
-                    <div class="content-section" id="joint-function">
-                        <h3>Ankle Joint Function</h3>
-                        <div class="content-with-image">
-                            <div class="content-text">
-                                <p>The ankle joint is a hinge that allows the foot to move up (dorsiflexion) and down (plantarflexion). The ankle is a synovial joint, meaning it is enclosed in a joint capsule that contains a lubricant called synovial fluid.</p>
-                            </div>
-                        </div>
+                    <div class="content-section" id="causes">
+                        <h3>How is it caused?</h3>
+                        <p>Bunions do occur in cultures in which shoes are not worn, but much less commonly. Shoes which squeeze the big toe or do not fit properly, or have an excessively high heel, may worsen the deformity, particularly in people who are at higher risk anyway. Other factors that may affect the likelihood of having a bunion include a family history (hereditary), flat feet, muscular imbalance conditions such as polio or cerebral palsy and rheumatoid arthritis.</p>
                     </div>
 
-                    <div class="content-section" id="bone-structure">
-                        <h3>Bone Structure and Relationships</h3>
-                        <p>The talus rests on the the heelbone (the calcaneus). The joint formed between these two bones is called the subtalar joint. The calcaneus extends backward below the ankle, forming a shelf on which the talus rests.</p>
+                    <div class="content-section" id="problems">
+                        <h3>What problems does it cause?</h3>
+                        <p>The main problem is usually the pressure of the shoe over the bony prominence, which causes discomfort or pain. Sometimes the skin over the lump becomes red, blistered or infected. The foot may become broad and it may be difficult to get into wide shoes. The big toe sometimes tilts over so much that it rubs on the second toe, or pushes it up out of place so it presses on the shoe. Also, the big toe does not work as well with a bunion, and the other toes have to take more of the weight of the body as you walk. This can cause pain under the ball of the foot. Shoe pressure can also cause corns and calluses to develop. Sometimes arthritis develops in the deformed joint, causing pain in the joint.</p>
                     </div>
 
-                    <div class="content-section" id="os-trigonum">
-                        <h3>Os Trigonum and Impingement</h3>
-                        <p>Two small bony bumps, called tuberosities, project from the back of the talus, one on the inside (medial) edge and one on the outer (lateral) edge. In some people the lateral tuberosity is not united to the talus. The separate piece of bone is called an os trigonum. This separation of the os trigonum from the talus is usually not a fracture. About 15 percent of people have an os trigonum. An os trigonum sometimes causes problems of impingement in the back of the ankle.</p>
+                    <div class="content-section" id="treatment">
+                        <h3>What can be done about a bunion?</h3>
+                        <p>Many people with bunions are quite comfortable if they wear wide, well fitting shoes and give them time to adapt to the shape of their feet. High heels tend to squeeze the foot into the front of the shoe and should be avoided. It is often worthwhile seeing an orthopedic surgeon if these simple measures are not quite enough.</p>
+                    </div>
+
+                    <div class="content-section" id="surgery">
+                        <h3>Can an operation cure a bunion?</h3>
+                        <p>If the above simple measures do not make you comfortable, an operation may improve the situation. An operation will not give you an entirely normal foot, but it will correct the deformity of the big toe and narrow your foot back towards a more desirable shape. There are a lot of different operations for bunions, depending on the severity of the deformity, the shape of your foot and whether arthritis has developed in the big toe joint. An orthopaedic surgeon who specialises in foot & ankle surgery can advise you on the best operation for your foot. However, an operation may not make your foot narrow enough to wear tight shoes, nor can it fully restore the strength of the big toe.</p>
                     </div>
 
                 </div>
                 <div class="widget widget-dr-kini desktop-hidden">
-                    <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Impingement">
+                    <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Bunion Treatment">
                     <h6 style="margin-bottom:0px;margin-top:10px;padding-bottom:0px;">Dr. Abhishek Kini</h6>
                     <p style="font-style: italic;">Foot & Ankle Specialist</p>
                     <a href="../about.php" class="view-all-btn contact-btn">Know More</a>
@@ -141,7 +143,7 @@
             const tocLinks = document.querySelectorAll('.toc-link');
             
             let current = '';
-            const scrollPos = window.scrollY + 150; // Offset for header
+            const scrollPos = window.scrollY + 150;
             
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
@@ -160,13 +162,9 @@
             });
         }
 
-        // Update TOC on scroll
         window.addEventListener('scroll', updateActiveTOC);
-        
-        // Update TOC on load
         document.addEventListener('DOMContentLoaded', updateActiveTOC);
 
-        // Header scroll effect
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
             if (window.scrollY > 50) {
@@ -176,5 +174,3 @@
             }
         });
     </script>
-</body>
-</html>

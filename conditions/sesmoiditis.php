@@ -9,24 +9,24 @@
                         <a href="../index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
                         <a href="../services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
                         <a href="../conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
-                        <span style="color: #ffffff;">Ankle Impingement</span>
+                        <span style="color: #ffffff;">Sesamoiditis</span>
                     </div>
                     <div class="hero-content">
-                        <h1>Ankle Impingement Treatment</h1>
+                        <h1>Sesamoiditis Treatment</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                            <img src="images/sesamoiditis.jpg" alt="Sesamoiditis Treatment">
                         </div>
                         
-                        <p>Expert treatment for ankle impingement syndrome. Our specialized approach addresses both anterior and posterior impingement, helping patients return to pain-free movement and activity.</p>
+                        <p>Expert treatment for sesamoiditis and sesamoid bone injuries. Our specialized approach provides effective relief from pain under the great toe and helps restore normal function.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                    <img src="images/sesamoiditis.jpg" alt="Sesamoiditis Treatment">
                 </div>
             </div>
         </div>
@@ -43,18 +43,15 @@
                         <div class="widget-content">
                             <nav class="toc-nav">
                                 <ul class="toc-list">
-                                    <li><a href="#understanding" class="toc-link">Understanding Ankle Impingement</a></li>
-                                    <li><a href="#anatomy" class="toc-link">Ankle Anatomy</a></li>
-                                    <li><a href="#joint-function" class="toc-link">Joint Function</a></li>
-                                    <li><a href="#bone-structure" class="toc-link">Bone Structure</a></li>
-                                    <li><a href="#os-trigonum" class="toc-link">Os Trigonum</a></li>
+                                    <li><a href="#understanding" class="toc-link">Understanding Sesamoiditis</a></li>
+                                    <li><a href="#symptoms" class="toc-link">Symptoms</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
 
                     <div class="widget widget-dr-kini mobile-hidden">
-                        <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Impingement">
+                        <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Sesamoiditis">
                         <h6 style="margin-bottom:0px;margin-top:10px;padding-bottom:0px;">Dr. Abhishek Kini</h6>
                         <p style="font-style: italic;">Foot & Ankle Specialist</p>
                         <a href="../about.php" class="view-all-btn contact-btn">Know More</a>
@@ -62,44 +59,30 @@
                 </div>
                 <div class="main-content">
                     <div class="content-section" id="understanding">
-                        <h2>Understanding Ankle Impingement</h2>
+                        <h2>Understanding Sesamoiditis</h2>
                         <div class="content-with-image">
                             <div class="content-text">
-                                <p>Ankle impingement occurs when soft tissues around the ankle are pinched or nipped. Impingement mainly happens when the ankle is fully bent up or down, leading to pain either in the front or back of the ankle joint. Problems near the front of the joint are usually associated with past ankle sprains. Pinching in the back of the ankle occurs most often in ballet dancers and is usually due to irritation around a bony prominence on the back of the ankle.</p>
+                                <p>Most bones in the human body are connected to each other at joints. But there are a few bones that are not connected to any other bone. Instead, they are connected only to tendons or are embedded in muscle. These are the sesamoids. The kneecap (patella) is the largest sesamoid. Two other very small sesamoids (about the size of a kernel of corn) are found in the underside of the forefoot near the great toe, one on the outer side of the foot and the other closer to the middle of the foot.</p>
+                                <p>Sesamoids act like pulleys. They provide a smooth surface over which the tendons slide, thus increasing the ability of the tendons to transmit muscle forces. The sesamoids in the forefoot also assist with weightbearing and help elevate the bones of the great toe. Like other bones, sesamoids can break (fracture). Additionally, the tendons surrounding the sesamoids can become irritated or inflamed. This is called sesamoiditis and is a form of tendinitis. It is common among ballet dancers, runners and baseball catchers.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                                <img src="images/sesamoiditis.jpg" alt="Sesamoiditis">
                             </div>
                         </div>
                     </div>
 
-                    <div class="content-section" id="anatomy">
-                        <h3>What parts of the ankle are involved?</h3>
-                        <p>The ankle joint is formed where the bones of the lower leg, the tibia and the fibula, connect above the anklebone, called the talus. The tibia is the main bone of the lower leg. The fibula is the small, thin bone along the outer edge of the tibia.</p>
-                    </div>
-
-                    <div class="content-section" id="joint-function">
-                        <h3>Ankle Joint Function</h3>
-                        <div class="content-with-image">
-                            <div class="content-text">
-                                <p>The ankle joint is a hinge that allows the foot to move up (dorsiflexion) and down (plantarflexion). The ankle is a synovial joint, meaning it is enclosed in a joint capsule that contains a lubricant called synovial fluid.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="content-section" id="bone-structure">
-                        <h3>Bone Structure and Relationships</h3>
-                        <p>The talus rests on the the heelbone (the calcaneus). The joint formed between these two bones is called the subtalar joint. The calcaneus extends backward below the ankle, forming a shelf on which the talus rests.</p>
-                    </div>
-
-                    <div class="content-section" id="os-trigonum">
-                        <h3>Os Trigonum and Impingement</h3>
-                        <p>Two small bony bumps, called tuberosities, project from the back of the talus, one on the inside (medial) edge and one on the outer (lateral) edge. In some people the lateral tuberosity is not united to the talus. The separate piece of bone is called an os trigonum. This separation of the os trigonum from the talus is usually not a fracture. About 15 percent of people have an os trigonum. An os trigonum sometimes causes problems of impingement in the back of the ankle.</p>
+                    <div class="content-section" id="symptoms">
+                        <h3>Symptoms</h3>
+                        <ul>
+                            <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;Pain is focused under the great toe on the ball of the foot. With sesamoiditis, pain may develop gradually; with a fracture, pain will be immediate.</li>
+                            <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;Swelling and bruising may or may not be present.</li>
+                            <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;You may experience difficulty and pain in bending and straightening the great toe.</li>
+                        </ul>
                     </div>
 
                 </div>
                 <div class="widget widget-dr-kini desktop-hidden">
-                    <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Impingement">
+                    <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Sesamoiditis">
                     <h6 style="margin-bottom:0px;margin-top:10px;padding-bottom:0px;">Dr. Abhishek Kini</h6>
                     <p style="font-style: italic;">Foot & Ankle Specialist</p>
                     <a href="../about.php" class="view-all-btn contact-btn">Know More</a>
@@ -141,7 +124,7 @@
             const tocLinks = document.querySelectorAll('.toc-link');
             
             let current = '';
-            const scrollPos = window.scrollY + 150; // Offset for header
+            const scrollPos = window.scrollY + 150;
             
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
@@ -160,13 +143,9 @@
             });
         }
 
-        // Update TOC on scroll
         window.addEventListener('scroll', updateActiveTOC);
-        
-        // Update TOC on load
         document.addEventListener('DOMContentLoaded', updateActiveTOC);
 
-        // Header scroll effect
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
             if (window.scrollY > 50) {
@@ -176,5 +155,3 @@
             }
         });
     </script>
-</body>
-</html>

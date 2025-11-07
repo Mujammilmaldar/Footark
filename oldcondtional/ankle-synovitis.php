@@ -1,20 +1,20 @@
-<?php include 'includes/header.php';?>
-<link rel="stylesheet" href="assets/css/inner-pages.css">
+<?php include '../includes/header.php';?>
+
 
     <!-- Hero Banner -->
     <section class="hero-banner">
         <div class="container">
             <div class="hero-breadcrumb" style="margin-bottom: 15px; font-size: 14px; color: #ffffff;">
-                <a href="index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
-                <a href="services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
-                <a href="conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
-                <span style="color: #ffffff;">Subtalar Arthritis</span>
+                <a href="../index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
+                <a href="../services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
+                <a href="../conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
+                <span style="color: #ffffff;">Ankle Synovitis</span>
             </div>
             <div class="hero-content">
-                <h1>Subtalar Arthritis Treatment</h1>
-                <p>Expert care for subtalar arthritis affecting the hindfoot joint. Our specialists provide comprehensive treatment to reduce pain and improve foot function for better mobility.</p>
+                <h1>Ankle Synovitis Treatment</h1>
+                <p>Expert diagnosis and treatment for ankle synovitis and joint inflammation. Our specialists provide comprehensive care to reduce inflammation and restore joint function.</p>
                 <div class="hero-buttons">
-                    <a href="appointment.php" class="btn-primary">Schedule Consultation</a>
+                    <a href="../appointment.php" class="btn-primary">Schedule Consultation</a>
                 </div>
             </div>
         </div>
@@ -29,9 +29,9 @@
                     <div class="widget">
                         <div class="widget-header">Schedule an Appointment</div>
                         <div class="widget-content  flex-column">
-                            <p>Experiencing hindfoot pain and difficulty on uneven surfaces? Get expert treatment from our specialists.</p>
+                            <p>Experiencing ankle swelling and inflammation? Get expert treatment from our specialists.</p>
                             <div class="phone-number">+91 98765 43210</div>
-                            <a href="appointment.php" class="btn-widget">REQUEST APPOINTMENT</a>
+                            <a href="../appointment.php" class="btn-widget">REQUEST APPOINTMENT</a>
                             <a href="#" class="btn-widget">PATIENT PORTAL</a>
                         </div>
                     </div>
@@ -65,36 +65,37 @@
                 </div>
                 <div class="main-content">
                     <div class="content-section" id="understanding">
-                        <h2>Understanding Subtalar Arthritis</h2>
+                        <h2>Understanding Ankle Synovitis</h2>
                         <div class="content-with-image">
                             <div class="content-text">
-                                <p>Patients with subtalar arthritis will complain of pain on one or both sides of the foot, just below the ankle bones (malleoli). This is commonly illustrated by the patient encircling the affected foot with their fingers, just below the level of the bony prominence on either side of the ankle (malleoli).</p>
+                                <p>The synovium is the lining of any joint and it produces a lubricating fluid (synovial fluid) which helps the bones move smoothly over each other. Ankle synovitis is inflammation of this synovium.</p>
                                 
-                                <p>The hollow just in front of the outside ankle bone (the sinus tarsi) is another common location of pain. The sinus tarsi is a space surrounded by the three contact areas between the talus and calcaneus, that comprise the subtalar joint.</p>
+                                <p>Synovitis of the ankle can be the resultant of autoimmune disorders like gout and rheumatoid arthritis or an injury.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="assets/images/services/inner-pages/Bunion-Surgery1.jpg" alt="Subtalar Arthritis">
+                                <img src="../images/ankle-synovitis.jpg" alt="Ankle Synovitis">
                             </div>
                         </div>
-                    </div>
-
-                    <div class="content-section" id="function">
-                        <h3>Subtalar Joint Function</h3>
-                        <p>The subtalar joint is largely responsible for allowing the foot to accommodate uneven terrain by moving the hindfoot from side to side (inversion and eversion). Walking on uneven surfaces places a great deal of stress on the subtalar joint and may be difficult, if not impossible, to accomplish in patients with subtalar arthritis.</p>
                     </div>
 
                     <div class="content-section" id="causes">
-                        <h3>What Causes Subtalar Arthritis?</h3>
+                        <h3>What causes ankle synovitis?</h3>
+                        <p>Ankle injury or affection by an infection or an inflammatory disease, the synovial membrane gets inflamed and thus, allowing the synovial fluid contained within to leak into the joint. This leakage of the fluid would lead to cartilage degradation, joint instability and can potentially block the supply of nutrients to the surrounding regions.</p>
+                        
                         <div class="highlight-box">
                             <h4>Common Causes</h4>
-                            <ul>
-                                <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;<strong>Previous trauma</strong> - Usually a calcaneal fracture, although certain fractures involving the talar body may also cause subtalar arthritis</li>
-                                <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;<strong>Rheumatoid arthritis</strong> - Inflammatory arthritis affecting the joint</li>
-                                <li><i class="fa fa-check-square-o"></i> &nbsp;&nbsp;<strong>Abnormal loading</strong> - Associated with malalignment of the heel bone (calcaneus)</li>
-                            </ul>
+                            <p>Most common causes are inflammatory conditions like rheumatoid arthritis, gout, infective affections like bacterial or tuberculous infections or chronic instability predisposing to synovitis.</p>
                         </div>
-                        
-                        <p>The load applied to the subtalar joint can be unevenly distributed in cases where the heel bone turns in (varus alignment seen with a high arched foot) or out (valgus alignment associated with a flat foot).</p>
+                    </div>
+
+                    <div class="content-section" id="diagnosis">
+                        <h3>How is it diagnosed?</h3>
+                        <p>Patient comes with complaints of swelling of the ankle. A complete clinical examination with the help of specific investigations (blood & radiological), we can diagnose the most probable cause of this synovitis.</p>
+                    </div>
+
+                    <div class="content-section" id="treatment">
+                        <h3>How is it treated?</h3>
+                        <p>Once the causative agent is diagnosed, most often, the treatment lies in well-directed medications, which control the inflammation & prevent its adverse effects. In some of the cases, a key hole surgery (arthroscopy) may be advised to get the tissue (synovium) for diagnosis and to reduce the disease load.</p>
                     </div>
 
                 </div>
@@ -103,7 +104,7 @@
         </div>
     </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
 
     <script>
         // Smooth scrolling

@@ -1,3 +1,5 @@
+
+
 <?php include '../includes/header.php';?>
 
     <!-- Hero Banner -->
@@ -9,24 +11,24 @@
                         <a href="../index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
                         <a href="../services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
                         <a href="../conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
-                        <span style="color: #ffffff;">Ankle Impingement</span>
+                        <span style="color: #ffffff;">Peroneal Tendon Pain / Instability</span>
                     </div>
                     <div class="hero-content">
-                        <h1>Ankle Impingement Treatment</h1>
+                        <h1>Peroneal Tendon Pain / Instability Treatment</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                            <img src="images/Peroneal.jpg" alt="Peroneal Tendon Treatment">
                         </div>
                         
-                        <p>Expert treatment for ankle impingement syndrome. Our specialized approach addresses both anterior and posterior impingement, helping patients return to pain-free movement and activity.</p>
+                        <p>Expert care for peroneal tendon injuries and instability. Our specialized approach addresses tendon pain, tears, and dislocation for optimal recovery and ankle stability.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                    <img src="images/Peroneal.jpg" alt="Peroneal Tendon Treatment">
                 </div>
             </div>
         </div>
@@ -43,18 +45,19 @@
                         <div class="widget-content">
                             <nav class="toc-nav">
                                 <ul class="toc-list">
-                                    <li><a href="#understanding" class="toc-link">Understanding Ankle Impingement</a></li>
-                                    <li><a href="#anatomy" class="toc-link">Ankle Anatomy</a></li>
-                                    <li><a href="#joint-function" class="toc-link">Joint Function</a></li>
-                                    <li><a href="#bone-structure" class="toc-link">Bone Structure</a></li>
-                                    <li><a href="#os-trigonum" class="toc-link">Os Trigonum</a></li>
+                                    <li><a href="#understanding" class="toc-link">Understanding Peroneal Tendons</a></li>
+                                    <li><a href="#importance" class="toc-link">Why Are They Important</a></li>
+                                    <li><a href="#injury" class="toc-link">How Do They Get Injured</a></li>
+                                    <li><a href="#symptoms" class="toc-link">Symptoms</a></li>
+                                    <li><a href="#diagnosis" class="toc-link">Diagnosis</a></li>
+                                    <li><a href="#treatment" class="toc-link">Treatment Options</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
 
                     <div class="widget widget-dr-kini mobile-hidden">
-                        <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Impingement">
+                        <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Peroneal Tendon">
                         <h6 style="margin-bottom:0px;margin-top:10px;padding-bottom:0px;">Dr. Abhishek Kini</h6>
                         <p style="font-style: italic;">Foot & Ankle Specialist</p>
                         <a href="../about.php" class="view-all-btn contact-btn">Know More</a>
@@ -62,44 +65,46 @@
                 </div>
                 <div class="main-content">
                     <div class="content-section" id="understanding">
-                        <h2>Understanding Ankle Impingement</h2>
+                        <h2>Understanding Peroneal Tendon Pain / Instability</h2>
                         <div class="content-with-image">
                             <div class="content-text">
-                                <p>Ankle impingement occurs when soft tissues around the ankle are pinched or nipped. Impingement mainly happens when the ankle is fully bent up or down, leading to pain either in the front or back of the ankle joint. Problems near the front of the joint are usually associated with past ankle sprains. Pinching in the back of the ankle occurs most often in ballet dancers and is usually due to irritation around a bony prominence on the back of the ankle.</p>
+                                <p>There are two peroneal tendons behind the outer bone of the ankle. They run down behind the ankle and go into the foot. They turn the foot outwards and stabilize the ankle dynamically.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                                <img src="images/Peroneal.jpg" alt="Peroneal Tendon">
                             </div>
                         </div>
                     </div>
 
-                    <div class="content-section" id="anatomy">
-                        <h3>What parts of the ankle are involved?</h3>
-                        <p>The ankle joint is formed where the bones of the lower leg, the tibia and the fibula, connect above the anklebone, called the talus. The tibia is the main bone of the lower leg. The fibula is the small, thin bone along the outer edge of the tibia.</p>
+                    <div class="content-section" id="importance">
+                        <h3>Why are they important to us?</h3>
+                        <p>Most sports have elements of running and lateral movement. Sports such as running on uneven surfaces, football can be highly demanding on the ankle. Peroneal tendons balance the ankle and foot against the inward movement, which can be due to an over pull of a stronger muscle on the inner side of foot or deficiency of ligaments on the outer side of foot (due to ankle sprain). Maximal exertion occurs with side-to-side movement and jumping.</p>
+                        <p>Trauma to the lateral ankle distorts the proprioceptive sense (ability to balance) and stretches the connective tissues. The peroneus muscles are often stretched and injured from traction when the foot inverts. Ankle instability ensues and continues until the peroneal muscles recover, and proprioception returns. If the peroneal tendons do not recover, symptoms of instability may not resolve without further intervention.</p>
                     </div>
 
-                    <div class="content-section" id="joint-function">
-                        <h3>Ankle Joint Function</h3>
-                        <div class="content-with-image">
-                            <div class="content-text">
-                                <p>The ankle joint is a hinge that allows the foot to move up (dorsiflexion) and down (plantarflexion). The ankle is a synovial joint, meaning it is enclosed in a joint capsule that contains a lubricant called synovial fluid.</p>
-                            </div>
-                        </div>
+                    <div class="content-section" id="injury">
+                        <h3>How do they get injured?</h3>
+                        <p>Repeated inward turning injury to the ankle will overstretch the peroneal tendons leading to tears and degeneration n them. Similarly if a violent or a high velocity force turns the ankle inwards, these tendons can be injured (torn/dislocated) in first instance itself. Long term neglect of ankle instability makes them over work to restore stability dynamically and this can cause inflammation in and around them (swelling around the tendon within their protective coating).</p>
                     </div>
 
-                    <div class="content-section" id="bone-structure">
-                        <h3>Bone Structure and Relationships</h3>
-                        <p>The talus rests on the the heelbone (the calcaneus). The joint formed between these two bones is called the subtalar joint. The calcaneus extends backward below the ankle, forming a shelf on which the talus rests.</p>
+                    <div class="content-section" id="symptoms">
+                        <h3>What are the symptoms?</h3>
+                        <p>Acute injury will present like a severe ankle sprain with pain, swelling around the ankle, especially on outer aspect. A dislocated tendon, which has popped out of its groove may be seen / felt over the outer bone of the ankle. Long term neglected injuries will present with ankle instability along with swelling and pain along the tendon, signifying tears in the tendon. These ankles do not respond to physiotherapy alone and their instability persists. It is important to get this ankle examined by an orthopaedic surgeon to start appropriate treatment and prevent complete rupture.</p>
                     </div>
 
-                    <div class="content-section" id="os-trigonum">
-                        <h3>Os Trigonum and Impingement</h3>
-                        <p>Two small bony bumps, called tuberosities, project from the back of the talus, one on the inside (medial) edge and one on the outer (lateral) edge. In some people the lateral tuberosity is not united to the talus. The separate piece of bone is called an os trigonum. This separation of the os trigonum from the talus is usually not a fracture. About 15 percent of people have an os trigonum. An os trigonum sometimes causes problems of impingement in the back of the ankle.</p>
+                    <div class="content-section" id="diagnosis">
+                        <h3>How is it diagnosed?</h3>
+                        <p>Detailed clinical examination by a specialist gives adequate clues to the diagnosis. This can be confirmed by a ultrasound examination, which can check it dynamically to confirm dislocation or a MRI scan.</p>
+                    </div>
+
+                    <div class="content-section" id="treatment">
+                        <h3>How is it treated?</h3>
+                        <p>Acute injuries need to be rested in an ankle immobilizing boot. Foot elevation and NSAIDs help in getting the swelling down. This helps the tendon and its protective sheath heal in a stable position, but in most active individuals, especially keen athletes, this is unsatisfactory. If individuals continue to experience pain, swelling & instability, they may require surgery to repair the torn tendon and stabilize in its groove. This can be visualized using a keyhole surgery (Tendoscopy of peroneal tendons) and appropriate further management is carried out.</p>
                     </div>
 
                 </div>
                 <div class="widget widget-dr-kini desktop-hidden">
-                    <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Impingement">
+                    <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Peroneal Tendon">
                     <h6 style="margin-bottom:0px;margin-top:10px;padding-bottom:0px;">Dr. Abhishek Kini</h6>
                     <p style="font-style: italic;">Foot & Ankle Specialist</p>
                     <a href="../about.php" class="view-all-btn contact-btn">Know More</a>
@@ -141,7 +146,7 @@
             const tocLinks = document.querySelectorAll('.toc-link');
             
             let current = '';
-            const scrollPos = window.scrollY + 150; // Offset for header
+            const scrollPos = window.scrollY + 150;
             
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
@@ -160,13 +165,9 @@
             });
         }
 
-        // Update TOC on scroll
         window.addEventListener('scroll', updateActiveTOC);
-        
-        // Update TOC on load
         document.addEventListener('DOMContentLoaded', updateActiveTOC);
 
-        // Header scroll effect
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
             if (window.scrollY > 50) {
@@ -176,5 +177,3 @@
             }
         });
     </script>
-</body>
-</html>

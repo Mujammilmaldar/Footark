@@ -9,24 +9,24 @@
                         <a href="../index.php" style="text-decoration: none; color: #ffffff;">Home</a> &gt;
                         <a href="../services.php" style="text-decoration: none; color: #ffffff;">Services</a> &gt;
                         <a href="../conditions.php" style="text-decoration: none; color: #ffffff;">Conditions</a> &gt;
-                        <span style="color: #ffffff;">Ankle Impingement</span>
+                        <span style="color: #ffffff;">Toe Deformity</span>
                     </div>
                     <div class="hero-content">
-                        <h1>Ankle Impingement Treatment</h1>
+                        <h1>Toe Deformity Treatment</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                            <img src="images/toedeformity.jpg" alt="Toe Deformity Treatment">
                         </div>
                         
-                        <p>Expert treatment for ankle impingement syndrome. Our specialized approach addresses both anterior and posterior impingement, helping patients return to pain-free movement and activity.</p>
+                        <p>Expert treatment for toe deformities including hammertoes and claw toes. Our specialized approach addresses the root causes and provides effective solutions for improved foot function.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                    <img src="images/toedeformity.jpg" alt="Toe Deformity Treatment">
                 </div>
             </div>
         </div>
@@ -43,18 +43,18 @@
                         <div class="widget-content">
                             <nav class="toc-nav">
                                 <ul class="toc-list">
-                                    <li><a href="#understanding" class="toc-link">Understanding Ankle Impingement</a></li>
-                                    <li><a href="#anatomy" class="toc-link">Ankle Anatomy</a></li>
-                                    <li><a href="#joint-function" class="toc-link">Joint Function</a></li>
-                                    <li><a href="#bone-structure" class="toc-link">Bone Structure</a></li>
-                                    <li><a href="#os-trigonum" class="toc-link">Os Trigonum</a></li>
+                                    <li><a href="#understanding" class="toc-link">Understanding Toe Deformity</a></li>
+                                    <li><a href="#causes" class="toc-link">Why Do They Become Deformed</a></li>
+                                    <li><a href="#problems" class="toc-link">Problems They Cause</a></li>
+                                    <li><a href="#diagnosis" class="toc-link">How is it Diagnosed</a></li>
+                                    <li><a href="#solutions" class="toc-link">Simple Solutions</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
 
                     <div class="widget widget-dr-kini mobile-hidden">
-                        <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Impingement">
+                        <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Toe Deformity">
                         <h6 style="margin-bottom:0px;margin-top:10px;padding-bottom:0px;">Dr. Abhishek Kini</h6>
                         <p style="font-style: italic;">Foot & Ankle Specialist</p>
                         <a href="../about.php" class="view-all-btn contact-btn">Know More</a>
@@ -62,44 +62,40 @@
                 </div>
                 <div class="main-content">
                     <div class="content-section" id="understanding">
-                        <h2>Understanding Ankle Impingement</h2>
+                        <h2>Understanding Toe Deformity</h2>
                         <div class="content-with-image">
                             <div class="content-text">
-                                <p>Ankle impingement occurs when soft tissues around the ankle are pinched or nipped. Impingement mainly happens when the ankle is fully bent up or down, leading to pain either in the front or back of the ankle joint. Problems near the front of the joint are usually associated with past ankle sprains. Pinching in the back of the ankle occurs most often in ballet dancers and is usually due to irritation around a bony prominence on the back of the ankle.</p>
+                                <p>The small toes of the foot play an important role in movement, i.e. walking or running. They share the pressure with the big toe and help in pushing off with the foot.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                                <img src="images/toedeformity.jpg" alt="Toe Deformity">
                             </div>
                         </div>
                     </div>
 
-                    <div class="content-section" id="anatomy">
-                        <h3>What parts of the ankle are involved?</h3>
-                        <p>The ankle joint is formed where the bones of the lower leg, the tibia and the fibula, connect above the anklebone, called the talus. The tibia is the main bone of the lower leg. The fibula is the small, thin bone along the outer edge of the tibia.</p>
+                    <div class="content-section" id="causes">
+                        <h3>Why do they become deformed?</h3>
+                        <p>Toes become deformed when the pressures on the toe are stronger than their joints can resist. An injury to the toe may damage the joints, bones or the tendons surrounding the joint, which causes an imbalance in the muscle pull leading to a deformity. Ill fitting shoes, either because the shoe is tight or because it has a high heel, which tends to force the toes into the tip of the shoe can cause them to bend upwards. Any deformity of the adjacent toe, for example a bunion, may cause pressure symptoms in the 2nd toe, leading it to bend upwards to accommodate the big toe. Various other toe deformities can be caused by disorders affecting the neuromuscular system like polio, cerebral palsy, previously affected compartment syndrome of the leg/foot.</p>
                     </div>
 
-                    <div class="content-section" id="joint-function">
-                        <h3>Ankle Joint Function</h3>
-                        <div class="content-with-image">
-                            <div class="content-text">
-                                <p>The ankle joint is a hinge that allows the foot to move up (dorsiflexion) and down (plantarflexion). The ankle is a synovial joint, meaning it is enclosed in a joint capsule that contains a lubricant called synovial fluid.</p>
-                            </div>
-                        </div>
+                    <div class="content-section" id="problems">
+                        <h3>What problems do deformed toes cause?</h3>
+                        <p>The main problem with deformed toes is pain on top of the toes because they rub on shoes. This rubbing may simply be uncomfortable, or the skin may be rubbed raw. If the toes are bent upwards, particularly if it is stiff, the toe may press down and cause pain in the ball of the foot ("metatarsalgia"). Bent toes may rub on one another or on the big toe, especially if the big toe is bent towards the second toe (bunion).</p>
                     </div>
 
-                    <div class="content-section" id="bone-structure">
-                        <h3>Bone Structure and Relationships</h3>
-                        <p>The talus rests on the the heelbone (the calcaneus). The joint formed between these two bones is called the subtalar joint. The calcaneus extends backward below the ankle, forming a shelf on which the talus rests.</p>
+                    <div class="content-section" id="diagnosis">
+                        <h3>How is it diagnosed?</h3>
+                        <p>A clinical examination can diagnose any deformity. A x-ray may be asked to confirm associated problems in the foot like the bunion or a slightly long metatarsal bone.</p>
                     </div>
 
-                    <div class="content-section" id="os-trigonum">
-                        <h3>Os Trigonum and Impingement</h3>
-                        <p>Two small bony bumps, called tuberosities, project from the back of the talus, one on the inside (medial) edge and one on the outer (lateral) edge. In some people the lateral tuberosity is not united to the talus. The separate piece of bone is called an os trigonum. This separation of the os trigonum from the talus is usually not a fracture. About 15 percent of people have an os trigonum. An os trigonum sometimes causes problems of impingement in the back of the ankle.</p>
+                    <div class="content-section" id="solutions">
+                        <h3>My toes are curled and rub on my shoe. Is there anything simple I can do?</h3>
+                        <p>The most important thing is to buy shoes which have enough room in the toe area for your toes to fit comfortably. Avoid high heels, which tend to force the toes down into the tip of the shoe. Small pads on the top or end of the toe may improve the discomfort.</p>
                     </div>
 
                 </div>
                 <div class="widget widget-dr-kini desktop-hidden">
-                    <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Ankle Impingement">
+                    <img src="../assets/images/home-about/Dr.AbhishekKini-Homepage.webp" alt="Toe Deformity">
                     <h6 style="margin-bottom:0px;margin-top:10px;padding-bottom:0px;">Dr. Abhishek Kini</h6>
                     <p style="font-style: italic;">Foot & Ankle Specialist</p>
                     <a href="../about.php" class="view-all-btn contact-btn">Know More</a>
@@ -141,7 +137,7 @@
             const tocLinks = document.querySelectorAll('.toc-link');
             
             let current = '';
-            const scrollPos = window.scrollY + 150; // Offset for header
+            const scrollPos = window.scrollY + 150;
             
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
@@ -160,13 +156,9 @@
             });
         }
 
-        // Update TOC on scroll
         window.addEventListener('scroll', updateActiveTOC);
-        
-        // Update TOC on load
         document.addEventListener('DOMContentLoaded', updateActiveTOC);
 
-        // Header scroll effect
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
             if (window.scrollY > 50) {
@@ -176,5 +168,3 @@
             }
         });
     </script>
-</body>
-</html>
