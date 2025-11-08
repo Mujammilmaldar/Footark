@@ -239,28 +239,46 @@ else {
                                     <div class="dropdown-column">
                                         <h6 class="dropdown-title">Ankle Conditions</h6>
                                         <ul class="dropdown-list">
-                                            <li><a href="<?php echo $pathPrefix; ?>conditions/anklesprain.php">Ankle sprain / Instability</a></li>
-                                            <li><a href="<?php echo $pathPrefix; ?>conditions/ankle-osteochondral.php">Ankle osteochondral lesion</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/anklesprain.php">Ankle Sprain / Instability</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/ankle-osteochondral.php">Ankle Osteochondral Lesion</a></li>
                                             <li><a href="<?php echo $pathPrefix; ?>conditions/ankle-impingement.php">Ankle Impingement</a></li>
-                                            <li><a href="<?php echo $pathPrefix; ?>conditions/ankle-synovitis.php">Ankle synovitis</a></li>
-                                            <li><a href="<?php echo $pathPrefix; ?>conditions/ankle-arthritis.php">Ankle arthritis</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/ankle-synovitis.php">Ankle Synovitis</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/ankle-arthiritis.php">Ankle Arthritis</a></li>
                                         </ul>
                                     </div>
                                     <div class="dropdown-column">
                                         <h6 class="dropdown-title">Tendon Issues</h6>
                                         <ul class="dropdown-list">
-                                            <li><a href="<?php echo $pathPrefix; ?>conditions/achilles-tendon-pain.php">Achilles tendon pain</a></li>
-                                            <li><a href="<?php echo $pathPrefix; ?>conditions/tendon-rupture.php">Achilles tendon rupture</a></li>
-                                            <li><a href="<?php echo $pathPrefix; ?>peroneal-tendon.php">Peroneal tendon issues</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/achilles-tendon-pain.php">Achilles Tendon Pain</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/tendon-rupture.php">Achilles Tendon Rupture</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/peroneal-tendon.php">Peroneal Tendon Issues</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-column">
+                                        <h6 class="dropdown-title">Midfoot & Arthritis</h6>
+                                        <ul class="dropdown-list">
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/arthritis-midfoot.php">Arthritis - Midfoot</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/arthritis-subtalar.php">Arthritis - Subtalar</a></li>
                                         </ul>
                                     </div>
                                     <div class="dropdown-column">
                                         <h6 class="dropdown-title">Foot Problems</h6>
                                         <ul class="dropdown-list">
-                                            <li><a href="<?php echo $pathPrefix; ?>flat-foot.php">Flat foot</a></li>
-                                            <li><a href="<?php echo $pathPrefix; ?>bunion.php">Bunion</a></li>
-                                            <li><a href="<?php echo $pathPrefix; ?>heel-pain.php">Heel pain</a></li>
-                                            <li><a href="<?php echo $pathPrefix; ?>neuroma.php">Neuroma</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/flat-foot.php">Flat Foot</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/cavus-foot.php">Cavus Foot</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/foot-ankle.php">Foot & Ankle</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/bunion.php">Bunion</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/heel-pain.php">Heel Pain</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/neuroma.php">Neuroma</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-column">
+                                        <h6 class="dropdown-title">Toe & Other Issues</h6>
+                                        <ul class="dropdown-list">
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/great-toe.php">Great Toe</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/toe-deformity.php">Toe Deformity</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/sesmoiditis.php">Sesamoiditis</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>conditions/freibergs-disease.php">Freiberg's Disease</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -268,22 +286,43 @@ else {
                         </li>
                         <li class="menu-item dropdown">
                             <div class="dropdown-container">
-                                <a href="<?php echo $pathPrefix; ?>conditions.php" class="menu-link treatments-link">
+                                <a href="<?php echo $pathPrefix; ?>treatments.php" class="menu-link treatments-link">
                                     Treatments
                                 </a>
                                 <span class="dropdown-arrow" data-dropdown-toggle>
                                     <i class="fas fa-chevron-down"></i>
                                 </span>
                             </div>
-                            <div class="dropdown-menu">
-                                <ul class="dropdown-list">
-                                    <li><a href="<?php echo $pathPrefix; ?>t-ankle-arthroscopy.php">Ankle arthroscopy</a></li>
-                                    <li><a href="<?php echo $pathPrefix; ?>t-ankle-ligament.php">Ankle Ligament reconstruction</a></li>
-                                    <li><a href="<?php echo $pathPrefix; ?>t-ankle-fusion.php">Ankle fusion</a></li>
-                                    <li><a href="<?php echo $pathPrefix; ?>t-bunion-surgery.php">Bunion surgery</a></li>
-                                    <li><a href="<?php echo $pathPrefix; ?>flat-foot-treatment.php">Flat foot treatment</a></li>
-                                    <li><a href="<?php echo $pathPrefix; ?>t-neuroma.php">Neuroma excision</a></li>
-                                </ul>
+                            <div class="dropdown-menu mega-dropdown">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-column">
+                                        <h6 class="dropdown-title">Ankle Treatments</h6>
+                                        <ul class="dropdown-list">
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-ankle-arthroscopy.php">Ankle Arthroscopy</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-ankle-ligament.php">Ankle Ligament Reconstruction</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-ankle-fusion.php">Ankle Fusion</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-column">
+                                        <h6 class="dropdown-title">Foot Treatments</h6>
+                                        <ul class="dropdown-list">
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-bunion-surgery.php">Bunion Surgery</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-flat-foot.php">Flat Foot Treatment</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-foot-fusion.php">Foot Fusion</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-hindfoot-endoscopy.php">Hindfoot Endoscopy</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-column">
+                                        <h6 class="dropdown-title">Specialized Procedures</h6>
+                                        <ul class="dropdown-list">
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-big-toe.php">Big Toe Surgery</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-toe-deformity.php">Toe Deformity Correction</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-neuroma.php">Neuroma Excision</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-tendon-rupture.php">Tendon Rupture Repair</a></li>
+                                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-tendon-enthesophyte.php">Tendon Enthesophyte</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </li>
                          <li class="menu-item">

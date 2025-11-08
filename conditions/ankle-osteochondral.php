@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="../assets/images/conditions/osteochondral12.jpg" alt="Ankle Osteochondral lesion">
+                    <img src="../assets/images/condition/Ankle Osteochondral Lesion.png" alt="Ankle Osteochondral lesion">
                 </div>
             </div>
         </div>

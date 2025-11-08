@@ -71,7 +71,7 @@
                             <i class="fas fa-procedures"></i>
                         </div>
                         <div class="link-content">
-                            <h3>Swelling & Elevation</h3>
+                            <h3>Swelling & Elevation</h3> 
                             <p>Managing swelling with ice and elevation</p>
                         </div>
                     </a>
