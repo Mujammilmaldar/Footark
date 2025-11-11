@@ -140,6 +140,15 @@ else {
     <?php if (strpos($_SERVER['REQUEST_URI'], '/conditions/') !== false): ?>
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/inner-pages.css">
     <?php endif; ?>
+    <?php if (strpos($_SERVER['REQUEST_URI'], '/treatments/') !== false): ?>
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/inner-pages.css">
+    <?php endif; ?>
+    <?php if (strpos($_SERVER['REQUEST_URI'], 'conditions.php') !== false): ?>
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/procedures.css">
+    <?php endif; ?>
+    <?php if (strpos($_SERVER['REQUEST_URI'], 'treatments.php') !== false): ?>
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/procedures.css">
+    <?php endif; ?>
     <?php if (strpos($_SERVER['REQUEST_URI'], '/rehabilitation/') !== false): ?>
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/rehabilitation-inner-page.css">
     <?php endif; ?>

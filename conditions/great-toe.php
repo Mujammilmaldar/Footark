@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/Arthritisgreat toe.jpg" alt="Great Toe Arthritis">
+                            <img src="../assets/images/Arthritisgreat toe.jpg" alt="Great Toe Arthritis">
                         </div>
                         
                         <p>Expert treatment for hallux rigidus and big toe arthritis. Our specialized approach helps restore function and reduce pain in the most common site of foot arthritis.</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/Arthritisgreat toe.jpg" alt="Great Toe Arthritis">
+                    <img src="../assets/images/Arthritisgreat toe.jpg" alt="Great Toe Arthritis">
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                                 <p>Hallux rigidus is the medical name for arthritis that occurs at the base of the big toe. The joint at the base of the big toe is called the first metatarsophalangeal joint, or MTP joint. This is the junction of the long bone of the forefoot and the small bone of the big toe. Because of the mechanics of our feet, this joint is especially prone to developing arthritis. In fact, hallux rigidus, or big toe arthritis, is the most common site of arthritis in the foot.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Arthritisgreat toe.jpg" alt="Great Toe Arthritis">
+                                <img src="../assets/images/Arthritisgreat toe.jpg" alt="Great Toe Arthritis">
                             </div>
                         </div>
                     </div>
@@ -156,3 +156,4 @@
             }
         });
     </script>
+

@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                            <img src="../assets/images/impegment.jpg" alt="Ankle Impingement">
                         </div>
                         
                         <p>Expert treatment for ankle impingement syndrome. Our specialized approach addresses both anterior and posterior impingement, helping patients return to pain-free movement and activity.</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                    <img src="../assets/images/impegment.jpg" alt="Ankle Impingement">
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                                 <p>Ankle impingement occurs when soft tissues around the ankle are pinched or nipped. Impingement mainly happens when the ankle is fully bent up or down, leading to pain either in the front or back of the ankle joint. Problems near the front of the joint are usually associated with past ankle sprains. Pinching in the back of the ankle occurs most often in ballet dancers and is usually due to irritation around a bony prominence on the back of the ankle.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../images/impegment.jpg" alt="Ankle Impingement">
+                                <img src="../assets/images/impegment.jpg" alt="Ankle Impingement">
                             </div>
                         </div>
                     </div>
@@ -178,3 +178,4 @@
     </script>
 </body>
 </html>
+

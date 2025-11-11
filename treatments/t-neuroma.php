@@ -12,21 +12,21 @@
                         <span style="color: #ffffff;">Neuroma Excision</span>
                     </div>
                     <div class="hero-content">
-                        <h1>Neuroma Excision Treatment</h1>
+                        <h1>Neuroma Excision Surgery</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
-                        <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/Neuromaexcisiontr1.jpg" alt="Neuroma Excision">
-                        </div>
+                        <!-- <div class="mobile-hero-image desktop-hidden">
+                            <img src="../assets/images/Neuromaexcisiontr1.jpg" alt="Neuroma Excision">
+                        </div> -->
                         
-                        <p>Surgical neuroma excision to remove painful nerve growths in the foot. Our specialized procedure provides effective relief from Morton's neuroma and restores comfortable walking.</p>
+                        <p>Expert neuroma excision surgery to eliminate nerve pain. Our specialized techniques provide lasting relief from Morton's neuroma and other nerve entrapments in the foot.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/Neuromaexcisiontr1.jpg" alt="Neuroma Excision">
+                    <img src="../assets/images/Neuromaexcisiontr1.jpg" alt="Neuroma Excision">
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                                 <p>Neuroma excision is surgery to remove a swollen and enlarged nerve called a neuroma, or a Morton neuroma. It usually occurs in the ball of your foot, between your third and fourth toes. The neuroma becomes pinched between toe bones and ligaments and causes pain when you walk. Surgery may be used to relieve pressure from the neuroma, or to remove it.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Neuromaexcisiontr1.jpg" alt="Neuroma Excision">
+                                <img src="../assets/images/Neuromaexcisiontr1.jpg" alt="Neuroma Excision">
                             </div>
                         </div>
                     </div>

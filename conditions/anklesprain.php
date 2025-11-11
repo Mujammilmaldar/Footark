@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../assets/images/services/inner-pages/AnkleSprain.webp" alt="Ankle Sprain">
+                            <img src="../assets/images/AnkleSprain.webp" alt="Ankle Sprain">
                         </div>
                         
                         <p>Expert care for ankle sprains and chronic instability. Our specialized team helps patients recover from acute injuries and provides long-term solutions for recurring ankle problems.</p>
@@ -198,3 +198,4 @@
             }
         });
     </script>
+

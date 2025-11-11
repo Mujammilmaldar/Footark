@@ -12,21 +12,21 @@
                         <span style="color: #ffffff;">Arthroscopic Ankle Fusion</span>
                     </div>
                     <div class="hero-content">
-                        <h1>Arthroscopic Ankle Fusion Treatment</h1>
+                        <h1>Ankle Fusion Surgery (Arthrodesis)</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
-                        <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/anklefusion1.jpg" alt="Ankle Fusion">
-                        </div>
+                        <!-- <div class="mobile-hero-image desktop-hidden">
+                            <img src="../assets/images/anklefusion1.jpg" alt="Ankle Fusion">
+                        </div> -->
                         
-                        <p>Advanced arthroscopic ankle fusion procedures for severe ankle arthritis and deformities. Our specialized minimally invasive approach provides effective pain relief and improved stability.</p>
+                        <p>Expert ankle fusion surgery (arthrodesis) to restore stability and relieve pain. Our specialized approach provides long-term solutions for severe ankle arthritis and joint damage.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/anklefusion1.jpg" alt="Ankle Fusion">
+                    <img src="../assets/images/anklefusion1.jpg" alt="Ankle Fusion">
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                                 <p>This is an operation to "fuse" or stiffen the ankle joint.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/anklefusion1.jpg" alt="Ankle Fusion">
+                                <img src="../assets/images/anklefusion1.jpg" alt="Ankle Fusion">
                             </div>
                         </div>
                     </div>

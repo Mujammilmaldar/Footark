@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/Heelpain.jpg" alt="Heel Pain Treatment">
+                            <img src="../assets/images/Heelpain.jpg" alt="Heel Pain Treatment">
                         </div>
                         
                         <p>Comprehensive treatment for heel pain and plantar fasciitis. Our specialized approach provides effective relief from chronic heel pain and prevents recurrence.</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/Heelpain.jpg" alt="Heel Pain Treatment">
+                    <img src="../assets/images/Heelpain.jpg" alt="Heel Pain Treatment">
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
                                 <p>Plantar fasciitis causes pain in the bottom of the heel. The plantar fascia is a thin ligament that connects your heel to the front of your foot. It supports the arch in your foot and is important in helping you walk. Plantar fasciitis is one of the most common orthopedic complaints. Your plantar fascia ligaments experience a lot of wear and tear in your daily life. Normally, these ligaments act as shock absorbers, supporting the arch of the foot. Too much pressure on your feet can damage or tear the ligaments. The plantar fascia becomes inflamed, and the inflammation causes heel pain and stiffness.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Heelpain.jpg" alt="Heel Pain">
+                                <img src="../assets/images/Heelpain.jpg" alt="Heel Pain">
                             </div>
                         </div>
                     </div>
@@ -196,3 +196,4 @@
             }
         });
     </script>
+

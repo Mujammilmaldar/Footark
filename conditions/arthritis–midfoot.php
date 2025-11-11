@@ -35,7 +35,7 @@
         <h1 class="section-title">Arthritis – Midfoot </h1>
         <div class="row">
             <div class="col-md-8">
-                <img src="images/Midfoot.jpg" style="width:100%" class="img-thumbnail"><br><br>
+                <img src="../assets/images/Midfoot.jpg" style="width:100%" class="img-thumbnail"><br><br>
              
                <p>Subtalar arthritis is characterized by pain in the hindfoot that is aggravated by standing and walking, particularly on uneven ground. It is likely to be associated with stiffness when attempting to move the foot from side to side. The location of the pain is commonly just below the level of the inside and outside ankle bones (medial and lateral malleoli). The most common cause of subtalar arthritis is a previous injury – usually a calcaneal fracture, or abnormal alignment of the heal bone.</p>
 
@@ -143,3 +143,4 @@ $('#section-testimonial').owlCarousel({
 
 </body>
 </html>
+

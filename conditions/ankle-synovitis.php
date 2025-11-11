@@ -17,7 +17,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../images/ankle-synovitis.jpg" alt="Ankle Synovitis">
+                            <img src="../assets/images/ankle-synovitis.jpg" alt="Ankle Synovitis">
                         </div>
                         
                         <p>Expert treatment for ankle synovitis and inflammation. Our specialized approach addresses the underlying causes and provides effective relief from joint swelling and pain.</p>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="../images/ankle-synovitis.jpg" alt="Ankle Synovitis">
+                    <img src="../assets/images/ankle-synovitis.jpg" alt="Ankle Synovitis">
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                                 <p>A protective coating called synovium covers ankle joint. Ankle synovitis is the inflammation of this synovium. Synovitis of the ankle can be the resultant of autoimmune disorders like gout and rheumatoid arthritis or an injury.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../images/ankle-synovitis.jpg" alt="Ankle Synovitis">
+                                <img src="../assets/images/ankle-synovitis.jpg" alt="Ankle Synovitis">
                             </div>
                         </div>
                     </div>
@@ -171,3 +171,4 @@
     </script>
 </body>
 </html>
+

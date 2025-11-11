@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/toedeformity.jpg" alt="Toe Deformity Treatment">
+                            <img src="../assets/images/toedeformity.jpg" alt="Toe Deformity Treatment">
                         </div>
                         
                         <p>Expert treatment for toe deformities including hammertoes and claw toes. Our specialized approach addresses the root causes and provides effective solutions for improved foot function.</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/toedeformity.jpg" alt="Toe Deformity Treatment">
+                    <img src="../assets/images/toedeformity.jpg" alt="Toe Deformity Treatment">
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                                 <p>The small toes of the foot play an important role in movement, i.e. walking or running. They share the pressure with the big toe and help in pushing off with the foot.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/toedeformity.jpg" alt="Toe Deformity">
+                                <img src="../assets/images/toedeformity.jpg" alt="Toe Deformity">
                             </div>
                         </div>
                     </div>
@@ -168,3 +168,4 @@
             }
         });
     </script>
+

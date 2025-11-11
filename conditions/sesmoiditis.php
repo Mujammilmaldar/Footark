@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/sesamoiditis.jpg" alt="Sesamoiditis Treatment">
+                            <img src="../assets/images/sesamoiditis.jpg" alt="Sesamoiditis Treatment">
                         </div>
                         
                         <p>Expert treatment for sesamoiditis and sesamoid bone injuries. Our specialized approach provides effective relief from pain under the great toe and helps restore normal function.</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/sesamoiditis.jpg" alt="Sesamoiditis Treatment">
+                    <img src="../assets/images/sesamoiditis.jpg" alt="Sesamoiditis Treatment">
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                                 <p>Sesamoids act like pulleys. They provide a smooth surface over which the tendons slide, thus increasing the ability of the tendons to transmit muscle forces. The sesamoids in the forefoot also assist with weightbearing and help elevate the bones of the great toe. Like other bones, sesamoids can break (fracture). Additionally, the tendons surrounding the sesamoids can become irritated or inflamed. This is called sesamoiditis and is a form of tendinitis. It is common among ballet dancers, runners and baseball catchers.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/sesamoiditis.jpg" alt="Sesamoiditis">
+                                <img src="../assets/images/sesamoiditis.jpg" alt="Sesamoiditis">
                             </div>
                         </div>
                     </div>
@@ -155,3 +155,4 @@
             }
         });
     </script>
+

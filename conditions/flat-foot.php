@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../images/Flat.jpg" alt="Flat Foot">
+                            <img src="../assets/images/Flat.jpg" alt="Flat Foot">
                         </div>
                         
                         <p>Expert treatment for flat feet and fallen arches. Our comprehensive approach addresses both physiological and pathological flat foot conditions with personalized care.</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="../images/Flat.jpg" alt="Flat Foot">
+                    <img src="../assets/images/Flat.jpg" alt="Flat Foot">
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@ The arch develops in childhood, by the age of 9 - 10 years. In some people the a
 The shape of the bones sets the shape of the foot. The ligaments and muscles form secondary supports. There is a large muscle on the inner side of foot, the Tibialis Posterior muscle, which supports the arch. Damage to the Tibialis Posterior tendon can cause the foot to flatten.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../images/Flat.jpg" alt="Flat Foot">
+                                <img src="../assets/images/Flat.jpg" alt="Flat Foot">
                             </div>
                         </div>
                     </div>
@@ -191,4 +191,5 @@ The shape of the bones sets the shape of the foot. The ligaments and muscles for
             }
         });
     </script>
+
 

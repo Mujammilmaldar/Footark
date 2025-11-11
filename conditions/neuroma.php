@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/Neuroma.jpg" alt="Neuroma Treatment">
+                            <img src="../assets/images/Neuroma.jpg" alt="Neuroma Treatment">
                         </div>
                         
                         <p>Expert treatment for neuromas and nerve pain in the foot. Our specialized approach provides effective relief from pinched nerves and painful nerve conditions.</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/Neuroma.jpg" alt="Neuroma Treatment">
+                    <img src="../assets/images/Neuroma.jpg" alt="Neuroma Treatment">
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                                 <p>The principal symptom associated with a neuroma is pain between the toes while walking. Those suffering from the condition often find relief by stopping their walk, taking off their shoe, and rubbing the affected area. At times, the patient will describe the pain as similar to having a stone in his or her shoe. The vast majority of people who develop neuromas are women.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Neuroma.jpg" alt="Neuroma">
+                                <img src="../assets/images/Neuroma.jpg" alt="Neuroma">
                             </div>
                         </div>
                     </div>
@@ -167,3 +167,4 @@
             }
         });
     </script>
+

@@ -15,9 +15,9 @@
                         <h1>Ankle Arthroscopy Treatment</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
-                        <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/arthroscopytr.jpg" alt="Ankle Arthroscopy">
-                        </div>
+                        <!-- <div class="mobile-hero-image desktop-hidden">
+                            <img src="../assets/images/arthroscopytr.jpg" alt="Ankle Arthroscopy">
+                        </div> -->
                         
                         <p>Advanced minimally invasive ankle arthroscopy procedures. Our specialized team uses cutting-edge arthroscopic techniques for precise diagnosis and treatment of ankle conditions.</p>
                         <div class="hero-buttons">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/arthroscopytr.jpg" alt="Ankle Arthroscopy">
+                    <img src="../assets/images/arthroscopytr.jpg" alt="Ankle Arthroscopy">
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                                 <p>An arthroscope is a tiny TV camera that can be inserted into a very small incision. It allows the surgeon to see the area where he or she is working on a TV screen.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/arthroscopytr.jpg" alt="Ankle Arthroscopy">
+                                <img src="../assets/images/arthroscopytr.jpg" alt="Ankle Arthroscopy">
                             </div>
                         </div>
                     </div>

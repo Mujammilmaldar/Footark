@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/Bunion.jpg" alt="Bunion Treatment">
+                            <img src="../assets/images/Bunion.jpg" alt="Bunion Treatment">
                         </div>
                         
                         <p>Comprehensive treatment for bunions and hallux valgus deformities. Our specialized approach addresses both pain relief and corrective solutions for better foot function.</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/Bunion.jpg" alt="Bunion Treatment">
+                    <img src="../assets/images/Bunion.jpg" alt="Bunion Treatment">
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
                                 <p>Hallux valgus, often referred to as "a bunion," is a deformity of the big toe. It's a sore bump which develops on the joint connecting the big toe to the foot. The toe tilts over towards the smaller toes. Sometimes a soft fluid swelling develops over the bony lump due to constant rubbing on the inside of the shoe.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Bunion.jpg" alt="Bunion">
+                                <img src="../assets/images/Bunion.jpg" alt="Bunion">
                             </div>
                         </div>
                     </div>
@@ -174,3 +174,4 @@
             }
         });
     </script>
+

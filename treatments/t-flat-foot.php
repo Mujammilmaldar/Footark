@@ -12,21 +12,21 @@
                         <span style="color: #ffffff;">Flat Foot Reconstruction</span>
                     </div>
                     <div class="hero-content">
-                        <h1>Flat Foot Reconstruction Treatment</h1>
+                        <h1>Flat Foot Reconstruction Surgery</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
-                        <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/flatfootrec1.jpg" alt="Flat Foot Reconstruction">
-                        </div>
+                        <!-- <div class="mobile-hero-image desktop-hidden">
+                            <img src="../assets/images/flatfootrec1.jpg" alt="Flat Foot Reconstruction">
+                        </div> -->
                         
-                        <p>Comprehensive flat foot reconstruction surgery to restore arch support and function. Our specialized procedures repair ligaments, tendons, and bones to reduce pain and improve mobility.</p>
+                        <p>Comprehensive flat foot reconstruction surgery to restore the arch and improve function. Our specialized techniques address adult acquired flatfoot deformity and posterior tibial tendon dysfunction.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/flatfootrec1.jpg" alt="Flat Foot Reconstruction">
+                    <img src="../assets/images/flatfootrec1.jpg" alt="Flat Foot Reconstruction">
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                                 <p>Flatfoot reconstruction is a combination of surgical procedures that repair the foot's ligaments and tendons and correct deformities of the bones to restore and support the arch. These adjustments can reduce pain and help the patient return to an active life.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/flatfootrec1.jpg" alt="Flat Foot Reconstruction">
+                                <img src="../assets/images/flatfootrec1.jpg" alt="Flat Foot Reconstruction">
                             </div>
                         </div>
                     </div>

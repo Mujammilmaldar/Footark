@@ -12,21 +12,21 @@
                         <span style="color: #ffffff;">Big Toe Fusion</span>
                     </div>
                     <div class="hero-content">
-                        <h1>Big Toe Fusion Treatment</h1>
+                        <h1>Big Toe Fusion Surgery (Arthrodesis)</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
-                        <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/bigtoe1.jpg" alt="Big Toe Fusion">
-                        </div>
+                        <!-- <div class="mobile-hero-image desktop-hidden">
+                            <img src="../assets/images/bigtoe1.jpg" alt="Big Toe Fusion">
+                        </div> -->
                         
-                        <p>Advanced big toe fusion surgery for severe arthritis and joint degeneration. Our specialized approach provides effective pain relief and improved function for the first metatarsophalangeal joint.</p>
+                        <p>Specialized big toe fusion surgery (arthrodesis) for severe arthritis and hallux rigidus. Our expert techniques restore function and eliminate pain in the great toe joint.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/bigtoe1.jpg" alt="Big Toe Fusion">
+                    <img src="../assets/images/bigtoe1.jpg" alt="Big Toe Fusion">
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                                 <p>After the surfaces are ready they are held in a functional position for the big toe and fixed rigidly using small plates (see picture) and screws. The joint will then heal into one solid bone.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/bigtoe1.jpg" alt="Big Toe Fusion">
+                                <img src="../assets/images/bigtoe1.jpg" alt="Big Toe Fusion">
                             </div>
                         </div>
                     </div>

@@ -15,9 +15,9 @@
                         <h1>Achilles Tendon Rupture Repair Surgery</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
-                        <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/Achillestendonrupturerepairtr1.jpg" alt="Achilles Tendon Rupture Repair">
-                        </div>
+                        <!-- <div class="mobile-hero-image desktop-hidden">
+                            <img src="../assets/images/Achillestendonrupturerepairtr1.jpg" alt="Achilles Tendon Rupture Repair">
+                        </div> -->
                         
                         <p>Expert Achilles tendon rupture repair surgery to restore strength and function. Our specialized techniques provide optimal healing for complete tendon tears and degenerative conditions.</p>
                         <div class="hero-buttons">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/Achillestendonrupturerepairtr1.jpg" alt="Achilles Tendon Rupture Repair">
+                    <img src="../assets/images/Achillestendonrupturerepairtr1.jpg" alt="Achilles Tendon Rupture Repair">
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                                 <p>The Achilles tendon can also degenerate. This is also known as tendinitis or tendinopathy. This might cause symptoms like pain and stiffness along your Achilles tendon and on the back of your heel. This is most often through overuse and repeated stress to the tendon. It can result from repeated stress on your tendon, especially if you have recently been more active. Having short calf muscles can increase your risk of tendinopathy.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Achillestendonrupturerepairtr1.jpg" alt="Achilles Tendon Rupture Repair">
+                                <img src="../assets/images/Achillestendonrupturerepairtr1.jpg" alt="Achilles Tendon Rupture Repair">
                             </div>
                         </div>
                     </div>

@@ -285,7 +285,7 @@ document.body.className += ' blog-wrapper';
         <h1 class="section-title"> MARATHON TRAINING</h1>
         <div class="row">
             <div class="col-md-8">
-                <img src="images/marathon-training.jpg" style="width:100%" class="img-thumbnail"><br><br>
+                <img src="../assets/images/marathon-training.jpg" style="width:100%" class="img-thumbnail"><br><br>
               
                <p> If on the day you are reading this article; the time left for the actual day of the Marathon is less than 3 months and you haven't been training already, do not participate in the marathon. 
 </p>
@@ -475,5 +475,6 @@ document.querySelectorAll('.blog-content-card, .blog-exercise-card').forEach(car
 
 </body>
 </html>
+
 
 

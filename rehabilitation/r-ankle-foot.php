@@ -104,7 +104,7 @@
                         
                         <div class="medical-card">
                             <div class="rehab-featured-image">
-                                <img src="images/r-ankle-foot.jpg" style="width:100%" class="img-thumbnail"><br><br>
+                                <img src="../assets/images/r-ankle-foot.jpg" style="width:100%" class="img-thumbnail"><br><br>
                             </div>
                             
                             <div class="instruction-block priority-high">
@@ -304,3 +304,4 @@
     </script>
 </body>
 </html>
+

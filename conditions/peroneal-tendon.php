@@ -18,7 +18,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/Peroneal.jpg" alt="Peroneal Tendon Treatment">
+                            <img src="../assets/images/Peroneal.jpg" alt="Peroneal Tendon Treatment">
                         </div>
                         
                         <p>Expert care for peroneal tendon injuries and instability. Our specialized approach addresses tendon pain, tears, and dislocation for optimal recovery and ankle stability.</p>
@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/Peroneal.jpg" alt="Peroneal Tendon Treatment">
+                    <img src="../assets/images/Peroneal.jpg" alt="Peroneal Tendon Treatment">
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
                                 <p>There are two peroneal tendons behind the outer bone of the ankle. They run down behind the ankle and go into the foot. They turn the foot outwards and stabilize the ankle dynamically.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Peroneal.jpg" alt="Peroneal Tendon">
+                                <img src="../assets/images/Peroneal.jpg" alt="Peroneal Tendon">
                             </div>
                         </div>
                     </div>
@@ -177,3 +177,4 @@
             }
         });
     </script>
+

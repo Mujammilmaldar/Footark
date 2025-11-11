@@ -12,21 +12,21 @@
                         <span style="color: #ffffff;">Foot Fusion</span>
                     </div>
                     <div class="hero-content">
-                        <h1>Foot Fusion Treatment</h1>
+                        <h1>Foot Fusion Surgery (Arthrodesis)</h1>
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
-                        <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/Footfusiontr1.jpg" alt="Foot Fusion">
-                        </div>
+                        <!-- <div class="mobile-hero-image desktop-hidden">
+                            <img src="../assets/images/Footfusiontr1.jpg" alt="Foot Fusion">
+                        </div> -->
                         
-                        <p>Comprehensive foot fusion surgery for arthritic joints and deformities. Our specialized approach permanently joins bones to eliminate pain and restore stability in severe foot conditions.</p>
+                        <p>Expert foot fusion surgery for midfoot and hindfoot arthritis. Our specialized arthrodesis techniques restore stability and eliminate pain in affected foot joints.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/Footfusiontr1.jpg" alt="Foot Fusion">
+                    <img src="../assets/images/Footfusiontr1.jpg" alt="Foot Fusion">
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                                 <p>Foot fusion surgery is carried out to permanently join or stiffen the joint between arthritic bones. It is used to treat a wide range of conditions including arthritis, flat feet, rheumatoid arthritis and previous injuries such as fractures caused by wear and tear to bones and cartilage.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Footfusiontr1.jpg" alt="Foot Fusion">
+                                <img src="../assets/images/Footfusiontr1.jpg" alt="Foot Fusion">
                             </div>
                         </div>
                     </div>

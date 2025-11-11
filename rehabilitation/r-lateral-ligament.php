@@ -113,7 +113,7 @@
                         
                         <div class="medical-card">
                             <div class="rehab-featured-image">
-                                <img src="images/Lateral-ligament.jpg" style="width:100%" class="img-thumbnail"><br><br>
+                                <img src="../assets/images/Lateral-ligament.jpg" style="width:100%" class="img-thumbnail"><br><br>
                             </div>
                             
                             <div class="instruction-block">
@@ -423,3 +423,4 @@
     </script>
 </body>
 </html>
+

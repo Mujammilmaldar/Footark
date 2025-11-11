@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="images/Freiberg's.jpg" alt="Freiberg's Disease">
+                            <img src="../assets/images/Freiberg's.jpg" alt="Freiberg's Disease">
                         </div>
                         
                         <p>Specialized care for Freiberg's disease affecting the metatarsal bones. Our comprehensive treatment approach addresses this rare condition with personalized solutions.</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="images/Freiberg's.jpg" alt="Freiberg's Disease">
+                    <img src="../assets/images/Freiberg's.jpg" alt="Freiberg's Disease">
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
                                 <p>Freiberg's disease is rare condition that primarily affects the second or third metatarsal (the long bones of the foot). Although people of all ages can be affected by this condition, Freiberg's disease is most commonly diagnosed during adolescence through the second decade of life. Common signs and symptoms include pain and stiffness in the front of the foot, which often leads to a limp. Affected people may also experience swelling, limited range of motion, and tenderness of the affected foot. Symptoms are generally triggered by weight-bearing activities, including walking. The exact underlying cause of Freiberg's disease is currently unknown. Treatment depends on many factors, including the severity of condition; the signs and symptoms present; and the age of the patient</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Freiberg's.jpg" alt="Freiberg's Disease">
+                                <img src="../assets/images/Freiberg's.jpg" alt="Freiberg's Disease">
                             </div>
                         </div>
                     </div>
@@ -144,3 +144,4 @@
             }
         });
     </script>
+

@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../images/Midfoot.jpg" alt="Midfoot Arthritis">
+                            <img src="../assets/images/Midfoot.jpg" alt="Midfoot Arthritis">
                         </div>
                         
                         <p>Expert treatment for midfoot arthritis. Our specialized approach addresses pain and stiffness in the middle section of the foot, helping restore function and mobility.</p>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="image-container mobile-hidden">
-                    <img src="../images/Midfoot.jpg" alt="Midfoot Arthritis">
+                    <img src="../assets/images/Midfoot.jpg" alt="Midfoot Arthritis">
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                                 <p>The midfoot is the section of the foot that begins at the level of the Chopart joint. It consists of five bones, connected to each other and to the hindfoot and forefoot. The bones are known as: cuboid, navicular, medial, intermediate and lateral cuneiform bones. The midfoot ends at the Lisfranc (or tarsometatarsal) joint, where the metatarsal bones begin.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../images/Midfoot.jpg" alt="Midfoot Arthritis">
+                                <img src="../assets/images/Midfoot.jpg" alt="Midfoot Arthritis">
                             </div>
                         </div>
                     </div>
@@ -115,3 +115,4 @@
     </script>
 </body>
 </html>
+

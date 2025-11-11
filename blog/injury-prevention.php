@@ -396,3 +396,4 @@ document.querySelectorAll('.blog-content-card, .blog-exercise-card').forEach(car
 </body>
 </html>
 
+
