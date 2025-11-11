@@ -76,8 +76,6 @@ document.body.className += ' blog-wrapper';
                         <p>We want you to enjoy the sport and complete it - Most importantly we want you to respect the activity.</p>
                     </div>
 
-                    <p>Participating in a Marathon requires a lot of courage, completing it will bring great pleasure and a sense of achievement; but trust us completing it without injury will make it a great memory for you & your near and dear ones.</p>
-
                     <h3>What it Takes</h3>
                     <p>Marathon is not something that can be done without proper preparation and training. As an orthopedic surgeon, I have seen many cases of injuries and complications that could have been avoided with better planning and guidance.</p>
                     
@@ -233,27 +231,27 @@ document.body.className += ' blog-wrapper';
                     </h3>
                 </div>
                 <div class="blog-widget-body">
-                    <div class="blog-related-article">
+                    <a href="marathon-footwear.php" class="blog-related-article" style="display: flex; text-decoration: none; color: inherit; align-items: center; gap: 15px;">
                         <div class="blog-related-thumbnail"></div>
                         <div class="blog-related-content">
                             <h4>Marathon Footwear Guide</h4>
                             <p>Basics of choosing the right marathon footwear</p>
                         </div>
-                    </div>
-                    <div class="blog-related-article">
+                    </a>
+                    <a href="week-before-marathon.php" class="blog-related-article" style="display: flex; text-decoration: none; color: inherit; align-items: center; gap: 15px;">
                         <div class="blog-related-thumbnail"></div>
                         <div class="blog-related-content">
                             <h4>Week Before Marathon</h4>
                             <p>What to do and what not to do before race day</p>
                         </div>
-                    </div>
-                    <div class="blog-related-article">
+                    </a>
+                    <a href="injury-prevention.php" class="blog-related-article" style="display: flex; text-decoration: none; color: inherit; align-items: center; gap: 15px;">
                         <div class="blog-related-thumbnail"></div>
                         <div class="blog-related-content">
                             <h4>Injury Prevention</h4>
                             <p>Strategies for athletes and sportspersons</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
@@ -279,8 +277,6 @@ document.body.className += ' blog-wrapper';
 </div>
 
 <?php include "../includes/footer.php"; ?>
-   
-<section class="pad45">
     <div class="container">
         <h1 class="section-title"> MARATHON TRAINING</h1>
         <div class="row">

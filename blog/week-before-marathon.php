@@ -74,8 +74,6 @@ document.body.className += ' blog-wrapper';
                     <h2>Introduction</h2>
                 </div>
                 <div class="blog-card-body">
-                    <p>We assume if you have been preparing for a marathon and have been through grueling training you almost know what gets you going, what suits you, and what does not bode well with you.</p>
-
                     <div class="blog-medical-note">
                         <h4>Important Rule</h4>
                         <p>So, one most important tip - <strong>DO NOT TRY ANYTHING NEW</strong>. The purpose of the article is to just guide in terms of:</p>
@@ -214,27 +212,27 @@ document.body.className += ' blog-wrapper';
                     </h3>
                 </div>
                 <div class="blog-widget-body">
-                    <div class="blog-related-article">
+                    <a href="marathon-training.php" class="blog-related-article" style="display: flex; text-decoration: none; color: inherit; align-items: center; gap: 15px;">
                         <div class="blog-related-thumbnail"></div>
                         <div class="blog-related-content">
                             <h4>Marathon Training Guide</h4>
                             <p>Complete training protocol for marathon preparation</p>
                         </div>
-                    </div>
-                    <div class="blog-related-article">
+                    </a>
+                    <a href="marathon-footwear.php" class="blog-related-article" style="display: flex; text-decoration: none; color: inherit; align-items: center; gap: 15px;">
                         <div class="blog-related-thumbnail"></div>
                         <div class="blog-related-content">
                             <h4>Marathon Footwear</h4>
                             <p>Basics of choosing the right marathon shoes</p>
                         </div>
-                    </div>
-                    <div class="blog-related-article">
+                    </a>
+                    <a href="injury-prevention.php" class="blog-related-article" style="display: flex; text-decoration: none; color: inherit; align-items: center; gap: 15px;">
                         <div class="blog-related-thumbnail"></div>
                         <div class="blog-related-content">
                             <h4>Injury Prevention</h4>
                             <p>Strategies to avoid injuries during training</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
@@ -258,8 +256,6 @@ document.body.className += ' blog-wrapper';
         </aside>
     </div>
 </div>
-
-<?php include "../includes/footer.php"; ?>
 
 <?php include "../includes/footer.php"; ?>
 

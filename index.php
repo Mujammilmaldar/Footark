@@ -371,7 +371,7 @@
                 <div class="slider-viewport">
                     <div class="slider-track" id="sliderTrack">
                         
-                        <!-- Review Card 1 -->
+                        <!-- Review Card 7 -->
                         <div class="testimonial-slide">
                             <div class="google-review-card">
                                 <div class="google-header">
@@ -392,44 +392,7 @@
                                 </div>
                                 
                                 <div class="review-content">
-                                    <p class="review-text">I am a retired Paediatrician and my wife a retired GP. We had gone to India where my wife twisted her foot and fractured 4 metatarsals in her foot. Dr Kini provided exceptional care and expertise that made all the difference in her recovery.</p>
-                                    <a href="#" class="read-more">Read more</a>
-                                </div>
-                                
-                                <div class="reviewer-info">
-                                    <div class="reviewer-avatar">
-                                        <span class="avatar-text">AD</span>
-                                    </div>
-                                    <div class="reviewer-details">
-                                        <div class="reviewer-name">Adrian Daniels</div>
-                                        <div class="review-date">March 3, 2022</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Review Card 2 -->
-                        <div class="testimonial-slide">
-                            <div class="google-review-card">
-                                <div class="google-header">
-                                    <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
-                                    </div>
-                                </div>
-                                
-                                <div class="star-rating">
-                                    <div class="stars">
-                                        <span class="star">★</span>
-                                        <span class="star">★</span>
-                                        <span class="star">★</span>
-                                        <span class="star">★</span>
-                                        <span class="star">★</span>
-                                    </div>
-                                    <span class="rating-text">5.0</span>
-                                </div>
-                                
-                                <div class="review-content">
-                                    <p class="review-text">My wife saw Mr Kini as she had become unable to walk due to the build up of significant scar tissue from a former achilles injury. His surgical expertise and post-operative care were outstanding. She can now walk pain-free.</p>
+                                    <p class="review-text">I underwent talus bone and medial malleolus surgery along with ankle correction fusion surgery. He is knowledgeable, friendly and efficient. Most importantly he has the patience to listen and clear all doubts. He is quite empathetic, understanding and honest doctor. Thanks to you my Dedicated Doctor.</p>
                                     <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
@@ -438,14 +401,14 @@
                                         <span class="avatar-text">JS</span>
                                     </div>
                                     <div class="reviewer-details">
-                                        <div class="reviewer-name">John Smith</div>
-                                        <div class="review-date">February 15, 2022</div>
+                                        <div class="reviewer-name">Jagdish Shadija</div>
+                                        <div class="review-date">5 years ago</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Review Card 3 -->
+                        <!-- Review Card 8 -->
                         <div class="testimonial-slide">
                             <div class="google-review-card">
                                 <div class="google-header">
@@ -466,23 +429,23 @@
                                 </div>
                                 
                                 <div class="review-content">
-                                    <p class="review-text">I can highly recommend Dr Kini, he is a brilliant orthopaedic surgeon. I had hammered toe surgery in July, which I'm quickly recovering from. His attention to detail and patient care throughout the entire process was exceptional.</p>
+                                    <p class="review-text">One of the Best Doctors for Ankle in our country. He will always guide and give perfect advice, very knowledgeable and well informed Dr. Highly Recommended!</p>
                                     <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
                                     <div class="reviewer-avatar">
-                                        <span class="avatar-text">MJ</span>
+                                        <span class="avatar-text">NG</span>
                                     </div>
                                     <div class="reviewer-details">
-                                        <div class="reviewer-name">Mary Johnson</div>
-                                        <div class="review-date">January 28, 2022</div>
+                                        <div class="reviewer-name">Nixit Gada</div>
+                                        <div class="review-date">9 months ago</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Review Card 4 -->
+                        <!-- Review Card 9 -->
                         <div class="testimonial-slide">
                             <div class="google-review-card">
                                 <div class="google-header">
@@ -503,23 +466,23 @@
                                 </div>
                                 
                                 <div class="review-content">
-                                    <p class="review-text">I initially saw Dr Kini for a broken toe, but on the x-ray he spotted Haglunds Deformity in one foot - this was a revelation, it explained why I had been having issues. His diagnostic skills and treatment approach were exceptional.</p>
+                                    <p class="review-text">You can trust him completely. My ankle got ruptured and after visiting I felt very positive. One of the senior surgeons from Delhi gave me more confidence saying that he is a great doctor. My surgery and recovery process went very smooth. I am happy and my foot is getting better day by day.</p>
                                     <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
                                     <div class="reviewer-avatar">
-                                        <span class="avatar-text">RW</span>
+                                        <span class="avatar-text">VN</span>
                                     </div>
                                     <div class="reviewer-details">
-                                        <div class="reviewer-name">Robert Wilson</div>
-                                        <div class="review-date">December 10, 2021</div>
+                                        <div class="reviewer-name">Vinay Nagia</div>
+                                        <div class="review-date">5 years ago</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Review Card 5 -->
+                        <!-- Review Card 10 -->
                         <div class="testimonial-slide">
                             <div class="google-review-card">
                                 <div class="google-header">
@@ -540,23 +503,23 @@
                                 </div>
                                 
                                 <div class="review-content">
-                                    <p class="review-text">Dr Kini performed ankle arthroscopy for my chronic ankle pain. The procedure was minimally invasive and recovery was much faster than expected. I'm now back to running and all my normal activities without any pain.</p>
+                                    <p class="review-text">Apart from being an excellent ortho, Dr. Kini has a very rare quality where the patient and family can blindly trust and have faith in him. His positive energy is contagious and helps you win half the battle. He is one of those very few considerate doctors who takes into consideration financials of the family as well.</p>
                                     <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
                                     <div class="reviewer-avatar">
-                                        <span class="avatar-text">SP</span>
+                                        <span class="avatar-text">ML</span>
                                     </div>
                                     <div class="reviewer-details">
-                                        <div class="reviewer-name">Sarah Parker</div>
-                                        <div class="review-date">November 22, 2021</div>
+                                        <div class="reviewer-name">Mitali Lakhawala</div>
+                                        <div class="review-date">9 years ago</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Review Card 6 -->
+                        <!-- Review Card 11 -->
                         <div class="testimonial-slide">
                             <div class="google-review-card">
                                 <div class="google-header">
@@ -577,17 +540,202 @@
                                 </div>
                                 
                                 <div class="review-content">
-                                    <p class="review-text">Excellent care and treatment for my flat foot condition. Dr Kini explained everything clearly and the reconstruction surgery was very successful. The follow-up care was outstanding and I couldn't be happier with the results.</p>
+                                    <p class="review-text">Our Heartiest Thanks to feet ankle expert Dr. Abhishek Kini! Thanks a lot for wonderful surgery of my son's Ankle, fractured badly and within two months, my son is back on his feet. A Very complicated surgery and Dr. Abhishek made it Successfully Rewardable. Hats off to you Sir. Stay Blessed always.</p>
                                     <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
                                     <div class="reviewer-avatar">
-                                        <span class="avatar-text">DL</span>
+                                        <span class="avatar-text">BN</span>
                                     </div>
                                     <div class="reviewer-details">
-                                        <div class="reviewer-name">David Lee</div>
-                                        <div class="review-date">October 5, 2021</div>
+                                        <div class="reviewer-name">Batul Noble</div>
+                                        <div class="review-date">A year ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 12 -->
+                        <div class="testimonial-slide">
+                            <div class="google-review-card">
+                                <div class="google-header">
+                                    <div class="google-logo">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                    </div>
+                                </div>
+                                
+                                <div class="star-rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="rating-text">5.0</span>
+                                </div>
+                                
+                                <div class="review-content">
+                                    <p class="review-text">Humble, helpful and brilliant are few words to describe Dr Kini. He ensures his patients are taken good care of, follows up with concern and gives abundant time for us to share our issues. Recommends other therapies before suggesting a surgery. Appreciate his effort and time in helping me recover. Thank you!</p>
+                                    <a href="#" class="read-more">Read more</a>
+                                </div>
+                                
+                                <div class="reviewer-info">
+                                    <div class="reviewer-avatar">
+                                        <span class="avatar-text">SS</span>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">Shraddha Shah</div>
+                                        <div class="review-date">6 years ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 13 -->
+                        <div class="testimonial-slide">
+                            <div class="google-review-card">
+                                <div class="google-header">
+                                    <div class="google-logo">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                    </div>
+                                </div>
+                                
+                                <div class="star-rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="rating-text">5.0</span>
+                                </div>
+                                
+                                <div class="review-content">
+                                    <p class="review-text">Best doctor for the treatment of Ankle injury. Have gone through osteochondral lesion surgery and really worked for me with Dr's treatment. I was suffering a lot and visited at least 10 doctors but nothing worked for me. Finally Dr. Kini's advice and treatment worked for me very well. Thank you so very much.</p>
+                                    <a href="#" class="read-more">Read more</a>
+                                </div>
+                                
+                                <div class="reviewer-info">
+                                    <div class="reviewer-avatar">
+                                        <span class="avatar-text">AO</span>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">Abhinav Onkar</div>
+                                        <div class="review-date">5 years ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 14 -->
+                        <div class="testimonial-slide">
+                            <div class="google-review-card">
+                                <div class="google-header">
+                                    <div class="google-logo">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                    </div>
+                                </div>
+                                
+                                <div class="star-rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="rating-text">5.0</span>
+                                </div>
+                                
+                                <div class="review-content">
+                                    <p class="review-text">A big thanks to feet ankle expert Dr. Abhishek! I had a bad Achilles tendon rupture & was operated from a local orthopedic surgeon. However things got worse. This is where Dr. Abhishek was referred to us. Got operated for debridement & TA repair & now back on my feet with much more confidence & completely healed. Thank you for your support Sir.</p>
+                                    <a href="#" class="read-more">Read more</a>
+                                </div>
+                                
+                                <div class="reviewer-info">
+                                    <div class="reviewer-avatar">
+                                        <span class="avatar-text">AJ</span>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">Abhijit Jamble</div>
+                                        <div class="review-date">2 years ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 15 -->
+                        <div class="testimonial-slide">
+                            <div class="google-review-card">
+                                <div class="google-header">
+                                    <div class="google-logo">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                    </div>
+                                </div>
+                                
+                                <div class="star-rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="rating-text">5.0</span>
+                                </div>
+                                
+                                <div class="review-content">
+                                    <p class="review-text">I met Dr Abhishek Kini 7 years ago for my Hallux Valgus problem. I think that he is a very soft spoken and a gentle person. Dr Abhishek is also knowledgeable and helpful. I just underwent a big toe surgery under his guidance. Thanks so much Dr Abhishek for always being there for me!</p>
+                                    <a href="#" class="read-more">Read more</a>
+                                </div>
+                                
+                                <div class="reviewer-info">
+                                    <div class="reviewer-avatar">
+                                        <span class="avatar-text">MH</span>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">Madhavi Hadker</div>
+                                        <div class="review-date">3 years ago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 16 -->
+                        <div class="testimonial-slide">
+                            <div class="google-review-card">
+                                <div class="google-header">
+                                    <div class="google-logo">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                    </div>
+                                </div>
+                                
+                                <div class="star-rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="rating-text">5.0</span>
+                                </div>
+                                
+                                <div class="review-content">
+                                    <p class="review-text">I can never thank you enough for all your efforts. You are truly a man of honour and word. In my hardest moments you provided a light amongst the dark. Dr. Abhishek gave me moral support. He is an expert surgeon and an empathetic human being who understands the anxiety of patients. God bless you always Dr. Abhishek.</p>
+                                    <a href="#" class="read-more">Read more</a>
+                                </div>
+                                
+                                <div class="reviewer-info">
+                                    <div class="reviewer-avatar">
+                                        <span class="avatar-text">VP</span>
+                                    </div>
+                                    <div class="reviewer-details">
+                                        <div class="reviewer-name">Vidhi Patel</div>
+                                        <div class="review-date">3 years ago</div>
                                     </div>
                                 </div>
                             </div>

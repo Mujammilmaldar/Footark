@@ -77,8 +77,6 @@ document.body.className += ' blog-wrapper';
                     <h2>Choosing the Right Marathon Footwear</h2>
                 </div>
                 <div class="blog-card-body">
-                    <p>As an orthopaedic doctor specialising in Foot & Ankle, I often get asked about the kind of footwear one should use in a marathon. Running a marathon is a challenging and rewarding activity, but it also puts a lot of stress on your feet and lower limbs. And if that stress is controlled, its great for your feet health. So run!!</p>
-
                     <p>Now since Mumbai Marathon 2024, is just round the corner, we believe information on how to choose your marathon footwear will be useful for the aspirants.</p>
                     
                     <p>Choosing the right shoe can make a big difference not only in your performance, comfort and injury prevention but also will make the activity enjoyable. I have seen many of my friends ditch the activity not because of the strain on body or inertia when you start a new activity like gym but just because it was not enjoyable/comfortable.</p>
@@ -208,27 +206,27 @@ document.body.className += ' blog-wrapper';
                     </h3>
                 </div>
                 <div class="blog-widget-body">
-                    <div class="blog-related-article">
+                    <a href="marathon-training.php" class="blog-related-article" style="display: flex; text-decoration: none; color: inherit; align-items: center; gap: 15px;">
                         <div class="blog-related-thumbnail"></div>
                         <div class="blog-related-content">
                             <h4>Marathon Training Guide</h4>
                             <p>Complete training protocol for marathon preparation</p>
                         </div>
-                    </div>
-                    <div class="blog-related-article">
+                    </a>
+                    <a href="week-before-marathon.php" class="blog-related-article" style="display: flex; text-decoration: none; color: inherit; align-items: center; gap: 15px;">
                         <div class="blog-related-thumbnail"></div>
                         <div class="blog-related-content">
                             <h4>Week Before Marathon</h4>
                             <p>What to do and what not to do before race day</p>
                         </div>
-                    </div>
-                    <div class="blog-related-article">
+                    </a>
+                    <a href="injury-prevention.php" class="blog-related-article" style="display: flex; text-decoration: none; color: inherit; align-items: center; gap: 15px;">
                         <div class="blog-related-thumbnail"></div>
                         <div class="blog-related-content">
                             <h4>Injury Prevention</h4>
                             <p>Strategies to avoid injuries during training</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
