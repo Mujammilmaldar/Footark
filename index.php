@@ -142,25 +142,13 @@
                         <div class="result-card">
                             <div class="result-image-container">
                                 <img src="assets/images/before-after/1.png" alt="Bunion Correction Before After" class="result-image">
-                                <div class="result-overlay">
-                                    <div class="result-content">
-                                        <h4 class="result-title">Bunion Correction</h4>
-                                        <p class="result-duration">6 months treatment</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
                         <!-- Result Card 2 -->
                         <div class="result-card">
                             <div class="result-image-container">
-                                <img src="assets/images/before-after/2.png" alt="Plantar Fasciitis Before After" class="result-image">
-                                <div class="result-overlay">
-                                    <div class="result-content">
-                                        <h4 class="result-title">Plantar Fasciitis</h4>
-                                        <p class="result-duration">3 months recovery</p>
-                                    </div>
-                                </div>
+                                <img src="assets/images/before-after/2.webp" alt="Plantar Fasciitis Before After" class="result-image">
                             </div>
                         </div>
 
@@ -168,12 +156,6 @@
                         <div class="result-card">
                             <div class="result-image-container">
                                 <img src="assets/images/before-after/3.png" alt="Ankle Surgery Before After" class="result-image">
-                                <div class="result-overlay">
-                                    <div class="result-content">
-                                        <h4 class="result-title">Ankle Surgery</h4>
-                                        <p class="result-duration">4 months healing</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
@@ -181,12 +163,6 @@
                         <div class="result-card">
                             <div class="result-image-container">
                                 <img src="assets/images/before-after/4.png" alt="Hammer Toe Before After" class="result-image">
-                                <div class="result-overlay">
-                                    <div class="result-content">
-                                        <h4 class="result-title">Hammer Toe</h4>
-                                        <p class="result-duration">2 months treatment</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
@@ -194,12 +170,6 @@
                         <div class="result-card">
                             <div class="result-image-container">
                                 <img src="assets/images/before-after/5.png" alt="Ingrown Nail Before After" class="result-image">
-                                <div class="result-overlay">
-                                    <div class="result-content">
-                                        <h4 class="result-title">Ingrown Nail</h4>
-                                        <p class="result-duration">1 month recovery</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
@@ -207,12 +177,6 @@
                         <div class="result-card">
                             <div class="result-image-container">
                                 <img src="assets/images/before-after/6.png" alt="Diabetic Foot Care Before After" class="result-image">
-                                <div class="result-overlay">
-                                    <div class="result-content">
-                                        <h4 class="result-title">Diabetic Foot Care</h4>
-                                        <p class="result-duration">Ongoing care</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 

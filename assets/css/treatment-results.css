@@ -124,10 +124,10 @@
     transition: all 0.4s ease;
 }
 
-.result-card:hover .result-overlay {
+/* .result-card:hover .result-overlay {
     transform: translateY(0);
     opacity: 1;
-}
+} */
 
 .result-content {
     position: relative;
