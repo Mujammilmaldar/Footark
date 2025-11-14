@@ -13,20 +13,11 @@
                     </div>
                     <div class="hero-content">
                         <h1>Ankle Ligament Reconstruction Surgery</h1>
-                        
-                        <!-- Mobile Image - Shows after heading on mobile only -->
-                        <!-- <div class="mobile-hero-image desktop-hidden">
-                            <img src="../assets/images/ankleligament1.jpg" alt="Ankle Ligament Reconstruction">
-                        </div> -->
-                        
                         <p>Advanced ankle ligament reconstruction surgery to restore stability and function. Our specialized techniques address chronic ankle instability and recurrent sprains.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
-                </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/ankleligament1.jpg" alt="Ankle Ligament Reconstruction">
                 </div>
             </div>
         </div>
@@ -65,7 +56,7 @@
                                 <p>Ankle ligament reconstruction is a surgical procedure that tightens the outside or lateral ligaments of the ankle. There are two major ankle ligaments that stabilize the lateral ankle, the anterior talofibular ligament and the calcaneofibular ligament. This surgery is intended for active, healthy patients who have experienced frequent ankle sprains which has led to chronic ankle instability and pain. Non-operative treatments include physical therapy and supportive ankle braces. For some patients with mild or moderate ankle instability, these non-operative treatments are sufficient to resume activities, and an operation is not necessary. However, for patients who remain symptomatic after trying conservative therapies, surgery may be considered. At the time of the operation, the quality of the lateral ligaments is evaluated to determine whether your own ligaments can be used for the reconstruction by tightening them (detaching them and reattaching them in a tightened position). If the ligaments are severely damaged, an allograft (cadaver) tendon is used to reinforce the damaged ligaments. Depending on the severity of your ankle instability, either one or both of the major ligaments are tightened (reconstructed). This is an extremely effective procedure which allows patients to resume activity that was previously limited by ankle instability.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/ankleligament1.jpg" alt="Ankle Ligament Reconstruction">
+                                <img src="../assets/images/ankleligament1.jpg" alt="Ankle Ligament Reconstruction" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

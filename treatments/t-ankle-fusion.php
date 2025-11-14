@@ -13,20 +13,11 @@
                     </div>
                     <div class="hero-content">
                         <h1>Ankle Fusion Surgery (Arthrodesis)</h1>
-                        
-                        <!-- Mobile Image - Shows after heading on mobile only -->
-                        <!-- <div class="mobile-hero-image desktop-hidden">
-                            <img src="../assets/images/anklefusion1.jpg" alt="Ankle Fusion">
-                        </div> -->
-                        
                         <p>Expert ankle fusion surgery (arthrodesis) to restore stability and relieve pain. Our specialized approach provides long-term solutions for severe ankle arthritis and joint damage.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
-                </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/anklefusion1.jpg" alt="Ankle Fusion">
                 </div>
             </div>
         </div>
@@ -65,7 +56,7 @@
                                 <p>This is an operation to "fuse" or stiffen the ankle joint.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/anklefusion1.jpg" alt="Ankle Fusion">
+                                <img src="../assets/images/anklefusion1.jpg" alt="Ankle Fusion" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

@@ -13,20 +13,11 @@
                     </div>
                     <div class="hero-content">
                         <h1>Bunion Surgery (Hallux Valgus Correction)</h1>
-                        
-                        <!-- Mobile Image - Shows after heading on mobile only -->
-                        <!-- <div class="mobile-hero-image desktop-hidden">
-                            <img src="../assets/images/Bunion-Surgery1.jpg" alt="Bunion Surgery">
-                        </div> -->
-                        
                         <p>Advanced bunion surgery techniques to correct hallux valgus deformity. Our specialized minimally invasive procedures provide lasting relief and improved foot function.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
-                </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/Bunion-Surgery1.jpg" alt="Bunion Surgery">
                 </div>
             </div>
         </div>
@@ -66,7 +57,7 @@
                                 <p>Bunion surgery is an operation to remove or realign the bone that sticks out on your big toe when you have a bunion. This will set your toe joint into a better position and relieve pain. The treatment and care you receive may differ from what's described here as it will be designed to meet your individual needs.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Bunion-Surgery1.jpg" alt="Bunion Surgery">
+                                <img src="../assets/images/Bunion-Surgery1.jpg" alt="Bunion Surgery" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

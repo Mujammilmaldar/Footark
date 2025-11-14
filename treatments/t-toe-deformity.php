@@ -13,20 +13,11 @@
                     </div>
                     <div class="hero-content">
                         <h1>Toe Deformity Correction Surgery</h1>
-                        
-                        <!-- Mobile Image - Shows after heading on mobile only -->
-                        <!-- <div class="mobile-hero-image desktop-hidden">
-                            <img src="../assets/images/toedeformity1.jpg" alt="Toe Deformity Surgery">
-                        </div> -->
-                        
                         <p>Comprehensive toe deformity correction surgery for hammertoes, claw toes, and mallet toes. Our specialized techniques restore proper toe alignment and eliminate pain.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
-                </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/toedeformity1.jpg" alt="Toe Deformity Surgery">
                 </div>
             </div>
         </div>
@@ -66,7 +57,7 @@
                                 <p>A toe deformity correction operation will correct toe deformities such as claw or hammer toe. The aim of such surgery is to correct the deformity and therefore improve the symptoms that the deformity was causing such as pain and loss of mobility.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/toedeformity1.jpg" alt="Toe Deformity Surgery">
+                                <img src="../assets/images/toedeformity1.jpg" alt="Toe Deformity Surgery" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

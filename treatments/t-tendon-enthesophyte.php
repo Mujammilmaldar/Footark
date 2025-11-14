@@ -13,20 +13,11 @@
                     </div>
                     <div class="hero-content">
                         <h1>Achilles Tendon Enthesophyte Removal</h1>
-                        
-                        <!-- Mobile Image - Shows after heading on mobile only -->
-                        <!-- <div class="mobile-hero-image desktop-hidden">
-                            <img src="../assets/images/Achillestendonenthesophytedebridement1.jpg" alt="Achilles Tendon Debridement">
-                        </div> -->
-                        
                         <p>Specialized Achilles tendon enthesophyte removal and debridement surgery. Our advanced techniques eliminate bone spurs and restore tendon function for improved mobility.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
-                </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/Achillestendonenthesophytedebridement1.jpg" alt="Achilles Tendon Debridement">
                 </div>
             </div>
         </div>
@@ -64,7 +55,7 @@
                                 <p>Detachment with reattachment of the Achilles tendon is a common surgery for debridement of retrocalcaneal exostosis, bursitis, and other insertional pathologic entities. The technique involves a midline skin incision on the posterior Achilles to the tendon. The distal Achilles attachment is removed in a U-shaped manner, leaving the medial and lateral flares, but exposing the posterior spur. This midline approach provides excellent exposure and allows for rapid and efficient surgical debridement.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Achillestendonenthesophytedebridement1.jpg" alt="Achilles Tendon Debridement">
+                                <img src="../assets/images/Achillestendonenthesophytedebridement1.jpg" alt="Achilles Tendon Debridement" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

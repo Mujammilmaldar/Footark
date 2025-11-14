@@ -13,20 +13,11 @@
                     </div>
                     <div class="hero-content">
                         <h1>Hindfoot Endoscopy Surgery</h1>
-                        
-                        <!-- Mobile Image - Shows after heading on mobile only -->
-                        <!-- <div class="mobile-hero-image desktop-hidden">
-                            <img src="../assets/images/hindfootendotr.jpg" alt="Hindfoot Endoscopy">
-                        </div> -->
-                        
                         <p>Advanced hindfoot endoscopy procedures for minimally invasive diagnosis and treatment. Our specialized techniques provide precise treatment of hindfoot conditions with faster recovery.</p>
                         <div class="hero-buttons">
                             <a href="../contact.php" class="btn-primary">Schedule Consultation</a>
                         </div>
                     </div>
-                </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/hindfootendotr.jpg" alt="Hindfoot Endoscopy">
                 </div>
             </div>
         </div>
@@ -65,7 +56,7 @@
                                 <p>Posterior ankle arthroscopy is a relatively new technique and has recently been adopted by the senior author. This study was performed to explore the benefits and limitations of this procedure and to identify early post operative results.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/hindfootendotr.jpg" alt="Hindfoot Endoscopy">
+                                <img src="../assets/images/hindfootendotr.jpg" alt="Hindfoot Endoscopy" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>
