@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/Neuroma.jpg" alt="Neuroma Treatment">
-                </div>
             </div>
         </div>
     </section>
@@ -67,7 +64,7 @@
                                 <p>The principal symptom associated with a neuroma is pain between the toes while walking. Those suffering from the condition often find relief by stopping their walk, taking off their shoe, and rubbing the affected area. At times, the patient will describe the pain as similar to having a stone in his or her shoe. The vast majority of people who develop neuromas are women.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Neuroma.jpg" alt="Neuroma">
+                                <img src="../assets/images/Neuroma.jpg" alt="Neuroma" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

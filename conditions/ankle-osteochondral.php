@@ -26,9 +26,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/condition/Ankle Osteochondral Lesion.png" alt="Ankle Osteochondral lesion">
-                </div>
             </div>
         </div>
     </section>
@@ -72,7 +69,7 @@
                                 <p>Osteochondral defects(OCD) are very localised areas of joint damage. These conditions usually occur on the talus (ankle bone) and are a region where the cartilage and underlying bone have been disrupted. How disrupted can vary from 'bruising' to a crater or deep defect on the surface of the joint, lacking the underlying bone as well as cartilage. These most often, though not exclusively, occur after some injury to the joint.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/conditions/osteochondral12.jpg" alt="Ankle Osteochondral lesion">
+                                <img src="../assets/images/conditions/osteochondral12.jpg" alt="Ankle Osteochondral lesion" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

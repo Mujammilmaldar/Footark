@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/Flat.jpg" alt="Flat Foot">
-                </div>
             </div>
         </div>
     </section>
@@ -72,7 +69,7 @@ The arch develops in childhood, by the age of 9 - 10 years. In some people the a
 The shape of the bones sets the shape of the foot. The ligaments and muscles form secondary supports. There is a large muscle on the inner side of foot, the Tibialis Posterior muscle, which supports the arch. Damage to the Tibialis Posterior tendon can cause the foot to flatten.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Flat.jpg" alt="Flat Foot">
+                                <img src="../assets/images/Flat.jpg" alt="Flat Foot" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

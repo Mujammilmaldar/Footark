@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/toedeformity.jpg" alt="Toe Deformity Treatment">
-                </div>
             </div>
         </div>
     </section>
@@ -68,7 +65,7 @@
                                 <p>The small toes of the foot play an important role in movement, i.e. walking or running. They share the pressure with the big toe and help in pushing off with the foot.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/toedeformity.jpg" alt="Toe Deformity">
+                                <img src="../assets/images/toedeformity.jpg" alt="Toe Deformity" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

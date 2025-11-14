@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/sesamoiditis.jpg" alt="Sesamoiditis Treatment">
-                </div>
             </div>
         </div>
     </section>
@@ -66,7 +63,7 @@
                                 <p>Sesamoids act like pulleys. They provide a smooth surface over which the tendons slide, thus increasing the ability of the tendons to transmit muscle forces. The sesamoids in the forefoot also assist with weightbearing and help elevate the bones of the great toe. Like other bones, sesamoids can break (fracture). Additionally, the tendons surrounding the sesamoids can become irritated or inflamed. This is called sesamoiditis and is a form of tendinitis. It is common among ballet dancers, runners and baseball catchers.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/sesamoiditis.jpg" alt="Sesamoiditis">
+                                <img src="../assets/images/sesamoiditis.jpg" alt="Sesamoiditis" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

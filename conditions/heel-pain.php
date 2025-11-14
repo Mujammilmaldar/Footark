@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/Heelpain.jpg" alt="Heel Pain Treatment">
-                </div>
             </div>
         </div>
     </section>
@@ -72,7 +69,7 @@
                                 <p>Plantar fasciitis causes pain in the bottom of the heel. The plantar fascia is a thin ligament that connects your heel to the front of your foot. It supports the arch in your foot and is important in helping you walk. Plantar fasciitis is one of the most common orthopedic complaints. Your plantar fascia ligaments experience a lot of wear and tear in your daily life. Normally, these ligaments act as shock absorbers, supporting the arch of the foot. Too much pressure on your feet can damage or tear the ligaments. The plantar fascia becomes inflamed, and the inflammation causes heel pain and stiffness.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Heelpain.jpg" alt="Heel Pain">
+                                <img src="../assets/images/Heelpain.jpg" alt="Heel Pain" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

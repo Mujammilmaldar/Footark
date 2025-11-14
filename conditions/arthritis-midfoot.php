@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/Midfoot.jpg" alt="Midfoot Arthritis">
-                </div>
             </div>
         </div>
     </section>
@@ -66,7 +63,7 @@
                                 <p>The midfoot is the section of the foot that begins at the level of the Chopart joint. It consists of five bones, connected to each other and to the hindfoot and forefoot. The bones are known as: cuboid, navicular, medial, intermediate and lateral cuneiform bones. The midfoot ends at the Lisfranc (or tarsometatarsal) joint, where the metatarsal bones begin.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Midfoot.jpg" alt="Midfoot Arthritis">
+                                <img src="../assets/images/Midfoot.jpg" alt="Midfoot Arthritis" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

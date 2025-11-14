@@ -27,9 +27,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/Peroneal.jpg" alt="Peroneal Tendon Treatment">
-                </div>
             </div>
         </div>
     </section>
@@ -71,7 +68,7 @@
                                 <p>There are two peroneal tendons behind the outer bone of the ankle. They run down behind the ankle and go into the foot. They turn the foot outwards and stabilize the ankle dynamically.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Peroneal.jpg" alt="Peroneal Tendon">
+                                <img src="../assets/images/Peroneal.jpg" alt="Peroneal Tendon" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

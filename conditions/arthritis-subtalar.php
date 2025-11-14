@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/Subtalar.jpg" alt="Subtalar Arthritis">
-                </div>
             </div>
         </div>
     </section>
@@ -67,7 +64,7 @@
                                 <p>Subtalar arthritis is characterized by pain in the hindfoot that is aggravated by standing and walking, particularly on uneven ground. It is likely to be associated with stiffness when attempting to move the foot from side to side. The location of the pain is commonly just below the level of the inside and outside ankle bones (medial and lateral malleoli). The most common cause of subtalar arthritis is a previous injury – usually a calcaneal fracture, or abnormal alignment of the heal bone.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Subtalar.jpg" alt="Subtalar Arthritis">
+                                <img src="../assets/images/Subtalar.jpg" alt="Subtalar Arthritis" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

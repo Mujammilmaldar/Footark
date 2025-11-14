@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/Bunion.jpg" alt="Bunion Treatment">
-                </div>
             </div>
         </div>
     </section>
@@ -69,7 +66,7 @@
                                 <p>Hallux valgus, often referred to as "a bunion," is a deformity of the big toe. It's a sore bump which develops on the joint connecting the big toe to the foot. The toe tilts over towards the smaller toes. Sometimes a soft fluid swelling develops over the bony lump due to constant rubbing on the inside of the shoe.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Bunion.jpg" alt="Bunion">
+                                <img src="../assets/images/Bunion.jpg" alt="Bunion" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

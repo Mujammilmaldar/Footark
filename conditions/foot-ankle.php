@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/foot-ankle-arthritis-treatment.jpg" alt="Foot Ankle Fractures">
-                </div>
             </div>
         </div>
     </section>
@@ -66,7 +63,7 @@
                                 <p>The ankle is a hinge-type joint that connects the leg to the foot. Three bones fit together snugly here, and are supported by strong ligaments. An ankle fracture is a break of one or more of these bones. These fractures can sometimes be mistaken as sprains, as the symptoms are very similar. The foot (including toes) is very complex – made up of 33 joints, more than 100 muscles, and 26 bones varying in size. The foot is also broken up into 3 parts:</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/foot-ankle-arthritis-treatment.jpg" alt="Foot Ankle Fractures">
+                                <img src="../assets/images/foot-ankle-arthritis-treatment.jpg" alt="Foot Ankle Fractures" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                         <ul>

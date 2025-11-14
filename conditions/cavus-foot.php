@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/Cavus.jpg" alt="Cavus Foot">
-                </div>
             </div>
         </div>
     </section>
@@ -69,7 +66,7 @@
                                 <p>Cavus foot is a condition in which the foot has a very high arch. Because of this high arch, an excessive amount of weight is placed on the front and heel of the foot when walking or standing. Cavus foot can lead to a variety of signs and symptoms, such as pain and instability. It can develop at any age, and can occur in one or both feet.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Cavus.jpg" alt="Cavus Foot">
+                                <img src="../assets/images/Cavus.jpg" alt="Cavus Foot" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

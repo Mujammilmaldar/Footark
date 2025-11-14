@@ -26,9 +26,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/ankle-synovitis.jpg" alt="Ankle Synovitis">
-                </div>
             </div>
         </div>
     </section>
@@ -68,7 +65,7 @@
                                 <p>A protective coating called synovium covers ankle joint. Ankle synovitis is the inflammation of this synovium. Synovitis of the ankle can be the resultant of autoimmune disorders like gout and rheumatoid arthritis or an injury.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/ankle-synovitis.jpg" alt="Ankle Synovitis">
+                                <img src="../assets/images/ankle-synovitis.jpg" alt="Ankle Synovitis" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

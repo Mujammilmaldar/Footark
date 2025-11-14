@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/tendonpain.jpg" alt="Achilles Tendon Pain">
-                </div>
             </div>
         </div>
     </section>
@@ -70,7 +67,7 @@
                                 <p>The Achilles tendon is the large tendon that joins the calf muscle to the heel bone (calcaneum). It is important in being able to bring the foot downwards, going on tip-toe and also providing a good push-off / springing when walking or running.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/tendonpain.jpg" alt="Achilles Tendon Pain">
+                                <img src="../assets/images/tendonpain.jpg" alt="Achilles Tendon Pain" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

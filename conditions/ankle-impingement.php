@@ -25,9 +25,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="image-container mobile-hidden">
-                    <img src="../assets/images/impegment.jpg" alt="Ankle Impingement">
-                </div>
             </div>
         </div>
     </section>
@@ -68,7 +65,7 @@
                                 <p>Ankle impingement occurs when soft tissues around the ankle are pinched or nipped. Impingement mainly happens when the ankle is fully bent up or down, leading to pain either in the front or back of the ankle joint. Problems near the front of the joint are usually associated with past ankle sprains. Pinching in the back of the ankle occurs most often in ballet dancers and is usually due to irritation around a bony prominence on the back of the ankle.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/impegment.jpg" alt="Ankle Impingement">
+                                <img src="../assets/images/impegment.jpg" alt="Ankle Impingement" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>
