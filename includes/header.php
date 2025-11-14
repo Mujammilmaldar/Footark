@@ -351,7 +351,10 @@ else {
                                     <li><a href="<?php echo $pathPrefix; ?>rehabilitation/r-general-foot.php">General foot surgery guidelines</a></li>
                                     <li><a href="<?php echo $pathPrefix; ?>rehabilitation/r-lateral-ligament.php">Lateral ligament reconstruction</a></li>
                                     <li><a href="<?php echo $pathPrefix; ?>rehabilitation/r-achilles-tendon.php">Achilles tendon repair</a></li>
+                                    <li><a href="<?php echo $pathPrefix; ?>rehabilitation/r-ankle-arthroscopy.php">Ankle arthroscopy</a></li>
+                                    <li><a href="<?php echo $pathPrefix; ?>rehabilitation/r-ankle-foot.php">Ankle & foot fractures</a></li>
                                     <li><a href="<?php echo $pathPrefix; ?>rehabilitation/r-bunion.php">Bunion surgery recovery</a></li>
+                                    <li><a href="<?php echo $pathPrefix; ?>rehabilitation/r-flat-foot.php">Flat foot surgery</a></li>
                                 </ul>
                             </div>
                         </li>
