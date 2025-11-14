@@ -20,16 +20,16 @@ if (strpos($_SERVER['PHP_SELF'], '/conditions/') !== false) {
                             The London Foot & Ankle Surgery is UK's leading specialist centre for Podiatry and Foot Surgery, providing high quality private care in Central London.
                         </p>
                         <div class="footer-social">
-                            <a href="#" class="social-link" aria-label="Facebook">
+                            <a href="https://www.facebook.com/DrAbhishekKini" class="social-link" aria-label="Facebook">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="#" class="social-link" aria-label="Twitter">
+                            <!-- <a href="#" class="social-link" aria-label="Twitter">
                                 <i class="fab fa-twitter"></i>
                             </a>
                             <a href="#" class="social-link" aria-label="Instagram">
                                 <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="#" class="social-link" aria-label="LinkedIn">
+                            </a> -->
+                            <a href="https://www.linkedin.com/in/dr-abhishek-kini-ab379b27/?originalSubdomain=in" class="social-link" aria-label="LinkedIn">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
@@ -74,25 +74,19 @@ if (strpos($_SERVER['PHP_SELF'], '/conditions/') !== false) {
                             <div class="contact-item">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <div class="contact-details">
-                                    <p>New York 60 East<br>65th Street<br>NY 10065</p>
+                                    <p>Dr. Abhishek Kini's Foot Ark<br>Wing B, Grnd Flr, Manoj Coop. Society,<br>Appasaheb Marathe Marg, Dadar,<br>Prabhadevi, Mumbai 400 025</p>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <i class="fas fa-phone"></i>
                                 <div class="contact-details">
-                                    <p><a href="tel:88700600">88 700 600</a></p>
+                                    <p><a href="tel:+919820789797">+91 98207 89797</a></p>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <i class="fas fa-envelope"></i>
                                 <div class="contact-details">
-                                    <p><a href="mailto:info@footark.com">info@footark.com</a></p>
-                                </div>
-                            </div>
-                            <div class="contact-item">
-                                <i class="fas fa-clock"></i>
-                                <div class="contact-details">
-                                    <p>Mon-Wed: 8am - 7pm<br>Thu: 8am - 9pm<br>Fri: 8am - 5pm</p>
+                                    <p><a href="mailto:kiniabhishek@gmail.com">kiniabhishek@gmail.com</a></p>
                                 </div>
                             </div>
                         </div>

@@ -25,13 +25,15 @@
                         
                         <div class="doctor-description">
                             <div class="description-column">
-                                <p>Dr. Abhishek Kini is a trusted foot & ankle specialist offering world-class care in Mumbai. With over 12 years of experience in foot & ankle surgery, he has extensive expertise in complex reconstructive procedures and is specialized in arthroscopic & minimally invasive techniques for faster recovery and better outcomes.</p>
+                                <p>Dr. Kini brings over 15 years of focused experience & fellowship-trained expertise in foot and ankle surgery and sports injury management. As an ankle specialist practicing across leading Mumbai hospitals, he combines international fellowships with a rigorous research background to address complex deformities, trauma and chronic sports injuries in athletes and active adults alike. His clinical approach emphasizes precise diagnosis, tailored intervention and a seamless transition from recovery to performance.</p>
                                 
-                                <p>Dr. Kini received advanced training in the UK & Holland, bringing world-class techniques to Mumbai. He is focused on quicker recovery & long-term mobility with personalized treatment plans for each patient.</p>
+                                <p>Dr. Abhishek Kini merges his training with vast definitive understanding of Indian/Asian human anatomy to deliver bespoke, evidence-driven care. His pragmatic approach has earned him reputation among reputed Indian athletes/sports personalities as the go-to doctor.</p>
                             </div>
                             
                             <div class="description-column">
-                                <p>His expertise includes all aspects of foot and ankle care including arthroscopic surgery, ligament reconstruction, tendon repair, bunion correction, and sports injury treatment. Dr. Kini is committed to providing patient-centric care with the latest minimally invasive techniques.</p>
+                                <p>Dr. Kini's consultations are described by patients as thorough and candid. In a patient's words – "Consultations with Dr Abhishek are akin to a mechanic inspecting every gear and bearing before tuning performance. He outlines realistic recovery timelines, emphasizing self-management and targeted physiotherapy over routine reliance on medication."</p>
+                                
+                                <p><strong>Languages:</strong> English, Hindi, Marathi, Konkani, Gujarati, Kannada and Malayalam</p>
                                 
                                 <div class="doctor-signature">
                                     <img src="assets/images/signature.png" alt="Doctor Signature" class="signature-img">
@@ -91,32 +93,37 @@
                         <div class="biography-accordion">
                             <div class="accordion-item">
                                 <div class="accordion-header">
-                                    <h3><a href="#specialties">Specialties <i class="fas fa-plus"></i></a></h3>
+                                    <h3><a href="#core-expertise">Core Expertise <i class="fas fa-plus"></i></a></h3>
                                 </div>
                             </div>
 
                             <div class="accordion-item">
                                 <div class="accordion-header">
-                                    <h3><a href="#qualifications">Qualifications <i class="fas fa-plus"></i></a></h3>
-                                </div>
-
-                            </div>
-
-                            <div class="accordion-item">
-                                <div class="accordion-header">
-                                    <h3><a href="#research">Research and Publications <i class="fas fa-plus"></i></a></h3>
+                                    <h3><a href="#fellowships">Key Fellowships & Advanced Training <i class="fas fa-plus"></i></a></h3>
                                 </div>
                             </div>
 
                             <div class="accordion-item">
                                 <div class="accordion-header">
-                                    <h3><a href="#achievements">Achievements <i class="fas fa-plus"></i></a></h3>
+                                    <h3><a href="#research">Research & Publications <i class="fas fa-plus"></i></a></h3>
                                 </div>
                             </div>
 
                             <div class="accordion-item">
                                 <div class="accordion-header">
-                                    <h3><a href="#experience">Professional Experience <i class="fas fa-plus"></i></a></h3>
+                                    <h3><a href="#academic">Academic & Teaching Roles <i class="fas fa-plus"></i></a></h3>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <h3><a href="#memberships">Professional Memberships <i class="fas fa-plus"></i></a></h3>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <h3><a href="#hospitals">Hospital Affiliations <i class="fas fa-plus"></i></a></h3>
                                 </div>
                             </div>
                         </div>
@@ -129,52 +136,41 @@
     <!-- Biography Navigation Sections -->
     <section class="biography-details-section">
         <div class="container">
-            <!-- Specialties Section -->
+            <!-- Core Expertise Section -->
             <div class="details-section">
-                <div id="specialties" style="scroll-margin-top: 100px;">
-                    <h2 class="section-title">Specialties</h2>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="details-list">
-                                <li>Ankle Arthroscopy</li>
-                                <li>Bunion Surgery</li>
-                                <li>Ligament Reconstruction</li>
-                                <li>Tendon Repair</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="details-list">
-                                <li>Foot & Ankle Deformity Correction</li>
-                                <li>Sports Injury Treatment</li>
-                                <li>Minimally Invasive Surgery</li>
-                                <li>Flat Foot Correction</li>
-                            </ul>
-                        </div>
+                <div id="core-expertise" style="scroll-margin-top: 100px;">
+                    <h2 class="section-title">Core Expertise</h2>
+                    
+                    <div class="content-wrapper">
+                        <h4 class="subsection-title">Comprehensive Conditions Portfolio</h4>
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini specializes in treating a wide range of foot and ankle conditions including ankle sprains and instability, osteochondral lesions, impingement, synovitis, and all arthritis patterns affecting the subtalar joint, midfoot, and great toe. His expertise extends to complex tendon disorders such as Achilles tendinitis and rupture, peroneal instability, and tibialis posterior dysfunction. He also addresses various deformities including flat foot, cavus foot, bunion, hammertoe, Freiberg's disease, sesamoiditis, and neuroma with precision and care.</p>
+
+                        <h4 class="subsection-title">Advanced Treatments</h4>
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini employs cutting-edge arthroscopic techniques for both diagnostic and therapeutic purposes, including ankle arthroscopy, hindfoot endoscopy, and osteochondral lesion repair. He specializes in ligament reconstruction procedures such as arthroscopic Broström and lateral ligament reconstruction. His reconstructive capabilities include flat foot correction, midfoot superconstructs for Charcot foot, and total or revision ankle arthroplasty. Additionally, he performs advanced soft-tissue and tendon transfers, including endoscopic FHL transfer for chronic Achilles rupture.</p>
+
+                        <h4 class="subsection-title">Sports Medicine & Rehabilitation</h4>
+                        <p style="max-width: 100%; line-height: 1.8;">As a sports medicine specialist, Dr. Kini treats athletes with ligament sprains ranging from minor injuries to complete tears causing ankle instability, locking, osteochondral defects, and tendon injuries or ruptures. He develops customized return-to-play protocols utilizing an in-house physiotherapy gym with tailor-made loading programs designed to safely restore athletes to peak performance.</p>
+
+                        <h4 class="subsection-title">Biomechanical Assessment & Orthotics</h4>
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini provides comprehensive biomechanical evaluations including gait analysis and designs custom orthoses for conditions such as flat foot and plantar fasciitis. His approach to tibialis posterior reconstruction incorporates detailed biomechanical understanding to ensure optimal long-term outcomes.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Qualifications Section -->
+            <!-- Fellowships Section -->
             <div class="details-section">
-                <div id="qualifications" style="scroll-margin-top: 100px;">
-                    <h2 class="section-title">Qualifications</h2>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="details-list">
-                                <li>DNB (Orthopaedics)</li>
-                                <li>MNAMS (Member of National Academy of Medical Sciences)</li>
-                                <li>Diploma in Sports Medicine (IOC)</li>
-                                <li>Fellowship in Foot & Ankle Surgery</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="details-list">
-                                <li>Advanced Training in UK & Holland</li>
-                                <li>Specialist in Foot & Ankle Reconstruction</li>
-                                <li>Arthroscopic Surgery Certification</li>
-                                <li>Sports Medicine Specialist</li>
-                            </ul>
-                        </div>
+                <div id="fellowships" style="scroll-margin-top: 100px;">
+                    <h2 class="section-title">Key Fellowships & Advanced Training</h2>
+                    
+                    <div class="content-wrapper">
+                        <h4 class="subsection-title">Foot & Ankle Reconstruction Fellowships</h4>
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini completed prestigious fellowships at Chelsea & Westminster Hospital and Fortius Clinic in London, UK, followed by advanced training at the Academic Medical Center in Amsterdam, Netherlands. He also pursued specialized fellowship training in High Tibial Osteotomy under Prof. Nebulung and Dr. Reichwein in Keiserworth, Dusseldorf, Germany. His domestic training includes fellowship at the Arthroscopy and Sports Medicine Institute in Mumbai.</p>
+
+                        <h4 class="subsection-title">International Training & Observerships</h4>
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini holds the prestigious IOC Diploma in Sports Medicine from the International Olympic Committee and completed the Train-the-Trainer Master Class at Prince of Wales Hospital, Hong Kong. He has trained under renowned specialists including Prof. C.N. Van Dijk in the Netherlands, Prof. James Calder in the UK, and Prof. Stefen Guillo and Piere Barrouk in France. He has also completed observerships at leading Foot and Ankle Units in Cardiff, Newport, and Cambridge.</p>
+
+                        <h4 class="subsection-title">Primary Qualification & Additional Certifications</h4>
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini completed his DNB in Orthopaedics under the guidance of Prof. (Dr.) M Shantharam Shetty. He is certified in Advanced Trauma Life Support (ATLS) through a workshop conducted by Hinduja Hospital and Research Center, Mumbai. He has successfully completed a comprehensive Course on Biostatistics, Epidemiology and Research Methodology from Manipal Academy of Higher Education (July-Dec 2009), securing 15.25 out of 16 credits. Additionally, he has completed AO Basic, Principles and Advanced courses in Trauma, as well as the AO Spine Principles course.</p>
                     </div>
                 </div>
             </div>
@@ -182,76 +178,53 @@
             <!-- Research Section -->
             <div class="details-section">
                 <div id="research" style="scroll-margin-top: 100px;">
-                    <h2 class="section-title">Research and Publications</h2>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h4 class="subsection-title">Recent Publications</h4>
-                            <ul class="details-list">
-                                <li>"Advances in Ankle Arthroscopy" - Journal of Foot & Ankle Surgery 2023</li>
-                                <li>"Minimally Invasive Bunion Correction Techniques" - International Orthopaedics 2022</li>
-                                <li>"Sports Injury Prevention in Ankle Ligament Reconstruction" - Sports Medicine Review 2021</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <h4 class="subsection-title">Research Activities</h4>
-                            <ul class="details-list">
-                                <li>Principal Investigator: Clinical Trial on New Arthroscopic Techniques</li>
-                                <li>Co-author: 25+ peer-reviewed publications</li>
-                                <li>Research Focus: Foot & Ankle Injury Prevention</li>
-                            </ul>
-                        </div>
+                    <h2 class="section-title">Research & Publications</h2>
+                    
+                    <div class="content-wrapper">
+                        <h4 class="subsection-title">Selected Clinical Highlights</h4>
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini has pioneered endoscopic flexor hallucis longus (FHL) transfer for chronic Achilles rupture, successfully restoring push-off strength in elite athletes. His prospective comparative study of arthroscopic Broström repair in patients with generalized laxity was published and awarded at WIROC 2023. He contributed to multicentric Indian research on midfoot superconstructs for diabetic Charcot, published in the Journal of Foot Ankle Surgery (Asia-Pacific) in 2023. His expertise in complex malunited fractures includes performing osteotomies and custom plating for neglected pilon fractures, enabling patients to achieve weight-bearing status in under 12 weeks.</p>
+
+                        <h4 class="subsection-title">Publications & Presentations</h4>
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini has authored 16 indexed papers with 6 manuscripts currently under review. He has delivered over 90 presentations at national and regional conferences. His research excellence has been recognized with Gold Medals for podium presentations at OASISCON 2009, AP-IFAS 2012, IOACON 2017, WIROC 2019, and WIROC 2023. He served as Principal Investigator for the CRASH-2 multicenter trial on tranexamic acid in acute trauma, conducted by the London School of Hygiene & Tropical Medicine.</p>
+
+                        <h4 class="subsection-title">Key Publications</h4>
+                        <p style="max-width: 100%; line-height: 1.8;">Notable publications include "Odontoid fractures: A retrospective analysis of 53 cases" (Indian Journal of Orthopaedics 2009), "Minimally invasive plate osteosynthesis for humerus diaphyseal fractures" (Indian Journal of Orthopaedics 2011), and "Community-associated Staphylococcus aureus bone and joint infections in children" (Journal of Pediatric Orthopaedics B 2013). Recent significant works include "It's the Biology Orthopods! Heralding a Reconstructive Revolution Through Musculoskeletal Tissue Banks in India" (Indian Journal of Orthopaedics 2022) and "Midfoot Charcot and need for arch reconstruction and superconstruct—Lessons learnt: Multicentric Indian experience" (Journal of Foot and Ankle Surgery Asia-Pacific 2023).</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Achievements Section -->
+            <!-- Academic Section -->
             <div class="details-section">
-                <div id="achievements" style="scroll-margin-top: 100px;">
-                    <h2 class="section-title">Achievements</h2>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h4 class="subsection-title">Recent Awards</h4>
-                            <ul class="details-list">
-                                <li>Outstanding Orthopaedic Surgeon Award - Mumbai Medical Association 2023</li>
-                                <li>Excellence in Foot & Ankle Care - Healthcare Excellence Awards 2022</li>
-                                <li>Top Specialist Recognition - Indian Orthopaedic Association 2021</li>
-                                <li>Innovation in Minimally Invasive Surgery - Sports Medicine Society 2020</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <h4 class="subsection-title">Professional Milestones</h4>
-                            <ul class="details-list">
-                                <li>12+ Years of Orthopedic Excellence</li>
-                                <li>Specialized in Foot & Ankle Surgery</li>
-                                <li>Guest Speaker at International Orthopaedic Conferences</li>
-                                <li>International Recognition in Foot & Ankle Medicine</li>
-                            </ul>
-                        </div>
+                <div id="academic" style="scroll-margin-top: 100px;">
+                    <h2 class="section-title">Academic & Teaching Roles</h2>
+                    
+                    <div class="content-wrapper">
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini serves as a faculty member for Indian Foot & Ankle Society educational programs conducted nationwide. He has directed courses demonstrating ankle arthroscopy techniques in Sri Lanka, Hong Kong, and India. He holds the position of examiner for DNB Orthopaedics and serves on examination boards for Maharashtra University of Health Sciences.</p>
+
+                        <h4 class="subsection-title">Conference Faculty Appointments</h4>
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini has been invited as faculty at numerous prestigious conferences including the Bombay Orthopaedic Society Foot & Ankle course, Maharashtra Orthopaedic Association - MOACON (2014, 2017, 2018, 2019), Asia Pacific Orthopedic Association for Trauma, and the Indian Arthroscopy Society. He has served as faculty for the Indian Orthopaedic Association - IOACON (2016, 2018) and the Indian Foot & Ankle Society - IFASCON (2016, 2017, 2018, 2022, 2023, 2024). He has been a regular faculty member at the Western India Regional Orthopaedic Conference from 2014 through 2024.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Professional Experience Section -->
+            <!-- Memberships Section -->
             <div class="details-section">
-                <div id="experience" style="scroll-margin-top: 100px;">
-                    <h2 class="section-title">Professional Experience</h2>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h4 class="subsection-title">Current Positions</h4>
-                            <ul class="details-list">
-                                <li>Senior Foot & Ankle Surgeon - Mumbai (2015-Present)</li>
-                                <li>Consultant Orthopaedic Surgeon</li>
-                                <li>Sports Medicine Specialist</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <h4 class="subsection-title">Previous Experience</h4>
-                            <ul class="details-list">
-                                <li>Foot & Ankle Fellow - UK & Holland (2013-2015)</li>
-                                <li>Orthopaedic Surgeon - Mumbai Hospitals (2012-2015)</li>
-                                <li>Orthopaedic Resident - Leading Medical Institutions (2009-2012)</li>
-                            </ul>
-                        </div>
+                <div id="memberships" style="scroll-margin-top: 100px;">
+                    <h2 class="section-title">Professional Memberships</h2>
+                    
+                    <div class="content-wrapper">
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini is registered with the Maharashtra Medical Council and the Indian Medical Council. He holds active memberships in the Indian Orthopaedic Association, Indian Arthroscopy Society, and Indian Foot & Ankle Society. He is a member of the Bombay Orthopaedic Society and Maharashtra Orthopaedic Association. His international affiliations include membership in AO Trauma India and AO Spine India, the European Society for Sports Traumatology, Knee Surgery & Arthroscopy (ESSKA) and its Ankle & Foot Associates (AFAS) section, as well as ISAKOS (International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine).</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hospital Affiliations Section -->
+            <div class="details-section">
+                <div id="hospitals" style="scroll-margin-top: 100px;">
+                    <h2 class="section-title">Hospital Affiliations (Mumbai & Beyond)</h2>
+                    
+                    <div class="content-wrapper">
+                        <p style="max-width: 100%; line-height: 1.8;">Dr. Kini practices at his own Foot ARK clinic located in Prabhadevi, Dadar West, Mumbai. He holds consultant positions at several prestigious hospitals in Mumbai including Advanced Orthopaedics at Nana Chowk, Grant Road; 101 Health Suites at Doctor House, Pedder Road; PD Hinduja Hospital & Research Centre with locations in Mahim and Khar; Lilavati Hospital & Research Centre in Bandra West; HN Reliance Hospital at Prathna Samaj; and Breach Candy Hospital Trust. Beyond Mumbai, he practices at Jupiter Hospital in Thane, Parekh's Hospital in Ahmedabad, Sahyadri Hospitals in Pune, and Aziz Polyclinic in Dibrugarh, Assam.</p>
                     </div>
                 </div>
             </div>

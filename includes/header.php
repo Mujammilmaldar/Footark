@@ -199,13 +199,13 @@ else {
                         -->
                         
                         <!-- New outline/border style icons - no background, just borders -->
-                        <a href="#" class="social-link-header">
+                        <a href="https://www.facebook.com/DrAbhishekKini" class="social-link-header">
                             <i class="fab fa-facebook" style="font-weight: 300;"></i>
                         </a>
-                        <a href="#" class="social-link-header">
+                        <!-- <a href="#" class="social-link-header">
                             <i class="fab fa-instagram" style="font-weight: 300;"></i>
-                        </a>
-                        <a href="#" class="social-link-header">
+                        </a> -->
+                        <a href="https://www.linkedin.com/in/dr-abhishek-kini-ab379b27/?originalSubdomain=in" class="social-link-header">
                             <i class="fab fa-linkedin-in" style="font-weight: 300;"></i>
                         </a>
                     </div>
@@ -334,9 +334,9 @@ else {
                                 </div>
                             </div>
                         </li>
-                         <li class="menu-item">
+                         <!-- <li class="menu-item">
                             <a href="<?php echo $pathPrefix; ?>before-after.php" class="menu-link">Gallery</a>
-                        </li>
+                        </li> -->
                         <li class="menu-item dropdown">
                             <div class="dropdown-container">
                                 <span class="menu-link rehabilitation-link" style="cursor: pointer;">

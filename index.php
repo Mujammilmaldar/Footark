@@ -213,51 +213,12 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Ankle Arthroscopy" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/SportsInjury.png" alt="Ankle Sprain" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
-                        <h4 class="condition-title">Ankle Arthroscopy</h4>
+                        <h4 class="condition-title">Ankle Sprain</h4>
                     </div>
                     <div class="condition-bottom">
-                        <p class="condition-desc">Keyhole surgery for ankle joint problems with quick recovery.</p>
-                        <a href="treatments/t-ankle-arthroscopy.php" class="condition-read-more black-color">Read More</a>
-                    </div>
-                </div>
-
-                <div class="condition-card">
-                    <div class="condition-top">
-                        <div class="condition-icon">
-                            <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Ligament Reconstruction" style="width: auto; height: 50px; object-fit: cover;">
-                        </div>
-                        <h4 class="condition-title">Ligament Reconstruction</h4>
-                    </div>
-                    <div class="condition-bottom">
-                        <p class="condition-desc">Restoring stability and strength to injured knees & ankles.</p>
-                        <a href="treatments/t-ankle-ligament.php" class="condition-read-more black-color">Read More</a>
-                    </div>
-                </div>
-
-                <div class="condition-card">
-                    <div class="condition-top">
-                        <div class="condition-icon">
-                            <img src="assets/images/home-conditions/AnkleFusion.png" alt="Arthroscopic Ankle Fusion" style="width: auto; height: 50px; object-fit: cover;">
-                        </div>
-                        <h4 class="condition-title">Arthroscopic Ankle Fusion</h4>
-                    </div>
-                    <div class="condition-bottom">
-                        <p class="condition-desc">Minimally invasive treatment for severe ankle arthritis.</p>
-                        <a href="treatments/t-ankle-fusion.php" class="condition-read-more black-color">Read More</a>
-                    </div>
-                </div>
-
-                <div class="condition-card">
-                    <div class="condition-top">
-                        <div class="condition-icon">
-                            <img src="assets/images/home-conditions/SportsInjury.png" alt="Sports Injury Treatment" style="width: auto; height: 50px; object-fit: cover;">
-                        </div>
-                        <h4 class="condition-title">Sports Injury Treatment</h4>
-                    </div>
-                    <div class="condition-bottom">
-                        <p class="condition-desc">Expert care for athletes with ankle sprains, tendon tears & fractures.</p>
+                        <p class="condition-desc">Expert treatment for ankle sprains from minor to severe injuries.</p>
                         <a href="conditions/anklesprain.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
@@ -265,54 +226,92 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Foot & Ankle Deformity Correction" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Ankle Arthritis" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
-                        <h4 class="condition-title">Ankle Deformity Correction</h4>
+                        <h4 class="condition-title">Ankle Arthritis</h4>
                     </div>
                     <div class="condition-bottom">
-                        <p class="condition-desc">Surgical & non-surgical solutions for flat feet, bunions & misalignments.</p>
-                        <a href="flat-foot.php" class="condition-read-more black-color">Read More</a>
+                        <p class="condition-desc">Comprehensive care for ankle joint arthritis and pain relief.</p>
+                        <a href="conditions/ankle-arthiritis.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
 
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Minimally Invasive Surgery" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Bunion" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
-                        <h4 class="condition-title">Minimally Invasive Surgery</h4>
-                    </div>
-                    <div class="condition-bottom">
-                        <p class="condition-desc">Smaller cuts, faster healing, and less pain for foot & ankle conditions.</p>
-                        <a href="procedures.php" class="condition-read-more black-color">Read More</a>
-                    </div>
-                </div>
-
-                <div class="condition-card">
-                    <div class="condition-top">
-                        <div class="condition-icon">
-                            <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Tendon Repair" style="width: auto; height: 50px; object-fit: cover;">
-                        </div>
-                        <h4 class="condition-title">Tendon Repair</h4>
-                    </div>
-                    <div class="condition-bottom">
-                        <p class="condition-desc">Advanced repair techniques for torn tendons with faster recovery times.</p>
-                        <a href="treatments/t-tendon-rupture.php" class="condition-read-more black-color">Read More</a>
-                    </div>
-                </div>
-
-                <div class="condition-card">
-                    <div class="condition-top">
-                        <div class="condition-icon">
-                            <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Bunion Surgery" style="width: auto; height: 50px; object-fit: cover;">
-                        </div>
-                        <h4 class="condition-title">Bunion Surgery</h4>
+                        <h4 class="condition-title">Bunion</h4>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Modern bunion correction with minimal scarring and quick return to activities.</p>
-                        <a href="bunion.php" class="condition-read-more black-color">Read More</a>
+                        <a href="conditions/bunion.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
+
+                <div class="condition-card">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Flat Foot" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Flat Foot</h4>
+                    </div>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Surgical & non-surgical solutions for flat feet and arch problems.</p>
+                        <a href="conditions/flat-foot.php" class="condition-read-more black-color">Read More</a>
+                    </div>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Heel Pain" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Heel Pain</h4>
+                    </div>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Effective treatment for plantar fasciitis and chronic heel pain.</p>
+                        <a href="conditions/heel-pain.php" class="condition-read-more black-color">Read More</a>
+                    </div>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Achilles Tendon Pain" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Achilles Tendon Pain</h4>
+                    </div>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Advanced treatment for Achilles tendon injuries and tendinitis.</p>
+                        <a href="conditions/achilles-tendon-pain.php" class="condition-read-more black-color">Read More</a>
+                    </div>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Great Toe Arthritis" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Great Toe Arthritis</h4>
+                    </div>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Specialized care for big toe joint arthritis and stiffness.</p>
+                        <a href="conditions/great-toe.php" class="condition-read-more black-color">Read More</a>
+                    </div>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-top">
+                        <div class="condition-icon">
+                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Ankle Impingement" style="width: auto; height: 50px; object-fit: cover;">
+                        </div>
+                        <h4 class="condition-title">Ankle Impingement</h4>
+                    </div>
+                    <div class="condition-bottom">
+                        <p class="condition-desc">Treatment for anterior and posterior ankle impingement syndrome.</p>
+                        <a href="conditions/ankle-impingement.php" class="condition-read-more black-color">Read More</a>
+                    </div>
                 </div>
             </div>
 
@@ -366,7 +365,6 @@
                                     </div>
                                     <div class="reviewer-details">
                                         <div class="reviewer-name">Jagdish Shadija</div>
-                                        <div class="review-date">5 years ago</div>
                                     </div>
                                 </div>
                             </div>
@@ -403,7 +401,6 @@
                                     </div>
                                     <div class="reviewer-details">
                                         <div class="reviewer-name">Nixit Gada</div>
-                                        <div class="review-date">9 months ago</div>
                                     </div>
                                 </div>
                             </div>
@@ -440,7 +437,6 @@
                                     </div>
                                     <div class="reviewer-details">
                                         <div class="reviewer-name">Vinay Nagia</div>
-                                        <div class="review-date">5 years ago</div>
                                     </div>
                                 </div>
                             </div>
@@ -477,7 +473,6 @@
                                     </div>
                                     <div class="reviewer-details">
                                         <div class="reviewer-name">Mitali Lakhawala</div>
-                                        <div class="review-date">9 years ago</div>
                                     </div>
                                 </div>
                             </div>
@@ -514,7 +509,6 @@
                                     </div>
                                     <div class="reviewer-details">
                                         <div class="reviewer-name">Batul Noble</div>
-                                        <div class="review-date">A year ago</div>
                                     </div>
                                 </div>
                             </div>
@@ -551,7 +545,6 @@
                                     </div>
                                     <div class="reviewer-details">
                                         <div class="reviewer-name">Shraddha Shah</div>
-                                        <div class="review-date">6 years ago</div>
                                     </div>
                                 </div>
                             </div>
@@ -588,7 +581,6 @@
                                     </div>
                                     <div class="reviewer-details">
                                         <div class="reviewer-name">Abhinav Onkar</div>
-                                        <div class="review-date">5 years ago</div>
                                     </div>
                                 </div>
                             </div>
@@ -625,7 +617,6 @@
                                     </div>
                                     <div class="reviewer-details">
                                         <div class="reviewer-name">Abhijit Jamble</div>
-                                        <div class="review-date">2 years ago</div>
                                     </div>
                                 </div>
                             </div>
@@ -662,7 +653,6 @@
                                     </div>
                                     <div class="reviewer-details">
                                         <div class="reviewer-name">Madhavi Hadker</div>
-                                        <div class="review-date">3 years ago</div>
                                     </div>
                                 </div>
                             </div>
@@ -699,7 +689,6 @@
                                     </div>
                                     <div class="reviewer-details">
                                         <div class="reviewer-name">Vidhi Patel</div>
-                                        <div class="review-date">3 years ago</div>
                                     </div>
                                 </div>
                             </div>
@@ -868,7 +857,7 @@
                         <!-- Map Container -->
                         <div class="contact-map-container">
                             <iframe 
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.9674891487547!2d72.83102731490284!3d19.03758078711428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf26f4c34d1b%3A0x2be8d86c82a7fdbb!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1639123456789!5m2!1sen!2sin" 
+                                src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d120707.64267886143!2d72.74961497860953!3d19.01470494770717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3be7cecf5890653b%3A0x1b8cb8c7f407f354!2sDr.%20Abhishek%20Kini's%20Foot%20Ark%20-%20Foot%20%26%20Ankle%E2%80%A6!3m2!1d19.0147232!2d72.8320167!4m5!1s0x3be7cecf5890653b%3A0x1b8cb8c7f407f354!2sWing%20B%2C%20Grnd%20Flr%2C%20Manoj%20Coop.%20Society%2C%20Appasaheb%20Marathe%20Marg%2C%20Dadar%2C%20Prabhadevi%2C%20Mumbai%2C%20Maharashtra%20400025!3m2!1d19.0147232!2d72.8320167!5e0!3m2!1sen!2sin!4v1762957340996!5m2!1sen!2sin" 
                                 width="100%" 
                                 height="450" 
                                 style="border:0; border-radius: 12px; margin: 20px 0;" 
