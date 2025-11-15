@@ -23,12 +23,12 @@ if (strpos($_SERVER['PHP_SELF'], '/conditions/') !== false) {
                             <a href="https://www.facebook.com/DrAbhishekKini" class="social-link" aria-label="Facebook">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <!-- <a href="#" class="social-link" aria-label="Twitter">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social-link" aria-label="Instagram">
+                            <a href="https://www.instagram.com/footarkclinic/" class="social-link" aria-label="Instagram" target="_blank">
                                 <i class="fab fa-instagram"></i>
-                            </a> -->
+                            </a>
+                            <a href="https://www.youtube.com/@FootarkClinic-FootAnkleSpecial/" class="social-link" aria-label="YouTube" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                             <a href="https://www.linkedin.com/in/dr-abhishek-kini-ab379b27/?originalSubdomain=in" class="social-link" aria-label="LinkedIn">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>

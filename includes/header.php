@@ -97,7 +97,7 @@ else {
         }
     ?>">
     <meta property="og:description" content="Leading foot & ankle specialist Dr. Abhishek Kini offers expert treatment in Mumbai. 12+ years experience, UK trained, minimally invasive surgery.">
-    <meta property="og:image" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI']) . '/' . $pathPrefix; ?>assets/images/doctor-profile.png">
+    <meta property="og:image" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI']) . '/' . $pathPrefix; ?>assets/images/favicon.png">
     <meta property="og:url" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
@@ -106,7 +106,7 @@ else {
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FootArk Clinic - Expert Foot & Ankle Specialist Mumbai">
     <meta name="twitter:description" content="Leading foot & ankle specialist Dr. Abhishek Kini offers expert treatment in Mumbai. 12+ years experience, UK trained, minimally invasive surgery.">
-    <meta name="twitter:image" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI']) . '/' . $pathPrefix; ?>assets/images/doctor-profile.png">
+    <meta name="twitter:image" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['REQUEST_URI']) . '/' . $pathPrefix; ?>assets/images/favicon.png">
     
     <!-- Additional Meta Tags -->
     <meta name="robots" content="index, follow">
@@ -202,9 +202,12 @@ else {
                         <a href="https://www.facebook.com/DrAbhishekKini" class="social-link-header">
                             <i class="fab fa-facebook" style="font-weight: 300;"></i>
                         </a>
-                        <!-- <a href="#" class="social-link-header">
+                        <a href="https://www.instagram.com/footarkclinic/" class="social-link-header" target="_blank">
                             <i class="fab fa-instagram" style="font-weight: 300;"></i>
-                        </a> -->
+                        </a>
+                        <a href="https://www.youtube.com/@FootarkClinic-FootAnkleSpecial/" class="social-link-header" target="_blank">
+                            <i class="fab fa-youtube" style="font-weight: 300;"></i>
+                        </a>
                         <a href="https://www.linkedin.com/in/dr-abhishek-kini-ab379b27/?originalSubdomain=in" class="social-link-header">
                             <i class="fab fa-linkedin-in" style="font-weight: 300;"></i>
                         </a>
