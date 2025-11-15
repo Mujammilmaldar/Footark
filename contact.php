@@ -132,7 +132,7 @@
                                     <i class="fas fa-map-marker-alt contact-icon"></i>
                                     <div class="contact-text">
                                         <span class="contact-label">Location</span>
-                                        <span class="contact-value">Mumbai, Maharashtra, India</span>
+                                        <span class="contact-value">Wing B, Grnd Flr, Manoj Coop. Society,<br>Appasaheb Marathe Marg, Dadar,<br>Prabhadevi, Mumbai 400 025</span>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +180,7 @@
                 <!-- Google Maps Embed -->
                 <iframe 
                     class="map-iframe"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1160972!2d72.74109995709166!3d19.082177512292154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1694567890123!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.1133049436858!2d72.82944177596441!3d19.014728253891818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cecf5890653b%3A0x1b8cb8c7f407f354!2sDr.%20Abhishek%20Kini's%20Foot%20Ark%20-%20Foot%20%26%20Ankle%20Specialist%20%7C%20Arthroscopic%20Surgeon%20in%20Mumbai!5e0!3m2!1sen!2sin!4v1763188966645!5m2!1sen!2sin"
                     allowfullscreen="" 
                     loading="lazy" 
                     referrerpolicy="no-referrer-when-downgrade">

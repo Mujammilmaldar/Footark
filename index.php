@@ -62,7 +62,7 @@
                         
                         <div class="about-description" style="margin-bottom: 2rem;">
                             <p style="color: var(--color-text-secondary); font-size: 1.1rem; line-height: 1.6;">
-                                Expert foot and ankle surgeon with over 12 years of experience. Trained internationally in the UK and Holland. Specializes in minimally invasive surgery for faster recovery and better results.
+                                Expert foot and ankle surgeon with over 15 years of experience. Trained internationally in the UK and Holland. Specializes in minimally invasive surgery for faster recovery and better results.
                             </p>
                         </div>
 
@@ -74,7 +74,7 @@
                                             <img src="assets/images/home-about/Experienced.png" alt="Experienced" style="width: auto; height: 40px; object-fit: cover;">
                                         </div>
                                         <div class="feature-content">
-                                            <h4 class="feature-title">12+ Years</h4>
+                                            <h4 class="feature-title">15+ Years</h4>
                                             <p class="feature-desc">Expert in foot & ankle surgery with proven results.</p>
                                         </div>
                                     </div>
@@ -226,13 +226,13 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Ankle Arthritis" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Ankle Arthroscopy" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
-                        <h4 class="condition-title">Ankle Arthritis</h4>
+                        <h4 class="condition-title">Ankle Arthroscopy Treatment</h4>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Comprehensive care for ankle joint arthritis and pain relief.</p>
-                        <a href="conditions/ankle-arthiritis.php" class="condition-read-more black-color">Read More</a>
+                        <a href="treatments/t-ankle-arthroscopy.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
 
@@ -252,7 +252,7 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Flat Foot" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/FlatFoot.png" alt="Flat Foot" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
                         <h4 class="condition-title">Flat Foot</h4>
                     </div>
@@ -265,7 +265,7 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Heel Pain" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/HeelPain.png" alt="Heel Pain" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
                         <h4 class="condition-title">Heel Pain</h4>
                     </div>
@@ -278,39 +278,39 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Achilles Tendon Pain" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Ankle Ligament Reconstruction" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
-                        <h4 class="condition-title">Achilles Tendon Pain</h4>
+                        <h4 class="condition-title">Ankle Ligament Reconstruction</h4>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Advanced treatment for Achilles tendon injuries and tendinitis.</p>
-                        <a href="conditions/achilles-tendon-pain.php" class="condition-read-more black-color">Read More</a>
+                        <a href="treatments/t-ankle-ligament.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
 
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Great Toe Arthritis" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/AchiliesTendonRepair.png" alt="Achilles Tendon Repair" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
-                        <h4 class="condition-title">Great Toe Arthritis</h4>
+                        <h4 class="condition-title">Achilles Tendon Repair</h4>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Specialized care for big toe joint arthritis and stiffness.</p>
-                        <a href="conditions/great-toe.php" class="condition-read-more black-color">Read More</a>
+                        <a href="treatments/t-tendon-rupture.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
 
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Ankle Impingement" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/BigToesurgery.png" alt="Big Toe Surgery" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
-                        <h4 class="condition-title">Ankle Impingement</h4>
+                        <h4 class="condition-title">Big Toe Surgery</h4>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Treatment for anterior and posterior ankle impingement syndrome.</p>
-                        <a href="conditions/ankle-impingement.php" class="condition-read-more black-color">Read More</a>
+                        <a href="treatments/t-big-toe.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
             </div>

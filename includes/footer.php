@@ -17,7 +17,7 @@ if (strpos($_SERVER['PHP_SELF'], '/conditions/') !== false) {
                             <p class="footer-tagline">Expert Foot & Ankle Care</p>
                         </div>
                         <p class="footer-description">
-                            The London Foot & Ankle Surgery is UK's leading specialist centre for Podiatry and Foot Surgery, providing high quality private care in Central London.
+                            Expert foot and ankle surgeon with over 15 years of experience. Trained internationally in the UK and Holland. Specializes in minimally invasive surgery for faster recovery and better results.
                         </p>
                         <div class="footer-social">
                             <a href="https://www.facebook.com/DrAbhishekKini" class="social-link" aria-label="Facebook">
@@ -43,9 +43,8 @@ if (strpos($_SERVER['PHP_SELF'], '/conditions/') !== false) {
                         <ul class="footer-links">
                             <li><a href="<?php echo $pathPrefix; ?>index.php">Home</a></li>
                             <li><a href="<?php echo $pathPrefix; ?>about.php">About Us</a></li>
-                            <li><a href="<?php echo $pathPrefix; ?>services.php">Services</a></li>
-                            <li><a href="<?php echo $pathPrefix; ?>team.php">Our Team</a></li>
-                            <li><a href="<?php echo $pathPrefix; ?>blog.php">Blog</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>conditions.php">Conditions</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>treatments.php">Treatments</a></li>
                             <li><a href="<?php echo $pathPrefix; ?>contact.php">Contact</a></li>
                         </ul>
                     </div>
@@ -56,12 +55,12 @@ if (strpos($_SERVER['PHP_SELF'], '/conditions/') !== false) {
                     <div class="footer-section">
                         <h4 class="footer-title">Our Services</h4>
                         <ul class="footer-links">
-                            <li><a href="#">Foot Surgery</a></li>
-                            <li><a href="#">Ankle Treatment</a></li>
-                            <li><a href="#">Sports Injuries</a></li>
-                            <li><a href="#">Diabetic Foot Care</a></li>
-                            <li><a href="#">Bunion Treatment</a></li>
-                            <li><a href="#">Heel Pain Relief</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>conditions/anklesprain.php">Ankle Sprain</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-ankle-arthroscopy.php">Ankle Arthroscopy</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>conditions/bunion.php">Bunion Treatment</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>conditions/flat-foot.php">Flat Foot</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>conditions/heel-pain.php">Heel Pain Relief</a></li>
+                            <li><a href="<?php echo $pathPrefix; ?>treatments/t-ankle-ligament.php">Ligament Reconstruction</a></li>
                         </ul>
                     </div>
                 </div>
