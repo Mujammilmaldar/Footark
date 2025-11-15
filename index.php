@@ -216,6 +216,7 @@
                             <img src="assets/images/home-conditions/SportsInjury.png" alt="Ankle Sprain" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
                         <h4 class="condition-title">Ankle Sprain</h4>
+                        <br>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Expert treatment for ankle sprains from minor to severe injuries.</p>
@@ -242,6 +243,7 @@
                             <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Bunion" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
                         <h4 class="condition-title">Bunion</h4>
+                        <br>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Modern bunion correction with minimal scarring and quick return to activities.</p>
@@ -255,6 +257,7 @@
                             <img src="assets/images/home-conditions/FlatFoot.png" alt="Flat Foot" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
                         <h4 class="condition-title">Flat Foot</h4>
+                        <br>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Surgical & non-surgical solutions for flat feet and arch problems.</p>
@@ -268,6 +271,7 @@
                             <img src="assets/images/home-conditions/HeelPain.png" alt="Heel Pain" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
                         <h4 class="condition-title">Heel Pain</h4>
+                        <br>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Effective treatment for plantar fasciitis and chronic heel pain.</p>
@@ -294,6 +298,7 @@
                             <img src="assets/images/home-conditions/AchiliesTendonRepair.png" alt="Achilles Tendon Repair" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
                         <h4 class="condition-title">Achilles Tendon Repair</h4>
+                        <br>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Specialized care for big toe joint arthritis and stiffness.</p>
@@ -307,6 +312,7 @@
                             <img src="assets/images/home-conditions/BigToesurgery.png" alt="Big Toe Surgery" style="width: auto; height: 50px; object-fit: cover;">
                         </div>
                         <h4 class="condition-title">Big Toe Surgery</h4>
+                        <br>
                     </div>
                     <div class="condition-bottom">
                         <p class="condition-desc">Treatment for anterior and posterior ankle impingement syndrome.</p>
@@ -356,7 +362,6 @@
                                 
                                 <div class="review-content">
                                     <p class="review-text">I underwent talus bone and medial malleolus surgery along with ankle correction fusion surgery. He is knowledgeable, friendly and efficient. Most importantly he has the patience to listen and clear all doubts. He is quite empathetic, understanding and honest doctor. Thanks to you my Dedicated Doctor.</p>
-                                    <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
@@ -392,7 +397,6 @@
                                 
                                 <div class="review-content">
                                     <p class="review-text">One of the Best Doctors for Ankle in our country. He will always guide and give perfect advice, very knowledgeable and well informed Dr. Highly Recommended!</p>
-                                    <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
@@ -428,7 +432,6 @@
                                 
                                 <div class="review-content">
                                     <p class="review-text">You can trust him completely. My ankle got ruptured and after visiting I felt very positive. One of the senior surgeons from Delhi gave me more confidence saying that he is a great doctor. My surgery and recovery process went very smooth. I am happy and my foot is getting better day by day.</p>
-                                    <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
@@ -464,7 +467,6 @@
                                 
                                 <div class="review-content">
                                     <p class="review-text">Apart from being an excellent ortho, Dr. Kini has a very rare quality where the patient and family can blindly trust and have faith in him. His positive energy is contagious and helps you win half the battle. He is one of those very few considerate doctors who takes into consideration financials of the family as well.</p>
-                                    <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
@@ -500,7 +502,6 @@
                                 
                                 <div class="review-content">
                                     <p class="review-text">Our Heartiest Thanks to feet ankle expert Dr. Abhishek Kini! Thanks a lot for wonderful surgery of my son's Ankle, fractured badly and within two months, my son is back on his feet. A Very complicated surgery and Dr. Abhishek made it Successfully Rewardable. Hats off to you Sir. Stay Blessed always.</p>
-                                    <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
@@ -536,7 +537,6 @@
                                 
                                 <div class="review-content">
                                     <p class="review-text">Humble, helpful and brilliant are few words to describe Dr Kini. He ensures his patients are taken good care of, follows up with concern and gives abundant time for us to share our issues. Recommends other therapies before suggesting a surgery. Appreciate his effort and time in helping me recover. Thank you!</p>
-                                    <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
@@ -572,7 +572,6 @@
                                 
                                 <div class="review-content">
                                     <p class="review-text">Best doctor for the treatment of Ankle injury. Have gone through osteochondral lesion surgery and really worked for me with Dr's treatment. I was suffering a lot and visited at least 10 doctors but nothing worked for me. Finally Dr. Kini's advice and treatment worked for me very well. Thank you so very much.</p>
-                                    <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
@@ -608,7 +607,6 @@
                                 
                                 <div class="review-content">
                                     <p class="review-text">A big thanks to feet ankle expert Dr. Abhishek! I had a bad Achilles tendon rupture & was operated from a local orthopedic surgeon. However things got worse. This is where Dr. Abhishek was referred to us. Got operated for debridement & TA repair & now back on my feet with much more confidence & completely healed. Thank you for your support Sir.</p>
-                                    <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
@@ -644,7 +642,6 @@
                                 
                                 <div class="review-content">
                                     <p class="review-text">I met Dr Abhishek Kini 7 years ago for my Hallux Valgus problem. I think that he is a very soft spoken and a gentle person. Dr Abhishek is also knowledgeable and helpful. I just underwent a big toe surgery under his guidance. Thanks so much Dr Abhishek for always being there for me!</p>
-                                    <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
@@ -680,7 +677,6 @@
                                 
                                 <div class="review-content">
                                     <p class="review-text">I can never thank you enough for all your efforts. You are truly a man of honour and word. In my hardest moments you provided a light amongst the dark. Dr. Abhishek gave me moral support. He is an expert surgeon and an empathetic human being who understands the anxiety of patients. God bless you always Dr. Abhishek.</p>
-                                    <a href="#" class="read-more">Read more</a>
                                 </div>
                                 
                                 <div class="reviewer-info">
@@ -857,7 +853,7 @@
                         <!-- Map Container -->
                         <div class="contact-map-container">
                             <iframe 
-                                src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d120707.64267886143!2d72.74961497860953!3d19.01470494770717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3be7cecf5890653b%3A0x1b8cb8c7f407f354!2sDr.%20Abhishek%20Kini's%20Foot%20Ark%20-%20Foot%20%26%20Ankle%E2%80%A6!3m2!1d19.0147232!2d72.8320167!4m5!1s0x3be7cecf5890653b%3A0x1b8cb8c7f407f354!2sWing%20B%2C%20Grnd%20Flr%2C%20Manoj%20Coop.%20Society%2C%20Appasaheb%20Marathe%20Marg%2C%20Dadar%2C%20Prabhadevi%2C%20Mumbai%2C%20Maharashtra%20400025!3m2!1d19.0147232!2d72.8320167!5e0!3m2!1sen!2sin!4v1762957340996!5m2!1sen!2sin" 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.1133049436858!2d72.82944177596441!3d19.014728253891818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cecf5890653b%3A0x1b8cb8c7f407f354!2sDr.%20Abhishek%20Kini&#39;s%20Foot%20Ark%20-%20Foot%20%26%20Ankle%20Specialist%20%7C%20Arthroscopic%20Surgeon%20in%20Mumbai!5e0!3m2!1sen!2sin!4v1763188966645!5m2!1sen!2sin" 
                                 width="100%" 
                                 height="450" 
                                 style="border:0; border-radius: 12px; margin: 20px 0;" 
