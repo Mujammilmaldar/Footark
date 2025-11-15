@@ -332,44 +332,44 @@ section:nth-child(5) { animation-delay: 0.5s; }
   /* Focus on readability and visual hierarchy */
 
   /* Display Sizes - For hero sections and major headings */
-  --font-size-display-large: clamp(3rem, calc(5vw + 0.5rem), 4rem);
-  --font-size-display-medium: clamp(2.5rem, calc(4vw + 0.5rem), 3.25rem);
-  --font-size-display-small: clamp(2.25rem, calc(3vw + 0.5rem), 2.75rem);
+  --font-size-display-large: clamp(3.25rem, calc(5vw + 0.5rem), 4.5rem);
+  --font-size-display-medium: clamp(2.75rem, calc(4vw + 0.5rem), 3.75rem);
+  --font-size-display-small: clamp(2.5rem, calc(3vw + 0.5rem), 3rem);
 
   /* Heading Hierarchy - Better proportions and readability */
-  --font-size-h1: clamp(2rem, calc(4vw + 0.25rem), 2.5rem);
-  --font-size-h2: clamp(1.75rem, calc(3vw + 0.25rem), 2rem);
-  --font-size-h3: clamp(1.5rem, calc(2.5vw + 0.25rem), 1.75rem);
-  --font-size-h4: clamp(1.375rem, calc(2vw + 0.25rem), 1.5rem);
-  --font-size-h5: clamp(1.25rem, calc(1.5vw + 0.25rem), 1.25rem);
-  --font-size-h6: clamp(1.125rem, calc(1vw + 0.25rem), 1.125rem);
+  --font-size-h1: clamp(2.25rem, calc(4vw + 0.25rem), 2.75rem);
+  --font-size-h2: clamp(2rem, calc(3vw + 0.25rem), 2.25rem);
+  --font-size-h3: clamp(1.75rem, calc(2.5vw + 0.25rem), 2rem);
+  --font-size-h4: clamp(1.5rem, calc(2vw + 0.25rem), 1.75rem);
+  --font-size-h5: clamp(1.375rem, calc(1.5vw + 0.25rem), 1.5rem);
+  --font-size-h6: clamp(1.25rem, calc(1vw + 0.25rem), 1.375rem);
 
   /* Body Text - Enhanced readability with optimal line length */
-  --font-size-body-large: clamp(1.0625rem, calc(1vw + 0.75rem), 1.125rem);
-  --font-size-body: clamp(0.85rem, calc(0.5rem), 0.85rem);
-  --font-size-body-small: clamp(0.875rem, calc(0.25vw + 0.75rem), 0.9375rem);
+  --font-size-body-large: clamp(1.25rem, calc(1vw + 0.75rem), 1.375rem);
+  --font-size-body: clamp(1.0625rem, calc(0.5vw + 0.875rem), 1.125rem);
+  --font-size-body-small: clamp(1rem, calc(0.25vw + 0.875rem), 1.0625rem);
 
   /* Utility Text Sizes - Better balance */
-  --font-size-lead: clamp(1.125rem, calc(0.875vw + 0.875rem), 1.25rem);
-  --font-size-subtitle: clamp(0.975rem, calc(0.625vw + 0.75rem), 1.0625rem);
-  --font-size-small: clamp(0.75rem, calc(0.1875vw + 0.675rem), 0.8125rem);
-  --font-size-caption: clamp(0.6875rem, calc(0.0625vw + 0.625rem), 0.75rem);
-  --font-size-micro: clamp(0.625rem, calc(0.0625vw + 0.5875rem), 0.6875rem);
+  --font-size-lead: clamp(1.25rem, calc(0.875vw + 0.875rem), 1.375rem);
+  --font-size-subtitle: clamp(1.0625rem, calc(0.625vw + 0.875rem), 1.1875rem);
+  --font-size-small: clamp(0.875rem, calc(0.1875vw + 0.75rem), 0.9375rem);
+  --font-size-caption: clamp(0.8125rem, calc(0.0625vw + 0.75rem), 0.875rem);
+  --font-size-micro: clamp(0.75rem, calc(0.0625vw + 0.6875rem), 0.8125rem);
 
   /* Button and UI Element Sizes - More consistent */
-  --font-size-button-large: clamp(1rem, calc(0.75vw + 0.875rem), 1.125rem);
-  --font-size-button: clamp(0.9375rem, calc(0.5vw + 0.8125rem), 1rem);
-  --font-size-button-small: clamp(0.875rem, calc(0.25vw + 0.8125rem), 0.9375rem);
+  --font-size-button-large: clamp(1.125rem, calc(0.75vw + 1rem), 1.25rem);
+  --font-size-button: clamp(1.0625rem, calc(0.5vw + 0.9375rem), 1.125rem);
+  --font-size-button-small: clamp(1rem, calc(0.25vw + 0.9375rem), 1.0625rem);
 
   /* Navigation and Menu Sizes - Better hierarchy */
-  --font-size-nav: clamp(0.9375rem, calc(0.5vw + 0.8125rem), 1rem);
-  --font-size-nav-small: clamp(0.875rem, calc(0.25vw + 0.8125rem), 0.9375rem);
+  --font-size-nav: clamp(1.0625rem, calc(0.5vw + 0.9375rem), 1.125rem);
+  --font-size-nav-small: clamp(1rem, calc(0.25vw + 0.9375rem), 1.0625rem);
 
   /* Header-specific Font Sizes - Refined proportions */
-  --font-size-header-contact: clamp(0.8125rem, calc(0.25vw + 0.75rem), 0.875rem);
-  --font-size-header-nav: clamp(0.9375rem, calc(0.5vw + 0.8125rem), 1rem);
-  --font-size-header-btn: clamp(0.875rem, calc(0.25vw + 0.8125rem), 0.9375rem);
-  --font-size-logo: clamp(1.375rem, calc(1.25vw + 1rem), 1.75rem);
+  --font-size-header-contact: clamp(0.9375rem, calc(0.25vw + 0.875rem), 1rem);
+  --font-size-header-nav: clamp(1.0625rem, calc(0.5vw + 0.9375rem), 1.125rem);
+  --font-size-header-btn: clamp(1rem, calc(0.25vw + 0.9375rem), 1.0625rem);
+  --font-size-logo: clamp(1.5rem, calc(1.25vw + 1.125rem), 1.875rem);
 
   /* -- Font Weights -- */
   --font-weight-light: 300;

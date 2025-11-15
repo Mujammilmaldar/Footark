@@ -232,7 +232,7 @@
                         <h4 class="condition-title">Ankle Arthroscopy Treatment</h4>
                     </div>
                     <div class="condition-bottom">
-                        <p class="condition-desc">Comprehensive care for ankle joint arthritis and pain relief.</p>
+                        <p class="condition-desc">Minimally invasive keyhole surgery for ankle joint problems and injuries.</p>
                         <a href="treatments/t-ankle-arthroscopy.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
@@ -287,7 +287,7 @@
                         <h4 class="condition-title">Ankle Ligament Reconstruction</h4>
                     </div>
                     <div class="condition-bottom">
-                        <p class="condition-desc">Advanced treatment for Achilles tendon injuries and tendinitis.</p>
+                        <p class="condition-desc">Surgical repair for chronic ankle instability and ligament tears.</p>
                         <a href="treatments/t-ankle-ligament.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
@@ -301,7 +301,7 @@
                         <br>
                     </div>
                     <div class="condition-bottom">
-                        <p class="condition-desc">Specialized care for big toe joint arthritis and stiffness.</p>
+                        <p class="condition-desc">Advanced surgical repair for Achilles tendon ruptures and tears.</p>
                         <a href="treatments/t-tendon-rupture.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
@@ -315,7 +315,7 @@
                         <br>
                     </div>
                     <div class="condition-bottom">
-                        <p class="condition-desc">Treatment for anterior and posterior ankle impingement syndrome.</p>
+                        <p class="condition-desc">Specialized treatment for big toe joint arthritis and stiffness.</p>
                         <a href="treatments/t-big-toe.php" class="condition-read-more black-color">Read More</a>
                     </div>
                 </div>
