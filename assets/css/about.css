@@ -237,7 +237,7 @@ body {
 
 .stat-card {
     text-align: left;
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
     background-color: transparent;
     border-radius: 0;
     transition: none;
