@@ -3,13 +3,13 @@
     <section class="hero-section">
         <div class="video-hero-container">
             <!-- Desktop Video -->
-            <video class="hero-video-desktop" autoplay muted loop playsinline preload="auto">
+            <video class="hero-video-desktop" autoplay muted loop playsinline preload="metadata" poster="assets/images/hero-about.avif">
                 <source src="assets/video/hero-bg.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             
             <!-- Mobile Video -->
-            <video class="hero-video-mobile" autoplay muted loop playsinline preload="auto">
+            <video class="hero-video-mobile" autoplay muted loop playsinline preload="metadata">
                 <source src="assets/video/mobilebanner-footarkclinic.webm" type="video/webm">
                 <source src="assets/video/mobilebanner-footarkclinic.mp4" type="video/mp4">
                 <source src="assets/video/mobilebanner-footarkclinic.mov" type="video/quicktime">
@@ -41,7 +41,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">
                     <div class="about-image">
-                        <img src="assets/images/Dr.Abhishekkini-FootAnkleSurgeonMumbai (2).webp" style="border-radius:var(--border-radius-large);" alt="Dr. Abhishek Kini" class="img-fluid">
+                        <picture>
+                            <source srcset="assets/images/Dr.Abhishekkini-FootAnkleSurgeonMumbai (2).webp" type="image/webp">
+                            <img src="assets/images/Dr.Abhishekkini-FootAnkleSurgeonMumbai (2).webp" style="border-radius:var(--border-radius-large);" alt="Dr. Abhishek Kini" class="img-fluid" width="600" height="800" fetchpriority="high" decoding="async">
+                        </picture>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -50,7 +53,7 @@
                         <h2 class="about-title">About Dr. Abhishek Kini</h2>
                         <div class="doctor-info" style="margin-bottom: 2rem;">
                             <div class="desktop-hidden-image">
-                                <img src="assets/images/Dr.Abhishekkini-FootAnkleSurgeonMumbai (2).webp" style="border-radius:var(--border-radius-large);" alt="Dr. Abhishek Kini" class="img-fluid">
+                                <img src="assets/images/Dr.Abhishekkini-FootAnkleSurgeonMumbai (2).webp" style="border-radius:var(--border-radius-large);" alt="Dr. Abhishek Kini" class="img-fluid" width="600" height="800" loading="lazy">
                         </div>
                             <p style="color: var(--color-text-secondary); font-size: 1rem; line-height: 1.4; margin-bottom: 0.5rem;font-style:italic;">
                                 DNB (Orthopaedics), MNAMS<br>
@@ -71,7 +74,7 @@
                                 <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="feature-box">
                                         <div class="feature-icon">
-                                            <img src="assets/images/home-about/Experienced.png" alt="Experienced" style="width: auto; height: 40px; object-fit: cover;">
+                                            <img src="assets/images/home-about/Experienced.webp" alt="Experienced" style="width: auto; height: 40px; object-fit: cover;" width="40" height="40" loading="lazy">
                                         </div>
                                         <div class="feature-content">
                                             <h4 class="feature-title">15+ Years</h4>
@@ -82,7 +85,7 @@
                                 <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="feature-box">
                                         <div class="feature-icon">
-                                           <img src="assets/images/home-about/Expert.png" alt="Expert" style="width: auto; height: 40px; object-fit: cover;">
+                                           <img src="assets/images/home-about/Expert.webp" alt="Expert" style="width: auto; height: 40px; object-fit: cover;" width="40" height="40" loading="lazy">
                                         </div>
                                         <div class="feature-content">
                                             <h4 class="feature-title">Advanced</h4>
@@ -93,7 +96,7 @@
                                 <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="feature-box">
                                         <div class="feature-icon">
-                                            <img src="assets/images/home-about/Internationally Trained.png" alt="Internationally Trained" style="width: auto; height: 40px; object-fit: cover;">
+                                            <img src="assets/images/home-about/Internationally Trained.webp" alt="Internationally Trained" style="width: auto; height: 40px; object-fit: cover;" width="40" height="40" loading="lazy">
                                         </div>
                                         <div class="feature-content">
                                             <h4 class="feature-title">UK Trained</h4>
@@ -104,7 +107,7 @@
                                 <div class="col-lg-3 col-md-3 col-sm-6">
                                     <div class="feature-box">
                                         <div class="feature-icon">
-                                            <img src="assets/images/home-about/PatientCentric.png" alt="Patient-Centric" style="width: auto; height: 40px; object-fit: cover;">
+                                            <img src="assets/images/home-about/PatientCentric.webp" alt="Patient-Centric" style="width: auto; height: 40px; object-fit: cover;" width="40" height="40" loading="lazy">
                                         </div>
                                         <div class="feature-content">
                                             <h4 class="feature-title">Patient First</h4>
@@ -141,42 +144,42 @@
                         <!-- Result Card 1 -->
                         <div class="result-card">
                             <div class="result-image-container">
-                                <img src="assets/images/before-after/1.png" alt="Bunion Correction Before After" class="result-image">
+                                <img src="assets/images/before-after/1.webp" alt="Bunion Correction Before After" class="result-image" width="400" height="300" loading="lazy">
                             </div>
                         </div>
 
                         <!-- Result Card 2 -->
                         <div class="result-card">
                             <div class="result-image-container">
-                                <img src="assets/images/before-after/2.webp" alt="Plantar Fasciitis Before After" class="result-image">
+                                <img src="assets/images/before-after/2.webp" alt="Plantar Fasciitis Before After" class="result-image" width="400" height="300" loading="lazy">
                             </div>
                         </div>
 
                         <!-- Result Card 3 -->
                         <div class="result-card">
                             <div class="result-image-container">
-                                <img src="assets/images/before-after/3.png" alt="Ankle Surgery Before After" class="result-image">
+                                <img src="assets/images/before-after/3.webp" alt="Ankle Surgery Before After" class="result-image" width="400" height="300" loading="lazy">
                             </div>
                         </div>
 
                         <!-- Result Card 4 -->
                         <div class="result-card">
                             <div class="result-image-container">
-                                <img src="assets/images/before-after/4.png" alt="Hammer Toe Before After" class="result-image">
+                                <img src="assets/images/before-after/4.webp" alt="Hammer Toe Before After" class="result-image" width="400" height="300" loading="lazy">
                             </div>
                         </div>
 
                         <!-- Result Card 5 -->
                         <div class="result-card">
                             <div class="result-image-container">
-                                <img src="assets/images/before-after/5.png" alt="Ingrown Nail Before After" class="result-image">
+                                <img src="assets/images/before-after/5.webp" alt="Ingrown Nail Before After" class="result-image" width="400" height="300" loading="lazy">
                             </div>
                         </div>
 
                         <!-- Result Card 6 -->
                         <div class="result-card">
                             <div class="result-image-container">
-                                <img src="assets/images/before-after/6.png" alt="Diabetic Foot Care Before After" class="result-image">
+                                <img src="assets/images/before-after/6.webp" alt="Diabetic Foot Care Before After" class="result-image" width="400" height="300" loading="lazy">
                             </div>
                         </div>
 
@@ -213,7 +216,7 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/SportsInjury.png" alt="Ankle Sprain" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/SportsInjury.webp" alt="Ankle Sprain" style="width: auto; height: 50px; object-fit: cover;" width="50" height="50" loading="lazy">
                         </div>
                         <h4 class="condition-title">Ankle Sprain</h4>
                         <br>
@@ -227,7 +230,7 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/AnkleArthroscopy.png" alt="Ankle Arthroscopy" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/AnkleArthroscopy.webp" alt="Ankle Arthroscopy" style="width: auto; height: 50px; object-fit: cover;" width="50" height="50" loading="lazy">
                         </div>
                         <h4 class="condition-title">Ankle Arthroscopy Treatment</h4>
                     </div>
@@ -240,7 +243,7 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/FootAnkleDeformity.png" alt="Bunion" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/FootAnkleDeformity.webp" alt="Bunion" style="width: auto; height: 50px; object-fit: cover;" width="50" height="50" loading="lazy">
                         </div>
                         <h4 class="condition-title">Bunion</h4>
                         <br>
@@ -254,7 +257,7 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/FlatFoot.png" alt="Flat Foot" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/FlatFoot.webp" alt="Flat Foot" style="width: auto; height: 50px; object-fit: cover;" width="50" height="50" loading="lazy">
                         </div>
                         <h4 class="condition-title">Flat Foot</h4>
                         <br>
@@ -268,7 +271,7 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/HeelPain.png" alt="Heel Pain" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/HeelPain.webp" alt="Heel Pain" style="width: auto; height: 50px; object-fit: cover;" width="50" height="50" loading="lazy">
                         </div>
                         <h4 class="condition-title">Heel Pain</h4>
                         <br>
@@ -282,7 +285,7 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/LigamentReconstruction.png" alt="Ankle Ligament Reconstruction" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/LigamentReconstruction.webp" alt="Ankle Ligament Reconstruction" style="width: auto; height: 50px; object-fit: cover;" width="50" height="50" loading="lazy">
                         </div>
                         <h4 class="condition-title">Ankle Ligament Reconstruction</h4>
                     </div>
@@ -295,7 +298,7 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/AchiliesTendonRepair.png" alt="Achilles Tendon Repair" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/AchiliesTendonRepair.webp" alt="Achilles Tendon Repair" style="width: auto; height: 50px; object-fit: cover;" width="50" height="50" loading="lazy">
                         </div>
                         <h4 class="condition-title">Achilles Tendon Repair</h4>
                         <br>
@@ -309,7 +312,7 @@
                 <div class="condition-card">
                     <div class="condition-top">
                         <div class="condition-icon">
-                            <img src="assets/images/home-conditions/BigToesurgery.png" alt="Big Toe Surgery" style="width: auto; height: 50px; object-fit: cover;">
+                            <img src="assets/images/home-conditions/BigToesurgery.webp" alt="Big Toe Surgery" style="width: auto; height: 50px; object-fit: cover;" width="50" height="50" loading="lazy">
                         </div>
                         <h4 class="condition-title">Big Toe Surgery</h4>
                         <br>
@@ -721,56 +724,56 @@
             <div class="auto-slider-container">
                 <div class="auto-slider-track">
                     <div class="logo-slide">
-                        <img src="assets/images/company/aziz.png" alt="Aziz Hospital">
+                        <img src="assets/images/company/aziz.webp" alt="Aziz Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Aziz Polyclinic</h4>
                             <p class="logo-address">AMC Rd, near Damani Hospital, Dibrugarh, Assam 786001</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/hinduja.png" alt="Hinduja Hospital">
+                        <img src="assets/images/company/hinduja.webp" alt="Hinduja Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Hinduja Hospital & Research Center</h4>
                             <p class="logo-address">SVS Rd, Mahim West, Shivaji Park, Mumbai, 400016</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Jupiter.png" alt="Jupiter Hospital">
+                        <img src="assets/images/company/Jupiter.webp" alt="Jupiter Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Jupiter Hospital</h4>
                             <p class="logo-address">Eastern Express Highway, Service Rd, Next To Viviana Mall, Thane, 400601</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/lilavati.png" alt="Lilavati Hospital">
+                        <img src="assets/images/company/lilavati.webp" alt="Lilavati Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Lilavati Hospital & Research Center</h4>
                             <p class="logo-address">Lilavati Hospital, A-791, Bandra Reclamation Rd, Bandra West, Mumbai, 400050</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/MGM.png" alt="MGM Healthcare">
+                        <img src="assets/images/company/MGM.webp" alt="MGM Healthcare">
                         <div class="logo-info">
                             <h4 class="logo-name">MGM Hospital</h4>
                             <p class="logo-address">Plot No.35, Atmashanti Society, Sector 3, Vashi, Navi Mumbai, Maharashtra 400703</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/oyster.png" alt="Oyster & Pearl Hospital">
+                        <img src="assets/images/company/oyster.webp" alt="Oyster & Pearl Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Oyster & Pearl Hospital</h4>
                             <p class="logo-address">1671-75, Ganeshkhind Rd, near Hotel Pride, Narveer Tanaji Wadi, Shivajinagar, Pune, Maharashtra 411016</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Parekhs.png" alt="Parekh's Hospital">
+                        <img src="assets/images/company/Parekhs.webp" alt="Parekh's Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Parekh’s Hospital</h4>
                             <p class="logo-address">Shyamal Cross Road, 132 Feet Ring Road Shyamal, Satellite, Ahmedabad, Gujarat 380015</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Reliance.png" alt="Reliance Hospital">
+                        <img src="assets/images/company/Reliance.webp" alt="Reliance Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">HN Reliance Hospital</h4>
                             <p class="logo-address">Prarthana Samaj, Raja Rammohan Roy Rd, Charni Road East, Khetwadi, Girgaon, Mumbai, 400004</p>
@@ -778,56 +781,56 @@
                     </div>
                     <!-- Duplicate slides for seamless loop -->
                     <div class="logo-slide">
-                        <img src="assets/images/company/aziz.png" alt="Aziz Hospital">
+                        <img src="assets/images/company/aziz.webp" alt="Aziz Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Aziz Polyclinic</h4>
                             <p class="logo-address">AMC Rd, near Damani Hospital, Dibrugarh, Assam 786001</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/hinduja.png" alt="Hinduja Hospital">
+                        <img src="assets/images/company/hinduja.webp" alt="Hinduja Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Hinduja Hospital & Research Center</h4>
                             <p class="logo-address">SVS Rd, Mahim West, Shivaji Park, Mumbai, 400016</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Jupiter.png" alt="Jupiter Hospital">
+                        <img src="assets/images/company/Jupiter.webp" alt="Jupiter Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Jupiter Hospital</h4>
                             <p class="logo-address">Eastern Express Highway, Service Rd, Next To Viviana Mall, Thane, 400601</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/lilavati.png" alt="Lilavati Hospital">
+                        <img src="assets/images/company/lilavati.webp" alt="Lilavati Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Lilavati Hospital & Research Center</h4>
                             <p class="logo-address">Lilavati Hospital, A-791, Bandra Reclamation Rd, Bandra West, Mumbai, 400050</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/MGM.png" alt="MGM Healthcare">
+                        <img src="assets/images/company/MGM.webp" alt="MGM Healthcare">
                         <div class="logo-info">
                             <h4 class="logo-name">MGM Hospital</h4>
                             <p class="logo-address">Plot No.35, Atmashanti Society, Sector 3, Vashi, Navi Mumbai, Maharashtra 400703</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/oyster.png" alt="Oyster & Pearl Hospital">
+                        <img src="assets/images/company/oyster.webp" alt="Oyster & Pearl Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Oyster & Pearl Hospital</h4>
                             <p class="logo-address">1671-75, Ganeshkhind Rd, near Hotel Pride, Narveer Tanaji Wadi, Shivajinagar, Pune, Maharashtra 411016</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Parekhs.png" alt="Parekh's Hospital">
+                        <img src="assets/images/company/Parekhs.webp" alt="Parekh's Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">Parekh’s Hospital</h4>
                             <p class="logo-address">Shyamal Cross Road, 132 Feet Ring Road Shyamal, Satellite, Ahmedabad, Gujarat 380015</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Reliance.png" alt="Reliance Hospital">
+                        <img src="assets/images/company/Reliance.webp" alt="Reliance Hospital">
                         <div class="logo-info">
                             <h4 class="logo-name">HN Reliance Hospital</h4>
                             <p class="logo-address">Prarthana Samaj, Raja Rammohan Roy Rd, Charni Road East, Khetwadi, Girgaon, Mumbai, 400004</p>
@@ -908,10 +911,10 @@
     </section>
 </main>
 
-<!-- Lightweight Testimonials Slider JavaScript -->
-<script src="assets/js/testimonials-new.js"></script>
-<!-- Treatment Results Slider JavaScript -->
-<script src="assets/js/treatment-results.js"></script>
+<!-- Lightweight Testimonials Slider JavaScript - Deferred for better performance -->
+<script src="assets/js/testimonials-new.js" defer></script>
+<!-- Treatment Results Slider JavaScript - Deferred for better performance -->
+<script src="assets/js/treatment-results.js" defer></script>
 
 <!-- Simple Video Load Script -->
 <script>
@@ -939,3 +942,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <?php include 'includes/footer.php'; ?>
+
+
+

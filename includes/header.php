@@ -39,6 +39,28 @@ else {
     <link rel="shortcut icon" href="<?php echo $pathPrefix; ?>assets/images/favicon.png">
     <link rel="apple-touch-icon" href="<?php echo $pathPrefix; ?>assets/images/favicon.png">
     
+    <!-- DNS Prefetch & Preconnect for faster external resource loading -->
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="dns-prefetch" href="//upload.wikimedia.org">
+    <link rel="dns-prefetch" href="//www.google.com">
+    
+    <?php 
+    // Detect if this is the home page - defined early for preload
+    $isHomePageCheck = (
+        strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false || 
+        $_SERVER['REQUEST_URI'] === '/' || 
+        $_SERVER['REQUEST_URI'] === '/Footark/' || 
+        $_SERVER['REQUEST_URI'] === '/Footark' ||
+        basename($_SERVER['SCRIPT_NAME']) === 'index.php'
+    );
+    
+    if ($isHomePageCheck): 
+    ?>
+    <!-- Preload LCP image for faster rendering -->
+    <link rel="preload" as="image" href="<?php echo $pathPrefix; ?>assets/images/Dr.Abhishekkini-FootAnkleSurgeonMumbai (2).webp" fetchpriority="high">
+    <?php endif; ?>
+    
     <!-- SEO Meta Tags -->
     <title><?php 
         $currentPage = basename($_SERVER['SCRIPT_NAME'], '.php');
@@ -113,11 +135,36 @@ else {
     <meta name="theme-color" content="#1e3c72">
     <meta name="msapplication-TileColor" content="#1e3c72">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Inline Critical CSS for instant render -->
+    <style>
+        body{margin:0;font-family:sans-serif;opacity:0;animation:.4s ease-out forwards fadeInPage}
+        @keyframes fadeInPage{0%{opacity:0}100%{opacity:1}}
+        header{background:#fff;box-shadow:0 2px 4px rgba(0,0,0,.1)}
+        .hero-section{min-height:70vh;background:#1e3c72;position:relative}
+        img{max-width:100%;height:auto}
+    </style>
     
+    <!-- Critical CSS - Load synchronously -->
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/main.css">
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/header.css">
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/footer.css">
+    
+    <!-- Font Awesome with font-display swap inline override -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all';this.onload=null;">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+    
+    <!-- Font-display swap override -->
+    <style>
+        @font-face {
+            font-family: 'Font Awesome 6 Free';
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Font Awesome 6 Brands';
+            font-display: swap;
+        }
+    </style>
+    
     <?php 
     // Detect if this is the home page (index.php or root directory)
     $isHomePage = (
@@ -130,12 +177,22 @@ else {
     
     if ($isHomePage): 
     ?>
+    <!-- Critical above-the-fold CSS -->
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/hero.css">
-    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/about.css">
-    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/treatment-results.css">
-    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/testimonials-new.css">
-    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/mobile-responsive.css">
-    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/mobile-slider-fix.css">
+    
+    <!-- Defer below-the-fold CSS using media print technique -->
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/about.css" media="print" onload="this.media='all';this.onload=null;">
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/treatment-results.css" media="print" onload="this.media='all';this.onload=null;">
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/testimonials-new.css" media="print" onload="this.media='all';this.onload=null;">
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/mobile-responsive.css" media="print" onload="this.media='all';this.onload=null;">
+    <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/mobile-slider-fix.css" media="print" onload="this.media='all';this.onload=null;">
+    <noscript>
+        <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/about.css">
+        <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/treatment-results.css">
+        <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/testimonials-new.css">
+        <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/mobile-responsive.css">
+        <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/mobile-slider-fix.css">
+    </noscript>
     <?php endif; ?>
     <?php if (strpos($_SERVER['REQUEST_URI'], '/conditions/') !== false): ?>
     <link rel="stylesheet" href="<?php echo $pathPrefix; ?>assets/css/inner-pages.css">
@@ -164,7 +221,7 @@ else {
         <div class="left-container">
              <div class="nav-brand">
                     <a href="<?php echo $pathPrefix; ?>index.php" class="brand-link">
-                        <img src="<?php echo $pathPrefix; ?>assets/images/logo.png" alt="Foot Ark Logo" class="brand-logo">
+                        <img src="<?php echo $pathPrefix; ?>assets/images/logo.webp" alt="Foot Ark Logo" class="brand-logo">
                     </a>
                 </div>
         </div>
