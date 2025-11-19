@@ -76,7 +76,7 @@
                                 <p>The ankle is a hinge-type joint that connects the leg to the foot. Three bones fit together snugly here, and are supported by strong ligaments. An ankle fracture is a break of one or more of these bones. These fractures can sometimes be mistaken as sprains, as the symptoms are very similar.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/foot-ankle-arthritis-treatment.jpg" alt="Foot and Ankle Fractures">
+                                <img src="images/foot-ankle-arthritis-treatment.webp" alt="Foot and Ankle Fractures">
                             </div>
                         </div>
                     </div>

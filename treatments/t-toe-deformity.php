@@ -57,7 +57,7 @@
                                 <p>A toe deformity correction operation will correct toe deformities such as claw or hammer toe. The aim of such surgery is to correct the deformity and therefore improve the symptoms that the deformity was causing such as pain and loss of mobility.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/toedeformity1.jpg" alt="Toe Deformity Surgery" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/toedeformity1.webp" alt="Toe Deformity Surgery" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

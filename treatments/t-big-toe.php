@@ -57,7 +57,7 @@
                                 <p>After the surfaces are ready they are held in a functional position for the big toe and fixed rigidly using small plates (see picture) and screws. The joint will then heal into one solid bone.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/bigtoe1.jpg" alt="Big Toe Fusion" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/bigtoe1.webp" alt="Big Toe Fusion" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

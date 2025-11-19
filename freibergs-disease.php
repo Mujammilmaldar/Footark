@@ -73,7 +73,7 @@
                                 <p>Common signs and symptoms include pain and stiffness in the front of the foot, which often leads to a limp. Affected people may also experience swelling, limited range of motion, and tenderness of the affected foot.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Freiberg's.jpg" alt="Freiberg's Disease">
+                                <img src="images/Freiberg's.webp" alt="Freiberg's Disease">
                             </div>
                         </div>
                     </div>

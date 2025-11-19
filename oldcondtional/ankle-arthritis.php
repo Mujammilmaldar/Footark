@@ -73,7 +73,7 @@
                                 <p>Ankle arthritis is a condition where the smooth cartilage lining of the bones inside the joint, which allows normal smooth motion between the bones, become worn and gradually cause friction between the bones when you move.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/services/inner-pages/Bunion-Surgery1.jpg" alt="Ankle Arthritis">
+                                <img src="../assets/images/services/inner-pages/Bunion-Surgery1.webp" alt="Ankle Arthritis">
                             </div>
                         </div>
                     </div>

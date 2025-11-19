@@ -348,7 +348,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" width="80" height="20" style="opacity: 0.8;" loading="lazy">
                                     </div>
                                 </div>
                                 
@@ -383,7 +383,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" width="80" height="20" style="opacity: 0.8;" loading="lazy">
                                     </div>
                                 </div>
                                 
@@ -418,7 +418,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" width="80" height="20" style="opacity: 0.8;" loading="lazy">
                                     </div>
                                 </div>
                                 
@@ -453,7 +453,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" width="80" height="20" style="opacity: 0.8;" loading="lazy">
                                     </div>
                                 </div>
                                 
@@ -488,7 +488,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" width="80" height="20" style="opacity: 0.8;" loading="lazy">
                                     </div>
                                 </div>
                                 
@@ -523,7 +523,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" width="80" height="20" style="opacity: 0.8;" loading="lazy">
                                     </div>
                                 </div>
                                 
@@ -558,7 +558,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" width="80" height="20" style="opacity: 0.8;" loading="lazy">
                                     </div>
                                 </div>
                                 
@@ -593,7 +593,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" width="80" height="20" style="opacity: 0.8;" loading="lazy">
                                     </div>
                                 </div>
                                 
@@ -628,7 +628,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" width="80" height="20" style="opacity: 0.8;" loading="lazy">
                                     </div>
                                 </div>
                                 
@@ -663,7 +663,7 @@
                             <div class="google-review-card">
                                 <div class="google-header">
                                     <div class="google-logo">
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="height: 20px; width: auto; opacity: 0.8;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" width="80" height="20" style="opacity: 0.8;" loading="lazy">
                                     </div>
                                 </div>
                                 
@@ -724,56 +724,56 @@
             <div class="auto-slider-container">
                 <div class="auto-slider-track">
                     <div class="logo-slide">
-                        <img src="assets/images/company/aziz.webp" alt="Aziz Hospital">
+                        <img src="assets/images/company/aziz.webp" alt="Aziz Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Aziz Polyclinic</h4>
                             <p class="logo-address">AMC Rd, near Damani Hospital, Dibrugarh, Assam 786001</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/hinduja.webp" alt="Hinduja Hospital">
+                        <img src="assets/images/company/hinduja.webp" alt="Hinduja Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Hinduja Hospital & Research Center</h4>
                             <p class="logo-address">SVS Rd, Mahim West, Shivaji Park, Mumbai, 400016</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Jupiter.webp" alt="Jupiter Hospital">
+                        <img src="assets/images/company/Jupiter.webp" alt="Jupiter Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Jupiter Hospital</h4>
                             <p class="logo-address">Eastern Express Highway, Service Rd, Next To Viviana Mall, Thane, 400601</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/lilavati.webp" alt="Lilavati Hospital">
+                        <img src="assets/images/company/lilavati.webp" alt="Lilavati Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Lilavati Hospital & Research Center</h4>
                             <p class="logo-address">Lilavati Hospital, A-791, Bandra Reclamation Rd, Bandra West, Mumbai, 400050</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/MGM.webp" alt="MGM Healthcare">
+                        <img src="assets/images/company/MGM.webp" alt="MGM Healthcare" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">MGM Hospital</h4>
                             <p class="logo-address">Plot No.35, Atmashanti Society, Sector 3, Vashi, Navi Mumbai, Maharashtra 400703</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/oyster.webp" alt="Oyster & Pearl Hospital">
+                        <img src="assets/images/company/oyster.webp" alt="Oyster & Pearl Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Oyster & Pearl Hospital</h4>
                             <p class="logo-address">1671-75, Ganeshkhind Rd, near Hotel Pride, Narveer Tanaji Wadi, Shivajinagar, Pune, Maharashtra 411016</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Parekhs.webp" alt="Parekh's Hospital">
+                        <img src="assets/images/company/Parekhs.webp" alt="Parekh's Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Parekh’s Hospital</h4>
                             <p class="logo-address">Shyamal Cross Road, 132 Feet Ring Road Shyamal, Satellite, Ahmedabad, Gujarat 380015</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Reliance.webp" alt="Reliance Hospital">
+                        <img src="assets/images/company/Reliance.webp" alt="Reliance Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">HN Reliance Hospital</h4>
                             <p class="logo-address">Prarthana Samaj, Raja Rammohan Roy Rd, Charni Road East, Khetwadi, Girgaon, Mumbai, 400004</p>
@@ -781,56 +781,56 @@
                     </div>
                     <!-- Duplicate slides for seamless loop -->
                     <div class="logo-slide">
-                        <img src="assets/images/company/aziz.webp" alt="Aziz Hospital">
+                        <img src="assets/images/company/aziz.webp" alt="Aziz Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Aziz Polyclinic</h4>
                             <p class="logo-address">AMC Rd, near Damani Hospital, Dibrugarh, Assam 786001</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/hinduja.webp" alt="Hinduja Hospital">
+                        <img src="assets/images/company/hinduja.webp" alt="Hinduja Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Hinduja Hospital & Research Center</h4>
                             <p class="logo-address">SVS Rd, Mahim West, Shivaji Park, Mumbai, 400016</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Jupiter.webp" alt="Jupiter Hospital">
+                        <img src="assets/images/company/Jupiter.webp" alt="Jupiter Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Jupiter Hospital</h4>
                             <p class="logo-address">Eastern Express Highway, Service Rd, Next To Viviana Mall, Thane, 400601</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/lilavati.webp" alt="Lilavati Hospital">
+                        <img src="assets/images/company/lilavati.webp" alt="Lilavati Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Lilavati Hospital & Research Center</h4>
                             <p class="logo-address">Lilavati Hospital, A-791, Bandra Reclamation Rd, Bandra West, Mumbai, 400050</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/MGM.webp" alt="MGM Healthcare">
+                        <img src="assets/images/company/MGM.webp" alt="MGM Healthcare" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">MGM Hospital</h4>
                             <p class="logo-address">Plot No.35, Atmashanti Society, Sector 3, Vashi, Navi Mumbai, Maharashtra 400703</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/oyster.webp" alt="Oyster & Pearl Hospital">
+                        <img src="assets/images/company/oyster.webp" alt="Oyster & Pearl Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Oyster & Pearl Hospital</h4>
                             <p class="logo-address">1671-75, Ganeshkhind Rd, near Hotel Pride, Narveer Tanaji Wadi, Shivajinagar, Pune, Maharashtra 411016</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Parekhs.webp" alt="Parekh's Hospital">
+                        <img src="assets/images/company/Parekhs.webp" alt="Parekh's Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">Parekh’s Hospital</h4>
                             <p class="logo-address">Shyamal Cross Road, 132 Feet Ring Road Shyamal, Satellite, Ahmedabad, Gujarat 380015</p>
                         </div>
                     </div>
                     <div class="logo-slide">
-                        <img src="assets/images/company/Reliance.webp" alt="Reliance Hospital">
+                        <img src="assets/images/company/Reliance.webp" alt="Reliance Hospital" width="220" height="110" loading="lazy">
                         <div class="logo-info">
                             <h4 class="logo-name">HN Reliance Hospital</h4>
                             <p class="logo-address">Prarthana Samaj, Raja Rammohan Roy Rd, Charni Road East, Khetwadi, Girgaon, Mumbai, 400004</p>
@@ -942,6 +942,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <?php include 'includes/footer.php'; ?>
+
 
 
 

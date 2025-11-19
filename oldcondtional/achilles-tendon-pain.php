@@ -71,7 +71,7 @@
                                 <p>The Achilles tendon is the large tendon that joins the calf muscle to the heel bone (calcaneum). It is important in being able to bring the foot downwards, going on tip-toe and also providing a good push-off / springing when walking or running.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../images/tendonpain.jpg" alt="Achilles Tendon Pain">
+                                <img src="../images/tendonpain.webp" alt="Achilles Tendon Pain">
                             </div>
                         </div>
                     </div>

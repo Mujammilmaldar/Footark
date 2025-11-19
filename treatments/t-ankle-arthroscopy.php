@@ -59,7 +59,7 @@
                                 <p>An arthroscope is a tiny TV camera that can be inserted into a very small incision. It allows the surgeon to see the area where he or she is working on a TV screen.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/arthroscopytr.jpg" alt="Ankle Arthroscopy" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/arthroscopytr.webp" alt="Ankle Arthroscopy" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

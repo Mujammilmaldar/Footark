@@ -70,7 +70,7 @@ document.body.className += ' blog-wrapper';
             
             <!-- Introduction Section -->
             <article class="blog-content-card" id="introduction">
-                <img src="../assets/images/week-before-marathon.png" alt="Week Before Marathon Preparation" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;">
+                <img src="../assets/images/week-before-marathon.webp" alt="Week Before Marathon Preparation" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;">
                 <div class="blog-card-header">
                     <h2>Introduction</h2>
                 </div>

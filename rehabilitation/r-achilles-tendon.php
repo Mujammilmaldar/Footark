@@ -143,7 +143,7 @@
                         
                         <div class="medical-card">
                             <div class="rehab-featured-image">
-                                <img src="../assets/images/achilles-tendon.jpg" alt="Achilles Tendon Rehabilitation" style="width:100%" class="img-thumbnail">
+                                <img src="../assets/images/achilles-tendon.webp" alt="Achilles Tendon Rehabilitation" style="width:100%" class="img-thumbnail">
                             </div>
                             
                             <div class="instruction-block">

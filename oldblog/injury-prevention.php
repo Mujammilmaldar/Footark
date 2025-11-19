@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta data-n-head="ssr" data-hid="og:image:type" property="og:image:type" content="image/png">
-    <meta property="og:image" content="https://www.footark.com/images/injury.png" />
+    <meta property="og:image" content="https://www.footark.com/images/injury.webp" />
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2QML9M8PGF"></script>
 <script>
@@ -33,7 +33,7 @@
 <p> If you are anything like us the answer is all 5 - if you are too nerdy; maybe 3 (shooting, archer...). </p>
 
 <div style="text-align: center; margin: 2rem 0;">
-    <img src="images/injury.png" style="width:100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" alt="Injury Prevention Strategies">
+    <img src="images/injury.webp" style="width:100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" alt="Injury Prevention Strategies">
 </div>
 
 <p>We intend to establish that all sports require excellent fitness of lower limbs as they support their body weight, provide stability, and enable movement. Healthy feet and ankles can improve athletic performance, prevent injuries, and enhance recovery. </p>
@@ -74,22 +74,22 @@ Minor injuries:</p>
 <h3> Stretches And Exercises For Feet And Ankle</h3>
 <p> To prevent or reduce injuries, it is beneficial to do some stretches and exercises that can improve the flexibility, strength, and stability of the feet and ankles. Here are some examples:</p>
 
-<img src="images/1.jpg" style="width:300px;height:175px;"" class="img-thumbnail"><br>
+<img src="images/1.webp" style="width:300px;height:175px;"" class="img-thumbnail"><br>
 
 <p>- Toe raises: Stand with your feet shoulder-width apart and your toes pointing forward. Slowly lift your toes off the ground while keeping your heels on the floor. Hold for a few seconds and then lower your toes. Repeat 10 times on each foot.</p>
-<img src="images/2.jpg" style="width:300px;height:175px;"" class="img-thumbnail"><br>
+<img src="images/2.webp" style="width:300px;height:175px;"" class="img-thumbnail"><br>
 <p>- Heel raises: Stand with your feet shoulder-width apart and your toes pointing forward. Slowly lift your heels off the ground while keeping your toes on the floor. Hold for a few seconds and then lower your heels. Repeat 10 times on each foot.</p>
-<img src="images/3.jpg" style="width:300px;height:175px;"" class="img-thumbnail"><br>
+<img src="images/3.webp" style="width:300px;height:175px;"" class="img-thumbnail"><br>
 <p>- Ankle circles: Sit on a chair with your feet flat on the floor. Lift one foot off the ground and rotate your ankle in a circular motion, clockwise and counterclockwise. Do 10 circles in each direction on each foot.</p>
-<img src="images/4.jpg" style="width:300px;height:175px;"" class="img-thumbnail"><br>
+<img src="images/4.webp" style="width:300px;height:175px;"" class="img-thumbnail"><br>
 <p>- Towel curls: Place a small towel on the floor and sit on a chair with your feet flat on the floor. Use your toes to grab the towel and curl it towards you. Then use your toes to push the towel away from you. Repeat 10 times on each foot.</p>
-<img src="images/5.jpg" style="width:300px;height:175px;"" class="img-thumbnail"><br>
+<img src="images/5.webp" style="width:300px;height:175px;"" class="img-thumbnail"><br>
 <p>- Resistance band exercises: Wrap a resistance band around the ball of your foot and hold the ends with your hands. Sit on a chair with your feet flat on the floor. Pull the band towards you to flex your foot, then push the band away from you to point your foot. Do 10 repetitions on each foot.</p>
-<img src="images/6.jpg" style="width:300px;height:175px;"" class="img-thumbnail"><br>
+<img src="images/6.webp" style="width:300px;height:175px;"" class="img-thumbnail"><br>
 <p>- Toe taps: Sit on a chair with your feet flat on the floor. Tap your toes up and down as fast as you can without lifting your heels off the ground. Do this for 30 seconds on each foot.</p>
-<img src="images/7.jpg" style="width:300px;height:175px;"" class="img-thumbnail"><br>
+<img src="images/7.webp" style="width:300px;height:175px;"" class="img-thumbnail"><br>
 <p>- Heel drops: Stand on the edge of a step or a curb with your heels hanging off. Slowly lower your heels below the level of the step or curb, then raise them back up to the starting position. Do 10 repetitions on each foot.</p>
-<img src="images/8.jpg" style="width:300px;height:175px;"" class="img-thumbnail"><br>
+<img src="images/8.webp" style="width:300px;height:175px;"" class="img-thumbnail"><br>
 <p>- Calf stretches: Stand facing a wall with one foot in front of the other. Keep both feet flat on the floor and lean forward with your hands on the wall until you feel a stretch in your back leg's calf muscle. Hold for 15 seconds and then switch legs. Do this three times on each leg.</p>
 <p> These stretches and exercises can help improve the flexibility, strength, and stability of your feet and ankles. You should do them at least three times a week, preferably before or after physical activity. You should also warm up before doing them and stretch gently afterward. If you feel any pain or discomfort, stop immediately and consult a doctor or a physiotherapist.</p>
 <h3>Precautions</h3>

@@ -34,7 +34,7 @@
         <h1 class="section-title">Achilles Tendon Rupture</h1>
         <div class="row">
             <div class="col-md-8">
-                <img src="../images/Achillestendonrupture.jpg" style="width:100%" class="img-thumbnail"><br><br>
+                <img src="../images/Achillestendonrupture.webp" style="width:100%" class="img-thumbnail"><br><br>
              <h3>How common is a ruptured Achilles tendon </h3>
                <p>The Achilles tendon is the most frequently injured 
 tendon around the foot and ankle. With the 

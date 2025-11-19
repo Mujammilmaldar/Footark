@@ -73,7 +73,7 @@
                                 <p>The plantar fascia is a thin ligament that connects your heel to the front of your foot. It supports the arch in your foot and is important in helping you walk. Plantar fasciitis is one of the most common orthopedic complaints.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="assets/images/services/inner-pages/Heelpain.jpg" alt="Heel Pain Treatment">
+                                <img src="assets/images/services/inner-pages/Heelpain.webp" alt="Heel Pain Treatment">
                             </div>
                         </div>
                     </div>

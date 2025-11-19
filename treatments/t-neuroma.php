@@ -57,7 +57,7 @@
                                 <p>Neuroma excision is surgery to remove a swollen and enlarged nerve called a neuroma, or a Morton neuroma. It usually occurs in the ball of your foot, between your third and fourth toes. The neuroma becomes pinched between toe bones and ligaments and causes pain when you walk. Surgery may be used to relieve pressure from the neuroma, or to remove it.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Neuromaexcisiontr1.jpg" alt="Neuroma Excision" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/Neuromaexcisiontr1.webp" alt="Neuroma Excision" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

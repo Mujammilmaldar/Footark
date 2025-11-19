@@ -56,7 +56,7 @@
                                 <p>Foot fusion surgery is carried out to permanently join or stiffen the joint between arthritic bones. It is used to treat a wide range of conditions including arthritis, flat feet, rheumatoid arthritis and previous injuries such as fractures caused by wear and tear to bones and cartilage.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Footfusiontr1.jpg" alt="Foot Fusion" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/Footfusiontr1.webp" alt="Foot Fusion" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

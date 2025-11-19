@@ -4,7 +4,7 @@
 <main>
     <!-- About Hero Section - Same as Image with Parallax -->
     <section class="about-hero-section"
-        style="background: url('assets/images/aboutBG.png'); background-size: cover; background-position: center; background-attachment: fixed;">
+        style="background: url('assets/images/aboutBG.webp'); background-size: cover; background-position: center; background-attachment: fixed;">
         <div class="parallax-overlay"></div>
         <div class="container">
             <div class="about-hero-content">
@@ -33,7 +33,7 @@
                                 <p><strong>Languages:</strong> English, Hindi, Marathi, Konkani, Gujarati, Kannada and Malayalam</p>
 <!-- 
                                 <div class="doctor-signature">
-                                    <img src="assets/images/signature.png" alt="Doctor Signature" class="signature-img">
+                                    <img src="assets/images/signature.webp" alt="Doctor Signature" class="signature-img">
                                     <p class="signature-title">Foot & Ankle Specialist</p>
                                 </div> -->
                             </div>
@@ -82,7 +82,7 @@
             <div class="row align-items-center ">
                 <div class="col-lg-6 col-md-12 order-1">
                     <div class="biography-image">
-                        <img src="assets/images/doctor2.png" alt="Dr. Abhishek Kini" class="img-fluid">
+                        <img src="assets/images/doctor2.webp" alt="Dr. Abhishek Kini" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 order-2">

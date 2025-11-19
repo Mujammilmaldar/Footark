@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../assets/images/Cavus.jpg" alt="Cavus Foot">
+                            <img src="../assets/images/Cavus.webp" alt="Cavus Foot">
                         </div>
                         
                         <p>Expert care for high arch foot conditions. Our specialized team provides comprehensive treatment for cavus foot deformities and related complications.</p>
@@ -66,7 +66,7 @@
                                 <p>Cavus foot is a condition in which the foot has a very high arch. Because of this high arch, an excessive amount of weight is placed on the front and heel of the foot when walking or standing. Cavus foot can lead to a variety of signs and symptoms, such as pain and instability. It can develop at any age, and can occur in one or both feet.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Cavus.jpg" alt="Cavus Foot" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/Cavus.webp" alt="Cavus Foot" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta data-n-head="ssr" data-hid="og:image:type" property="og:image:type" content="image/png">
-    <meta property="og:image" content="https://www.footark.com/images/marathon-tips-mumbai.png" />
+    <meta property="og:image" content="https://www.footark.com/images/marathon-tips-mumbai.webp" />
         <title>Marathon Training By Dr. Abhishek Kini - 
 Foot & Ankle Specialist in Mumbai</title>
 
@@ -35,7 +35,7 @@ Foot & Ankle Specialist in Mumbai</title>
 <p><b><font color="#c45911">Do not get us wrong!</font></b></p>
 
 <div style="text-align: center; margin: 2rem 0;">
-    <img src="images/marathon-training.jpg" style="width:100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" alt="Marathon Training Guide">
+    <img src="images/marathon-training.webp" style="width:100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" alt="Marathon Training Guide">
 </div>
 
 <p> We want you to enjoy the sport and complete it - Most importantly we want you to respect the activity.</p>

@@ -74,7 +74,7 @@
                                 <p>The shape of the bones sets the shape of the foot. The ligaments and muscles form secondary supports. There is a large muscle on the inner side of foot, the Tibialis Posterior muscle, which supports the arch. Damage to the Tibialis Posterior tendon can cause the foot to flatten.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Flat.jpg" alt="Flat Foot">
+                                <img src="images/Flat.webp" alt="Flat Foot">
                             </div>
                         </div>
                     </div>

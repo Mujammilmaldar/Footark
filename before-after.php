@@ -27,7 +27,7 @@
             <div class="gallery-grid">
                 <div class="before-after-card">
                     <div class="image-container">
-                        <img src="assets/images/before-after/1.png" alt="Bunion Surgery Before After" loading="lazy">
+                        <img src="assets/images/before-after/1.webp" alt="Bunion Surgery Before After" loading="lazy">
                     </div>
                     <div class="card-content">
                         <h3>Bunion Correction Surgery</h3>
@@ -41,7 +41,7 @@
 
                 <div class="before-after-card">
                     <div class="image-container">
-                        <img src="assets/images/before-after/2.png" alt="Hammer Toe Correction" loading="lazy">
+                        <img src="assets/images/before-after/2.webp" alt="Hammer Toe Correction" loading="lazy">
                     </div>
                     <div class="card-content">
                         <h3>Hammer Toe Correction</h3>
@@ -55,7 +55,7 @@
 
                 <div class="before-after-card">
                     <div class="image-container">
-                        <img src="assets/images/before-after/3.png" alt="Plantar Fasciitis Treatment" loading="lazy">
+                        <img src="assets/images/before-after/3.webp" alt="Plantar Fasciitis Treatment" loading="lazy">
                     </div>
                     <div class="card-content">
                         <h3>Plantar Fasciitis Treatment</h3>
@@ -69,7 +69,7 @@
 
                 <div class="before-after-card">
                     <div class="image-container">
-                        <img src="assets/images/before-after/4.png" alt="Ankle Reconstruction" loading="lazy">
+                        <img src="assets/images/before-after/4.webp" alt="Ankle Reconstruction" loading="lazy">
                     </div>
                     <div class="card-content">
                         <h3>Ankle Reconstruction</h3>
@@ -83,7 +83,7 @@
 
                 <div class="before-after-card">
                     <div class="image-container">
-                        <img src="assets/images/before-after/5.png" alt="Flat Foot Correction" loading="lazy">
+                        <img src="assets/images/before-after/5.webp" alt="Flat Foot Correction" loading="lazy">
                     </div>
                     <div class="card-content">
                         <h3>Flat Foot Correction</h3>
@@ -97,7 +97,7 @@
 
                 <div class="before-after-card">
                     <div class="image-container">
-                        <img src="assets/images/before-after/6.png" alt="Ingrown Toenail Treatment" loading="lazy">
+                        <img src="assets/images/before-after/6.webp" alt="Ingrown Toenail Treatment" loading="lazy">
                     </div>
                     <div class="card-content">
                         <h3>Ingrown Toenail Treatment</h3>

@@ -64,7 +64,7 @@ document.body.className += ' blog-wrapper';
             
             <!-- Introduction Section -->
             <article class="blog-content-card" id="introduction">
-                <img src="../assets/images/injury.png" alt="Injury Prevention Strategies" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;">
+                <img src="../assets/images/injury.webp" alt="Injury Prevention Strategies" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;">
                 <div class="blog-card-header">
                     <h2>Why Lower Limb Fitness Matters</h2>
                 </div>
@@ -133,35 +133,35 @@ document.body.className += ' blog-wrapper';
                     <p>To prevent or reduce injuries, it is beneficial to do some stretches and exercises that can improve the flexibility, strength, and stability of the feet and ankles. Here are some examples:</p>
 
                     <h3>1. Toe Raises</h3>
-                    <img src="../assets/images/1.jpg" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
+                    <img src="../assets/images/1.webp" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
                     <p>Stand with your feet shoulder-width apart and your toes pointing forward. Slowly lift your toes off the ground while keeping your heels on the floor. Hold for a few seconds and then lower your toes. Repeat 10 times on each foot.</p>
 
                     <h3>2. Heel Raises</h3>
-                    <img src="../assets/images/2.jpg" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
+                    <img src="../assets/images/2.webp" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
                     <p>Stand with your feet shoulder-width apart and your toes pointing forward. Slowly lift your heels off the ground while keeping your toes on the floor. Hold for a few seconds and then lower your heels. Repeat 10 times on each foot.</p>
 
                     <h3>3. Ankle Circles</h3>
-                    <img src="../assets/images/3.jpg" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
+                    <img src="../assets/images/3.webp" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
                     <p>Sit on a chair with your feet flat on the floor. Lift one foot off the ground and rotate your ankle in a circular motion, clockwise and counterclockwise. Do 10 circles in each direction on each foot.</p>
 
                     <h3>4. Towel Curls</h3>
-                    <img src="../assets/images/4.jpg" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
+                    <img src="../assets/images/4.webp" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
                     <p>Place a small towel on the floor and sit on a chair with your feet flat on the floor. Use your toes to grab the towel and curl it towards you. Then use your toes to push the towel away from you. Repeat 10 times on each foot.</p>
 
                     <h3>5. Resistance Band Exercises</h3>
-                    <img src="../assets/images/5.jpg" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
+                    <img src="../assets/images/5.webp" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
                     <p>Wrap a resistance band around the ball of your foot and hold the ends with your hands. Sit on a chair with your feet flat on the floor. Pull the band towards you to flex your foot, then push the band away from you to point your foot. Do 10 repetitions on each foot.</p>
 
                     <h3>6. Toe Taps</h3>
-                    <img src="../assets/images/6.jpg" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
+                    <img src="../assets/images/6.webp" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
                     <p>Sit on a chair with your feet flat on the floor. Tap your toes up and down as fast as you can without lifting your heels off the ground. Do this for 30 seconds on each foot.</p>
 
                     <h3>7. Heel Drops</h3>
-                    <img src="../assets/images/7.jpg" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
+                    <img src="../assets/images/7.webp" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
                     <p>Stand on the edge of a step or a curb with your heels hanging off. Slowly lower your heels below the level of the step or curb, then raise them back up to the starting position. Do 10 repetitions on each foot.</p>
 
                     <h3>8. Calf Stretches</h3>
-                    <img src="../assets/images/8.jpg" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
+                    <img src="../assets/images/8.webp" style="width:300px;height:175px; margin-bottom: 15px;" class="img-thumbnail">
                     <p>Stand facing a wall with one foot in front of the other. Keep both feet flat on the floor and lean forward with your hands on the wall until you feel a stretch in your back leg's calf muscle. Hold for 15 seconds and then switch legs. Do this three times on each leg.</p>
 
                     <div class="blog-medical-note">

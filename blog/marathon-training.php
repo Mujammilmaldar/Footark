@@ -64,7 +64,7 @@ document.body.className += ' blog-wrapper';
             
             <!-- Introduction Section -->
             <article class="blog-content-card" id="introduction">
-                <img src="../assets/images/marathon-training.jpg" alt="Marathon Training Guide" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;">
+                <img src="../assets/images/marathon-training.webp" alt="Marathon Training Guide" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;">
                 <div class="blog-card-header">
                     <h2>Before You Start</h2>
                 </div>
@@ -282,7 +282,7 @@ document.body.className += ' blog-wrapper';
         <h1 class="section-title"> MARATHON TRAINING</h1>
         <div class="row">
             <div class="col-md-8">
-                <img src="../assets/images/marathon-training.jpg" style="width:100%" class="img-thumbnail"><br><br>
+                <img src="../assets/images/marathon-training.webp" style="width:100%" class="img-thumbnail"><br><br>
               
                <p> If on the day you are reading this article; the time left for the actual day of the Marathon is less than 3 months and you haven't been training already, do not participate in the marathon. 
 </p>

@@ -73,7 +73,7 @@
                                 <p>Synovitis of the ankle can be the resultant of autoimmune disorders like gout and rheumatoid arthritis or an injury.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../images/ankle-synovitis.jpg" alt="Ankle Synovitis">
+                                <img src="../images/ankle-synovitis.webp" alt="Ankle Synovitis">
                             </div>
                         </div>
                     </div>

@@ -73,7 +73,7 @@ document.body.className += ' blog-wrapper';
             
             <!-- Introduction Section -->
             <article class="blog-content-card" id="introduction">
-                <img src="../assets/images/marathon-footwear.jpg" alt="Marathon Footwear Guide" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;">
+                <img src="../assets/images/marathon-footwear.webp" alt="Marathon Footwear Guide" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem;">
                 <div class="blog-card-header">
                     <h2>Choosing the Right Marathon Footwear</h2>
                 </div>

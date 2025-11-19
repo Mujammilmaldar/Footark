@@ -57,7 +57,7 @@
                                 <p>Bunion surgery is an operation to remove or realign the bone that sticks out on your big toe when you have a bunion. This will set your toe joint into a better position and relieve pain. The treatment and care you receive may differ from what's described here as it will be designed to meet your individual needs.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Bunion-Surgery1.jpg" alt="Bunion Surgery" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/Bunion-Surgery1.webp" alt="Bunion Surgery" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

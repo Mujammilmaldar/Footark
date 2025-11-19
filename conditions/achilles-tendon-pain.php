@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../assets/images/tendonpain.jpg" alt="Achilles Tendon Pain">
+                            <img src="../assets/images/tendonpain.webp" alt="Achilles Tendon Pain">
                         </div>
                         
                         <p>Expert treatment for Achilles tendon pain and tendinitis. Our specialized approach addresses both acute and chronic conditions affecting the largest tendon in the body.</p>
@@ -67,7 +67,7 @@
                                 <p>The Achilles tendon is the large tendon that joins the calf muscle to the heel bone (calcaneum). It is important in being able to bring the foot downwards, going on tip-toe and also providing a good push-off / springing when walking or running.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/tendonpain.jpg" alt="Achilles Tendon Pain" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/tendonpain.webp" alt="Achilles Tendon Pain" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

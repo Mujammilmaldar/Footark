@@ -73,7 +73,7 @@
                                 <p>Problems near the front of the joint are usually associated with past ankle sprains. Pinching in the back of the ankle occurs most often in ballet dancers and is usually due to irritation around a bony prominence on the back of the ankle.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/services/inner-pages/Bunion-Surgery1.jpg" alt="Ankle Impingement">
+                                <img src="../assets/images/services/inner-pages/Bunion-Surgery1.webp" alt="Ankle Impingement">
                             </div>
                         </div>
                     </div>

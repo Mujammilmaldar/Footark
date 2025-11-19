@@ -57,7 +57,7 @@
                                 <p>Flatfoot reconstruction is a combination of surgical procedures that repair the foot's ligaments and tendons and correct deformities of the bones to restore and support the arch. These adjustments can reduce pain and help the patient return to an active life.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/flatfootrec1.jpg" alt="Flat Foot Reconstruction" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/flatfootrec1.webp" alt="Flat Foot Reconstruction" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

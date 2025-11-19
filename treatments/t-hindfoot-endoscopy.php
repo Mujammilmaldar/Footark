@@ -56,7 +56,7 @@
                                 <p>Posterior ankle arthroscopy is a relatively new technique and has recently been adopted by the senior author. This study was performed to explore the benefits and limitations of this procedure and to identify early post operative results.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/hindfootendotr.jpg" alt="Hindfoot Endoscopy" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/hindfootendotr.webp" alt="Hindfoot Endoscopy" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

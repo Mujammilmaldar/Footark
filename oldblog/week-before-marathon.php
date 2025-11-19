@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta data-n-head="ssr" data-hid="og:image:type" property="og:image:type" content="image/png">
-    <meta property="og:image" content="https://www.footark.com/images/week-before-marathon.png" />
+    <meta property="og:image" content="https://www.footark.com/images/week-before-marathon.webp" />
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2QML9M8PGF"></script>
 <script>
@@ -33,7 +33,7 @@
                <p> We assume if you have been preparing for a marathon and have been through grueling training you almost know what gets you going, what suits you, and what does not bode well with you. </p>
 
 <div style="text-align: center; margin: 2rem 0;">
-    <img src="images/week-before-marathon.png" style="width:100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" alt="Week Before Marathon Preparation">
+    <img src="images/week-before-marathon.webp" style="width:100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" alt="Week Before Marathon Preparation">
 </div>
 
 <p>So, one most important tip - DO NOT TRY ANYTHING NEW. The purpose of the article is to just guide in terms of</p>

@@ -70,7 +70,7 @@
                                 <p>Because of this any inability to bear weight comfortably after an ankle sprain or any tenderness of the bones around the ankle after a supposed ankle sprain requires a plain x-ray to exclude the presence of an ankle fracture.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/services/inner-pages/Bunion-Surgery1.jpg" alt="Ankle Treatment" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/services/inner-pages/Bunion-Surgery1.webp" alt="Ankle Treatment" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                                 <p>Alternatively the bleeding may eventually lead to scarring which remains within the ankle joint and this scar tissue can interpose itself between the bones of the ankle and produce pain and feelings of instability. More rarely the peroneal tendons can become dislodged from their normal position behind the fibula, a condition known as peroneal tendon subluxation.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/services/inner-pages/Heelpain.jpg" alt="Ankle Assessment">
+                                <img src="../assets/images/services/inner-pages/Heelpain.webp" alt="Ankle Assessment">
                             </div>
                         </div>
                     </div>

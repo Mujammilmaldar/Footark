@@ -73,7 +73,7 @@
                                 <p>Because of the mechanics of our feet, this joint is especially prone to developing arthritis. In fact, hallux rigidus, or big toe arthritis, is the most common site of arthritis in the foot.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="images/Arthritisgreat toe.jpg" alt="Great Toe Arthritis">
+                                <img src="images/Arthritisgreat toe.webp" alt="Great Toe Arthritis">
                             </div>
                         </div>
                     </div>

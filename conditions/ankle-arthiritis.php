@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../assets/images/Anklearthritis.jpg" alt="Ankle Arthritis Treatment">
+                            <img src="../assets/images/Anklearthritis.webp" alt="Ankle Arthritis Treatment">
                         </div>
                         
                         <p>Comprehensive care for ankle arthritis and joint degeneration. Our specialized treatments help restore function and reduce pain from arthritic ankle conditions.</p>
@@ -67,7 +67,7 @@
                                 <p>The ankle joint is the joint formed by the shin bone (tibia) and the ankle bone (talus). It allows up and down movements of your foot. It bears 5-7 times the body weight during day-to-day activities like standing & running. Ankle arthritis is a condition where the smooth cartilage lining of the bones inside the joint, which allows normal smooth motion between the bones, become worn and gradually cause friction between the bones when you move.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Anklearthritis.jpg" alt="Ankle Arthritis" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/Anklearthritis.webp" alt="Ankle Arthritis" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

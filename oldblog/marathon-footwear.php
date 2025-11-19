@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta data-n-head="ssr" data-hid="og:image:type" property="og:image:type" content="image/png">
-    <meta property="og:image" content="https://www.footark.com/images/marathon-footwear.jpg" />
+    <meta property="og:image" content="https://www.footark.com/images/marathon-footwear.webp" />
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2QML9M8PGF"></script>
 <script>
@@ -30,7 +30,7 @@
                <p> As an orthopaedic doctor specialising in Foot & Ankle, I often get asked about the kind of footwear one should use in a marathon. Running a marathon is a challenging and rewarding activity, but it also puts a lot of stress on your feet and lower limbs. And if that stress is controlled, its great for your feet health. So run!!</p>
 
 <div style="text-align: center; margin: 2rem 0;">
-    <img src="images/marathon-footwear.jpg" style="width:100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" alt="Marathon Footwear Guide">
+    <img src="images/marathon-footwear.webp" style="width:100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" alt="Marathon Footwear Guide">
 </div>
 
 <p> Now since Mumbai Marathon 2024, is just round the corner, we believe information on how to choose your marathon footwear will be useful for the aspirants.

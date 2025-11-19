@@ -73,7 +73,7 @@
                                 <p>How disrupted can vary from 'bruising' to a crater or deep defect on the surface of the joint, lacking the underlying bone as well as cartilage. These most often, though not exclusively, occur after some injury to the joint.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/services/inner-pages/Bunion-Surgery1.jpg" alt="Ankle Osteochondral Lesion">
+                                <img src="../assets/images/services/inner-pages/Bunion-Surgery1.webp" alt="Ankle Osteochondral Lesion">
                             </div>
                         </div>
                     </div>

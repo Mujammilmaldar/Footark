@@ -16,7 +16,7 @@
                         
                         <!-- Mobile Image - Shows after heading on mobile only -->
                         <div class="mobile-hero-image desktop-hidden">
-                            <img src="../assets/images/Achillestendonrupture.jpg" alt="Achilles Tendon Rupture">
+                            <img src="../assets/images/Achillestendonrupture.webp" alt="Achilles Tendon Rupture">
                         </div>
                         
                         <p>Expert treatment for Achilles tendon ruptures. Our specialized team provides both surgical and non-surgical options to restore function and get you back to activity.</p>
@@ -67,7 +67,7 @@
                                 <p>The Achilles tendon is the most frequently injured tendon around the foot and ankle. With the demographics of an aging population, increasingly aware of the importance of physical exercise and maintaining overall health, both acute ruptures of the tendon and chronic pain from the intact tendon are being seen more frequently. Rupture of the Achilles tendon however is by no means limited to those past the peak of physical fitness or unaccustomed to exercise and it is very much an affliction of the young, active sporting population also.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/Achillestendonrupture.jpg" alt="Achilles Tendon Rupture" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/Achillestendonrupture.webp" alt="Achilles Tendon Rupture" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>

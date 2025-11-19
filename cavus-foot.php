@@ -73,7 +73,7 @@
                                 <p>Cavus foot can lead to a variety of signs and symptoms, such as pain and instability. It can develop at any age, and can occur in one or both feet.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="assets/images/services/inner-pages/Bunion-Surgery1.jpg" alt="Cavus Foot">
+                                <img src="assets/images/services/inner-pages/Bunion-Surgery1.webp" alt="Cavus Foot">
                             </div>
                         </div>
                     </div>

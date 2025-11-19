@@ -56,7 +56,7 @@
                                 <p>This is an operation to "fuse" or stiffen the ankle joint.</p>
                             </div>
                             <div class="content-image-card">
-                                <img src="../assets/images/anklefusion1.jpg" alt="Ankle Fusion" style="width: 100%; height: auto; object-fit: contain;">
+                                <img src="../assets/images/anklefusion1.webp" alt="Ankle Fusion" style="width: 100%; height: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>
